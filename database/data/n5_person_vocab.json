@@ -1,0 +1,70 @@
+[
+  {
+    "label": "လူ",
+    "words": [
+      {"word": "人", "reading": "ひと", "en": "person", "my": "လူ"},
+      {"word": "一人", "reading": "ひとり", "en": "one person", "my": "တစ်ယောက်"},
+      {"word": "二人", "reading": "ふたり", "en": "two people", "my": "နှစ်ယောက်"},
+      {"word": "何人", "reading": "なんにん", "en": "how many people", "my": "ဘယ်နှစ်ယောက်"},
+      {"word": "大勢", "reading": "おおぜい", "en": "a crowd of people", "my": "လူအများ"},
+      {"word": "大人", "reading": "おとな", "en": "adult", "my": "လူကြီး"},
+      {"word": "子供", "reading": "こども", "en": "child", "my": "ကလေး"},
+      {"word": "男", "reading": "おとこ", "en": "man", "my": "ယောက်ျား"},
+      {"word": "女", "reading": "おんな", "en": "woman", "my": "မိန်းမ"},
+      {"word": "男の子", "reading": "おとこのこ", "en": "boy", "my": "ယောက်ျားလေး"},
+      {"word": "女の子", "reading": "おんなのこ", "en": "girl", "my": "မိန်းကလေး"},
+      {"word": "日本人", "reading": "にほんじん", "en": "Japanese person", "my": "ဂျပန်လူမျိုး"},
+      {"word": "外国人", "reading": "がいこくじん", "en": "foreigner", "my": "နိုင်ငံခြားသား"}
+    ]
+  },
+  {
+    "label": "လူကို ညွှန်ပြခြင်း",
+    "words": [
+      {"word": "私", "reading": "わたし", "en": "I", "my": "ကျွန်တော် / ကျွန်မ"},
+      {"word": "あなた", "reading": "あなた", "en": "you", "my": "သင်"},
+      {"word": "自分", "reading": "じぶん", "en": "oneself", "my": "ကိုယ်တိုင်"},
+      {"word": "誰", "reading": "だれ", "en": "who", "my": "ဘယ်သူ"},
+      {"word": "どなた", "reading": "どなた", "en": "who (polite)", "my": "ဘယ်သူ (ယဉ်ကျေးစွာ)"},
+      {"word": "この人", "reading": "このひと", "en": "this person", "my": "ဒီလူ"},
+      {"word": "その人", "reading": "そのひと", "en": "that person", "my": "ထိုလူ"},
+      {"word": "あの人", "reading": "あのひと", "en": "that person over there", "my": "ဟိုလူ"},
+      {"word": "どの人", "reading": "どのひと", "en": "which person", "my": "ဘယ်လူ"},
+      {"word": "こちら", "reading": "こちら", "en": "this person (polite)", "my": "ဤသူ"},
+      {"word": "こっち", "reading": "こっち", "en": "this person", "my": "ဒီသူ"},
+      {"word": "方", "reading": "かた", "en": "person (polite)", "my": "ပုဂ္ဂိုလ်"},
+      {"word": "皆さん", "reading": "みなさん", "en": "everyone (polite)", "my": "လူကြီးမင်းများ"},
+      {"word": "みんな", "reading": "みんな", "en": "everyone", "my": "အားလုံး"}
+    ]
+  },
+  {
+    "label": "မိသားစု",
+    "words": [
+      {"word": "家族", "reading": "かぞく", "en": "family", "my": "မိသားစု"},
+      {"word": "お父さん", "reading": "おとうさん", "en": "father", "my": "အဖေ"},
+      {"word": "お母さん", "reading": "おかあさん", "en": "mother", "my": "အမေ"},
+      {"word": "兄", "reading": "あに", "en": "one's older brother", "my": "အစ်ကို (မိမိ၏)"},
+      {"word": "お兄さん", "reading": "おにいさん", "en": "older brother (polite)", "my": "အစ်ကို"},
+      {"word": "姉", "reading": "あね", "en": "one's older sister", "my": "အစ်မ (မိမိ၏)"},
+      {"word": "お姉さん", "reading": "おねえさん", "en": "older sister (polite)", "my": "အစ်မ"},
+      {"word": "弟", "reading": "おとうと", "en": "younger brother", "my": "ညီ"},
+      {"word": "妹", "reading": "いもうと", "en": "younger sister", "my": "ညီမ"},
+      {"word": "お祖父さん", "reading": "おじいさん", "en": "grandfather", "my": "အဘိုး"},
+      {"word": "おばあさん", "reading": "おばあさん", "en": "grandmother", "my": "အဘွား"},
+      {"word": "伯母さん", "reading": "おばさん", "en": "aunt", "my": "အဒေါ်"},
+      {"word": "友達", "reading": "ともだち", "en": "friend", "my": "သူငယ်ချင်း"}
+    ]
+  },
+  {
+    "label": "အလုပ်နှင့် ကျောင်း",
+    "words": [
+      {"word": "名前", "reading": "なまえ", "en": "name", "my": "အမည်"},
+      {"word": "学生", "reading": "がくせい", "en": "student", "my": "ကျောင်းသား"},
+      {"word": "生徒", "reading": "せいと", "en": "pupil", "my": "တပည့်"},
+      {"word": "先生", "reading": "せんせい", "en": "teacher", "my": "ဆရာ"},
+      {"word": "留学生", "reading": "りゅうがくせい", "en": "overseas student", "my": "နိုင်ငံခြားကျောင်းသား"},
+      {"word": "医者", "reading": "いしゃ", "en": "doctor", "my": "ဆရာဝန်"},
+      {"word": "警官", "reading": "けいかん", "en": "police officer", "my": "ရဲ"},
+      {"word": "おまわりさん", "reading": "おまわりさん", "en": "police officer (friendly)", "my": "ရဲ (ရင်းနှီးစွာ)"}
+    ]
+  }
+]

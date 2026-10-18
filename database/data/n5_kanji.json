@@ -1,0 +1,4275 @@
+[
+  {
+    "character": "日",
+    "strokes": 4,
+    "radical": "日",
+    "onyomi": [
+      "ニチ",
+      "ジツ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "-か"
+    ],
+    "meaning_en": "day",
+    "meaning_my": "နေ့",
+    "meanings": [
+      {
+        "en": "day",
+        "my": "နေ့"
+      },
+      {
+        "en": "sun",
+        "my": "နေ"
+      },
+      {
+        "en": "Japan",
+        "my": "ဂျပန်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "en": "today",
+        "my": "ယနေ့"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "en": "Japan",
+        "my": "ဂျပန်"
+      }
+    ],
+    "sort_order": 1
+  },
+  {
+    "character": "一",
+    "strokes": 1,
+    "radical": "一",
+    "onyomi": [
+      "イチ",
+      "イツ"
+    ],
+    "kunyomi": [
+      "ひと",
+      "ひと(つ)"
+    ],
+    "meaning_en": "one",
+    "meaning_my": "တစ်",
+    "meanings": [
+      {
+        "en": "one",
+        "my": "တစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "一つ",
+        "reading": "ひとつ",
+        "en": "one thing",
+        "my": "တစ်ခု"
+      },
+      {
+        "word": "一人",
+        "reading": "ひとり",
+        "en": "one person",
+        "my": "တစ်ယောက်"
+      }
+    ],
+    "sort_order": 2
+  },
+  {
+    "character": "国",
+    "strokes": 8,
+    "radical": "囗",
+    "onyomi": [
+      "コク"
+    ],
+    "kunyomi": [
+      "くに"
+    ],
+    "meaning_en": "country",
+    "meaning_my": "နိုင်ငံ",
+    "meanings": [
+      {
+        "en": "country",
+        "my": "နိုင်ငံ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "国",
+        "reading": "くに",
+        "en": "country",
+        "my": "နိုင်ငံ"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "en": "foreign country",
+        "my": "နိုင်ငံခြား"
+      }
+    ],
+    "sort_order": 3
+  },
+  {
+    "character": "人",
+    "strokes": 2,
+    "radical": "人",
+    "onyomi": [
+      "ジン",
+      "ニン"
+    ],
+    "kunyomi": [
+      "ひと",
+      "-り",
+      "-と"
+    ],
+    "meaning_en": "person",
+    "meaning_my": "လူ",
+    "meanings": [
+      {
+        "en": "person",
+        "my": "လူ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "人",
+        "reading": "ひと",
+        "en": "person",
+        "my": "လူ"
+      },
+      {
+        "word": "日本人",
+        "reading": "にほんじん",
+        "en": "Japanese person",
+        "my": "ဂျပန်လူမျိုး"
+      }
+    ],
+    "sort_order": 5
+  },
+  {
+    "character": "年",
+    "strokes": 6,
+    "radical": "干",
+    "onyomi": [
+      "ネン"
+    ],
+    "kunyomi": [
+      "とし"
+    ],
+    "meaning_en": "year",
+    "meaning_my": "ခုနှစ်",
+    "meanings": [
+      {
+        "en": "year",
+        "my": "ခုနှစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "今年",
+        "reading": "ことし",
+        "en": "this year",
+        "my": "ဒီနှစ်"
+      },
+      {
+        "word": "去年",
+        "reading": "きょねん",
+        "en": "last year",
+        "my": "မနှစ်"
+      }
+    ],
+    "sort_order": 6
+  },
+  {
+    "character": "大",
+    "strokes": 3,
+    "radical": "大",
+    "onyomi": [
+      "ダイ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "おお",
+      "おお(きい)",
+      "-おお.いに"
+    ],
+    "meaning_en": "big",
+    "meaning_my": "ကြီးသော",
+    "meanings": [
+      {
+        "en": "big",
+        "my": "ကြီးသော"
+      },
+      {
+        "en": "large",
+        "my": "ကြီးမားသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "大きい",
+        "reading": "おおきい",
+        "en": "big",
+        "my": "ကြီးသော"
+      },
+      {
+        "word": "大学",
+        "reading": "だいがく",
+        "en": "university",
+        "my": "တက္ကသိုလ်"
+      }
+    ],
+    "sort_order": 7
+  },
+  {
+    "character": "十",
+    "strokes": 2,
+    "radical": "十",
+    "onyomi": [
+      "ジュウ",
+      "ジッ",
+      "ジュッ"
+    ],
+    "kunyomi": [
+      "とお",
+      "と",
+      "そ"
+    ],
+    "meaning_en": "ten",
+    "meaning_my": "ဆယ်",
+    "meanings": [
+      {
+        "en": "ten",
+        "my": "ဆယ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "十",
+        "reading": "じゅう",
+        "en": "ten",
+        "my": "ဆယ်"
+      },
+      {
+        "word": "十日",
+        "reading": "とおか",
+        "en": "the 10th day",
+        "my": "၁၀ ရက်နေ့"
+      }
+    ],
+    "sort_order": 8
+  },
+  {
+    "character": "二",
+    "strokes": 2,
+    "radical": "二",
+    "onyomi": [
+      "ニ",
+      "ジ"
+    ],
+    "kunyomi": [
+      "ふた",
+      "ふた(つ)",
+      "ふたたび"
+    ],
+    "meaning_en": "two",
+    "meaning_my": "နှစ် (ဂဏန်း)",
+    "meanings": [
+      {
+        "en": "two",
+        "my": "နှစ် (ဂဏန်း)"
+      }
+    ],
+    "examples": [
+      {
+        "word": "二つ",
+        "reading": "ふたつ",
+        "en": "two things",
+        "my": "နှစ်ခု"
+      },
+      {
+        "word": "二人",
+        "reading": "ふたり",
+        "en": "two people",
+        "my": "နှစ်ယောက်"
+      }
+    ],
+    "sort_order": 9
+  },
+  {
+    "character": "本",
+    "strokes": 5,
+    "radical": "木",
+    "onyomi": [
+      "ホン"
+    ],
+    "kunyomi": [
+      "もと"
+    ],
+    "meaning_en": "book",
+    "meaning_my": "စာအုပ်",
+    "meanings": [
+      {
+        "en": "book",
+        "my": "စာအုပ်"
+      },
+      {
+        "en": "origin",
+        "my": "မူလ"
+      },
+      {
+        "en": "main",
+        "my": "အဓိက"
+      }
+    ],
+    "examples": [
+      {
+        "word": "本",
+        "reading": "ほん",
+        "en": "book",
+        "my": "စာအုပ်"
+      },
+      {
+        "word": "日本",
+        "reading": "にほん",
+        "en": "Japan",
+        "my": "ဂျပန်"
+      }
+    ],
+    "sort_order": 10
+  },
+  {
+    "character": "中",
+    "strokes": 4,
+    "radical": "丨",
+    "onyomi": [
+      "チュウ"
+    ],
+    "kunyomi": [
+      "なか",
+      "うち",
+      "あた(る)"
+    ],
+    "meaning_en": "inside",
+    "meaning_my": "အတွင်း",
+    "meanings": [
+      {
+        "en": "inside",
+        "my": "အတွင်း"
+      },
+      {
+        "en": "middle",
+        "my": "အလယ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "中",
+        "reading": "なか",
+        "en": "inside",
+        "my": "အထဲ"
+      },
+      {
+        "word": "中学",
+        "reading": "ちゅうがく",
+        "en": "junior high school",
+        "my": "အလယ်တန်းကျောင်း"
+      }
+    ],
+    "sort_order": 11
+  },
+  {
+    "character": "長",
+    "strokes": 8,
+    "radical": "長",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "なが(い)",
+      "おさ"
+    ],
+    "meaning_en": "long",
+    "meaning_my": "ရှည်သော",
+    "meanings": [
+      {
+        "en": "long",
+        "my": "ရှည်သော"
+      },
+      {
+        "en": "leader",
+        "my": "ခေါင်းဆောင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "長い",
+        "reading": "ながい",
+        "en": "long",
+        "my": "ရှည်သော"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "en": "principal",
+        "my": "ကျောင်းအုပ်"
+      }
+    ],
+    "sort_order": 12
+  },
+  {
+    "character": "出",
+    "strokes": 5,
+    "radical": "凵",
+    "onyomi": [
+      "シュツ",
+      "スイ"
+    ],
+    "kunyomi": [
+      "で(る)",
+      "-で",
+      "だ(す)",
+      "-だ.す",
+      "い(でる)",
+      "い(だす)"
+    ],
+    "meaning_en": "go out",
+    "meaning_my": "ထွက်သည်",
+    "meanings": [
+      {
+        "en": "go out",
+        "my": "ထွက်သည်"
+      },
+      {
+        "en": "exit",
+        "my": "ထွက်ပေါက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "出る",
+        "reading": "でる",
+        "en": "to go out",
+        "my": "ထွက်သည်"
+      },
+      {
+        "word": "出口",
+        "reading": "でぐち",
+        "en": "exit",
+        "my": "ထွက်ပေါက်"
+      }
+    ],
+    "sort_order": 13
+  },
+  {
+    "character": "三",
+    "strokes": 3,
+    "radical": "一",
+    "onyomi": [
+      "サン",
+      "ゾウ"
+    ],
+    "kunyomi": [
+      "み",
+      "み(つ)",
+      "みっ(つ)"
+    ],
+    "meaning_en": "three",
+    "meaning_my": "သုံး",
+    "meanings": [
+      {
+        "en": "three",
+        "my": "သုံး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "三つ",
+        "reading": "みっつ",
+        "en": "three things",
+        "my": "သုံးခု"
+      },
+      {
+        "word": "三日",
+        "reading": "みっか",
+        "en": "the 3rd day",
+        "my": "၃ ရက်နေ့"
+      }
+    ],
+    "sort_order": 14
+  },
+  {
+    "character": "時",
+    "strokes": 10,
+    "radical": "日",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "とき",
+      "-どき"
+    ],
+    "meaning_en": "time",
+    "meaning_my": "အချိန်",
+    "meanings": [
+      {
+        "en": "time",
+        "my": "အချိန်"
+      },
+      {
+        "en": "hour",
+        "my": "နာရီ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "時",
+        "reading": "とき",
+        "en": "time",
+        "my": "အချိန်"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "en": "time / hour",
+        "my": "အချိန်"
+      }
+    ],
+    "sort_order": 16
+  },
+  {
+    "character": "行",
+    "strokes": 6,
+    "radical": "行",
+    "onyomi": [
+      "コウ",
+      "ギョウ",
+      "アン"
+    ],
+    "kunyomi": [
+      "い(く)",
+      "ゆ(く)",
+      "-ゆ.き",
+      "-ゆき",
+      "-い.き",
+      "-いき",
+      "おこな(う)",
+      "おこ(なう)"
+    ],
+    "meaning_en": "go",
+    "meaning_my": "သွားသည်",
+    "meanings": [
+      {
+        "en": "go",
+        "my": "သွားသည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "行く",
+        "reading": "いく",
+        "en": "to go",
+        "my": "သွားသည်"
+      },
+      {
+        "word": "銀行",
+        "reading": "ぎんこう",
+        "en": "bank",
+        "my": "ဘဏ်"
+      }
+    ],
+    "sort_order": 20
+  },
+  {
+    "character": "見",
+    "strokes": 7,
+    "radical": "見",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "み(る)",
+      "み(える)",
+      "み(せる)"
+    ],
+    "meaning_en": "see",
+    "meaning_my": "မြင်သည်",
+    "meanings": [
+      {
+        "en": "see",
+        "my": "မြင်သည်"
+      },
+      {
+        "en": "look",
+        "my": "ကြည့်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "見る",
+        "reading": "みる",
+        "en": "to see",
+        "my": "ကြည့်သည်"
+      },
+      {
+        "word": "意見",
+        "reading": "いけん",
+        "en": "opinion",
+        "my": "အမြင်"
+      }
+    ],
+    "sort_order": 22
+  },
+  {
+    "character": "月",
+    "strokes": 4,
+    "radical": "月",
+    "onyomi": [
+      "ゲツ",
+      "ガツ"
+    ],
+    "kunyomi": [
+      "つき"
+    ],
+    "meaning_en": "moon",
+    "meaning_my": "လ",
+    "meanings": [
+      {
+        "en": "moon",
+        "my": "လ"
+      },
+      {
+        "en": "month",
+        "my": "လတစ်လ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "月",
+        "reading": "つき",
+        "en": "moon",
+        "my": "လ"
+      },
+      {
+        "word": "今月",
+        "reading": "こんげつ",
+        "en": "this month",
+        "my": "ဒီလ"
+      }
+    ],
+    "sort_order": 23
+  },
+  {
+    "character": "分",
+    "strokes": 4,
+    "radical": "刀",
+    "onyomi": [
+      "ブン",
+      "フン",
+      "ブ"
+    ],
+    "kunyomi": [
+      "わ(ける)",
+      "わ(け)",
+      "わ(かれる)",
+      "わ(かる)",
+      "わ(かつ)"
+    ],
+    "meaning_en": "minute",
+    "meaning_my": "မိနစ်",
+    "meanings": [
+      {
+        "en": "minute",
+        "my": "မိနစ်"
+      },
+      {
+        "en": "part",
+        "my": "အပိုင်း"
+      },
+      {
+        "en": "understand",
+        "my": "နားလည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "分",
+        "reading": "ふん",
+        "en": "minute",
+        "my": "မိနစ်"
+      },
+      {
+        "word": "分かる",
+        "reading": "わかる",
+        "en": "to understand",
+        "my": "နားလည်သည်"
+      }
+    ],
+    "sort_order": 24
+  },
+  {
+    "character": "後",
+    "strokes": 9,
+    "radical": "彳",
+    "onyomi": [
+      "ゴ",
+      "コウ"
+    ],
+    "kunyomi": [
+      "のち",
+      "うし(ろ)",
+      "うしろ",
+      "あと",
+      "おく(れる)"
+    ],
+    "meaning_en": "after",
+    "meaning_my": "နောက်",
+    "meanings": [
+      {
+        "en": "after",
+        "my": "နောက်"
+      },
+      {
+        "en": "behind",
+        "my": "နောက်က"
+      }
+    ],
+    "examples": [
+      {
+        "word": "後",
+        "reading": "あと",
+        "en": "after",
+        "my": "နောက်"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "en": "afternoon",
+        "my": "မွန်းလွဲ"
+      }
+    ],
+    "sort_order": 26
+  },
+  {
+    "character": "前",
+    "strokes": 9,
+    "radical": "刀",
+    "onyomi": [
+      "ゼン"
+    ],
+    "kunyomi": [
+      "まえ",
+      "-まえ"
+    ],
+    "meaning_en": "before",
+    "meaning_my": "အရင်",
+    "meanings": [
+      {
+        "en": "before",
+        "my": "အရင်"
+      },
+      {
+        "en": "in front",
+        "my": "ရှေ့"
+      }
+    ],
+    "examples": [
+      {
+        "word": "前",
+        "reading": "まえ",
+        "en": "front / before",
+        "my": "ရှေ့"
+      },
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "en": "morning",
+        "my": "မနက်"
+      }
+    ],
+    "sort_order": 27
+  },
+  {
+    "character": "生",
+    "strokes": 5,
+    "radical": "生",
+    "onyomi": [
+      "セイ",
+      "ショウ"
+    ],
+    "kunyomi": [
+      "い(きる)",
+      "い(かす)",
+      "い(ける)",
+      "う(まれる)",
+      "うま(れる)",
+      "う(まれ)",
+      "うまれ",
+      "う(む)",
+      "お(う)",
+      "は(える)",
+      "は(やす)",
+      "き",
+      "なま",
+      "なま",
+      "な(る)",
+      "な(す)",
+      "む(す)",
+      "-う"
+    ],
+    "meaning_en": "life",
+    "meaning_my": "အသက်",
+    "meanings": [
+      {
+        "en": "life",
+        "my": "အသက်"
+      },
+      {
+        "en": "birth",
+        "my": "မွေးဖွား"
+      },
+      {
+        "en": "student",
+        "my": "ကျောင်းသား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "en": "student",
+        "my": "ကျောင်းသား"
+      },
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "en": "teacher",
+        "my": "ဆရာ"
+      }
+    ],
+    "sort_order": 29
+  },
+  {
+    "character": "五",
+    "strokes": 4,
+    "radical": "二",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "いつ",
+      "いつ(つ)"
+    ],
+    "meaning_en": "five",
+    "meaning_my": "ငါး",
+    "meanings": [
+      {
+        "en": "five",
+        "my": "ငါး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "五",
+        "reading": "ご",
+        "en": "five",
+        "my": "ငါး"
+      },
+      {
+        "word": "五日",
+        "reading": "いつか",
+        "en": "the 5th day",
+        "my": "၅ ရက်နေ့"
+      }
+    ],
+    "sort_order": 31
+  },
+  {
+    "character": "間",
+    "strokes": 12,
+    "radical": "門",
+    "onyomi": [
+      "カン",
+      "ケン"
+    ],
+    "kunyomi": [
+      "あいだ",
+      "ま",
+      "あい"
+    ],
+    "meaning_en": "interval",
+    "meaning_my": "ကြားကာလ",
+    "meanings": [
+      {
+        "en": "interval",
+        "my": "ကြားကာလ"
+      },
+      {
+        "en": "between",
+        "my": "ကြား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "間",
+        "reading": "あいだ",
+        "en": "between",
+        "my": "ကြား"
+      },
+      {
+        "word": "時間",
+        "reading": "じかん",
+        "en": "time",
+        "my": "အချိန်"
+      }
+    ],
+    "sort_order": 33
+  },
+  {
+    "character": "上",
+    "strokes": 3,
+    "radical": "一",
+    "onyomi": [
+      "ジョウ",
+      "ショウ",
+      "シャン"
+    ],
+    "kunyomi": [
+      "うえ",
+      "-うえ",
+      "うわ",
+      "かみ",
+      "あ(げる)",
+      "-あ.げる",
+      "あ(がる)",
+      "-あ.がる",
+      "あ(がり)",
+      "-あ.がり",
+      "のぼ(る)",
+      "のぼ(り)",
+      "のぼ(せる)",
+      "のぼ(す)",
+      "たてまつ(る)"
+    ],
+    "meaning_en": "above",
+    "meaning_my": "အပေါ်",
+    "meanings": [
+      {
+        "en": "above",
+        "my": "အပေါ်"
+      },
+      {
+        "en": "up",
+        "my": "အပေါ်သို့"
+      }
+    ],
+    "examples": [
+      {
+        "word": "上",
+        "reading": "うえ",
+        "en": "above",
+        "my": "အပေါ်"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "en": "skillful",
+        "my": "တော်သော"
+      }
+    ],
+    "sort_order": 35
+  },
+  {
+    "character": "東",
+    "strokes": 8,
+    "radical": "木",
+    "onyomi": [
+      "トウ"
+    ],
+    "kunyomi": [
+      "ひがし"
+    ],
+    "meaning_en": "east",
+    "meaning_my": "အရှေ့အရပ်",
+    "meanings": [
+      {
+        "en": "east",
+        "my": "အရှေ့အရပ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "東",
+        "reading": "ひがし",
+        "en": "east",
+        "my": "အရှေ့"
+      },
+      {
+        "word": "東京",
+        "reading": "とうきょう",
+        "en": "Tokyo",
+        "my": "တိုကျို"
+      }
+    ],
+    "sort_order": 37
+  },
+  {
+    "character": "四",
+    "strokes": 5,
+    "radical": "囗",
+    "onyomi": [
+      "シ"
+    ],
+    "kunyomi": [
+      "よ",
+      "よ(つ)",
+      "よっ(つ)",
+      "よん"
+    ],
+    "meaning_en": "four",
+    "meaning_my": "လေး",
+    "meanings": [
+      {
+        "en": "four",
+        "my": "လေး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "四",
+        "reading": "よん",
+        "en": "four",
+        "my": "လေး"
+      },
+      {
+        "word": "四つ",
+        "reading": "よっつ",
+        "en": "four things",
+        "my": "လေးခု"
+      }
+    ],
+    "sort_order": 47
+  },
+  {
+    "character": "今",
+    "strokes": 4,
+    "radical": "人",
+    "onyomi": [
+      "コン",
+      "キン"
+    ],
+    "kunyomi": [
+      "いま"
+    ],
+    "meaning_en": "now",
+    "meaning_my": "ယခု",
+    "meanings": [
+      {
+        "en": "now",
+        "my": "ယခု"
+      }
+    ],
+    "examples": [
+      {
+        "word": "今",
+        "reading": "いま",
+        "en": "now",
+        "my": "ယခု"
+      },
+      {
+        "word": "今日",
+        "reading": "きょう",
+        "en": "today",
+        "my": "ယနေ့"
+      }
+    ],
+    "sort_order": 49
+  },
+  {
+    "character": "金",
+    "strokes": 8,
+    "radical": "金",
+    "onyomi": [
+      "キン",
+      "コン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "かね",
+      "かな",
+      "-がね"
+    ],
+    "meaning_en": "gold",
+    "meaning_my": "ရွှေ",
+    "meanings": [
+      {
+        "en": "gold",
+        "my": "ရွှေ"
+      },
+      {
+        "en": "money",
+        "my": "ငွေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "お金",
+        "reading": "おかね",
+        "en": "money",
+        "my": "ငွေ"
+      },
+      {
+        "word": "金曜日",
+        "reading": "きんようび",
+        "en": "Friday",
+        "my": "သောကြာ"
+      }
+    ],
+    "sort_order": 53
+  },
+  {
+    "character": "九",
+    "strokes": 2,
+    "radical": "乙",
+    "onyomi": [
+      "キュウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "ここの",
+      "ここの(つ)"
+    ],
+    "meaning_en": "nine",
+    "meaning_my": "ကိုး",
+    "meanings": [
+      {
+        "en": "nine",
+        "my": "ကိုး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "九",
+        "reading": "きゅう",
+        "en": "nine",
+        "my": "ကိုး"
+      },
+      {
+        "word": "九つ",
+        "reading": "ここのつ",
+        "en": "nine things",
+        "my": "ကိုးခု"
+      }
+    ],
+    "sort_order": 55
+  },
+  {
+    "character": "入",
+    "strokes": 2,
+    "radical": "入",
+    "onyomi": [
+      "ニュウ",
+      "ジュ"
+    ],
+    "kunyomi": [
+      "い(る)",
+      "-い.る",
+      "-い.り",
+      "い(れる)",
+      "-い.れ",
+      "はい(る)"
+    ],
+    "meaning_en": "enter",
+    "meaning_my": "ဝင်သည်",
+    "meanings": [
+      {
+        "en": "enter",
+        "my": "ဝင်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "入る",
+        "reading": "はいる",
+        "en": "to enter",
+        "my": "ဝင်သည်"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "en": "entrance",
+        "my": "ဝင်ပေါက်"
+      }
+    ],
+    "sort_order": 56
+  },
+  {
+    "character": "学",
+    "strokes": 8,
+    "radical": "子",
+    "onyomi": [
+      "ガク"
+    ],
+    "kunyomi": [
+      "まな(ぶ)"
+    ],
+    "meaning_en": "study",
+    "meaning_my": "ပညာသင်သည်",
+    "meanings": [
+      {
+        "en": "study",
+        "my": "ပညာသင်သည်"
+      },
+      {
+        "en": "learning",
+        "my": "သင်ယူမှု"
+      }
+    ],
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "en": "school",
+        "my": "ကျောင်း"
+      },
+      {
+        "word": "学生",
+        "reading": "がくせい",
+        "en": "student",
+        "my": "ကျောင်းသား"
+      }
+    ],
+    "sort_order": 63
+  },
+  {
+    "character": "高",
+    "strokes": 10,
+    "radical": "高",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "たか(い)",
+      "たか",
+      "-だか",
+      "たか(まる)",
+      "たか(める)"
+    ],
+    "meaning_en": "tall",
+    "meaning_my": "မြင့်သော",
+    "meanings": [
+      {
+        "en": "tall",
+        "my": "မြင့်သော"
+      },
+      {
+        "en": "expensive",
+        "my": "ဈေးကြီးသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "高い",
+        "reading": "たかい",
+        "en": "tall / expensive",
+        "my": "မြင့်သော / ဈေးကြီး"
+      },
+      {
+        "word": "高校",
+        "reading": "こうこう",
+        "en": "high school",
+        "my": "အထက်တန်းကျောင်း"
+      }
+    ],
+    "sort_order": 65
+  },
+  {
+    "character": "円",
+    "strokes": 4,
+    "radical": "冂",
+    "onyomi": [
+      "エン"
+    ],
+    "kunyomi": [
+      "まる(い)",
+      "まる",
+      "まど",
+      "まど(か)",
+      "まろ(やか)"
+    ],
+    "meaning_en": "yen",
+    "meaning_my": "ယန်း",
+    "meanings": [
+      {
+        "en": "yen",
+        "my": "ယန်း"
+      },
+      {
+        "en": "circle",
+        "my": "စက်ဝိုင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "円",
+        "reading": "えん",
+        "en": "yen",
+        "my": "ယန်း"
+      },
+      {
+        "word": "百円",
+        "reading": "ひゃくえん",
+        "en": "100 yen",
+        "my": "ယန်း ၁၀၀"
+      }
+    ],
+    "sort_order": 69
+  },
+  {
+    "character": "子",
+    "strokes": 3,
+    "radical": "子",
+    "onyomi": [
+      "シ",
+      "ス",
+      "ツ"
+    ],
+    "kunyomi": [
+      "こ",
+      "-こ",
+      "ね"
+    ],
+    "meaning_en": "child",
+    "meaning_my": "ကလေး",
+    "meanings": [
+      {
+        "en": "child",
+        "my": "ကလေး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "子供",
+        "reading": "こども",
+        "en": "child",
+        "my": "ကလေး"
+      },
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "en": "girl",
+        "my": "မိန်းကလေး"
+      }
+    ],
+    "sort_order": 72
+  },
+  {
+    "character": "外",
+    "strokes": 5,
+    "radical": "夕",
+    "onyomi": [
+      "ガイ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "そと",
+      "ほか",
+      "はず(す)",
+      "はず(れる)",
+      "と"
+    ],
+    "meaning_en": "outside",
+    "meaning_my": "အပြင်",
+    "meanings": [
+      {
+        "en": "outside",
+        "my": "အပြင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "外",
+        "reading": "そと",
+        "en": "outside",
+        "my": "အပြင်"
+      },
+      {
+        "word": "外国",
+        "reading": "がいこく",
+        "en": "foreign country",
+        "my": "နိုင်ငံခြား"
+      }
+    ],
+    "sort_order": 81
+  },
+  {
+    "character": "八",
+    "strokes": 2,
+    "radical": "八",
+    "onyomi": [
+      "ハチ",
+      "ハツ"
+    ],
+    "kunyomi": [
+      "や",
+      "や(つ)",
+      "やっ(つ)",
+      "よう"
+    ],
+    "meaning_en": "eight",
+    "meaning_my": "ရှစ်",
+    "meanings": [
+      {
+        "en": "eight",
+        "my": "ရှစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "八",
+        "reading": "はち",
+        "en": "eight",
+        "my": "ရှစ်"
+      },
+      {
+        "word": "八つ",
+        "reading": "やっつ",
+        "en": "eight things",
+        "my": "ရှစ်ခု"
+      }
+    ],
+    "sort_order": 92
+  },
+  {
+    "character": "六",
+    "strokes": 4,
+    "radical": "八",
+    "onyomi": [
+      "ロク",
+      "リク"
+    ],
+    "kunyomi": [
+      "む",
+      "む(つ)",
+      "むっ(つ)",
+      "むい"
+    ],
+    "meaning_en": "six",
+    "meaning_my": "ခြောက်",
+    "meanings": [
+      {
+        "en": "six",
+        "my": "ခြောက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "六",
+        "reading": "ろく",
+        "en": "six",
+        "my": "ခြောက်"
+      },
+      {
+        "word": "六つ",
+        "reading": "むっつ",
+        "en": "six things",
+        "my": "ခြောက်ခု"
+      }
+    ],
+    "sort_order": 93
+  },
+  {
+    "character": "下",
+    "strokes": 3,
+    "radical": "一",
+    "onyomi": [
+      "カ",
+      "ゲ"
+    ],
+    "kunyomi": [
+      "した",
+      "しも",
+      "もと",
+      "さ(げる)",
+      "さ(がる)",
+      "くだ(る)",
+      "くだ(り)",
+      "くだ(す)",
+      "-くだ.す",
+      "くだ(さる)",
+      "お(ろす)",
+      "お(りる)"
+    ],
+    "meaning_en": "below",
+    "meaning_my": "အောက်",
+    "meanings": [
+      {
+        "en": "below",
+        "my": "အောက်"
+      },
+      {
+        "en": "down",
+        "my": "အောက်သို့"
+      }
+    ],
+    "examples": [
+      {
+        "word": "下",
+        "reading": "した",
+        "en": "below",
+        "my": "အောက်"
+      },
+      {
+        "word": "地下鉄",
+        "reading": "ちかてつ",
+        "en": "subway",
+        "my": "မြေအောက်ရထား"
+      }
+    ],
+    "sort_order": 97
+  },
+  {
+    "character": "来",
+    "strokes": 7,
+    "radical": "木",
+    "onyomi": [
+      "ライ",
+      "タイ"
+    ],
+    "kunyomi": [
+      "く(る)",
+      "きた(る)",
+      "きた(す)",
+      "き(たす)",
+      "き(たる)",
+      "き",
+      "こ"
+    ],
+    "meaning_en": "come",
+    "meaning_my": "လာသည်",
+    "meanings": [
+      {
+        "en": "come",
+        "my": "လာသည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "来る",
+        "reading": "くる",
+        "en": "to come",
+        "my": "လာသည်"
+      },
+      {
+        "word": "来年",
+        "reading": "らいねん",
+        "en": "next year",
+        "my": "နောက်နှစ်"
+      }
+    ],
+    "sort_order": 102
+  },
+  {
+    "character": "気",
+    "strokes": 6,
+    "radical": "气",
+    "onyomi": [
+      "キ",
+      "ケ"
+    ],
+    "kunyomi": [
+      "いき",
+      "き"
+    ],
+    "meaning_en": "spirit",
+    "meaning_my": "စိတ်ဓာတ်",
+    "meanings": [
+      {
+        "en": "spirit",
+        "my": "စိတ်ဓာတ်"
+      },
+      {
+        "en": "mind",
+        "my": "စိတ်"
+      },
+      {
+        "en": "air",
+        "my": "လေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "元気",
+        "reading": "げんき",
+        "en": "healthy / energetic",
+        "my": "ကျန်းမာ / စိတ်အား"
+      },
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "en": "weather",
+        "my": "ရာသီဥတု"
+      }
+    ],
+    "sort_order": 113
+  },
+  {
+    "character": "小",
+    "strokes": 3,
+    "radical": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "ちい(さい)",
+      "こ",
+      "お",
+      "さ"
+    ],
+    "meaning_en": "small",
+    "meaning_my": "သေးသော",
+    "meanings": [
+      {
+        "en": "small",
+        "my": "သေးသော"
+      },
+      {
+        "en": "little",
+        "my": "သေးငယ်သော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "小さい",
+        "reading": "ちいさい",
+        "en": "small",
+        "my": "သေးသော"
+      },
+      {
+        "word": "小学校",
+        "reading": "しょうがっこう",
+        "en": "elementary school",
+        "my": "မူလတန်းကျောင်း"
+      }
+    ],
+    "sort_order": 114
+  },
+  {
+    "character": "七",
+    "strokes": 2,
+    "radical": "一",
+    "onyomi": [
+      "シチ"
+    ],
+    "kunyomi": [
+      "なな",
+      "なな(つ)",
+      "なの"
+    ],
+    "meaning_en": "seven",
+    "meaning_my": "ခုနစ်",
+    "meanings": [
+      {
+        "en": "seven",
+        "my": "ခုနစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "七",
+        "reading": "なな",
+        "en": "seven",
+        "my": "ခုနစ်"
+      },
+      {
+        "word": "七つ",
+        "reading": "ななつ",
+        "en": "seven things",
+        "my": "ခုနစ်ခု"
+      }
+    ],
+    "sort_order": 115
+  },
+  {
+    "character": "山",
+    "strokes": 3,
+    "radical": "山",
+    "onyomi": [
+      "サン",
+      "セン"
+    ],
+    "kunyomi": [
+      "やま"
+    ],
+    "meaning_en": "mountain",
+    "meaning_my": "တောင်တန်း",
+    "meanings": [
+      {
+        "en": "mountain",
+        "my": "တောင်တန်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "山",
+        "reading": "やま",
+        "en": "mountain",
+        "my": "တောင်"
+      },
+      {
+        "word": "火山",
+        "reading": "かざん",
+        "en": "volcano",
+        "my": "မီးတောင်"
+      }
+    ],
+    "sort_order": 131
+  },
+  {
+    "character": "話",
+    "strokes": 13,
+    "radical": "言",
+    "onyomi": [
+      "ワ"
+    ],
+    "kunyomi": [
+      "はな(す)",
+      "はなし"
+    ],
+    "meaning_en": "talk",
+    "meaning_my": "စကားပြောသည်",
+    "meanings": [
+      {
+        "en": "talk",
+        "my": "စကားပြောသည်"
+      },
+      {
+        "en": "story",
+        "my": "ပုံပြင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "話す",
+        "reading": "はなす",
+        "en": "to speak",
+        "my": "ပြောသည်"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "en": "telephone",
+        "my": "တယ်လီဖုန်း"
+      }
+    ],
+    "sort_order": 134
+  },
+  {
+    "character": "女",
+    "strokes": 3,
+    "radical": "女",
+    "onyomi": [
+      "ジョ",
+      "ニョ",
+      "ニョウ"
+    ],
+    "kunyomi": [
+      "おんな",
+      "め"
+    ],
+    "meaning_en": "woman",
+    "meaning_my": "အမျိုးသမီး",
+    "meanings": [
+      {
+        "en": "woman",
+        "my": "အမျိုးသမီး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "女",
+        "reading": "おんな",
+        "en": "woman",
+        "my": "အမျိုးသမီး"
+      },
+      {
+        "word": "女の子",
+        "reading": "おんなのこ",
+        "en": "girl",
+        "my": "မိန်းကလေး"
+      }
+    ],
+    "sort_order": 151
+  },
+  {
+    "character": "北",
+    "strokes": 5,
+    "radical": "匕",
+    "onyomi": [
+      "ホク"
+    ],
+    "kunyomi": [
+      "きた"
+    ],
+    "meaning_en": "north",
+    "meaning_my": "မြောက်အရပ်",
+    "meanings": [
+      {
+        "en": "north",
+        "my": "မြောက်အရပ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "北",
+        "reading": "きた",
+        "en": "north",
+        "my": "မြောက်"
+      },
+      {
+        "word": "北海道",
+        "reading": "ほっかいどう",
+        "en": "Hokkaido",
+        "my": "ဟော့ကိုင်းဒိုး"
+      }
+    ],
+    "sort_order": 153
+  },
+  {
+    "character": "午",
+    "strokes": 4,
+    "radical": "十",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "うま"
+    ],
+    "meaning_en": "noon",
+    "meaning_my": "မွန်းတည့်",
+    "meanings": [
+      {
+        "en": "noon",
+        "my": "မွန်းတည့်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "午前",
+        "reading": "ごぜん",
+        "en": "morning",
+        "my": "မနက်"
+      },
+      {
+        "word": "午後",
+        "reading": "ごご",
+        "en": "afternoon",
+        "my": "မွန်းလွဲ"
+      }
+    ],
+    "sort_order": 154
+  },
+  {
+    "character": "百",
+    "strokes": 6,
+    "radical": "白",
+    "onyomi": [
+      "ヒャク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "もも"
+    ],
+    "meaning_en": "hundred",
+    "meaning_my": "တစ်ရာ",
+    "meanings": [
+      {
+        "en": "hundred",
+        "my": "တစ်ရာ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "百",
+        "reading": "ひゃく",
+        "en": "hundred",
+        "my": "တစ်ရာ"
+      },
+      {
+        "word": "三百",
+        "reading": "さんびゃく",
+        "en": "three hundred",
+        "my": "သုံးရာ"
+      }
+    ],
+    "sort_order": 163
+  },
+  {
+    "character": "書",
+    "strokes": 10,
+    "radical": "曰",
+    "onyomi": [
+      "ショ"
+    ],
+    "kunyomi": [
+      "か(く)",
+      "-が.き",
+      "-がき"
+    ],
+    "meaning_en": "write",
+    "meaning_my": "ရေးသည်",
+    "meanings": [
+      {
+        "en": "write",
+        "my": "ရေးသည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "書く",
+        "reading": "かく",
+        "en": "to write",
+        "my": "ရေးသည်"
+      },
+      {
+        "word": "図書館",
+        "reading": "としょかん",
+        "en": "library",
+        "my": "စာကြည့်တိုက်"
+      }
+    ],
+    "sort_order": 169
+  },
+  {
+    "character": "先",
+    "strokes": 6,
+    "radical": "儿",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "さき",
+      "ま(ず)"
+    ],
+    "meaning_en": "ahead",
+    "meaning_my": "ရှေ့ဆုံး",
+    "meanings": [
+      {
+        "en": "ahead",
+        "my": "ရှေ့ဆုံး"
+      },
+      {
+        "en": "previous",
+        "my": "အရင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "先生",
+        "reading": "せんせい",
+        "en": "teacher",
+        "my": "ဆရာ"
+      },
+      {
+        "word": "先週",
+        "reading": "せんしゅう",
+        "en": "last week",
+        "my": "ပြီးခဲ့သောအပတ်"
+      }
+    ],
+    "sort_order": 173
+  },
+  {
+    "character": "名",
+    "strokes": 6,
+    "radical": "口",
+    "onyomi": [
+      "メイ",
+      "ミョウ"
+    ],
+    "kunyomi": [
+      "な",
+      "-な"
+    ],
+    "meaning_en": "name",
+    "meaning_my": "အမည်",
+    "meanings": [
+      {
+        "en": "name",
+        "my": "အမည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "名前",
+        "reading": "なまえ",
+        "en": "name",
+        "my": "အမည်"
+      },
+      {
+        "word": "有名",
+        "reading": "ゆうめい",
+        "en": "famous",
+        "my": "နာမည်ကြီး"
+      }
+    ],
+    "sort_order": 177
+  },
+  {
+    "character": "川",
+    "strokes": 3,
+    "radical": "巛",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "かわ"
+    ],
+    "meaning_en": "river",
+    "meaning_my": "မြစ်",
+    "meanings": [
+      {
+        "en": "river",
+        "my": "မြစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "川",
+        "reading": "かわ",
+        "en": "river",
+        "my": "မြစ်"
+      },
+      {
+        "word": "小川",
+        "reading": "おがわ",
+        "en": "stream",
+        "my": "ချောင်း"
+      }
+    ],
+    "sort_order": 181
+  },
+  {
+    "character": "千",
+    "strokes": 3,
+    "radical": "十",
+    "onyomi": [
+      "セン"
+    ],
+    "kunyomi": [
+      "ち"
+    ],
+    "meaning_en": "thousand",
+    "meaning_my": "တစ်ထောင်",
+    "meanings": [
+      {
+        "en": "thousand",
+        "my": "တစ်ထောင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "千",
+        "reading": "せん",
+        "en": "thousand",
+        "my": "တစ်ထောင်"
+      },
+      {
+        "word": "三千",
+        "reading": "さんぜん",
+        "en": "three thousand",
+        "my": "သုံးထောင်"
+      }
+    ],
+    "sort_order": 195
+  },
+  {
+    "character": "水",
+    "strokes": 4,
+    "radical": "水",
+    "onyomi": [
+      "スイ"
+    ],
+    "kunyomi": [
+      "みず",
+      "みず"
+    ],
+    "meaning_en": "water",
+    "meaning_my": "ရေ",
+    "meanings": [
+      {
+        "en": "water",
+        "my": "ရေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "水",
+        "reading": "みず",
+        "en": "water",
+        "my": "ရေ"
+      },
+      {
+        "word": "水曜日",
+        "reading": "すいようび",
+        "en": "Wednesday",
+        "my": "ဗုဒ္ဓဟူး"
+      }
+    ],
+    "sort_order": 223
+  },
+  {
+    "character": "半",
+    "strokes": 5,
+    "radical": "十",
+    "onyomi": [
+      "ハン"
+    ],
+    "kunyomi": [
+      "なか(ば)"
+    ],
+    "meaning_en": "half",
+    "meaning_my": "တစ်ဝက်",
+    "meanings": [
+      {
+        "en": "half",
+        "my": "တစ်ဝက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "半分",
+        "reading": "はんぶん",
+        "en": "half",
+        "my": "တစ်ဝက်"
+      },
+      {
+        "word": "半",
+        "reading": "はん",
+        "en": "half",
+        "my": "တစ်ဝက်"
+      }
+    ],
+    "sort_order": 224
+  },
+  {
+    "character": "男",
+    "strokes": 7,
+    "radical": "田",
+    "onyomi": [
+      "ダン",
+      "ナン"
+    ],
+    "kunyomi": [
+      "おとこ",
+      "お"
+    ],
+    "meaning_en": "man",
+    "meaning_my": "အမျိုးသား",
+    "meanings": [
+      {
+        "en": "man",
+        "my": "အမျိုးသား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "男",
+        "reading": "おとこ",
+        "en": "man",
+        "my": "ယောက်ျား"
+      },
+      {
+        "word": "男の子",
+        "reading": "おとこのこ",
+        "en": "boy",
+        "my": "ယောက်ျားလေး"
+      }
+    ],
+    "sort_order": 240
+  },
+  {
+    "character": "西",
+    "strokes": 6,
+    "radical": "襾",
+    "onyomi": [
+      "セイ",
+      "サイ",
+      "ス"
+    ],
+    "kunyomi": [
+      "にし"
+    ],
+    "meaning_en": "west",
+    "meaning_my": "အနောက်အရပ်",
+    "meanings": [
+      {
+        "en": "west",
+        "my": "အနောက်အရပ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "西",
+        "reading": "にし",
+        "en": "west",
+        "my": "အနောက်"
+      },
+      {
+        "word": "西口",
+        "reading": "にしぐち",
+        "en": "west exit",
+        "my": "အနောက်ထွက်ပေါက်"
+      }
+    ],
+    "sort_order": 259
+  },
+  {
+    "character": "電",
+    "strokes": 13,
+    "radical": "雨",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [],
+    "meaning_en": "electricity",
+    "meaning_my": "လျှပ်စစ်",
+    "meanings": [
+      {
+        "en": "electricity",
+        "my": "လျှပ်စစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "en": "train",
+        "my": "ရထား"
+      },
+      {
+        "word": "電話",
+        "reading": "でんわ",
+        "en": "telephone",
+        "my": "တယ်လီဖုန်း"
+      }
+    ],
+    "sort_order": 268
+  },
+  {
+    "character": "校",
+    "strokes": 10,
+    "radical": "木",
+    "onyomi": [
+      "コウ",
+      "キョウ"
+    ],
+    "kunyomi": [],
+    "meaning_en": "school",
+    "meaning_my": "ကျောင်း",
+    "meanings": [
+      {
+        "en": "school",
+        "my": "ကျောင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "学校",
+        "reading": "がっこう",
+        "en": "school",
+        "my": "ကျောင်း"
+      },
+      {
+        "word": "校長",
+        "reading": "こうちょう",
+        "en": "principal",
+        "my": "ကျောင်းအုပ်"
+      }
+    ],
+    "sort_order": 294
+  },
+  {
+    "character": "語",
+    "strokes": 14,
+    "radical": "言",
+    "onyomi": [
+      "ゴ"
+    ],
+    "kunyomi": [
+      "かた(る)",
+      "かた(らう)"
+    ],
+    "meaning_en": "language",
+    "meaning_my": "ဘာသာစကား",
+    "meanings": [
+      {
+        "en": "language",
+        "my": "ဘာသာစကား"
+      },
+      {
+        "en": "word",
+        "my": "စကားလုံး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "日本語",
+        "reading": "にほんご",
+        "en": "Japanese",
+        "my": "ဂျပန်စာ"
+      },
+      {
+        "word": "英語",
+        "reading": "えいご",
+        "en": "English",
+        "my": "အင်္ဂလိပ်စာ"
+      }
+    ],
+    "sort_order": 301
+  },
+  {
+    "character": "土",
+    "strokes": 3,
+    "radical": "土",
+    "onyomi": [
+      "ド",
+      "ト"
+    ],
+    "kunyomi": [
+      "つち"
+    ],
+    "meaning_en": "soil",
+    "meaning_my": "မြေကြီး",
+    "meanings": [
+      {
+        "en": "soil",
+        "my": "မြေကြီး"
+      },
+      {
+        "en": "earth",
+        "my": "မြေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "土",
+        "reading": "つち",
+        "en": "soil",
+        "my": "မြေ"
+      },
+      {
+        "word": "土曜日",
+        "reading": "どようび",
+        "en": "Saturday",
+        "my": "စနေ"
+      }
+    ],
+    "sort_order": 307
+  },
+  {
+    "character": "木",
+    "strokes": 4,
+    "radical": "木",
+    "onyomi": [
+      "ボク",
+      "モク"
+    ],
+    "kunyomi": [
+      "き",
+      "こ"
+    ],
+    "meaning_en": "tree",
+    "meaning_my": "သစ်ပင်",
+    "meanings": [
+      {
+        "en": "tree",
+        "my": "သစ်ပင်"
+      },
+      {
+        "en": "wood",
+        "my": "သစ်သား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "木",
+        "reading": "き",
+        "en": "tree",
+        "my": "သစ်ပင်"
+      },
+      {
+        "word": "木曜日",
+        "reading": "もくようび",
+        "en": "Thursday",
+        "my": "ကြာသပတေး"
+      }
+    ],
+    "sort_order": 317
+  },
+  {
+    "character": "聞",
+    "strokes": 14,
+    "radical": "耳",
+    "onyomi": [
+      "ブン",
+      "モン"
+    ],
+    "kunyomi": [
+      "き(く)",
+      "き(こえる)"
+    ],
+    "meaning_en": "hear",
+    "meaning_my": "ကြားသည်",
+    "meanings": [
+      {
+        "en": "hear",
+        "my": "ကြားသည်"
+      },
+      {
+        "en": "listen",
+        "my": "နားထောင်သည်"
+      },
+      {
+        "en": "ask",
+        "my": "မေးသည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "聞く",
+        "reading": "きく",
+        "en": "to listen / ask",
+        "my": "နားထောင်သည် / မေးသည်"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "en": "newspaper",
+        "my": "သတင်းစာ"
+      }
+    ],
+    "sort_order": 319
+  },
+  {
+    "character": "食",
+    "strokes": 9,
+    "radical": "食",
+    "onyomi": [
+      "ショク",
+      "ジキ"
+    ],
+    "kunyomi": [
+      "く(う)",
+      "く(らう)",
+      "た(べる)",
+      "は(む)"
+    ],
+    "meaning_en": "eat",
+    "meaning_my": "စားသည်",
+    "meanings": [
+      {
+        "en": "eat",
+        "my": "စားသည်"
+      },
+      {
+        "en": "food",
+        "my": "အစားအသောက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "食べる",
+        "reading": "たべる",
+        "en": "to eat",
+        "my": "စားသည်"
+      },
+      {
+        "word": "食堂",
+        "reading": "しょくどう",
+        "en": "cafeteria",
+        "my": "ထမင်းစားဆောင်"
+      }
+    ],
+    "sort_order": 328
+  },
+  {
+    "character": "車",
+    "strokes": 7,
+    "radical": "車",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "くるま"
+    ],
+    "meaning_en": "car",
+    "meaning_my": "ကား",
+    "meanings": [
+      {
+        "en": "car",
+        "my": "ကား"
+      },
+      {
+        "en": "vehicle",
+        "my": "ယာဉ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "車",
+        "reading": "くるま",
+        "en": "car",
+        "my": "ကား"
+      },
+      {
+        "word": "電車",
+        "reading": "でんしゃ",
+        "en": "train",
+        "my": "ရထား"
+      }
+    ],
+    "sort_order": 333
+  },
+  {
+    "character": "何",
+    "strokes": 7,
+    "radical": "人",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "なに",
+      "なん",
+      "なに",
+      "なん"
+    ],
+    "meaning_en": "what",
+    "meaning_my": "ဘာ",
+    "meanings": [
+      {
+        "en": "what",
+        "my": "ဘာ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "何",
+        "reading": "なに",
+        "en": "what",
+        "my": "ဘာ"
+      },
+      {
+        "word": "何時",
+        "reading": "なんじ",
+        "en": "what time",
+        "my": "ဘယ်နာရီ"
+      }
+    ],
+    "sort_order": 340
+  },
+  {
+    "character": "南",
+    "strokes": 9,
+    "radical": "十",
+    "onyomi": [
+      "ナン",
+      "ナ"
+    ],
+    "kunyomi": [
+      "みなみ"
+    ],
+    "meaning_en": "south",
+    "meaning_my": "တောင်အရပ်",
+    "meanings": [
+      {
+        "en": "south",
+        "my": "တောင်အရပ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "南",
+        "reading": "みなみ",
+        "en": "south",
+        "my": "တောင်"
+      },
+      {
+        "word": "南口",
+        "reading": "みなみぐち",
+        "en": "south exit",
+        "my": "တောင်ထွက်ပေါက်"
+      }
+    ],
+    "sort_order": 341
+  },
+  {
+    "character": "万",
+    "strokes": 3,
+    "radical": "一",
+    "onyomi": [
+      "マン",
+      "バン"
+    ],
+    "kunyomi": [
+      "よろず"
+    ],
+    "meaning_en": "ten thousand",
+    "meaning_my": "တစ်သောင်း",
+    "meanings": [
+      {
+        "en": "ten thousand",
+        "my": "တစ်သောင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "万",
+        "reading": "まん",
+        "en": "ten thousand",
+        "my": "တစ်သောင်း"
+      },
+      {
+        "word": "一万",
+        "reading": "いちまん",
+        "en": "10,000",
+        "my": "တစ်သောင်း"
+      }
+    ],
+    "sort_order": 375
+  },
+  {
+    "character": "毎",
+    "strokes": 6,
+    "radical": "毋",
+    "onyomi": [
+      "マイ"
+    ],
+    "kunyomi": [
+      "ごと",
+      "-ごと.に"
+    ],
+    "meaning_en": "every",
+    "meaning_my": "တိုင်း",
+    "meanings": [
+      {
+        "en": "every",
+        "my": "တိုင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "毎日",
+        "reading": "まいにち",
+        "en": "every day",
+        "my": "နေ့တိုင်း"
+      },
+      {
+        "word": "毎年",
+        "reading": "まいとし",
+        "en": "every year",
+        "my": "နှစ်တိုင်း"
+      }
+    ],
+    "sort_order": 436
+  },
+  {
+    "character": "白",
+    "strokes": 5,
+    "radical": "白",
+    "onyomi": [
+      "ハク",
+      "ビャク"
+    ],
+    "kunyomi": [
+      "しろ",
+      "しら",
+      "しろ(い)"
+    ],
+    "meaning_en": "white",
+    "meaning_my": "ဖြူသော",
+    "meanings": [
+      {
+        "en": "white",
+        "my": "ဖြူသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "白い",
+        "reading": "しろい",
+        "en": "white",
+        "my": "ဖြူသော"
+      },
+      {
+        "word": "白",
+        "reading": "しろ",
+        "en": "white",
+        "my": "အဖြူ"
+      }
+    ],
+    "sort_order": 483
+  },
+  {
+    "character": "天",
+    "strokes": 4,
+    "radical": "大",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "あまつ",
+      "あめ",
+      "あま"
+    ],
+    "meaning_en": "heaven",
+    "meaning_my": "ကောင်းကင်",
+    "meanings": [
+      {
+        "en": "heaven",
+        "my": "ကောင်းကင်"
+      },
+      {
+        "en": "sky",
+        "my": "မိုးကောင်းကင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "天気",
+        "reading": "てんき",
+        "en": "weather",
+        "my": "ရာသီဥတု"
+      },
+      {
+        "word": "天国",
+        "reading": "てんごく",
+        "en": "heaven",
+        "my": "နိဗ္ဗာန် / ကောင်းကင်ဘုံ"
+      }
+    ],
+    "sort_order": 512
+  },
+  {
+    "character": "母",
+    "strokes": 5,
+    "radical": "毋",
+    "onyomi": [
+      "ボ"
+    ],
+    "kunyomi": [
+      "はは",
+      "も"
+    ],
+    "meaning_en": "mother",
+    "meaning_my": "အမေ",
+    "meanings": [
+      {
+        "en": "mother",
+        "my": "အမေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "母",
+        "reading": "はは",
+        "en": "mother",
+        "my": "အမေ"
+      },
+      {
+        "word": "お母さん",
+        "reading": "おかあさん",
+        "en": "mother",
+        "my": "အမေ"
+      }
+    ],
+    "sort_order": 570
+  },
+  {
+    "character": "火",
+    "strokes": 4,
+    "radical": "火",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "ひ",
+      "-び",
+      "ほ"
+    ],
+    "meaning_en": "fire",
+    "meaning_my": "မီး",
+    "meanings": [
+      {
+        "en": "fire",
+        "my": "မီး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "火",
+        "reading": "ひ",
+        "en": "fire",
+        "my": "မီး"
+      },
+      {
+        "word": "火曜日",
+        "reading": "かようび",
+        "en": "Tuesday",
+        "my": "အင်္ဂါ"
+      }
+    ],
+    "sort_order": 574
+  },
+  {
+    "character": "右",
+    "strokes": 5,
+    "radical": "口",
+    "onyomi": [
+      "ウ",
+      "ユウ"
+    ],
+    "kunyomi": [
+      "みぎ"
+    ],
+    "meaning_en": "right",
+    "meaning_my": "ညာဘက်",
+    "meanings": [
+      {
+        "en": "right",
+        "my": "ညာဘက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "右",
+        "reading": "みぎ",
+        "en": "right",
+        "my": "ညာ"
+      },
+      {
+        "word": "右足",
+        "reading": "みぎあし",
+        "en": "right foot",
+        "my": "ညာခြေ"
+      }
+    ],
+    "sort_order": 602
+  },
+  {
+    "character": "読",
+    "strokes": 14,
+    "radical": "言",
+    "onyomi": [
+      "ドク",
+      "トク",
+      "トウ"
+    ],
+    "kunyomi": [
+      "よ(む)",
+      "-よ.み"
+    ],
+    "meaning_en": "read",
+    "meaning_my": "ဖတ်သည်",
+    "meanings": [
+      {
+        "en": "read",
+        "my": "ဖတ်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "読む",
+        "reading": "よむ",
+        "en": "to read",
+        "my": "ဖတ်သည်"
+      },
+      {
+        "word": "読書",
+        "reading": "どくしょ",
+        "en": "reading",
+        "my": "စာဖတ်ခြင်း"
+      }
+    ],
+    "sort_order": 618
+  },
+  {
+    "character": "友",
+    "strokes": 4,
+    "radical": "又",
+    "onyomi": [
+      "ユウ"
+    ],
+    "kunyomi": [
+      "とも"
+    ],
+    "meaning_en": "friend",
+    "meaning_my": "သူငယ်ချင်း",
+    "meanings": [
+      {
+        "en": "friend",
+        "my": "သူငယ်ချင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "友達",
+        "reading": "ともだち",
+        "en": "friend",
+        "my": "သူငယ်ချင်း"
+      },
+      {
+        "word": "友人",
+        "reading": "ゆうじん",
+        "en": "friend",
+        "my": "မိတ်ဆွေ"
+      }
+    ],
+    "sort_order": 622
+  },
+  {
+    "character": "左",
+    "strokes": 5,
+    "radical": "工",
+    "onyomi": [
+      "サ",
+      "シャ"
+    ],
+    "kunyomi": [
+      "ひだり"
+    ],
+    "meaning_en": "left",
+    "meaning_my": "ဘယ်ဘက်",
+    "meanings": [
+      {
+        "en": "left",
+        "my": "ဘယ်ဘက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "左",
+        "reading": "ひだり",
+        "en": "left",
+        "my": "ဘယ်"
+      },
+      {
+        "word": "左手",
+        "reading": "ひだりて",
+        "en": "left hand",
+        "my": "ဘယ်လက်"
+      }
+    ],
+    "sort_order": 630
+  },
+  {
+    "character": "休",
+    "strokes": 6,
+    "radical": "人",
+    "onyomi": [
+      "キュウ"
+    ],
+    "kunyomi": [
+      "やす(む)",
+      "やす(まる)",
+      "やす(める)"
+    ],
+    "meaning_en": "rest",
+    "meaning_my": "အနားယူသည်",
+    "meanings": [
+      {
+        "en": "rest",
+        "my": "အနားယူသည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "休む",
+        "reading": "やすむ",
+        "en": "to rest",
+        "my": "အနားယူသည်"
+      },
+      {
+        "word": "休み",
+        "reading": "やすみ",
+        "en": "holiday / break",
+        "my": "အားလပ်ရက်"
+      }
+    ],
+    "sort_order": 642
+  },
+  {
+    "character": "父",
+    "strokes": 4,
+    "radical": "父",
+    "onyomi": [
+      "フ"
+    ],
+    "kunyomi": [
+      "ちち"
+    ],
+    "meaning_en": "father",
+    "meaning_my": "အဖေ",
+    "meanings": [
+      {
+        "en": "father",
+        "my": "အဖေ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "父",
+        "reading": "ちち",
+        "en": "father",
+        "my": "အဖေ"
+      },
+      {
+        "word": "お父さん",
+        "reading": "おとうさん",
+        "en": "father",
+        "my": "အဖေ"
+      }
+    ],
+    "sort_order": 646
+  },
+  {
+    "character": "雨",
+    "strokes": 8,
+    "radical": "雨",
+    "onyomi": [
+      "ウ"
+    ],
+    "kunyomi": [
+      "あめ",
+      "あま",
+      "-さめ"
+    ],
+    "meaning_en": "rain",
+    "meaning_my": "မိုး",
+    "meanings": [
+      {
+        "en": "rain",
+        "my": "မိုး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "雨",
+        "reading": "あめ",
+        "en": "rain",
+        "my": "မိုး"
+      },
+      {
+        "word": "大雨",
+        "reading": "おおあめ",
+        "en": "heavy rain",
+        "my": "မိုးသည်း"
+      }
+    ],
+    "sort_order": 950
+  },
+  {
+    "character": "安",
+    "strokes": 6,
+    "radical": "宀",
+    "onyomi": [
+      "アン"
+    ],
+    "kunyomi": [
+      "やす(い)"
+    ],
+    "meaning_en": "peaceful",
+    "meaning_my": "ငြိမ်းချမ်းသော",
+    "meanings": [
+      {
+        "en": "peaceful",
+        "my": "ငြိမ်းချမ်းသော"
+      },
+      {
+        "en": "cheap",
+        "my": "ဈေးသက်သာသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "安い",
+        "reading": "やすい",
+        "en": "cheap",
+        "my": "ဈေးသက်သာသော"
+      },
+      {
+        "word": "安心",
+        "reading": "あんしん",
+        "en": "relief",
+        "my": "စိတ်ချရခြင်း"
+      }
+    ],
+    "sort_order": 2001
+  },
+  {
+    "character": "飲",
+    "strokes": 12,
+    "radical": "食",
+    "onyomi": [
+      "イン"
+    ],
+    "kunyomi": [
+      "の(む)"
+    ],
+    "meaning_en": "drink",
+    "meaning_my": "သောက်သည်",
+    "meanings": [
+      {
+        "en": "drink",
+        "my": "သောက်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "飲む",
+        "reading": "のむ",
+        "en": "to drink",
+        "my": "သောက်သည်"
+      },
+      {
+        "word": "飲み物",
+        "reading": "のみもの",
+        "en": "a drink",
+        "my": "သောက်စရာ"
+      }
+    ],
+    "sort_order": 2002
+  },
+  {
+    "character": "駅",
+    "strokes": 14,
+    "radical": "馬",
+    "onyomi": [
+      "エキ"
+    ],
+    "kunyomi": [],
+    "meaning_en": "station",
+    "meaning_my": "ဘူတာ",
+    "meanings": [
+      {
+        "en": "station",
+        "my": "ဘူတာ"
+      }
+    ],
+    "examples": [
+      {
+        "word": "駅",
+        "reading": "えき",
+        "en": "station",
+        "my": "ဘူတာ"
+      },
+      {
+        "word": "駅前",
+        "reading": "えきまえ",
+        "en": "in front of the station",
+        "my": "ဘူတာရှေ့"
+      }
+    ],
+    "sort_order": 2003
+  },
+  {
+    "character": "花",
+    "strokes": 7,
+    "radical": "艹",
+    "onyomi": [
+      "カ"
+    ],
+    "kunyomi": [
+      "はな"
+    ],
+    "meaning_en": "flower",
+    "meaning_my": "ပန်း",
+    "meanings": [
+      {
+        "en": "flower",
+        "my": "ပန်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "花",
+        "reading": "はな",
+        "en": "flower",
+        "my": "ပန်း"
+      },
+      {
+        "word": "花火",
+        "reading": "はなび",
+        "en": "fireworks",
+        "my": "မီးပန်း"
+      }
+    ],
+    "sort_order": 2004
+  },
+  {
+    "character": "会",
+    "strokes": 6,
+    "radical": "人",
+    "onyomi": [
+      "カイ",
+      "エ"
+    ],
+    "kunyomi": [
+      "あ(う)"
+    ],
+    "meaning_en": "meet",
+    "meaning_my": "တွေ့သည်",
+    "meanings": [
+      {
+        "en": "meet",
+        "my": "တွေ့သည်"
+      },
+      {
+        "en": "meeting",
+        "my": "အစည်းအဝေး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "会う",
+        "reading": "あう",
+        "en": "to meet",
+        "my": "တွေ့သည်"
+      },
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "en": "company",
+        "my": "ကုမ္ပဏီ"
+      }
+    ],
+    "sort_order": 2005
+  },
+  {
+    "character": "魚",
+    "strokes": 11,
+    "radical": "魚",
+    "onyomi": [
+      "ギョ"
+    ],
+    "kunyomi": [
+      "さかな",
+      "うお"
+    ],
+    "meaning_en": "fish",
+    "meaning_my": "ငါး (တိရစ္ဆာန်)",
+    "meanings": [
+      {
+        "en": "fish",
+        "my": "ငါး (တိရစ္ဆာန်)"
+      }
+    ],
+    "examples": [
+      {
+        "word": "魚",
+        "reading": "さかな",
+        "en": "fish",
+        "my": "ငါး"
+      },
+      {
+        "word": "魚屋",
+        "reading": "さかなや",
+        "en": "fish shop",
+        "my": "ငါးဆိုင်"
+      }
+    ],
+    "sort_order": 2006
+  },
+  {
+    "character": "空",
+    "strokes": 8,
+    "radical": "穴",
+    "onyomi": [
+      "クウ"
+    ],
+    "kunyomi": [
+      "そら",
+      "あ(ける)",
+      "から"
+    ],
+    "meaning_en": "empty",
+    "meaning_my": "လွတ်သော",
+    "meanings": [
+      {
+        "en": "empty",
+        "my": "လွတ်သော"
+      },
+      {
+        "en": "sky",
+        "my": "မိုးကောင်းကင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "空",
+        "reading": "そら",
+        "en": "sky",
+        "my": "ကောင်းကင်"
+      },
+      {
+        "word": "空港",
+        "reading": "くうこう",
+        "en": "airport",
+        "my": "လေဆိပ်"
+      }
+    ],
+    "sort_order": 2007
+  },
+  {
+    "character": "言",
+    "strokes": 7,
+    "radical": "言",
+    "onyomi": [
+      "ゲン",
+      "ゴン"
+    ],
+    "kunyomi": [
+      "い(う)",
+      "こと"
+    ],
+    "meaning_en": "say",
+    "meaning_my": "ပြောသည်",
+    "meanings": [
+      {
+        "en": "say",
+        "my": "ပြောသည်"
+      },
+      {
+        "en": "word",
+        "my": "စကား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "言う",
+        "reading": "いう",
+        "en": "to say",
+        "my": "ပြောသည်"
+      },
+      {
+        "word": "言葉",
+        "reading": "ことば",
+        "en": "word",
+        "my": "စကားလုံး"
+      }
+    ],
+    "sort_order": 2008
+  },
+  {
+    "character": "古",
+    "strokes": 5,
+    "radical": "口",
+    "onyomi": [
+      "コ"
+    ],
+    "kunyomi": [
+      "ふる(い)"
+    ],
+    "meaning_en": "old",
+    "meaning_my": "ဟောင်းသော",
+    "meanings": [
+      {
+        "en": "old",
+        "my": "ဟောင်းသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "古い",
+        "reading": "ふるい",
+        "en": "old",
+        "my": "ဟောင်းသော"
+      },
+      {
+        "word": "中古",
+        "reading": "ちゅうこ",
+        "en": "secondhand",
+        "my": "လက်နှစ်"
+      }
+    ],
+    "sort_order": 2009
+  },
+  {
+    "character": "口",
+    "strokes": 3,
+    "radical": "口",
+    "onyomi": [
+      "コウ",
+      "ク"
+    ],
+    "kunyomi": [
+      "くち"
+    ],
+    "meaning_en": "mouth",
+    "meaning_my": "ပါးစပ်",
+    "meanings": [
+      {
+        "en": "mouth",
+        "my": "ပါးစပ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "口",
+        "reading": "くち",
+        "en": "mouth",
+        "my": "ပါးစပ်"
+      },
+      {
+        "word": "入口",
+        "reading": "いりぐち",
+        "en": "entrance",
+        "my": "ဝင်ပေါက်"
+      }
+    ],
+    "sort_order": 2010
+  },
+  {
+    "character": "社",
+    "strokes": 7,
+    "radical": "示",
+    "onyomi": [
+      "シャ"
+    ],
+    "kunyomi": [
+      "やしろ"
+    ],
+    "meaning_en": "company",
+    "meaning_my": "ကုမ္ပဏီ",
+    "meanings": [
+      {
+        "en": "company",
+        "my": "ကုမ္ပဏီ"
+      },
+      {
+        "en": "society",
+        "my": "လူမှုအဖွဲ့"
+      }
+    ],
+    "examples": [
+      {
+        "word": "会社",
+        "reading": "かいしゃ",
+        "en": "company",
+        "my": "ကုမ္ပဏီ"
+      },
+      {
+        "word": "神社",
+        "reading": "じんじゃ",
+        "en": "shrine",
+        "my": "နတ်ကွန်း"
+      }
+    ],
+    "sort_order": 2011
+  },
+  {
+    "character": "手",
+    "strokes": 4,
+    "radical": "手",
+    "onyomi": [
+      "シュ"
+    ],
+    "kunyomi": [
+      "て"
+    ],
+    "meaning_en": "hand",
+    "meaning_my": "လက်",
+    "meanings": [
+      {
+        "en": "hand",
+        "my": "လက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "手",
+        "reading": "て",
+        "en": "hand",
+        "my": "လက်"
+      },
+      {
+        "word": "上手",
+        "reading": "じょうず",
+        "en": "skillful",
+        "my": "တော်သော"
+      }
+    ],
+    "sort_order": 2012
+  },
+  {
+    "character": "週",
+    "strokes": 11,
+    "radical": "辶",
+    "onyomi": [
+      "シュウ"
+    ],
+    "kunyomi": [],
+    "meaning_en": "week",
+    "meaning_my": "တစ်ပတ်",
+    "meanings": [
+      {
+        "en": "week",
+        "my": "တစ်ပတ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "週",
+        "reading": "しゅう",
+        "en": "week",
+        "my": "တစ်ပတ်"
+      },
+      {
+        "word": "来週",
+        "reading": "らいしゅう",
+        "en": "next week",
+        "my": "နောက်အပတ်"
+      }
+    ],
+    "sort_order": 2013
+  },
+  {
+    "character": "少",
+    "strokes": 4,
+    "radical": "小",
+    "onyomi": [
+      "ショウ"
+    ],
+    "kunyomi": [
+      "すく(ない)",
+      "すこ(し)"
+    ],
+    "meaning_en": "few",
+    "meaning_my": "နည်းသော",
+    "meanings": [
+      {
+        "en": "few",
+        "my": "နည်းသော"
+      },
+      {
+        "en": "a little",
+        "my": "နည်းနည်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "少し",
+        "reading": "すこし",
+        "en": "a little",
+        "my": "နည်းနည်း"
+      },
+      {
+        "word": "少ない",
+        "reading": "すくない",
+        "en": "few",
+        "my": "နည်းသော"
+      }
+    ],
+    "sort_order": 2014
+  },
+  {
+    "character": "新",
+    "strokes": 13,
+    "radical": "斤",
+    "onyomi": [
+      "シン"
+    ],
+    "kunyomi": [
+      "あたら(しい)"
+    ],
+    "meaning_en": "new",
+    "meaning_my": "အသစ်",
+    "meanings": [
+      {
+        "en": "new",
+        "my": "အသစ်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "新しい",
+        "reading": "あたらしい",
+        "en": "new",
+        "my": "အသစ်"
+      },
+      {
+        "word": "新聞",
+        "reading": "しんぶん",
+        "en": "newspaper",
+        "my": "သတင်းစာ"
+      }
+    ],
+    "sort_order": 2015
+  },
+  {
+    "character": "足",
+    "strokes": 7,
+    "radical": "足",
+    "onyomi": [
+      "ソク"
+    ],
+    "kunyomi": [
+      "あし",
+      "た(りる)"
+    ],
+    "meaning_en": "foot",
+    "meaning_my": "ခြေထောက်",
+    "meanings": [
+      {
+        "en": "foot",
+        "my": "ခြေထောက်"
+      },
+      {
+        "en": "leg",
+        "my": "ခြေထောက်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "足",
+        "reading": "あし",
+        "en": "foot / leg",
+        "my": "ခြေထောက်"
+      },
+      {
+        "word": "不足",
+        "reading": "ふそく",
+        "en": "shortage",
+        "my": "မလုံလောက်"
+      }
+    ],
+    "sort_order": 2016
+  },
+  {
+    "character": "多",
+    "strokes": 6,
+    "radical": "夕",
+    "onyomi": [
+      "タ"
+    ],
+    "kunyomi": [
+      "おお(い)"
+    ],
+    "meaning_en": "many",
+    "meaning_my": "များသော",
+    "meanings": [
+      {
+        "en": "many",
+        "my": "များသော"
+      }
+    ],
+    "examples": [
+      {
+        "word": "多い",
+        "reading": "おおい",
+        "en": "many",
+        "my": "များသော"
+      },
+      {
+        "word": "多分",
+        "reading": "たぶん",
+        "en": "probably",
+        "my": "ဖြစ်နိုင်သည်"
+      }
+    ],
+    "sort_order": 2017
+  },
+  {
+    "character": "店",
+    "strokes": 8,
+    "radical": "广",
+    "onyomi": [
+      "テン"
+    ],
+    "kunyomi": [
+      "みせ"
+    ],
+    "meaning_en": "shop",
+    "meaning_my": "ဆိုင်",
+    "meanings": [
+      {
+        "en": "shop",
+        "my": "ဆိုင်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "店",
+        "reading": "みせ",
+        "en": "shop",
+        "my": "ဆိုင်"
+      },
+      {
+        "word": "喫茶店",
+        "reading": "きっさてん",
+        "en": "coffee shop",
+        "my": "လက်ဖက်ရည်ဆိုင်"
+      }
+    ],
+    "sort_order": 2018
+  },
+  {
+    "character": "道",
+    "strokes": 12,
+    "radical": "辶",
+    "onyomi": [
+      "ドウ"
+    ],
+    "kunyomi": [
+      "みち"
+    ],
+    "meaning_en": "road",
+    "meaning_my": "လမ်း",
+    "meanings": [
+      {
+        "en": "road",
+        "my": "လမ်း"
+      },
+      {
+        "en": "way",
+        "my": "လမ်းကြောင်း"
+      }
+    ],
+    "examples": [
+      {
+        "word": "道",
+        "reading": "みち",
+        "en": "road",
+        "my": "လမ်း"
+      },
+      {
+        "word": "北海道",
+        "reading": "ほっかいどう",
+        "en": "Hokkaido",
+        "my": "ဟော့ကိုင်းဒိုး"
+      }
+    ],
+    "sort_order": 2019
+  },
+  {
+    "character": "買",
+    "strokes": 12,
+    "radical": "貝",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "か(う)"
+    ],
+    "meaning_en": "buy",
+    "meaning_my": "ဝယ်သည်",
+    "meanings": [
+      {
+        "en": "buy",
+        "my": "ဝယ်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "買う",
+        "reading": "かう",
+        "en": "to buy",
+        "my": "ဝယ်သည်"
+      },
+      {
+        "word": "買い物",
+        "reading": "かいもの",
+        "en": "shopping",
+        "my": "ဈေးဝယ်ခြင်း"
+      }
+    ],
+    "sort_order": 2020
+  },
+  {
+    "character": "目",
+    "strokes": 5,
+    "radical": "目",
+    "onyomi": [
+      "モク",
+      "ボク"
+    ],
+    "kunyomi": [
+      "め"
+    ],
+    "meaning_en": "eye",
+    "meaning_my": "မျက်လုံး",
+    "meanings": [
+      {
+        "en": "eye",
+        "my": "မျက်လုံး"
+      }
+    ],
+    "examples": [
+      {
+        "word": "目",
+        "reading": "め",
+        "en": "eye",
+        "my": "မျက်လုံး"
+      },
+      {
+        "word": "目的",
+        "reading": "もくてき",
+        "en": "purpose",
+        "my": "ရည်ရွယ်ချက်"
+      }
+    ],
+    "sort_order": 2021
+  },
+  {
+    "character": "立",
+    "strokes": 5,
+    "radical": "立",
+    "onyomi": [
+      "リツ"
+    ],
+    "kunyomi": [
+      "た(つ)"
+    ],
+    "meaning_en": "stand",
+    "meaning_my": "ရပ်သည်",
+    "meanings": [
+      {
+        "en": "stand",
+        "my": "ရပ်သည်"
+      }
+    ],
+    "examples": [
+      {
+        "word": "立つ",
+        "reading": "たつ",
+        "en": "to stand",
+        "my": "ရပ်သည်"
+      },
+      {
+        "word": "国立",
+        "reading": "こくりつ",
+        "en": "national",
+        "my": "နိုင်ငံပိုင်"
+      }
+    ],
+    "sort_order": 2022
+  },
+  {
+    "character": "耳",
+    "strokes": 6,
+    "radical": "耳",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [
+      "みみ"
+    ],
+    "meaning_en": "ear",
+    "meaning_my": "နား",
+    "meanings": [
+      {
+        "en": "ear",
+        "my": "နား"
+      }
+    ],
+    "examples": [
+      {
+        "word": "耳",
+        "reading": "みみ",
+        "en": "ear",
+        "my": "နား"
+      },
+      {
+        "word": "耳鼻科",
+        "reading": "じびか",
+        "en": "ENT clinic",
+        "my": "နားနှာခေါင်းဌာန"
+      }
+    ],
+    "sort_order": 2023
+  },
+  {
+    "character": "力",
+    "strokes": 2,
+    "radical": "力",
+    "onyomi": [
+      "リョク",
+      "リキ"
+    ],
+    "kunyomi": [
+      "ちから"
+    ],
+    "meaning_en": "power",
+    "meaning_my": "အား",
+    "meanings": [
+      {
+        "en": "power",
+        "my": "အား"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2024
+  },
+  {
+    "character": "田",
+    "strokes": 5,
+    "radical": "田",
+    "onyomi": [
+      "デン"
+    ],
+    "kunyomi": [
+      "た"
+    ],
+    "meaning_en": "rice field",
+    "meaning_my": "လယ်",
+    "meanings": [
+      {
+        "en": "rice field",
+        "my": "လယ်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2025
+  },
+  {
+    "character": "石",
+    "strokes": 5,
+    "radical": "石",
+    "onyomi": [
+      "セキ",
+      "シャク"
+    ],
+    "kunyomi": [
+      "いし"
+    ],
+    "meaning_en": "stone",
+    "meaning_my": "ကျောက်",
+    "meanings": [
+      {
+        "en": "stone",
+        "my": "ကျောက်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2026
+  },
+  {
+    "character": "竹",
+    "strokes": 6,
+    "radical": "竹",
+    "onyomi": [
+      "チク"
+    ],
+    "kunyomi": [
+      "たけ"
+    ],
+    "meaning_en": "bamboo",
+    "meaning_my": "ဝါး",
+    "meanings": [
+      {
+        "en": "bamboo",
+        "my": "ဝါး"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2027
+  },
+  {
+    "character": "内",
+    "strokes": 4,
+    "radical": "冂",
+    "onyomi": [
+      "ナイ",
+      "ダイ"
+    ],
+    "kunyomi": [
+      "うち"
+    ],
+    "meaning_en": "inside",
+    "meaning_my": "အတွင်း",
+    "meanings": [
+      {
+        "en": "inside",
+        "my": "အတွင်း"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2028
+  },
+  {
+    "character": "字",
+    "strokes": 6,
+    "radical": "子",
+    "onyomi": [
+      "ジ"
+    ],
+    "kunyomi": [],
+    "meaning_en": "character",
+    "meaning_my": "စာလုံး",
+    "meanings": [
+      {
+        "en": "character",
+        "my": "စာလုံး"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2029
+  },
+  {
+    "character": "体",
+    "strokes": 7,
+    "radical": "人",
+    "onyomi": [
+      "タイ",
+      "テイ"
+    ],
+    "kunyomi": [
+      "からだ"
+    ],
+    "meaning_en": "body",
+    "meaning_my": "ခန္ဓာကိုယ်",
+    "meanings": [
+      {
+        "en": "body",
+        "my": "ခန္ဓာကိုယ်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2030
+  },
+  {
+    "character": "門",
+    "strokes": 8,
+    "radical": "門",
+    "onyomi": [
+      "モン"
+    ],
+    "kunyomi": [
+      "かど"
+    ],
+    "meaning_en": "gate",
+    "meaning_my": "တံခါး",
+    "meanings": [
+      {
+        "en": "gate",
+        "my": "တံခါး"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2031
+  },
+  {
+    "character": "犬",
+    "strokes": 4,
+    "radical": "犬",
+    "onyomi": [
+      "ケン"
+    ],
+    "kunyomi": [
+      "いぬ"
+    ],
+    "meaning_en": "dog",
+    "meaning_my": "ခွေး",
+    "meanings": [
+      {
+        "en": "dog",
+        "my": "ခွေး"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2032
+  },
+  {
+    "character": "鳥",
+    "strokes": 11,
+    "radical": "鳥",
+    "onyomi": [
+      "チョウ"
+    ],
+    "kunyomi": [
+      "とり"
+    ],
+    "meaning_en": "bird",
+    "meaning_my": "ငှက်",
+    "meanings": [
+      {
+        "en": "bird",
+        "my": "ငှက်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2033
+  },
+  {
+    "character": "帰",
+    "strokes": 10,
+    "radical": "帰",
+    "onyomi": [
+      "キ"
+    ],
+    "kunyomi": [
+      "かえ(る)"
+    ],
+    "meaning_en": "return",
+    "meaning_my": "ပြန်သည်",
+    "meanings": [
+      {
+        "en": "return",
+        "my": "ပြန်သည်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2034
+  },
+  {
+    "character": "米",
+    "strokes": 6,
+    "radical": "米",
+    "onyomi": [
+      "ベイ",
+      "マイ"
+    ],
+    "kunyomi": [
+      "こめ"
+    ],
+    "meaning_en": "rice",
+    "meaning_my": "ဆန်",
+    "meanings": [
+      {
+        "en": "rice",
+        "my": "ဆန်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2035
+  },
+  {
+    "character": "茶",
+    "strokes": 9,
+    "radical": "艸",
+    "onyomi": [
+      "チャ",
+      "サ"
+    ],
+    "kunyomi": [],
+    "meaning_en": "tea",
+    "meaning_my": "လက်ဖက်",
+    "meanings": [
+      {
+        "en": "tea",
+        "my": "လက်ဖက်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2036
+  },
+  {
+    "character": "牛",
+    "strokes": 4,
+    "radical": "牛",
+    "onyomi": [
+      "ギュウ"
+    ],
+    "kunyomi": [
+      "うし"
+    ],
+    "meaning_en": "cow",
+    "meaning_my": "နွား",
+    "meanings": [
+      {
+        "en": "cow",
+        "my": "နွား"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2037
+  },
+  {
+    "character": "肉",
+    "strokes": 6,
+    "radical": "肉",
+    "onyomi": [
+      "ニク"
+    ],
+    "kunyomi": [],
+    "meaning_en": "meat",
+    "meaning_my": "အသား",
+    "meanings": [
+      {
+        "en": "meat",
+        "my": "အသား"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2038
+  },
+  {
+    "character": "貝",
+    "strokes": 7,
+    "radical": "貝",
+    "onyomi": [
+      "バイ"
+    ],
+    "kunyomi": [
+      "かい"
+    ],
+    "meaning_en": "shellfish",
+    "meaning_my": "ခရု",
+    "meanings": [
+      {
+        "en": "shellfish",
+        "my": "ခရု"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2039
+  },
+  {
+    "character": "好",
+    "strokes": 6,
+    "radical": "女",
+    "onyomi": [
+      "コウ"
+    ],
+    "kunyomi": [
+      "す(き)"
+    ],
+    "meaning_en": "like",
+    "meaning_my": "ကြိုက်သည်",
+    "meanings": [
+      {
+        "en": "like",
+        "my": "ကြိုက်သည်"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2040
+  },
+  {
+    "character": "物",
+    "strokes": 8,
+    "radical": "牛",
+    "onyomi": [
+      "ブツ",
+      "モツ"
+    ],
+    "kunyomi": [
+      "もの"
+    ],
+    "meaning_en": "thing",
+    "meaning_my": "ပစ္စည်း",
+    "meanings": [
+      {
+        "en": "thing",
+        "my": "ပစ္စည်း"
+      }
+    ],
+    "examples": [],
+    "sort_order": 2041
+  }
+]

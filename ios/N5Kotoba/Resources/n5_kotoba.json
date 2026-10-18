@@ -1,0 +1,5037 @@
+[
+  {
+    "word": "会う",
+    "reading": "あう",
+    "en": "to meet",
+    "my": "တွေ့သည်",
+    "kind": "verb",
+    "masu": "あいます"
+  },
+  {
+    "word": "青",
+    "reading": "あお",
+    "en": "blue",
+    "my": "အပြာ",
+    "kind": "noun"
+  },
+  {
+    "word": "青い",
+    "reading": "あおい",
+    "en": "blue",
+    "my": "ပြာသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "赤",
+    "reading": "あか",
+    "en": "red",
+    "my": "အနီ",
+    "kind": "noun"
+  },
+  {
+    "word": "赤い",
+    "reading": "あかい",
+    "en": "red",
+    "my": "နီသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "明るい",
+    "reading": "あかるい",
+    "en": "bright",
+    "my": "လင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "秋",
+    "reading": "あき",
+    "en": "autumn",
+    "my": "ဆောင်းဦး",
+    "kind": "noun"
+  },
+  {
+    "word": "開く",
+    "reading": "あく",
+    "en": "to open",
+    "my": "ပွင့်သည်",
+    "kind": "verb",
+    "masu": "あきます"
+  },
+  {
+    "word": "開ける",
+    "reading": "あける",
+    "en": "to open",
+    "my": "ဖွင့်သည်",
+    "kind": "verb",
+    "masu": "あけます"
+  },
+  {
+    "word": "上げる",
+    "reading": "あげる",
+    "en": "to give",
+    "my": "ပေးသည်",
+    "kind": "verb",
+    "masu": "あげます"
+  },
+  {
+    "word": "朝",
+    "reading": "あさ",
+    "en": "morning",
+    "my": "မနက်",
+    "kind": "noun"
+  },
+  {
+    "word": "朝ごはん",
+    "reading": "あさごはん",
+    "en": "breakfast",
+    "my": "မနက်စာ",
+    "kind": "noun"
+  },
+  {
+    "word": "あさって",
+    "reading": "あさって",
+    "en": "day after tomorrow",
+    "my": "သဘက်ခါ",
+    "kind": "noun"
+  },
+  {
+    "word": "足",
+    "reading": "あし",
+    "en": "foot",
+    "my": "ခြေထောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "明日",
+    "reading": "あした",
+    "en": "tomorrow",
+    "my": "မနက်ဖြန်",
+    "kind": "adverb"
+  },
+  {
+    "word": "あそこ",
+    "reading": "あそこ",
+    "en": "over there",
+    "my": "ဟိုမှာ",
+    "kind": "other"
+  },
+  {
+    "word": "遊ぶ",
+    "reading": "あそぶ",
+    "en": "to play",
+    "my": "ကစားသည်",
+    "kind": "verb",
+    "masu": "あそびます"
+  },
+  {
+    "word": "暖かい",
+    "reading": "あたたかい",
+    "en": "warm",
+    "my": "နွေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "頭",
+    "reading": "あたま",
+    "en": "head",
+    "my": "ခေါင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "en": "new",
+    "my": "အသစ်",
+    "kind": "i-adj"
+  },
+  {
+    "word": "あちら",
+    "reading": "あちら",
+    "en": "there",
+    "my": "ဟိုဘက်",
+    "kind": "other"
+  },
+  {
+    "word": "厚い",
+    "reading": "あつい",
+    "en": "thick",
+    "my": "ထူသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "暑い",
+    "reading": "あつい",
+    "en": "hot",
+    "my": "ပူသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "熱い",
+    "reading": "あつい",
+    "en": "hot to the touch",
+    "my": "ပူသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "あっち",
+    "reading": "あっち",
+    "en": "over there",
+    "my": "ဟိုမှာ",
+    "kind": "other"
+  },
+  {
+    "word": "後",
+    "reading": "あと",
+    "en": "afterwards",
+    "my": "နောက်မှ",
+    "kind": "noun"
+  },
+  {
+    "word": "あなた",
+    "reading": "あなた",
+    "en": "you",
+    "my": "သင်",
+    "kind": "other"
+  },
+  {
+    "word": "兄",
+    "reading": "あに",
+    "en": "(humble) older brother",
+    "my": "အစ်ကို",
+    "kind": "noun"
+  },
+  {
+    "word": "姉",
+    "reading": "あね",
+    "en": "(humble) older sister",
+    "my": "အစ်မ",
+    "kind": "noun"
+  },
+  {
+    "word": "あの",
+    "reading": "あの",
+    "en": "that over there",
+    "my": "ဟို",
+    "kind": "other"
+  },
+  {
+    "word": "アパート",
+    "reading": "アパート",
+    "en": "apartment",
+    "my": "တိုက်ခန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "あびる",
+    "reading": "あびる",
+    "en": "to bathe",
+    "my": "ရေချိုးသည်",
+    "kind": "verb",
+    "masu": "あびます"
+  },
+  {
+    "word": "危ない",
+    "reading": "あぶない",
+    "en": "dangerous",
+    "my": "အန္တရာယ်ရှိသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "甘い",
+    "reading": "あまい",
+    "en": "sweet",
+    "my": "ချိုသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "あまり",
+    "reading": "あまり",
+    "en": "not very",
+    "my": "သိပ်…မ",
+    "kind": "adverb"
+  },
+  {
+    "word": "飴",
+    "reading": "あめ",
+    "en": "candy",
+    "my": "သကြားလုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "雨",
+    "reading": "あめ",
+    "en": "rain",
+    "my": "မိုး",
+    "kind": "noun"
+  },
+  {
+    "word": "洗う",
+    "reading": "あらう",
+    "en": "to wash",
+    "my": "ဆေးသည်",
+    "kind": "verb",
+    "masu": "あらいます"
+  },
+  {
+    "word": "ありがとう",
+    "reading": "ありがとう",
+    "en": "Thank you",
+    "my": "ကျေးဇူးတင်ပါတယ်",
+    "kind": "other"
+  },
+  {
+    "word": "ある",
+    "reading": "ある",
+    "en": "to be",
+    "my": "ရှိသည်",
+    "kind": "verb",
+    "masu": "あります"
+  },
+  {
+    "word": "歩く",
+    "reading": "あるく",
+    "en": "to walk",
+    "my": "လမ်းလျှောက်သည်",
+    "kind": "verb",
+    "masu": "あるきます"
+  },
+  {
+    "word": "あれ",
+    "reading": "あれ",
+    "en": "that",
+    "my": "အဲဒါ",
+    "kind": "other"
+  },
+  {
+    "word": "いい",
+    "reading": "いい",
+    "en": "good",
+    "my": "ကောင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "いいえ",
+    "reading": "いいえ",
+    "en": "no",
+    "my": "မဟုတ်ပါ",
+    "kind": "other"
+  },
+  {
+    "word": "言う",
+    "reading": "いう",
+    "en": "to say",
+    "my": "ပြောသည်",
+    "kind": "verb",
+    "masu": "いいます"
+  },
+  {
+    "word": "家",
+    "reading": "いえ",
+    "en": "house",
+    "my": "အိမ်",
+    "kind": "noun"
+  },
+  {
+    "word": "いかが",
+    "reading": "いかが",
+    "en": "how (polite)",
+    "my": "ဘယ်လိုပါလဲ (ယဉ်ကျေးသောအသုံး)",
+    "kind": "adverb"
+  },
+  {
+    "word": "行く",
+    "reading": "いく",
+    "en": "to go",
+    "my": "သွားသည်",
+    "kind": "verb",
+    "masu": "いきます"
+  },
+  {
+    "word": "いくつ",
+    "reading": "いくつ",
+    "en": "how many?",
+    "my": "ဘယ်နှစ်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "いくら",
+    "reading": "いくら",
+    "en": "how much?",
+    "my": "ဘယ်လောက်",
+    "kind": "other"
+  },
+  {
+    "word": "池",
+    "reading": "いけ",
+    "en": "pond",
+    "my": "ကန်",
+    "kind": "noun"
+  },
+  {
+    "word": "医者",
+    "reading": "いしゃ",
+    "en": "medical doctor",
+    "my": "ဆရာဝန်",
+    "kind": "noun"
+  },
+  {
+    "word": "いす",
+    "reading": "いす",
+    "en": "chair",
+    "my": "ကုလားထိုင်",
+    "kind": "noun"
+  },
+  {
+    "word": "忙しい",
+    "reading": "いそがしい",
+    "en": "busy",
+    "my": "အလုပ်များသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "痛い",
+    "reading": "いたい",
+    "en": "painful",
+    "my": "နာသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "いただきます",
+    "reading": "いただきます",
+    "en": "thank you for the meal (before eating)",
+    "my": "မစားမီ ကျေးဇူးတင်ပါသည်",
+    "kind": "other"
+  },
+  {
+    "word": "一",
+    "reading": "いち",
+    "en": "one",
+    "my": "တစ်",
+    "kind": "other"
+  },
+  {
+    "word": "一日",
+    "reading": "いちにち",
+    "en": "one day",
+    "my": "တစ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "一番",
+    "reading": "いちばん",
+    "en": "most / best",
+    "my": "အဆုံးအများဆုံး / အကောင်းဆုံး",
+    "kind": "adverb"
+  },
+  {
+    "word": "いつ",
+    "reading": "いつ",
+    "en": "when",
+    "my": "ဘယ်အချိန်",
+    "kind": "adverb"
+  },
+  {
+    "word": "五日",
+    "reading": "いつか",
+    "en": "five days",
+    "my": "ငါးရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "一緒",
+    "reading": "いっしょ",
+    "en": "together",
+    "my": "အတူတူ",
+    "kind": "noun"
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "en": "five",
+    "my": "ငါးခု",
+    "kind": "other"
+  },
+  {
+    "word": "いつも",
+    "reading": "いつも",
+    "en": "always",
+    "my": "အမြဲတမ်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "犬",
+    "reading": "いぬ",
+    "en": "dog",
+    "my": "ခွေး",
+    "kind": "noun"
+  },
+  {
+    "word": "今",
+    "reading": "いま",
+    "en": "now",
+    "my": "အခု",
+    "kind": "adverb"
+  },
+  {
+    "word": "意味",
+    "reading": "いみ",
+    "en": "meaning",
+    "my": "အဓိပ္ပာယ်",
+    "kind": "noun"
+  },
+  {
+    "word": "妹",
+    "reading": "いもうと",
+    "en": "(humble) younger sister",
+    "my": "ညီမ",
+    "kind": "noun"
+  },
+  {
+    "word": "嫌",
+    "reading": "いや",
+    "en": "unpleasant",
+    "my": "မကြိုက်သော",
+    "kind": "other"
+  },
+  {
+    "word": "入口",
+    "reading": "いりぐち",
+    "en": "entrance",
+    "my": "ဝင်ပေါက်",
+    "kind": "noun"
+  },
+  {
+    "word": "いる",
+    "reading": "いる",
+    "en": "to be",
+    "my": "ရှိသည်",
+    "kind": "verb",
+    "masu": "います"
+  },
+  {
+    "word": "要る",
+    "reading": "いる",
+    "en": "to need",
+    "my": "လိုအပ်သည်",
+    "kind": "verb",
+    "masu": "いります"
+  },
+  {
+    "word": "入れる",
+    "reading": "いれる",
+    "en": "to put in",
+    "my": "ထည့်သည်",
+    "kind": "verb",
+    "masu": "いれます"
+  },
+  {
+    "word": "色",
+    "reading": "いろ",
+    "en": "colour",
+    "my": "အရောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "いろいろ",
+    "reading": "いろいろ",
+    "en": "various",
+    "my": "အမျိုးမျိုး",
+    "kind": "adverb"
+  },
+  {
+    "word": "上",
+    "reading": "うえ",
+    "en": "on top of",
+    "my": "အပေါ်",
+    "kind": "noun"
+  },
+  {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "en": "behind",
+    "my": "နောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "薄い",
+    "reading": "うすい",
+    "en": "thin",
+    "my": "ပါးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "歌",
+    "reading": "うた",
+    "en": "song",
+    "my": "သီချင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "歌う",
+    "reading": "うたう",
+    "en": "to sing",
+    "my": "သီဆိုသည်",
+    "kind": "verb",
+    "masu": "うたいます"
+  },
+  {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "en": "to be born",
+    "my": "မွေးဖွားသည်",
+    "kind": "verb",
+    "masu": "うまれます"
+  },
+  {
+    "word": "海",
+    "reading": "うみ",
+    "en": "sea",
+    "my": "ပင်လယ်",
+    "kind": "noun"
+  },
+  {
+    "word": "売る",
+    "reading": "うる",
+    "en": "to sell",
+    "my": "ရောင်းသည်",
+    "kind": "verb",
+    "masu": "うります"
+  },
+  {
+    "word": "煩い",
+    "reading": "うるさい",
+    "en": "noisy",
+    "my": "ဆူညံသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "上着",
+    "reading": "うわぎ",
+    "en": "jacket",
+    "my": "အပေါ်အင်္ကျီ",
+    "kind": "noun"
+  },
+  {
+    "word": "絵",
+    "reading": "え",
+    "en": "picture",
+    "my": "ပုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "映画",
+    "reading": "えいが",
+    "en": "movie",
+    "my": "ရုပ်ရှင်",
+    "kind": "noun"
+  },
+  {
+    "word": "映画館",
+    "reading": "えいがかん",
+    "en": "cinema",
+    "my": "ရုပ်ရှင်ရုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "英語",
+    "reading": "えいご",
+    "en": "English language",
+    "my": "အင်္ဂလိပ်စာ",
+    "kind": "noun"
+  },
+  {
+    "word": "ええ",
+    "reading": "ええ",
+    "en": "yes",
+    "my": "ဟုတ်ကဲ့",
+    "kind": "other"
+  },
+  {
+    "word": "駅",
+    "reading": "えき",
+    "en": "station",
+    "my": "ဘူတာ",
+    "kind": "noun"
+  },
+  {
+    "word": "エレベーター",
+    "reading": "エレベーター",
+    "en": "elevator",
+    "my": "ဓာတ်လှေကား",
+    "kind": "noun"
+  },
+  {
+    "word": "鉛筆",
+    "reading": "えんぴつ",
+    "en": "pencil",
+    "my": "ခဲတံ",
+    "kind": "noun"
+  },
+  {
+    "word": "おいしい",
+    "reading": "おいしい",
+    "en": "delicious",
+    "my": "အရသာရှိသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "en": "many",
+    "my": "များသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "大きい",
+    "reading": "おおきい",
+    "en": "big",
+    "my": "ကြီးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "大きな",
+    "reading": "おおきな",
+    "en": "big",
+    "my": "ကြီးသော",
+    "kind": "other"
+  },
+  {
+    "word": "大勢",
+    "reading": "おおぜい",
+    "en": "great number of people",
+    "my": "လူအများ",
+    "kind": "noun"
+  },
+  {
+    "word": "お母さん",
+    "reading": "おかあさん",
+    "en": "(honorable) mother",
+    "my": "အမေ",
+    "kind": "noun"
+  },
+  {
+    "word": "お菓子",
+    "reading": "おかし",
+    "en": "sweets",
+    "my": "မုန့်",
+    "kind": "noun"
+  },
+  {
+    "word": "お金",
+    "reading": "おかね",
+    "en": "money",
+    "my": "ငွေ",
+    "kind": "noun"
+  },
+  {
+    "word": "起きる",
+    "reading": "おきる",
+    "en": "to get up",
+    "my": "ထသည်",
+    "kind": "verb",
+    "masu": "おきます"
+  },
+  {
+    "word": "置く",
+    "reading": "おく",
+    "en": "to put",
+    "my": "ထားသည်",
+    "kind": "verb",
+    "masu": "おきます"
+  },
+  {
+    "word": "奥さん",
+    "reading": "おくさん",
+    "en": "(honorable) wife",
+    "my": "ဇနီး",
+    "kind": "noun"
+  },
+  {
+    "word": "お酒",
+    "reading": "おさけ",
+    "en": "alcohol",
+    "my": "အရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "お皿",
+    "reading": "おさら",
+    "en": "plate",
+    "my": "ပန်းကန်",
+    "kind": "noun"
+  },
+  {
+    "word": "お祖父さん",
+    "reading": "おじいさん",
+    "en": "grandfather",
+    "my": "အဘိုး",
+    "kind": "noun"
+  },
+  {
+    "word": "教える",
+    "reading": "おしえる",
+    "en": "to teach",
+    "my": "သင်ပေးသည်",
+    "kind": "verb",
+    "masu": "おしえます"
+  },
+  {
+    "word": "押す",
+    "reading": "おす",
+    "en": "to push",
+    "my": "တွန်းသည်",
+    "kind": "verb",
+    "masu": "おします"
+  },
+  {
+    "word": "遅い",
+    "reading": "おそい",
+    "en": "late",
+    "my": "နှေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "お茶",
+    "reading": "おちゃ",
+    "en": "green tea",
+    "my": "လက်ဖက်ရည်",
+    "kind": "noun"
+  },
+  {
+    "word": "お手洗い",
+    "reading": "おてあらい",
+    "en": "bathroom",
+    "my": "အိမ်သာ",
+    "kind": "noun"
+  },
+  {
+    "word": "お父さん",
+    "reading": "おとうさん",
+    "en": "(honorable) father",
+    "my": "အဖေ",
+    "kind": "noun"
+  },
+  {
+    "word": "弟",
+    "reading": "おとうと",
+    "en": "younger brother",
+    "my": "ညီ",
+    "kind": "noun"
+  },
+  {
+    "word": "男",
+    "reading": "おとこ",
+    "en": "man",
+    "my": "ယောက်ျား",
+    "kind": "noun"
+  },
+  {
+    "word": "男の子",
+    "reading": "おとこのこ",
+    "en": "boy",
+    "my": "ယောက်ျားလေး",
+    "kind": "noun"
+  },
+  {
+    "word": "一昨日",
+    "reading": "おととい",
+    "en": "day before yesterday",
+    "my": "တစ်နေ့က",
+    "kind": "noun"
+  },
+  {
+    "word": "一昨年",
+    "reading": "おととし",
+    "en": "year before last",
+    "my": "တစ်နှစ်က",
+    "kind": "noun"
+  },
+  {
+    "word": "大人",
+    "reading": "おとな",
+    "en": "adult",
+    "my": "လူကြီး",
+    "kind": "noun"
+  },
+  {
+    "word": "おなか",
+    "reading": "おなか",
+    "en": "stomach",
+    "my": "ဗိုက်",
+    "kind": "noun"
+  },
+  {
+    "word": "同じ",
+    "reading": "おなじ",
+    "en": "same",
+    "my": "တူသော",
+    "kind": "other"
+  },
+  {
+    "word": "お兄さん",
+    "reading": "おにいさん",
+    "en": "(honorable) older brother",
+    "my": "အစ်ကို",
+    "kind": "noun"
+  },
+  {
+    "word": "お姉さん",
+    "reading": "おねえさん",
+    "en": "(honorable) older sister",
+    "my": "အစ်မ",
+    "kind": "noun"
+  },
+  {
+    "word": "お願いします",
+    "reading": "おねがいします",
+    "en": "please",
+    "my": "ကျေးဇူးပြု၍",
+    "kind": "other"
+  },
+  {
+    "word": "おばあさん",
+    "reading": "おばあさん",
+    "en": "grandmother",
+    "my": "အဘွား",
+    "kind": "noun"
+  },
+  {
+    "word": "伯母さん",
+    "reading": "おばさん",
+    "en": "aunt",
+    "my": "အဒေါ်",
+    "kind": "noun"
+  },
+  {
+    "word": "おはよう",
+    "reading": "おはよう",
+    "en": "(abbreviation) Good morning",
+    "my": "မင်္ဂလာနံနက်ခင်းပါ",
+    "kind": "other"
+  },
+  {
+    "word": "お風呂",
+    "reading": "おふろ",
+    "en": "bath",
+    "my": "ရေချိုးကန်",
+    "kind": "noun"
+  },
+  {
+    "word": "お弁当",
+    "reading": "おべんとう",
+    "en": "boxed lunch",
+    "my": "ထမင်းဘူး",
+    "kind": "noun"
+  },
+  {
+    "word": "覚える",
+    "reading": "おぼえる",
+    "en": "to remember",
+    "my": "မှတ်မိသည်",
+    "kind": "verb",
+    "masu": "おぼえます"
+  },
+  {
+    "word": "おまわりさん",
+    "reading": "おまわりさん",
+    "en": "friendly term for policeman",
+    "my": "ရဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "重い",
+    "reading": "おもい",
+    "en": "heavy",
+    "my": "လေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "おもしろい",
+    "reading": "おもしろい",
+    "en": "interesting",
+    "my": "စိတ်ဝင်စားဖွယ်",
+    "kind": "i-adj"
+  },
+  {
+    "word": "泳ぐ",
+    "reading": "およぐ",
+    "en": "to swim",
+    "my": "ရေကူးသည်",
+    "kind": "verb",
+    "masu": "およぎます"
+  },
+  {
+    "word": "降りる",
+    "reading": "おりる",
+    "en": "to get off",
+    "my": "ဆင်းသည်",
+    "kind": "verb",
+    "masu": "おります"
+  },
+  {
+    "word": "終る",
+    "reading": "おわる",
+    "en": "to finish",
+    "my": "ပြီးသည်",
+    "kind": "verb",
+    "masu": "おわります"
+  },
+  {
+    "word": "音楽",
+    "reading": "おんがく",
+    "en": "music",
+    "my": "ဂီတ",
+    "kind": "noun"
+  },
+  {
+    "word": "女",
+    "reading": "おんな",
+    "en": "woman",
+    "my": "မိန်းမ",
+    "kind": "noun"
+  },
+  {
+    "word": "女の子",
+    "reading": "おんなのこ",
+    "en": "girl",
+    "my": "မိန်းကလေး",
+    "kind": "noun"
+  },
+  {
+    "word": "外国",
+    "reading": "がいこく",
+    "en": "foreign country",
+    "my": "နိုင်ငံခြား",
+    "kind": "noun"
+  },
+  {
+    "word": "外国人",
+    "reading": "がいこくじん",
+    "en": "foreigner",
+    "my": "နိုင်ငံခြားသား",
+    "kind": "noun"
+  },
+  {
+    "word": "会社",
+    "reading": "かいしゃ",
+    "en": "company",
+    "my": "ကုမ္ပဏီ",
+    "kind": "noun"
+  },
+  {
+    "word": "階段",
+    "reading": "かいだん",
+    "en": "stairs",
+    "my": "လှေကား",
+    "kind": "noun"
+  },
+  {
+    "word": "買い物",
+    "reading": "かいもの",
+    "en": "shopping",
+    "my": "ဈေးဝယ်ခြင်း",
+    "kind": "verb",
+    "masu": "かいものします"
+  },
+  {
+    "word": "買う",
+    "reading": "かう",
+    "en": "to buy",
+    "my": "ဝယ်သည်",
+    "kind": "verb",
+    "masu": "かいます"
+  },
+  {
+    "word": "返す",
+    "reading": "かえす",
+    "en": "to return something",
+    "my": "ပြန်ပေးသည်",
+    "kind": "verb",
+    "masu": "かえします"
+  },
+  {
+    "word": "帰る",
+    "reading": "かえる",
+    "en": "to go back",
+    "my": "ပြန်သည်",
+    "kind": "verb",
+    "masu": "かえります"
+  },
+  {
+    "word": "かかる",
+    "reading": "かかる",
+    "en": "to take time or money",
+    "my": "ကြာသည်",
+    "kind": "verb",
+    "masu": "かかります"
+  },
+  {
+    "word": "かぎ",
+    "reading": "かぎ",
+    "en": "key",
+    "my": "သော့",
+    "kind": "noun"
+  },
+  {
+    "word": "書く",
+    "reading": "かく",
+    "en": "to write",
+    "my": "ရေးသည်",
+    "kind": "verb",
+    "masu": "かきます"
+  },
+  {
+    "word": "学生",
+    "reading": "がくせい",
+    "en": "student",
+    "my": "ကျောင်းသား",
+    "kind": "noun"
+  },
+  {
+    "word": "かける",
+    "reading": "かける",
+    "en": "to call by phone",
+    "my": "ဖုန်းဆက်သည်",
+    "kind": "verb",
+    "masu": "かけます"
+  },
+  {
+    "word": "傘",
+    "reading": "かさ",
+    "en": "umbrella",
+    "my": "ထီး",
+    "kind": "noun"
+  },
+  {
+    "word": "貸す",
+    "reading": "かす",
+    "en": "to lend",
+    "my": "ချေးသည်",
+    "kind": "verb",
+    "masu": "かします"
+  },
+  {
+    "word": "風",
+    "reading": "かぜ",
+    "en": "wind",
+    "my": "လေ",
+    "kind": "noun"
+  },
+  {
+    "word": "風邪",
+    "reading": "かぜ",
+    "en": "a cold",
+    "my": "အအေးမိ",
+    "kind": "noun"
+  },
+  {
+    "word": "家族",
+    "reading": "かぞく",
+    "en": "family",
+    "my": "မိသားစု",
+    "kind": "noun"
+  },
+  {
+    "word": "方",
+    "reading": "かた",
+    "en": "person",
+    "my": "ပုဂ္ဂိုလ်",
+    "kind": "noun"
+  },
+  {
+    "word": "学校",
+    "reading": "がっこう",
+    "en": "school",
+    "my": "ကျောင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "カップ",
+    "reading": "カップ",
+    "en": "cup",
+    "my": "ခွက်",
+    "kind": "noun"
+  },
+  {
+    "word": "家庭",
+    "reading": "かてい",
+    "en": "household",
+    "my": "အိမ်ထောင်စု",
+    "kind": "noun"
+  },
+  {
+    "word": "角",
+    "reading": "かど",
+    "en": "a corner",
+    "my": "ထောင့်",
+    "kind": "noun"
+  },
+  {
+    "word": "かばん",
+    "reading": "かばん",
+    "en": "bag",
+    "my": "အိတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "花瓶",
+    "reading": "かびん",
+    "en": "a vase",
+    "my": "ပန်းအိုး",
+    "kind": "noun"
+  },
+  {
+    "word": "紙",
+    "reading": "かみ",
+    "en": "paper",
+    "my": "စက္ကူ",
+    "kind": "noun"
+  },
+  {
+    "word": "カメラ",
+    "reading": "カメラ",
+    "en": "camera",
+    "my": "ကင်မရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "火曜日",
+    "reading": "かようび",
+    "en": "Tuesday",
+    "my": "အင်္ဂါနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "辛い",
+    "reading": "からい",
+    "en": "spicy",
+    "my": "စပ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "体",
+    "reading": "からだ",
+    "en": "body",
+    "my": "ခန္ဓာကိုယ်",
+    "kind": "noun"
+  },
+  {
+    "word": "借りる",
+    "reading": "かりる",
+    "en": "to borrow",
+    "my": "ချေးယူသည်",
+    "kind": "verb",
+    "masu": "かります"
+  },
+  {
+    "word": "軽い",
+    "reading": "かるい",
+    "en": "light",
+    "my": "ပေါ့သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "カレー",
+    "reading": "カレー",
+    "en": "curry",
+    "my": "ကရီ",
+    "kind": "noun"
+  },
+  {
+    "word": "カレンダー",
+    "reading": "カレンダー",
+    "en": "calendar",
+    "my": "ပြက္ခဒိန်",
+    "kind": "noun"
+  },
+  {
+    "word": "川",
+    "reading": "かわ",
+    "en": "river",
+    "my": "မြစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "かわいい",
+    "reading": "かわいい",
+    "en": "cute",
+    "my": "ချစ်စရာကောင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "漢字",
+    "reading": "かんじ",
+    "en": "Chinese character",
+    "my": "ခန်ဂျိ",
+    "kind": "noun"
+  },
+  {
+    "word": "木",
+    "reading": "き",
+    "en": "tree",
+    "my": "သစ်ပင်",
+    "kind": "noun"
+  },
+  {
+    "word": "黄色",
+    "reading": "きいろ",
+    "en": "yellow",
+    "my": "အဝါ",
+    "kind": "noun"
+  },
+  {
+    "word": "黄色い",
+    "reading": "きいろい",
+    "en": "yellow",
+    "my": "ဝါသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "消える",
+    "reading": "きえる",
+    "en": "to disappear",
+    "my": "ပျောက်သည်",
+    "kind": "verb",
+    "masu": "きえます"
+  },
+  {
+    "word": "聞く",
+    "reading": "きく",
+    "en": "to hear",
+    "my": "ကြားသည်",
+    "kind": "verb",
+    "masu": "ききます"
+  },
+  {
+    "word": "北",
+    "reading": "きた",
+    "en": "north",
+    "my": "မြောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "ギター",
+    "reading": "ギター",
+    "en": "guitar",
+    "my": "ဂစ်တာ",
+    "kind": "noun"
+  },
+  {
+    "word": "汚い",
+    "reading": "きたない",
+    "en": "dirty",
+    "my": "ညစ်ပတ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "喫茶店",
+    "reading": "きっさてん",
+    "en": "coffee lounge",
+    "my": "ကော်ဖီဆိုင်",
+    "kind": "noun"
+  },
+  {
+    "word": "切手",
+    "reading": "きって",
+    "en": "postage stamp",
+    "my": "တံဆိပ်ခေါင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "切符",
+    "reading": "きっぷ",
+    "en": "ticket",
+    "my": "လက်မှတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "昨日",
+    "reading": "きのう",
+    "en": "yesterday",
+    "my": "မနေ့က",
+    "kind": "adverb"
+  },
+  {
+    "word": "九",
+    "reading": "きゅう",
+    "en": "nine",
+    "my": "ကိုး",
+    "kind": "other"
+  },
+  {
+    "word": "牛肉",
+    "reading": "ぎゅうにく",
+    "en": "beef",
+    "my": "အမဲသား",
+    "kind": "noun"
+  },
+  {
+    "word": "牛乳",
+    "reading": "ぎゅうにゅう",
+    "en": "milk",
+    "my": "နွားနို့",
+    "kind": "noun"
+  },
+  {
+    "word": "今日",
+    "reading": "きょう",
+    "en": "today",
+    "my": "ဒီနေ့",
+    "kind": "adverb"
+  },
+  {
+    "word": "教室",
+    "reading": "きょうしつ",
+    "en": "classroom",
+    "my": "စာသင်ခန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "兄弟",
+    "reading": "きょうだい",
+    "en": "(humble) siblings",
+    "my": "မောင်နှမ",
+    "kind": "noun"
+  },
+  {
+    "word": "去年",
+    "reading": "きょねん",
+    "en": "last year",
+    "my": "မနှစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "嫌い",
+    "reading": "きらい",
+    "en": "disliked",
+    "my": "မနှစ်သက်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "切る",
+    "reading": "きる",
+    "en": "to cut",
+    "my": "ဖြတ်သည်",
+    "kind": "verb",
+    "masu": "きります"
+  },
+  {
+    "word": "着る",
+    "reading": "きる",
+    "en": "to put on from the shoulders down",
+    "my": "ဝတ်သည်",
+    "kind": "verb",
+    "masu": "きます"
+  },
+  {
+    "word": "きれい",
+    "reading": "きれい",
+    "en": "pretty / clean",
+    "my": "လှသော / သန့်ရှင်းသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "キロ",
+    "reading": "キロ",
+    "en": "kilometre",
+    "my": "ကီလို",
+    "kind": "noun"
+  },
+  {
+    "word": "銀行",
+    "reading": "ぎんこう",
+    "en": "bank",
+    "my": "ဘဏ်",
+    "kind": "noun"
+  },
+  {
+    "word": "金曜日",
+    "reading": "きんようび",
+    "en": "Friday",
+    "my": "သောကြာနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "薬",
+    "reading": "くすり",
+    "en": "medicine",
+    "my": "ဆေး",
+    "kind": "noun"
+  },
+  {
+    "word": "ください",
+    "reading": "ください",
+    "en": "please",
+    "my": "ပေးပါ",
+    "kind": "other"
+  },
+  {
+    "word": "果物",
+    "reading": "くだもの",
+    "en": "fruit",
+    "my": "အသီး",
+    "kind": "noun"
+  },
+  {
+    "word": "口",
+    "reading": "くち",
+    "en": "mouth",
+    "my": "ပါးစပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "靴",
+    "reading": "くつ",
+    "en": "shoes",
+    "my": "ဖိနပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "靴下",
+    "reading": "くつした",
+    "en": "socks",
+    "my": "ခြေအိတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "国",
+    "reading": "くに",
+    "en": "country",
+    "my": "နိုင်ငံ",
+    "kind": "noun"
+  },
+  {
+    "word": "曇り",
+    "reading": "くもり",
+    "en": "cloudy weather",
+    "my": "တိမ်ထူ",
+    "kind": "noun"
+  },
+  {
+    "word": "曇る",
+    "reading": "くもる",
+    "en": "to become cloudy",
+    "my": "တိမ်ကုပ်သည်",
+    "kind": "verb",
+    "masu": "くもります"
+  },
+  {
+    "word": "暗い",
+    "reading": "くらい",
+    "en": "gloomy",
+    "my": "မှောင်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "クラス",
+    "reading": "クラス",
+    "en": "class",
+    "my": "အတန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "グラム",
+    "reading": "グラム",
+    "en": "gram",
+    "my": "ဂရမ်",
+    "kind": "noun"
+  },
+  {
+    "word": "来る",
+    "reading": "くる",
+    "en": "to come",
+    "my": "လာသည်",
+    "kind": "verb",
+    "masu": "きます"
+  },
+  {
+    "word": "車",
+    "reading": "くるま",
+    "en": "car",
+    "my": "ကား",
+    "kind": "noun"
+  },
+  {
+    "word": "黒",
+    "reading": "くろ",
+    "en": "black",
+    "my": "အနက်",
+    "kind": "noun"
+  },
+  {
+    "word": "黒い",
+    "reading": "くろい",
+    "en": "black",
+    "my": "မည်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "警官",
+    "reading": "けいかん",
+    "en": "policeman",
+    "my": "ရဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "今朝",
+    "reading": "けさ",
+    "en": "this morning",
+    "my": "ဒီမနက်",
+    "kind": "noun"
+  },
+  {
+    "word": "消す",
+    "reading": "けす",
+    "en": "to erase",
+    "my": "ပိတ်သည်",
+    "kind": "verb",
+    "masu": "けします"
+  },
+  {
+    "word": "結構",
+    "reading": "けっこう",
+    "en": "enough",
+    "my": "လုံလောက်ပါပြီ",
+    "kind": "other"
+  },
+  {
+    "word": "結婚",
+    "reading": "けっこん",
+    "en": "marriage",
+    "my": "လက်ထပ်ခြင်း",
+    "kind": "verb",
+    "masu": "けっこんします"
+  },
+  {
+    "word": "月曜日",
+    "reading": "げつようび",
+    "en": "Monday",
+    "my": "တနင်္လာနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "玄関",
+    "reading": "げんかん",
+    "en": "entry hall",
+    "my": "ဧည့်ခန်းဝ",
+    "kind": "noun"
+  },
+  {
+    "word": "元気",
+    "reading": "げんき",
+    "en": "healthy and energetic",
+    "my": "ကျန်းမာတက်ကြွသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "五",
+    "reading": "ご",
+    "en": "five",
+    "my": "ငါး",
+    "kind": "other"
+  },
+  {
+    "word": "公園",
+    "reading": "こうえん",
+    "en": "park",
+    "my": "ပန်းခြံ",
+    "kind": "noun"
+  },
+  {
+    "word": "交差点",
+    "reading": "こうさてん",
+    "en": "intersection",
+    "my": "လမ်းဆုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "紅茶",
+    "reading": "こうちゃ",
+    "en": "black tea",
+    "my": "လက်ဖက်ရည်နက်",
+    "kind": "noun"
+  },
+  {
+    "word": "交番",
+    "reading": "こうばん",
+    "en": "police box",
+    "my": "ရဲကင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "声",
+    "reading": "こえ",
+    "en": "voice",
+    "my": "အသံ",
+    "kind": "noun"
+  },
+  {
+    "word": "コート",
+    "reading": "コート",
+    "en": "coat",
+    "my": "ကုတ်အင်္ကျီ",
+    "kind": "noun"
+  },
+  {
+    "word": "コーヒー",
+    "reading": "コーヒー",
+    "en": "coffee",
+    "my": "ကော်ဖီ",
+    "kind": "noun"
+  },
+  {
+    "word": "ここ",
+    "reading": "ここ",
+    "en": "here",
+    "my": "ဒီမှာ",
+    "kind": "other"
+  },
+  {
+    "word": "午後",
+    "reading": "ごご",
+    "en": "afternoon",
+    "my": "မွန်းလွဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "九日",
+    "reading": "ここのか",
+    "en": "nine days",
+    "my": "ကိုးရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "九つ",
+    "reading": "ここのつ",
+    "en": "nine",
+    "my": "ကိုးခု",
+    "kind": "other"
+  },
+  {
+    "word": "午前",
+    "reading": "ごぜん",
+    "en": "morning",
+    "my": "မနက်",
+    "kind": "noun"
+  },
+  {
+    "word": "答える",
+    "reading": "こたえる",
+    "en": "to answer",
+    "my": "ဖြေသည်",
+    "kind": "verb",
+    "masu": "こたえます"
+  },
+  {
+    "word": "ごちそうさま",
+    "reading": "ごちそうさま",
+    "en": "thank you for the meal",
+    "my": "စားပြီး ကျေးဇူးတင်ပါသည်",
+    "kind": "other"
+  },
+  {
+    "word": "こちら",
+    "reading": "こちら",
+    "en": "this person or way",
+    "my": "ဤသူ",
+    "kind": "other"
+  },
+  {
+    "word": "こっち",
+    "reading": "こっち",
+    "en": "this person or way",
+    "my": "ဒီဘက်",
+    "kind": "other"
+  },
+  {
+    "word": "コップ",
+    "reading": "コップ",
+    "en": "a glass",
+    "my": "ဖန်ခွက်",
+    "kind": "noun"
+  },
+  {
+    "word": "今年",
+    "reading": "ことし",
+    "en": "this year",
+    "my": "ဒီနှစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "言葉",
+    "reading": "ことば",
+    "en": "word",
+    "my": "စကားလုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "子供",
+    "reading": "こども",
+    "en": "child",
+    "my": "ကလေး",
+    "kind": "noun"
+  },
+  {
+    "word": "この",
+    "reading": "この",
+    "en": "this",
+    "my": "ဒီ",
+    "kind": "other"
+  },
+  {
+    "word": "御飯",
+    "reading": "ごはん",
+    "en": "cooked rice",
+    "my": "ထမင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "コピーする",
+    "reading": "コピーする",
+    "en": "to copy",
+    "my": "ကူးယူသည်",
+    "kind": "verb",
+    "masu": "コピーします"
+  },
+  {
+    "word": "困る",
+    "reading": "こまる",
+    "en": "to be worried",
+    "my": "အခက်တွေ့သည်",
+    "kind": "verb",
+    "masu": "こまります"
+  },
+  {
+    "word": "ごめんなさい",
+    "reading": "ごめんなさい",
+    "en": "I beg your pardon",
+    "my": "တောင်းပန်ပါတယ်",
+    "kind": "other"
+  },
+  {
+    "word": "これ",
+    "reading": "これ",
+    "en": "this",
+    "my": "ဒါ",
+    "kind": "other"
+  },
+  {
+    "word": "今月",
+    "reading": "こんげつ",
+    "en": "this month",
+    "my": "ဒီလ",
+    "kind": "noun"
+  },
+  {
+    "word": "今週",
+    "reading": "こんしゅう",
+    "en": "this week",
+    "my": "ဒီအပတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "こんな",
+    "reading": "こんな",
+    "en": "such",
+    "my": "ဒီလို",
+    "kind": "other"
+  },
+  {
+    "word": "こんにちは",
+    "reading": "こんにちは",
+    "en": "hello",
+    "my": "မင်္ဂလာပါ",
+    "kind": "other"
+  },
+  {
+    "word": "今晩",
+    "reading": "こんばん",
+    "en": "this evening",
+    "my": "ဒီည",
+    "kind": "noun"
+  },
+  {
+    "word": "こんばんは",
+    "reading": "こんばんは",
+    "en": "good evening",
+    "my": "မင်္ဂလာညနေခင်းပါ",
+    "kind": "other"
+  },
+  {
+    "word": "さあ",
+    "reading": "さあ",
+    "en": "well…",
+    "my": "ကောင်းပြီ",
+    "kind": "other"
+  },
+  {
+    "word": "財布",
+    "reading": "さいふ",
+    "en": "wallet",
+    "my": "ပိုက်ဆံအိတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "魚",
+    "reading": "さかな",
+    "en": "fish",
+    "my": "ငါး",
+    "kind": "noun"
+  },
+  {
+    "word": "先",
+    "reading": "さき",
+    "en": "the future",
+    "my": "အရင်",
+    "kind": "noun"
+  },
+  {
+    "word": "咲く",
+    "reading": "さく",
+    "en": "to bloom",
+    "my": "ပွင့်သည်",
+    "kind": "verb",
+    "masu": "さきます"
+  },
+  {
+    "word": "作文",
+    "reading": "さくぶん",
+    "en": "composition",
+    "my": "စာစီစာကုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "差す",
+    "reading": "さす",
+    "en": "to stretch out hands",
+    "my": "ထီးထောင်သည်",
+    "kind": "verb",
+    "masu": "さします"
+  },
+  {
+    "word": "雑誌",
+    "reading": "ざっし",
+    "en": "magazine",
+    "my": "မဂ္ဂဇင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "砂糖",
+    "reading": "さとう",
+    "en": "sugar",
+    "my": "သကြား",
+    "kind": "noun"
+  },
+  {
+    "word": "寒い",
+    "reading": "さむい",
+    "en": "cold",
+    "my": "အေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "さようなら",
+    "reading": "さようなら",
+    "en": "good-bye",
+    "my": "နှုတ်ဆက်ပါတယ်",
+    "kind": "other"
+  },
+  {
+    "word": "再来年",
+    "reading": "さらいねん",
+    "en": "year after next",
+    "my": "နှစ်နှစ်ကြာ",
+    "kind": "noun"
+  },
+  {
+    "word": "三",
+    "reading": "さん",
+    "en": "three",
+    "my": "သုံး",
+    "kind": "other"
+  },
+  {
+    "word": "散歩",
+    "reading": "さんぽ",
+    "en": "to stroll",
+    "my": "လမ်းလျှောက်ခြင်း",
+    "kind": "verb",
+    "masu": "さんぽします"
+  },
+  {
+    "word": "四",
+    "reading": "し",
+    "en": "four",
+    "my": "လေး",
+    "kind": "other"
+  },
+  {
+    "word": "塩",
+    "reading": "しお",
+    "en": "salt",
+    "my": "ဆား",
+    "kind": "noun"
+  },
+  {
+    "word": "しかし",
+    "reading": "しかし",
+    "en": "however",
+    "my": "သို့သော်",
+    "kind": "other"
+  },
+  {
+    "word": "時間",
+    "reading": "じかん",
+    "en": "time",
+    "my": "အချိန်",
+    "kind": "noun"
+  },
+  {
+    "word": "仕事",
+    "reading": "しごと",
+    "en": "job",
+    "my": "အလုပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "辞書",
+    "reading": "じしょ",
+    "en": "dictionary",
+    "my": "အဘိဓာန်",
+    "kind": "noun"
+  },
+  {
+    "word": "静か",
+    "reading": "しずか",
+    "en": "quiet",
+    "my": "တိတ်ဆိတ်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "下",
+    "reading": "した",
+    "en": "below",
+    "my": "အောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "七",
+    "reading": "しち",
+    "en": "seven",
+    "my": "ခုနစ်",
+    "kind": "other"
+  },
+  {
+    "word": "質問",
+    "reading": "しつもん",
+    "en": "question",
+    "my": "မေးခွန်း",
+    "kind": "verb",
+    "masu": "しつもんします"
+  },
+  {
+    "word": "自転車",
+    "reading": "じてんしゃ",
+    "en": "bicycle",
+    "my": "စက်ဘီး",
+    "kind": "noun"
+  },
+  {
+    "word": "自動車",
+    "reading": "じどうしゃ",
+    "en": "automobile",
+    "my": "မော်တော်ကား",
+    "kind": "noun"
+  },
+  {
+    "word": "死ぬ",
+    "reading": "しぬ",
+    "en": "to die",
+    "my": "သေသည်",
+    "kind": "verb",
+    "masu": "しにます"
+  },
+  {
+    "word": "字引",
+    "reading": "じびき",
+    "en": "dictionary",
+    "my": "အဘိဓာန်",
+    "kind": "noun"
+  },
+  {
+    "word": "自分",
+    "reading": "じぶん",
+    "en": "oneself",
+    "my": "ကိုယ်တိုင်",
+    "kind": "other"
+  },
+  {
+    "word": "閉まる",
+    "reading": "しまる",
+    "en": "to close",
+    "my": "ပိတ်နေသည်",
+    "kind": "verb",
+    "masu": "しまります"
+  },
+  {
+    "word": "締める",
+    "reading": "しめる",
+    "en": "to tie",
+    "my": "ချည်သည်",
+    "kind": "verb",
+    "masu": "しめます"
+  },
+  {
+    "word": "閉める",
+    "reading": "しめる",
+    "en": "to close something",
+    "my": "ပိတ်သည်",
+    "kind": "verb",
+    "masu": "しめます"
+  },
+  {
+    "word": "じゃ",
+    "reading": "じゃ",
+    "en": "well then…",
+    "my": "ဒါဆို",
+    "kind": "other"
+  },
+  {
+    "word": "写真",
+    "reading": "しゃしん",
+    "en": "photograph",
+    "my": "ဓာတ်ပုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "シャツ",
+    "reading": "シャツ",
+    "en": "shirt",
+    "my": "အင်္ကျီ",
+    "kind": "noun"
+  },
+  {
+    "word": "シャワー",
+    "reading": "シャワー",
+    "en": "shower",
+    "my": "ရေချိုး",
+    "kind": "noun"
+  },
+  {
+    "word": "十",
+    "reading": "じゅう",
+    "en": "ten",
+    "my": "ဆယ်",
+    "kind": "other"
+  },
+  {
+    "word": "授業",
+    "reading": "じゅぎょう",
+    "en": "lesson",
+    "my": "သင်ခန်းစာ",
+    "kind": "noun"
+  },
+  {
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "en": "homework",
+    "my": "အိမ်စာ",
+    "kind": "noun"
+  },
+  {
+    "word": "上手",
+    "reading": "じょうず",
+    "en": "skillful",
+    "my": "တော်သော / ကျွမ်းကျင်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "丈夫",
+    "reading": "じょうぶ",
+    "en": "strong",
+    "my": "ခိုင်ခံ့သော",
+    "kind": "other"
+  },
+  {
+    "word": "しょうゆ",
+    "reading": "しょうゆ",
+    "en": "soy sauce",
+    "my": "ပဲငံပြာရည်",
+    "kind": "noun"
+  },
+  {
+    "word": "食堂",
+    "reading": "しょくどう",
+    "en": "dining hall",
+    "my": "ထမင်းစားဆောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "知る",
+    "reading": "しる",
+    "en": "to know",
+    "my": "သိသည်",
+    "kind": "verb",
+    "masu": "しります"
+  },
+  {
+    "word": "白",
+    "reading": "しろ",
+    "en": "white",
+    "my": "အဖြူ",
+    "kind": "noun"
+  },
+  {
+    "word": "白い",
+    "reading": "しろい",
+    "en": "white",
+    "my": "ဖြူသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "新聞",
+    "reading": "しんぶん",
+    "en": "newspaper",
+    "my": "သတင်းစာ",
+    "kind": "noun"
+  },
+  {
+    "word": "水曜日",
+    "reading": "すいようび",
+    "en": "Wednesday",
+    "my": "ဗုဒ္ဓဟူးနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "吸う",
+    "reading": "すう",
+    "en": "to smoke",
+    "my": "ရှူသည်",
+    "kind": "verb",
+    "masu": "すいます"
+  },
+  {
+    "word": "スカート",
+    "reading": "スカート",
+    "en": "skirt",
+    "my": "စကတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "好き",
+    "reading": "すき",
+    "en": "liked",
+    "my": "နှစ်သက်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "すぐ",
+    "reading": "すぐ",
+    "en": "immediately",
+    "my": "ချက်ချင်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "en": "a few",
+    "my": "နည်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "すぐに",
+    "reading": "すぐに",
+    "en": "instantly",
+    "my": "ချက်ချင်း",
+    "kind": "other"
+  },
+  {
+    "word": "少し",
+    "reading": "すこし",
+    "en": "a little",
+    "my": "နည်းနည်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "涼しい",
+    "reading": "すずしい",
+    "en": "refreshing",
+    "my": "အေးမြသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ストーブ",
+    "reading": "ストーブ",
+    "en": "heater",
+    "my": "အပူပေးစက်",
+    "kind": "noun"
+  },
+  {
+    "word": "スプーン",
+    "reading": "スプーン",
+    "en": "spoon",
+    "my": "ဇွန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "スポーツ",
+    "reading": "スポーツ",
+    "en": "sport",
+    "my": "အားကစား",
+    "kind": "noun"
+  },
+  {
+    "word": "ズボン",
+    "reading": "ズボン",
+    "en": "trousers",
+    "my": "ဘောင်းဘီ",
+    "kind": "noun"
+  },
+  {
+    "word": "すみません",
+    "reading": "すみません",
+    "en": "sorry",
+    "my": "တောင်းပန်ပါတယ်",
+    "kind": "other"
+  },
+  {
+    "word": "住む",
+    "reading": "すむ",
+    "en": "to live in",
+    "my": "နေထိုင်သည်",
+    "kind": "verb",
+    "masu": "すみます"
+  },
+  {
+    "word": "スリッパ",
+    "reading": "スリッパ",
+    "en": "slippers",
+    "my": "ဖိနပ်ပွ",
+    "kind": "noun"
+  },
+  {
+    "word": "する",
+    "reading": "する",
+    "en": "to do",
+    "my": "လုပ်သည်",
+    "kind": "verb",
+    "masu": "します"
+  },
+  {
+    "word": "座る",
+    "reading": "すわる",
+    "en": "to sit",
+    "my": "ထိုင်သည်",
+    "kind": "verb",
+    "masu": "すわります"
+  },
+  {
+    "word": "背",
+    "reading": "せ",
+    "en": "height",
+    "my": "အရပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "生徒",
+    "reading": "せいと",
+    "en": "pupil",
+    "my": "တပည့်",
+    "kind": "noun"
+  },
+  {
+    "word": "セーター",
+    "reading": "セーター",
+    "en": "sweater",
+    "my": "ဆွယ်တာ",
+    "kind": "noun"
+  },
+  {
+    "word": "せっけん",
+    "reading": "せっけん",
+    "en": "soap",
+    "my": "ဆပ်ပြာ",
+    "kind": "noun"
+  },
+  {
+    "word": "背広",
+    "reading": "せびろ",
+    "en": "business suit",
+    "my": "ဝတ်စုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "en": "narrow",
+    "my": "ကျဉ်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ゼロ",
+    "reading": "ゼロ",
+    "en": "zero",
+    "my": "သုည",
+    "kind": "noun"
+  },
+  {
+    "word": "千",
+    "reading": "せん",
+    "en": "thousand",
+    "my": "တစ်ထောင်",
+    "kind": "other"
+  },
+  {
+    "word": "先月",
+    "reading": "せんげつ",
+    "en": "last month",
+    "my": "ပြီးခဲ့သောလ",
+    "kind": "noun"
+  },
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "en": "last week",
+    "my": "ပြီးခဲ့သောအပတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "先生",
+    "reading": "せんせい",
+    "en": "teacher",
+    "my": "ဆရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "洗濯",
+    "reading": "せんたく",
+    "en": "washing",
+    "my": "အဝတ်လျှော်",
+    "kind": "verb",
+    "masu": "せんたくします"
+  },
+  {
+    "word": "全部",
+    "reading": "ぜんぶ",
+    "en": "all",
+    "my": "အားလုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "掃除",
+    "reading": "そうじ",
+    "en": "to clean",
+    "my": "သန့်ရှင်းရေး",
+    "kind": "verb",
+    "masu": "そうじします"
+  },
+  {
+    "word": "そうして",
+    "reading": "そうして",
+    "en": "and",
+    "my": "ပြီးတော့",
+    "kind": "other"
+  },
+  {
+    "word": "そこ",
+    "reading": "そこ",
+    "en": "that place",
+    "my": "အဲဒီမှာ",
+    "kind": "other"
+  },
+  {
+    "word": "そちら",
+    "reading": "そちら",
+    "en": "over there",
+    "my": "ဟိုဘက်",
+    "kind": "other"
+  },
+  {
+    "word": "そっち",
+    "reading": "そっち",
+    "en": "over there",
+    "my": "ဟိုဘက်",
+    "kind": "other"
+  },
+  {
+    "word": "外",
+    "reading": "そと",
+    "en": "outside",
+    "my": "အပြင်",
+    "kind": "noun"
+  },
+  {
+    "word": "その",
+    "reading": "その",
+    "en": "that",
+    "my": "အဲဒီ",
+    "kind": "other"
+  },
+  {
+    "word": "そば",
+    "reading": "そば",
+    "en": "near",
+    "my": "ဘေး",
+    "kind": "noun"
+  },
+  {
+    "word": "空",
+    "reading": "そら",
+    "en": "sky",
+    "my": "ကောင်းကင်",
+    "kind": "noun"
+  },
+  {
+    "word": "それ",
+    "reading": "それ",
+    "en": "that",
+    "my": "အဲဒါ",
+    "kind": "other"
+  },
+  {
+    "word": "それから",
+    "reading": "それから",
+    "en": "after that",
+    "my": "အဲဒီနောက်",
+    "kind": "other"
+  },
+  {
+    "word": "それでは",
+    "reading": "それでは",
+    "en": "in that situation",
+    "my": "ဒါဆိုရင်",
+    "kind": "other"
+  },
+  {
+    "word": "大学",
+    "reading": "だいがく",
+    "en": "university",
+    "my": "တက္ကသိုလ်",
+    "kind": "noun"
+  },
+  {
+    "word": "大使館",
+    "reading": "たいしかん",
+    "en": "embassy",
+    "my": "သံရုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "大丈夫",
+    "reading": "だいじょうぶ",
+    "en": "all right / safe",
+    "my": "အဆင်ပြေသော / ဘေးကင်းသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "大好き",
+    "reading": "だいすき",
+    "en": "loved",
+    "my": "အရမ်းကြိုက်သည်",
+    "kind": "other"
+  },
+  {
+    "word": "大切",
+    "reading": "たいせつ",
+    "en": "important",
+    "my": "အရေးကြီးသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "台所",
+    "reading": "だいどころ",
+    "en": "kitchen",
+    "my": "မီးဖိုချောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "大変",
+    "reading": "たいへん",
+    "en": "very",
+    "my": "အလွန်",
+    "kind": "adverb"
+  },
+  {
+    "word": "高い",
+    "reading": "たかい",
+    "en": "tall",
+    "my": "မြင့်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "たくさん",
+    "reading": "たくさん",
+    "en": "a lot",
+    "my": "အများကြီး",
+    "kind": "adverb"
+  },
+  {
+    "word": "タクシー",
+    "reading": "タクシー",
+    "en": "taxi",
+    "my": "တက္ကစီ",
+    "kind": "noun"
+  },
+  {
+    "word": "出す",
+    "reading": "だす",
+    "en": "to put out",
+    "my": "ထုတ်သည်",
+    "kind": "verb",
+    "masu": "だします"
+  },
+  {
+    "word": "立つ",
+    "reading": "たつ",
+    "en": "to stand",
+    "my": "ရပ်သည်",
+    "kind": "verb",
+    "masu": "たちます"
+  },
+  {
+    "word": "たて",
+    "reading": "たて",
+    "en": "length",
+    "my": "အလျား",
+    "kind": "noun"
+  },
+  {
+    "word": "建物",
+    "reading": "たてもの",
+    "en": "building",
+    "my": "အဆောက်အအုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "楽しい",
+    "reading": "たのしい",
+    "en": "enjoyable",
+    "my": "ပျော်စရာ",
+    "kind": "i-adj"
+  },
+  {
+    "word": "頼む",
+    "reading": "たのむ",
+    "en": "to ask",
+    "my": "တောင်းဆိုသည်",
+    "kind": "verb",
+    "masu": "たのみます"
+  },
+  {
+    "word": "たばこ",
+    "reading": "たばこ",
+    "en": "tobacco",
+    "my": "ဆေးလိပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "たぶん",
+    "reading": "たぶん",
+    "en": "probably",
+    "my": "ဖြစ်နိုင်တာက / ထင်တာက",
+    "kind": "adverb"
+  },
+  {
+    "word": "食べ物",
+    "reading": "たべもの",
+    "en": "food",
+    "my": "အစားအစာ",
+    "kind": "noun"
+  },
+  {
+    "word": "食べる",
+    "reading": "たべる",
+    "en": "to eat",
+    "my": "စားသည်",
+    "kind": "verb",
+    "masu": "たべます"
+  },
+  {
+    "word": "卵",
+    "reading": "たまご",
+    "en": "egg",
+    "my": "ကြက်ဥ",
+    "kind": "noun"
+  },
+  {
+    "word": "誰",
+    "reading": "だれ",
+    "en": "who",
+    "my": "ဘယ်သူ",
+    "kind": "other"
+  },
+  {
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "en": "birthday",
+    "my": "မွေးနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "だんだん",
+    "reading": "だんだん",
+    "en": "gradually",
+    "my": "တဖြည်းဖြည်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "小さい",
+    "reading": "ちいさい",
+    "en": "little",
+    "my": "သေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "小さな",
+    "reading": "ちいさな",
+    "en": "little",
+    "my": "သေးသော",
+    "kind": "other"
+  },
+  {
+    "word": "近い",
+    "reading": "ちかい",
+    "en": "near",
+    "my": "နီးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "違う",
+    "reading": "ちがう",
+    "en": "to differ",
+    "my": "မတူပါ",
+    "kind": "verb",
+    "masu": "ちがいます"
+  },
+  {
+    "word": "近く",
+    "reading": "ちかく",
+    "en": "near",
+    "my": "အနီး",
+    "kind": "noun"
+  },
+  {
+    "word": "地下鉄",
+    "reading": "ちかてつ",
+    "en": "underground train",
+    "my": "မြေအောက်ရထား",
+    "kind": "noun"
+  },
+  {
+    "word": "地図",
+    "reading": "ちず",
+    "en": "map",
+    "my": "မြေပုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "茶色",
+    "reading": "ちゃいろ",
+    "en": "brown",
+    "my": "အညို",
+    "kind": "noun"
+  },
+  {
+    "word": "ちゃわん",
+    "reading": "ちゃわん",
+    "en": "rice bowl",
+    "my": "ထမင်းပန်းကန်",
+    "kind": "noun"
+  },
+  {
+    "word": "ちょうど",
+    "reading": "ちょうど",
+    "en": "exactly",
+    "my": "တိတိကျကျ",
+    "kind": "other"
+  },
+  {
+    "word": "ちょっと",
+    "reading": "ちょっと",
+    "en": "a little",
+    "my": "နည်းနည်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "使う",
+    "reading": "つかう",
+    "en": "to use",
+    "my": "သုံးသည်",
+    "kind": "verb",
+    "masu": "つかいます"
+  },
+  {
+    "word": "疲れる",
+    "reading": "つかれる",
+    "en": "to get tired",
+    "my": "ပင်ပန်းသည်",
+    "kind": "verb",
+    "masu": "つかれます"
+  },
+  {
+    "word": "次",
+    "reading": "つぎ",
+    "en": "next",
+    "my": "နောက်တစ်ခု",
+    "kind": "noun"
+  },
+  {
+    "word": "着く",
+    "reading": "つく",
+    "en": "to arrive at",
+    "my": "ရောက်သည်",
+    "kind": "verb",
+    "masu": "つきます"
+  },
+  {
+    "word": "机",
+    "reading": "つくえ",
+    "en": "desk",
+    "my": "စာရေးစားပွဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "作る",
+    "reading": "つくる",
+    "en": "to make",
+    "my": "လုပ်သည်",
+    "kind": "verb",
+    "masu": "つくります"
+  },
+  {
+    "word": "つける",
+    "reading": "つける",
+    "en": "to turn on",
+    "my": "ဖွင့်သည်",
+    "kind": "verb",
+    "masu": "つけます"
+  },
+  {
+    "word": "勤める",
+    "reading": "つとめる",
+    "en": "to work for someone",
+    "my": "အလုပ်လုပ်သည်",
+    "kind": "verb",
+    "masu": "つとめます"
+  },
+  {
+    "word": "つまらない",
+    "reading": "つまらない",
+    "en": "boring",
+    "my": "ပျင်းစရာ",
+    "kind": "i-adj"
+  },
+  {
+    "word": "冷たい",
+    "reading": "つめたい",
+    "en": "cold to the touch",
+    "my": "အေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "強い",
+    "reading": "つよい",
+    "en": "powerful",
+    "my": "အားကောင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "手",
+    "reading": "て",
+    "en": "hand",
+    "my": "လက်",
+    "kind": "noun"
+  },
+  {
+    "word": "テープ",
+    "reading": "テープ",
+    "en": "tape",
+    "my": "တိပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "テーブル",
+    "reading": "テーブル",
+    "en": "table",
+    "my": "စားပွဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "テープレコーダー",
+    "reading": "テープレコーダー",
+    "en": "tape recorder",
+    "my": "တိပ်ဖွင့်စက်",
+    "kind": "noun"
+  },
+  {
+    "word": "出かける",
+    "reading": "でかける",
+    "en": "to go out",
+    "my": "အပြင်ထွက်သည်",
+    "kind": "verb",
+    "masu": "でかけます"
+  },
+  {
+    "word": "手紙",
+    "reading": "てがみ",
+    "en": "letter",
+    "my": "စာ",
+    "kind": "noun"
+  },
+  {
+    "word": "できる",
+    "reading": "できる",
+    "en": "to be able to",
+    "my": "တတ်သည်",
+    "kind": "verb",
+    "masu": "できます"
+  },
+  {
+    "word": "出口",
+    "reading": "でぐち",
+    "en": "exit",
+    "my": "ထွက်ပေါက်",
+    "kind": "noun"
+  },
+  {
+    "word": "テスト",
+    "reading": "テスト",
+    "en": "test",
+    "my": "စာမေးပွဲ",
+    "kind": "verb",
+    "masu": "テストします"
+  },
+  {
+    "word": "では",
+    "reading": "では",
+    "en": "with that...",
+    "my": "ဒါဆို",
+    "kind": "other"
+  },
+  {
+    "word": "デパート",
+    "reading": "デパート",
+    "en": "department store",
+    "my": "ကုန်တိုက်",
+    "kind": "noun"
+  },
+  {
+    "word": "でも",
+    "reading": "でも",
+    "en": "but",
+    "my": "ဒါပေမဲ့",
+    "kind": "other"
+  },
+  {
+    "word": "出る",
+    "reading": "でる",
+    "en": "to appear",
+    "my": "ထွက်သည်",
+    "kind": "verb",
+    "masu": "でます"
+  },
+  {
+    "word": "テレビ",
+    "reading": "テレビ",
+    "en": "television",
+    "my": "ရုပ်မြင်သံကြား",
+    "kind": "noun"
+  },
+  {
+    "word": "天気",
+    "reading": "てんき",
+    "en": "weather",
+    "my": "ရာသီဥတု",
+    "kind": "noun"
+  },
+  {
+    "word": "電気",
+    "reading": "でんき",
+    "en": "electricity",
+    "my": "လျှပ်စစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "電車",
+    "reading": "でんしゃ",
+    "en": "electric train",
+    "my": "ရထား",
+    "kind": "noun"
+  },
+  {
+    "word": "電話",
+    "reading": "でんわ",
+    "en": "telephone",
+    "my": "တယ်လီဖုန်း",
+    "kind": "verb",
+    "masu": "でんわします"
+  },
+  {
+    "word": "戸",
+    "reading": "と",
+    "en": "Japanese style door",
+    "my": "တံခါး",
+    "kind": "noun"
+  },
+  {
+    "word": "ドア",
+    "reading": "ドア",
+    "en": "Western style door",
+    "my": "တံခါး",
+    "kind": "noun"
+  },
+  {
+    "word": "トイレ",
+    "reading": "トイレ",
+    "en": "toilet",
+    "my": "အိမ်သာ",
+    "kind": "noun"
+  },
+  {
+    "word": "どう",
+    "reading": "どう",
+    "en": "how",
+    "my": "ဘယ်လို",
+    "kind": "adverb"
+  },
+  {
+    "word": "どうして",
+    "reading": "どうして",
+    "en": "why",
+    "my": "ဘာကြောင့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "どうぞ",
+    "reading": "どうぞ",
+    "en": "please",
+    "my": "ကျေးဇူးပြု၍ / သုံးဆောင်ပါ",
+    "kind": "adverb"
+  },
+  {
+    "word": "どうぞよろしく",
+    "reading": "どうぞよろしく",
+    "en": "pleased to meet you",
+    "my": "တွေ့ရတာ ဝမ်းသာပါတယ်",
+    "kind": "other"
+  },
+  {
+    "word": "動物",
+    "reading": "どうぶつ",
+    "en": "animal",
+    "my": "တိရစ္ဆာန်",
+    "kind": "noun"
+  },
+  {
+    "word": "どうも",
+    "reading": "どうも",
+    "en": "thanks / very",
+    "my": "ありがとうございます / တော်တော်",
+    "kind": "adverb"
+  },
+  {
+    "word": "遠い",
+    "reading": "とおい",
+    "en": "far",
+    "my": "ဝေးသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "十日",
+    "reading": "とおか",
+    "en": "ten days",
+    "my": "ဆယ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "時々",
+    "reading": "ときどき",
+    "en": "sometimes",
+    "my": "တစ်ခါတလေ",
+    "kind": "adverb"
+  },
+  {
+    "word": "時計",
+    "reading": "とけい",
+    "en": "watch",
+    "my": "နာရီ",
+    "kind": "noun"
+  },
+  {
+    "word": "どこ",
+    "reading": "どこ",
+    "en": "where",
+    "my": "ဘယ်မှာ",
+    "kind": "other"
+  },
+  {
+    "word": "所",
+    "reading": "ところ",
+    "en": "place",
+    "my": "နေရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "年",
+    "reading": "とし",
+    "en": "year",
+    "my": "ခုနှစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "図書館",
+    "reading": "としょかん",
+    "en": "library",
+    "my": "စာကြည့်တိုက်",
+    "kind": "noun"
+  },
+  {
+    "word": "どちら",
+    "reading": "どちら",
+    "en": "which of two",
+    "my": "ဘယ်ဟာ",
+    "kind": "other"
+  },
+  {
+    "word": "どっち",
+    "reading": "どっち",
+    "en": "which",
+    "my": "ဘယ်ဟာ",
+    "kind": "other"
+  },
+  {
+    "word": "とても",
+    "reading": "とても",
+    "en": "very",
+    "my": "အရမ်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "どなた",
+    "reading": "どなた",
+    "en": "who",
+    "my": "ဘယ်သူ",
+    "kind": "other"
+  },
+  {
+    "word": "隣",
+    "reading": "となり",
+    "en": "next door to",
+    "my": "ဘေးအိမ်",
+    "kind": "noun"
+  },
+  {
+    "word": "どの",
+    "reading": "どの",
+    "en": "which",
+    "my": "ဘယ်",
+    "kind": "other"
+  },
+  {
+    "word": "飛ぶ",
+    "reading": "とぶ",
+    "en": "to fly",
+    "my": "ပျံသည်",
+    "kind": "verb",
+    "masu": "とびます"
+  },
+  {
+    "word": "止まる",
+    "reading": "とまる",
+    "en": "to come to a halt",
+    "my": "ရပ်သည်",
+    "kind": "verb",
+    "masu": "とまります"
+  },
+  {
+    "word": "友達",
+    "reading": "ともだち",
+    "en": "friend",
+    "my": "သူငယ်ချင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "土曜日",
+    "reading": "どようび",
+    "en": "Saturday",
+    "my": "စနေနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "鳥",
+    "reading": "とり",
+    "en": "bird",
+    "my": "ငှက်",
+    "kind": "noun"
+  },
+  {
+    "word": "鶏肉",
+    "reading": "とりにく",
+    "en": "chicken meat",
+    "my": "ကြက်သား",
+    "kind": "noun"
+  },
+  {
+    "word": "撮る",
+    "reading": "とる",
+    "en": "to take a photo or record a film",
+    "my": "ဓာတ်ပုံရိုက်သည်",
+    "kind": "verb",
+    "masu": "とります"
+  },
+  {
+    "word": "取る",
+    "reading": "とる",
+    "en": "to take something",
+    "my": "ယူသည်",
+    "kind": "verb",
+    "masu": "とります"
+  },
+  {
+    "word": "どれ",
+    "reading": "どれ",
+    "en": "which (of three or more)",
+    "my": "ဘယ်ဟာ",
+    "kind": "other"
+  },
+  {
+    "word": "ナイフ",
+    "reading": "ナイフ",
+    "en": "knife",
+    "my": "ဓား",
+    "kind": "noun"
+  },
+  {
+    "word": "中",
+    "reading": "なか",
+    "en": "middle",
+    "my": "အထဲ",
+    "kind": "noun"
+  },
+  {
+    "word": "長い",
+    "reading": "ながい",
+    "en": "long",
+    "my": "ရှည်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "鳴く",
+    "reading": "なく",
+    "en": "to make a sound (of an animal)",
+    "my": "အော်သည်",
+    "kind": "verb",
+    "masu": "なきます"
+  },
+  {
+    "word": "無くす",
+    "reading": "なくす",
+    "en": "to lose something",
+    "my": "ပျောက်ဆုံးသည်",
+    "kind": "verb",
+    "masu": "なくします"
+  },
+  {
+    "word": "なぜ",
+    "reading": "なぜ",
+    "en": "why",
+    "my": "ဘာကြောင့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "夏",
+    "reading": "なつ",
+    "en": "summer",
+    "my": "နွေရာသီ",
+    "kind": "noun"
+  },
+  {
+    "word": "夏休み",
+    "reading": "なつやすみ",
+    "en": "summer holiday",
+    "my": "နွေရာသီအားလပ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "など",
+    "reading": "など",
+    "en": "et cetera",
+    "my": "စသည်",
+    "kind": "other"
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "en": "seven",
+    "my": "ခုနစ်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "七日",
+    "reading": "なのか",
+    "en": "seven days",
+    "my": "ခုနစ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "名前",
+    "reading": "なまえ",
+    "en": "name",
+    "my": "အမည်",
+    "kind": "noun"
+  },
+  {
+    "word": "習う",
+    "reading": "ならう",
+    "en": "to learn",
+    "my": "သင်ယူသည်",
+    "kind": "verb",
+    "masu": "ならいます"
+  },
+  {
+    "word": "並ぶ",
+    "reading": "ならぶ",
+    "en": "to line up",
+    "my": "တန်းစီသည်",
+    "kind": "verb",
+    "masu": "ならびます"
+  },
+  {
+    "word": "並べる",
+    "reading": "ならべる",
+    "en": "to line up",
+    "my": "တန်းစီသည်",
+    "kind": "verb",
+    "masu": "ならべます"
+  },
+  {
+    "word": "なる",
+    "reading": "なる",
+    "en": "to become",
+    "my": "ဖြစ်လာသည်",
+    "kind": "verb",
+    "masu": "なります"
+  },
+  {
+    "word": "何",
+    "reading": "なん",
+    "en": "what",
+    "my": "ဘာ",
+    "kind": "other"
+  },
+  {
+    "word": "二",
+    "reading": "に",
+    "en": "two",
+    "my": "နှစ်",
+    "kind": "other"
+  },
+  {
+    "word": "賑やか",
+    "reading": "にぎやか",
+    "en": "lively",
+    "my": "စည်ကားသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "肉",
+    "reading": "にく",
+    "en": "meat",
+    "my": "အသား",
+    "kind": "noun"
+  },
+  {
+    "word": "西",
+    "reading": "にし",
+    "en": "west",
+    "my": "အနောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "日曜日",
+    "reading": "にちようび",
+    "en": "Sunday",
+    "my": "တနင်္ဂနွေနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "荷物",
+    "reading": "にもつ",
+    "en": "luggage",
+    "my": "အထုပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "ニュース",
+    "reading": "ニュース",
+    "en": "news",
+    "my": "သတင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "庭",
+    "reading": "にわ",
+    "en": "garden",
+    "my": "ဥယျာဉ်",
+    "kind": "noun"
+  },
+  {
+    "word": "脱ぐ",
+    "reading": "ぬぐ",
+    "en": "to take off clothes",
+    "my": "ချွတ်သည်",
+    "kind": "verb",
+    "masu": "ぬぎます"
+  },
+  {
+    "word": "温い",
+    "reading": "ぬるい",
+    "en": "luke warm",
+    "my": "နွေးနွေးလေး",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ネクタイ",
+    "reading": "ネクタイ",
+    "en": "tie",
+    "my": "လည်စည်း",
+    "kind": "noun"
+  },
+  {
+    "word": "猫",
+    "reading": "ねこ",
+    "en": "cat",
+    "my": "ကြောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "寝る",
+    "reading": "ねる",
+    "en": "to go to bed",
+    "my": "အိပ်သည်",
+    "kind": "verb",
+    "masu": "ねます"
+  },
+  {
+    "word": "ノート",
+    "reading": "ノート",
+    "en": "notebook",
+    "my": "မှတ်စုစာအုပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "登る",
+    "reading": "のぼる",
+    "en": "to climb",
+    "my": "တက်သည်",
+    "kind": "verb",
+    "masu": "のぼります"
+  },
+  {
+    "word": "飲み物",
+    "reading": "のみもの",
+    "en": "a drink",
+    "my": "သောက်စရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "飲む",
+    "reading": "のむ",
+    "en": "to drink",
+    "my": "သောက်သည်",
+    "kind": "verb",
+    "masu": "のみます"
+  },
+  {
+    "word": "乗る",
+    "reading": "のる",
+    "en": "to get on",
+    "my": "စီးသည်",
+    "kind": "verb",
+    "masu": "のります"
+  },
+  {
+    "word": "歯",
+    "reading": "は",
+    "en": "tooth",
+    "my": "သွား",
+    "kind": "noun"
+  },
+  {
+    "word": "パーティー",
+    "reading": "パーティー",
+    "en": "party",
+    "my": "ပါတီ",
+    "kind": "noun"
+  },
+  {
+    "word": "はい",
+    "reading": "はい",
+    "en": "yes",
+    "my": "ဟုတ်ကဲ့",
+    "kind": "other"
+  },
+  {
+    "word": "灰皿",
+    "reading": "はいざら",
+    "en": "ashtray",
+    "my": "ပြာခွက်",
+    "kind": "noun"
+  },
+  {
+    "word": "入る",
+    "reading": "はいる",
+    "en": "to enter",
+    "my": "ဝင်သည်",
+    "kind": "verb",
+    "masu": "はいります"
+  },
+  {
+    "word": "葉書",
+    "reading": "はがき",
+    "en": "postcard",
+    "my": "စာပို့ကတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "はく",
+    "reading": "はく",
+    "en": "to wear",
+    "my": "ဝတ်သည်",
+    "kind": "verb",
+    "masu": "はきます"
+  },
+  {
+    "word": "箱",
+    "reading": "はこ",
+    "en": "box",
+    "my": "သေတ္တာ",
+    "kind": "noun"
+  },
+  {
+    "word": "はし",
+    "reading": "はし",
+    "en": "chopsticks",
+    "my": "တူချောင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "橋",
+    "reading": "はし",
+    "en": "bridge",
+    "my": "တံတား",
+    "kind": "noun"
+  },
+  {
+    "word": "始まる",
+    "reading": "はじまる",
+    "en": "to begin",
+    "my": "စတင်သည်",
+    "kind": "verb",
+    "masu": "はじまります"
+  },
+  {
+    "word": "初め",
+    "reading": "はじめ",
+    "en": "beginning",
+    "my": "အစ",
+    "kind": "noun"
+  },
+  {
+    "word": "初めて",
+    "reading": "はじめて",
+    "en": "for the first time",
+    "my": "ပထမဆုံးအကြိမ်",
+    "kind": "adverb"
+  },
+  {
+    "word": "はじめまして",
+    "reading": "はじめまして",
+    "en": "How do you do?",
+    "my": "မင်္ဂလာပါ",
+    "kind": "other"
+  },
+  {
+    "word": "走る",
+    "reading": "はしる",
+    "en": "to run",
+    "my": "ပြေးသည်",
+    "kind": "verb",
+    "masu": "はしります"
+  },
+  {
+    "word": "バス",
+    "reading": "バス",
+    "en": "bus",
+    "my": "ဘတ်စ်ကား",
+    "kind": "noun"
+  },
+  {
+    "word": "バター",
+    "reading": "バター",
+    "en": "butter",
+    "my": "ထောပတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "二十歳",
+    "reading": "はたち",
+    "en": "20 years old",
+    "my": "အသက် ၂၀",
+    "kind": "noun"
+  },
+  {
+    "word": "働く",
+    "reading": "はたらく",
+    "en": "to work",
+    "my": "အလုပ်လုပ်သည်",
+    "kind": "verb",
+    "masu": "はたらきます"
+  },
+  {
+    "word": "八",
+    "reading": "はち",
+    "en": "eight",
+    "my": "ရှစ်",
+    "kind": "other"
+  },
+  {
+    "word": "二十日",
+    "reading": "はつか",
+    "en": "twenty days",
+    "my": "ရက် ၂၀",
+    "kind": "noun"
+  },
+  {
+    "word": "花",
+    "reading": "はな",
+    "en": "flower",
+    "my": "ပန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "鼻",
+    "reading": "はな",
+    "en": "nose",
+    "my": "နှာခေါင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "話",
+    "reading": "はなし",
+    "en": "talk",
+    "my": "စကား",
+    "kind": "noun"
+  },
+  {
+    "word": "話す",
+    "reading": "はなす",
+    "en": "to speak",
+    "my": "ပြောသည်",
+    "kind": "verb",
+    "masu": "はなします"
+  },
+  {
+    "word": "早い",
+    "reading": "はやい",
+    "en": "early",
+    "my": "စောသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "速い",
+    "reading": "はやい",
+    "en": "quick",
+    "my": "မြန်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "春",
+    "reading": "はる",
+    "en": "spring",
+    "my": "နွေဦး",
+    "kind": "noun"
+  },
+  {
+    "word": "貼る",
+    "reading": "はる",
+    "en": "to stick",
+    "my": "ကပ်သည်",
+    "kind": "verb",
+    "masu": "はります"
+  },
+  {
+    "word": "晴れ",
+    "reading": "はれ",
+    "en": "clear weather",
+    "my": "နေသာ",
+    "kind": "noun"
+  },
+  {
+    "word": "晴れる",
+    "reading": "はれる",
+    "en": "to be sunny",
+    "my": "နေသာသည်",
+    "kind": "verb",
+    "masu": "はれます"
+  },
+  {
+    "word": "半",
+    "reading": "はん",
+    "en": "half",
+    "my": "တစ်ဝက်",
+    "kind": "noun"
+  },
+  {
+    "word": "晩",
+    "reading": "ばん",
+    "en": "evening",
+    "my": "ညနေ",
+    "kind": "noun"
+  },
+  {
+    "word": "パン",
+    "reading": "パン",
+    "en": "bread",
+    "my": "ပေါင်မုန့်",
+    "kind": "noun"
+  },
+  {
+    "word": "ハンカチ",
+    "reading": "ハンカチ",
+    "en": "handkerchief",
+    "my": "လက်ကိုင်ပုဝါ",
+    "kind": "noun"
+  },
+  {
+    "word": "番号",
+    "reading": "ばんごう",
+    "en": "number",
+    "my": "နံပါတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "晩御飯",
+    "reading": "ばんごはん",
+    "en": "evening meal",
+    "my": "ညစာ",
+    "kind": "noun"
+  },
+  {
+    "word": "半分",
+    "reading": "はんぶん",
+    "en": "half",
+    "my": "တစ်ဝက်",
+    "kind": "noun"
+  },
+  {
+    "word": "東",
+    "reading": "ひがし",
+    "en": "east",
+    "my": "အရှေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "引く",
+    "reading": "ひく",
+    "en": "to pull",
+    "my": "ဆွဲသည်",
+    "kind": "verb",
+    "masu": "ひきます"
+  },
+  {
+    "word": "弾く",
+    "reading": "ひく",
+    "en": "to play an instrument with strings",
+    "my": "တီးသည်",
+    "kind": "verb",
+    "masu": "ひきます"
+  },
+  {
+    "word": "低い",
+    "reading": "ひくい",
+    "en": "short",
+    "my": "နိမ့်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "飛行機",
+    "reading": "ひこうき",
+    "en": "aeroplane",
+    "my": "လေယာဉ်",
+    "kind": "noun"
+  },
+  {
+    "word": "左",
+    "reading": "ひだり",
+    "en": "left hand side",
+    "my": "ဘယ်ဘက်",
+    "kind": "noun"
+  },
+  {
+    "word": "人",
+    "reading": "ひと",
+    "en": "person",
+    "my": "လူ",
+    "kind": "noun"
+  },
+  {
+    "word": "一つ",
+    "reading": "ひとつ",
+    "en": "one",
+    "my": "တစ်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "一月",
+    "reading": "ひとつき",
+    "en": "one month",
+    "my": "တစ်လ",
+    "kind": "noun"
+  },
+  {
+    "word": "一人",
+    "reading": "ひとり",
+    "en": "one person",
+    "my": "တစ်ယောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "暇",
+    "reading": "ひま",
+    "en": "free",
+    "my": "အားလပ်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "百",
+    "reading": "ひゃく",
+    "en": "hundred",
+    "my": "တစ်ရာ",
+    "kind": "other"
+  },
+  {
+    "word": "病院",
+    "reading": "びょういん",
+    "en": "hospital",
+    "my": "ဆေးရုံ",
+    "kind": "noun"
+  },
+  {
+    "word": "病気",
+    "reading": "びょうき",
+    "en": "illness",
+    "my": "နာမကျန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "昼",
+    "reading": "ひる",
+    "en": "noon",
+    "my": "နေ့လည်",
+    "kind": "noun"
+  },
+  {
+    "word": "昼御飯",
+    "reading": "ひるごはん",
+    "en": "midday meal",
+    "my": "နေ့လည်စာ",
+    "kind": "noun"
+  },
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "en": "spacious",
+    "my": "ကျယ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "フィルム",
+    "reading": "フィルム",
+    "en": "roll of film",
+    "my": "ဖလင်",
+    "kind": "noun"
+  },
+  {
+    "word": "封筒",
+    "reading": "ふうとう",
+    "en": "envelope",
+    "my": "စာအိတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "プール",
+    "reading": "プール",
+    "en": "swimming pool",
+    "my": "ရေကူးကန်",
+    "kind": "noun"
+  },
+  {
+    "word": "フォーク",
+    "reading": "フォーク",
+    "en": "fork",
+    "my": "ခက်ရင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "吹く",
+    "reading": "ふく",
+    "en": "to blow",
+    "my": "မှုတ်သည်",
+    "kind": "verb",
+    "masu": "ふきます"
+  },
+  {
+    "word": "服",
+    "reading": "ふく",
+    "en": "clothes",
+    "my": "အဝတ်အစား",
+    "kind": "noun"
+  },
+  {
+    "word": "二つ",
+    "reading": "ふたつ",
+    "en": "two",
+    "my": "နှစ်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "豚肉",
+    "reading": "ぶたにく",
+    "en": "pork",
+    "my": "ဝက်သား",
+    "kind": "noun"
+  },
+  {
+    "word": "二人",
+    "reading": "ふたり",
+    "en": "two people",
+    "my": "နှစ်ယောက်",
+    "kind": "noun"
+  },
+  {
+    "word": "二日",
+    "reading": "ふつか",
+    "en": "two days",
+    "my": "နှစ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "太い",
+    "reading": "ふとい",
+    "en": "fat",
+    "my": "ဝသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "冬",
+    "reading": "ふゆ",
+    "en": "winter",
+    "my": "ဆောင်းရာသီ",
+    "kind": "noun"
+  },
+  {
+    "word": "降る",
+    "reading": "ふる",
+    "en": "to fall (e.g. rain or snow)",
+    "my": "ရွာသည်",
+    "kind": "verb",
+    "masu": "ふります"
+  },
+  {
+    "word": "古い",
+    "reading": "ふるい",
+    "en": "old (not used for people)",
+    "my": "ဟောင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ふろ",
+    "reading": "ふろ",
+    "en": "bath",
+    "my": "ရေချိုး",
+    "kind": "noun"
+  },
+  {
+    "word": "文章",
+    "reading": "ぶんしょう",
+    "en": "sentence",
+    "my": "စာပိုဒ်",
+    "kind": "noun"
+  },
+  {
+    "word": "ページ",
+    "reading": "ページ",
+    "en": "page",
+    "my": "စာမျက်နှာ",
+    "kind": "noun"
+  },
+  {
+    "word": "下手",
+    "reading": "へた",
+    "en": "unskillful",
+    "my": "မတော်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "ベッド",
+    "reading": "ベッド",
+    "en": "bed",
+    "my": "အိပ်ရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "ペット",
+    "reading": "ペット",
+    "en": "pet",
+    "my": "အိမ်မွေးတိရစ္ဆာန်",
+    "kind": "noun"
+  },
+  {
+    "word": "部屋",
+    "reading": "へや",
+    "en": "room",
+    "my": "အခန်း",
+    "kind": "noun"
+  },
+  {
+    "word": "辺",
+    "reading": "へん",
+    "en": "area",
+    "my": "နားတစ်ဝိုက်",
+    "kind": "noun"
+  },
+  {
+    "word": "ペン",
+    "reading": "ペン",
+    "en": "pen",
+    "my": "ဘောပင်",
+    "kind": "noun"
+  },
+  {
+    "word": "勉強",
+    "reading": "べんきょう",
+    "en": "to study",
+    "my": "စာလေ့လာသည်",
+    "kind": "verb",
+    "masu": "べんきょうします"
+  },
+  {
+    "word": "便利",
+    "reading": "べんり",
+    "en": "convenient",
+    "my": "အဆင်ပြေသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "帽子",
+    "reading": "ぼうし",
+    "en": "hat",
+    "my": "ဦးထုပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "ボールペン",
+    "reading": "ボールペン",
+    "en": "ball-point pen",
+    "my": "ဘောပင်",
+    "kind": "noun"
+  },
+  {
+    "word": "ほか",
+    "reading": "ほか",
+    "en": "other",
+    "my": "အခြား",
+    "kind": "noun"
+  },
+  {
+    "word": "ポケット",
+    "reading": "ポケット",
+    "en": "pocket",
+    "my": "အိတ်ကပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "欲しい",
+    "reading": "ほしい",
+    "en": "want",
+    "my": "လိုချင်သည်",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ポスト",
+    "reading": "ポスト",
+    "en": "post",
+    "my": "စာပို့ပုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "細い",
+    "reading": "ほそい",
+    "en": "thin",
+    "my": "သေးသွယ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "ボタン",
+    "reading": "ボタン",
+    "en": "button",
+    "my": "ခလုတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "ホテル",
+    "reading": "ホテル",
+    "en": "hotel",
+    "my": "ဟိုတယ်",
+    "kind": "noun"
+  },
+  {
+    "word": "本",
+    "reading": "ほん",
+    "en": "book",
+    "my": "စာအုပ်",
+    "kind": "noun"
+  },
+  {
+    "word": "本棚",
+    "reading": "ほんだな",
+    "en": "bookshelves",
+    "my": "စာအုပ်စင်",
+    "kind": "noun"
+  },
+  {
+    "word": "ほんとう",
+    "reading": "ほんとう",
+    "en": "truth",
+    "my": "အမှန်",
+    "kind": "noun"
+  },
+  {
+    "word": "毎朝",
+    "reading": "まいあさ",
+    "en": "every morning",
+    "my": "မနက်တိုင်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "毎月",
+    "reading": "まいげつ",
+    "en": "every month",
+    "my": "လတိုင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "毎週",
+    "reading": "まいしゅう",
+    "en": "every week",
+    "my": "အပတ်တိုင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "毎日",
+    "reading": "まいにち",
+    "en": "every day",
+    "my": "နေ့တိုင်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "毎年",
+    "reading": "まいねん",
+    "en": "every year",
+    "my": "နှစ်တိုင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "毎晩",
+    "reading": "まいばん",
+    "en": "every night",
+    "my": "ညတိုင်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "en": "before",
+    "my": "ရှေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "曲る",
+    "reading": "まがる",
+    "en": "to turn",
+    "my": "ကွေ့သည်",
+    "kind": "verb",
+    "masu": "まがります"
+  },
+  {
+    "word": "まずい",
+    "reading": "まずい",
+    "en": "unpleasant",
+    "my": "အရသာမရှိသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "また",
+    "reading": "また",
+    "en": "again / next time",
+    "my": "ထပ်ပြီး / နောက်တစ်ခါ",
+    "kind": "adverb"
+  },
+  {
+    "word": "まだ",
+    "reading": "まだ",
+    "en": "not yet / still",
+    "my": "မ…သေးဘူး / အခုထိ",
+    "kind": "adverb"
+  },
+  {
+    "word": "町",
+    "reading": "まち",
+    "en": "town",
+    "my": "မြို့",
+    "kind": "noun"
+  },
+  {
+    "word": "待つ",
+    "reading": "まつ",
+    "en": "to wait",
+    "my": "စောင့်သည်",
+    "kind": "verb",
+    "masu": "まちます"
+  },
+  {
+    "word": "まっすぐ",
+    "reading": "まっすぐ",
+    "en": "straight",
+    "my": "တည့်တည့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "マッチ",
+    "reading": "マッチ",
+    "en": "match",
+    "my": "မီးခြစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "窓",
+    "reading": "まど",
+    "en": "window",
+    "my": "ပြတင်းပေါက်",
+    "kind": "noun"
+  },
+  {
+    "word": "丸い",
+    "reading": "まるい",
+    "en": "round",
+    "my": "ဝိုင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "万",
+    "reading": "まん",
+    "en": "ten thousand",
+    "my": "တစ်သောင်း",
+    "kind": "other"
+  },
+  {
+    "word": "万年筆",
+    "reading": "まんねんひつ",
+    "en": "fountain pen",
+    "my": "ဖောင်တိန်",
+    "kind": "noun"
+  },
+  {
+    "word": "磨く",
+    "reading": "みがく",
+    "en": "to brush teeth",
+    "my": "တိုက်သည်",
+    "kind": "verb",
+    "masu": "みがきます"
+  },
+  {
+    "word": "右",
+    "reading": "みぎ",
+    "en": "right side",
+    "my": "ညာဘက်",
+    "kind": "noun"
+  },
+  {
+    "word": "短い",
+    "reading": "みじかい",
+    "en": "short",
+    "my": "တိုသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "水",
+    "reading": "みず",
+    "en": "water",
+    "my": "ရေ",
+    "kind": "noun"
+  },
+  {
+    "word": "店",
+    "reading": "みせ",
+    "en": "shop",
+    "my": "ဆိုင်",
+    "kind": "noun"
+  },
+  {
+    "word": "見せる",
+    "reading": "みせる",
+    "en": "to show",
+    "my": "ပြသည်",
+    "kind": "verb",
+    "masu": "みせます"
+  },
+  {
+    "word": "道",
+    "reading": "みち",
+    "en": "street",
+    "my": "လမ်း",
+    "kind": "noun"
+  },
+  {
+    "word": "三日",
+    "reading": "みっか",
+    "en": "three days",
+    "my": "သုံးရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "三つ",
+    "reading": "みっつ",
+    "en": "three",
+    "my": "သုံးခု",
+    "kind": "other"
+  },
+  {
+    "word": "緑",
+    "reading": "みどり",
+    "en": "green",
+    "my": "အစိမ်း",
+    "kind": "noun"
+  },
+  {
+    "word": "皆さん",
+    "reading": "みなさん",
+    "en": "everyone",
+    "my": "လူကြီးမင်းများ",
+    "kind": "noun"
+  },
+  {
+    "word": "南",
+    "reading": "みなみ",
+    "en": "south",
+    "my": "တောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "耳",
+    "reading": "みみ",
+    "en": "ear",
+    "my": "နား",
+    "kind": "noun"
+  },
+  {
+    "word": "見る",
+    "reading": "みる",
+    "en": "to see",
+    "my": "ကြည့်သည်",
+    "kind": "verb",
+    "masu": "みます"
+  },
+  {
+    "word": "みんな",
+    "reading": "みんな",
+    "en": "everyone",
+    "my": "အားလုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "六日",
+    "reading": "むいか",
+    "en": "six days",
+    "my": "ခြောက်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "向こう",
+    "reading": "むこう",
+    "en": "over there",
+    "my": "ဟိုဘက်",
+    "kind": "noun"
+  },
+  {
+    "word": "難しい",
+    "reading": "むずかしい",
+    "en": "difficult",
+    "my": "ခက်ခဲသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "en": "six",
+    "my": "ခြောက်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "村",
+    "reading": "むら",
+    "en": "village",
+    "my": "ရွာ",
+    "kind": "noun"
+  },
+  {
+    "word": "目",
+    "reading": "め",
+    "en": "eye",
+    "my": "မျက်လုံး",
+    "kind": "noun"
+  },
+  {
+    "word": "メートル",
+    "reading": "メートル",
+    "en": "metre",
+    "my": "မီတာ",
+    "kind": "noun"
+  },
+  {
+    "word": "眼鏡",
+    "reading": "めがね",
+    "en": "glasses",
+    "my": "မျက်မှန်",
+    "kind": "noun"
+  },
+  {
+    "word": "もう",
+    "reading": "もう",
+    "en": "already / more",
+    "my": "ပြီးပြီ / နောက်ထပ်",
+    "kind": "adverb"
+  },
+  {
+    "word": "もう一度",
+    "reading": "もういちど",
+    "en": "again",
+    "my": "နောက်တစ်ကြိမ်",
+    "kind": "other"
+  },
+  {
+    "word": "木曜日",
+    "reading": "もくようび",
+    "en": "Thursday",
+    "my": "ကြာသပတေးနေ့",
+    "kind": "noun"
+  },
+  {
+    "word": "持つ",
+    "reading": "もつ",
+    "en": "to hold",
+    "my": "ကိုင်သည်",
+    "kind": "verb",
+    "masu": "もちます"
+  },
+  {
+    "word": "もっと",
+    "reading": "もっと",
+    "en": "more",
+    "my": "ပိုပြီး",
+    "kind": "adverb"
+  },
+  {
+    "word": "物",
+    "reading": "もの",
+    "en": "thing",
+    "my": "အရာ",
+    "kind": "noun"
+  },
+  {
+    "word": "門",
+    "reading": "もん",
+    "en": "gate",
+    "my": "တံခါးမ",
+    "kind": "noun"
+  },
+  {
+    "word": "問題",
+    "reading": "もんだい",
+    "en": "problem",
+    "my": "ပြဿနာ",
+    "kind": "noun"
+  },
+  {
+    "word": "八百屋",
+    "reading": "やおや",
+    "en": "greengrocer",
+    "my": "ဟင်းသီးဟင်းရွက်ဆိုင်",
+    "kind": "noun"
+  },
+  {
+    "word": "野菜",
+    "reading": "やさい",
+    "en": "vegetable",
+    "my": "ဟင်းသီးဟင်းရွက်",
+    "kind": "noun"
+  },
+  {
+    "word": "易しい",
+    "reading": "やさしい",
+    "en": "easy",
+    "my": "လွယ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "安い",
+    "reading": "やすい",
+    "en": "cheap",
+    "my": "ဈေးသက်သာသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "休み",
+    "reading": "やすみ",
+    "en": "rest",
+    "my": "အားလပ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "休む",
+    "reading": "やすむ",
+    "en": "to rest",
+    "my": "အနားယူသည်",
+    "kind": "verb",
+    "masu": "やすみます"
+  },
+  {
+    "word": "八つ",
+    "reading": "やっつ",
+    "en": "eight",
+    "my": "ရှစ်ခု",
+    "kind": "other"
+  },
+  {
+    "word": "山",
+    "reading": "やま",
+    "en": "mountain",
+    "my": "တောင်",
+    "kind": "noun"
+  },
+  {
+    "word": "やる",
+    "reading": "やる",
+    "en": "to do",
+    "my": "လုပ်သည်",
+    "kind": "verb",
+    "masu": "やります"
+  },
+  {
+    "word": "夕方",
+    "reading": "ゆうがた",
+    "en": "evening",
+    "my": "ညနေ",
+    "kind": "noun"
+  },
+  {
+    "word": "夕飯",
+    "reading": "ゆうはん",
+    "en": "dinner",
+    "my": "ညစာ",
+    "kind": "noun"
+  },
+  {
+    "word": "郵便局",
+    "reading": "ゆうびんきょく",
+    "en": "post office",
+    "my": "စာတိုက်",
+    "kind": "noun"
+  },
+  {
+    "word": "昨夜",
+    "reading": "ゆうべ",
+    "en": "last night",
+    "my": "မနေ့ည",
+    "kind": "noun"
+  },
+  {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "en": "famous",
+    "my": "နာမည်ကြီးသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "雪",
+    "reading": "ゆき",
+    "en": "snow",
+    "my": "နှင်း",
+    "kind": "noun"
+  },
+  {
+    "word": "ゆっくりと",
+    "reading": "ゆっくりと",
+    "en": "slowly",
+    "my": "ဖြည်းဖြည်း",
+    "kind": "other"
+  },
+  {
+    "word": "八日",
+    "reading": "ようか",
+    "en": "eight days",
+    "my": "ရှစ်ရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "洋服",
+    "reading": "ようふく",
+    "en": "western-style clothes",
+    "my": "အနောက်တိုင်းအဝတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "よく",
+    "reading": "よく",
+    "en": "often",
+    "my": "မကြာခဏ",
+    "kind": "adverb"
+  },
+  {
+    "word": "横",
+    "reading": "よこ",
+    "en": "beside",
+    "my": "ဘေး",
+    "kind": "noun"
+  },
+  {
+    "word": "四日",
+    "reading": "よっか",
+    "en": "four days",
+    "my": "လေးရက်",
+    "kind": "noun"
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "en": "four",
+    "my": "လေးခု",
+    "kind": "other"
+  },
+  {
+    "word": "呼ぶ",
+    "reading": "よぶ",
+    "en": "to call out",
+    "my": "ခေါ်သည်",
+    "kind": "verb",
+    "masu": "よびます"
+  },
+  {
+    "word": "読む",
+    "reading": "よむ",
+    "en": "to read",
+    "my": "ဖတ်သည်",
+    "kind": "verb",
+    "masu": "よみます"
+  },
+  {
+    "word": "より",
+    "reading": "より",
+    "en": "than",
+    "my": "ထက်",
+    "kind": "other"
+  },
+  {
+    "word": "夜",
+    "reading": "よる",
+    "en": "evening",
+    "my": "ည",
+    "kind": "noun"
+  },
+  {
+    "word": "弱い",
+    "reading": "よわい",
+    "en": "weak",
+    "my": "အားနည်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "来月",
+    "reading": "らいげつ",
+    "en": "next month",
+    "my": "နောက်လ",
+    "kind": "noun"
+  },
+  {
+    "word": "来週",
+    "reading": "らいしゅう",
+    "en": "next week",
+    "my": "နောက်အပတ်",
+    "kind": "noun"
+  },
+  {
+    "word": "来年",
+    "reading": "らいねん",
+    "en": "next year",
+    "my": "နောက်နှစ်",
+    "kind": "noun"
+  },
+  {
+    "word": "ラジオ",
+    "reading": "ラジオ",
+    "en": "radio",
+    "my": "ရေဒီယို",
+    "kind": "noun"
+  },
+  {
+    "word": "ラジカセ",
+    "reading": "ラジカセ",
+    "en": "radio cassette player",
+    "my": "ရေဒီယိုကက်ဆက်",
+    "kind": "noun"
+  },
+  {
+    "word": "りっぱ",
+    "reading": "りっぱ",
+    "en": "splendid",
+    "my": "ကောင်းမွန်သော",
+    "kind": "other"
+  },
+  {
+    "word": "留学生",
+    "reading": "りゅうがくせい",
+    "en": "overseas student",
+    "my": "နိုင်ငံခြားကျောင်းသား",
+    "kind": "noun"
+  },
+  {
+    "word": "両親",
+    "reading": "りょうしん",
+    "en": "both parents",
+    "my": "မိဘနှစ်ပါး",
+    "kind": "noun"
+  },
+  {
+    "word": "料理",
+    "reading": "りょうり",
+    "en": "cuisine",
+    "my": "ဟင်းလျာ",
+    "kind": "verb",
+    "masu": "りょうりします"
+  },
+  {
+    "word": "旅行",
+    "reading": "りょこう",
+    "en": "travel",
+    "my": "ခရီး",
+    "kind": "verb",
+    "masu": "りょこうします"
+  },
+  {
+    "word": "零",
+    "reading": "れい",
+    "en": "zero",
+    "my": "သုည",
+    "kind": "noun"
+  },
+  {
+    "word": "冷蔵庫",
+    "reading": "れいぞうこ",
+    "en": "refrigerator",
+    "my": "ရေခဲသေတ္တာ",
+    "kind": "noun"
+  },
+  {
+    "word": "レコード",
+    "reading": "レコード",
+    "en": "record",
+    "my": "ဓာတ်ပြား",
+    "kind": "noun"
+  },
+  {
+    "word": "レストラン",
+    "reading": "レストラン",
+    "en": "restaurant",
+    "my": "စားသောက်ဆိုင်",
+    "kind": "noun"
+  },
+  {
+    "word": "練習",
+    "reading": "れんしゅう",
+    "en": "to practice",
+    "my": "လေ့ကျင့်သည်",
+    "kind": "verb",
+    "masu": "れんしゅうします"
+  },
+  {
+    "word": "廊下",
+    "reading": "ろうか",
+    "en": "corridor",
+    "my": "စင်္ကြံ",
+    "kind": "noun"
+  },
+  {
+    "word": "六",
+    "reading": "ろく",
+    "en": "six",
+    "my": "ခြောက်",
+    "kind": "other"
+  },
+  {
+    "word": "ワイシャツ",
+    "reading": "ワイシャツ",
+    "en": "business shirt",
+    "my": "ရုံးအင်္ကျီ",
+    "kind": "noun"
+  },
+  {
+    "word": "若い",
+    "reading": "わかい",
+    "en": "young",
+    "my": "ငယ်ရွယ်သော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "分かる",
+    "reading": "わかる",
+    "en": "to be understood",
+    "my": "နားလည်သည်",
+    "kind": "verb",
+    "masu": "わかります"
+  },
+  {
+    "word": "忘れる",
+    "reading": "わすれる",
+    "en": "to forget",
+    "my": "မေ့သည်",
+    "kind": "verb",
+    "masu": "わすれます"
+  },
+  {
+    "word": "私",
+    "reading": "わたし",
+    "en": "I",
+    "my": "ကျွန်တော် / ကျွန်မ",
+    "kind": "other"
+  },
+  {
+    "word": "渡す",
+    "reading": "わたす",
+    "en": "to hand over",
+    "my": "ပေးအပ်သည်",
+    "kind": "verb",
+    "masu": "わたします"
+  },
+  {
+    "word": "渡る",
+    "reading": "わたる",
+    "en": "to go across",
+    "my": "ဖြတ်ကူးသည်",
+    "kind": "verb",
+    "masu": "わたります"
+  },
+  {
+    "word": "悪い",
+    "reading": "わるい",
+    "en": "bad",
+    "my": "မကောင်းသော",
+    "kind": "i-adj"
+  },
+  {
+    "word": "親切",
+    "reading": "しんせつ",
+    "en": "kind",
+    "my": "ကြင်နာတတ်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "不便",
+    "reading": "ふべん",
+    "en": "inconvenient",
+    "my": "အဆင်မပြေသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "簡単",
+    "reading": "かんたん",
+    "en": "easy",
+    "my": "လွယ်ကူသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "残念",
+    "reading": "ざんねん",
+    "en": "unfortunate",
+    "my": "စိတ်မကောင်းစရာဖြစ်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "真面目",
+    "reading": "まじめ",
+    "en": "serious",
+    "my": "လေးနက်ကြိုးစားသော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "素敵",
+    "reading": "すてき",
+    "en": "lovely",
+    "my": "လှပသော / ကောင်းမွန်သော",
+    "kind": "na-adj"
+  },
+  {
+    "word": "たいてい",
+    "reading": "たいてい",
+    "en": "usually",
+    "my": "အများအားဖြင့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "たまに",
+    "reading": "たまに",
+    "en": "occasionally",
+    "my": "ရံဖန်ရံခါ",
+    "kind": "adverb"
+  },
+  {
+    "word": "ぜんぜん",
+    "reading": "ぜんぜん",
+    "en": "not at all",
+    "my": "လုံးဝ…မ",
+    "kind": "adverb"
+  },
+  {
+    "word": "いっぱい",
+    "reading": "いっぱい",
+    "en": "a lot / full",
+    "my": "အများကြီး / အပြည့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "かなり",
+    "reading": "かなり",
+    "en": "quite",
+    "my": "တော်တော်လေး",
+    "kind": "adverb"
+  },
+  {
+    "word": "もうすぐ",
+    "reading": "もうすぐ",
+    "en": "soon",
+    "my": "မကြာခင်",
+    "kind": "adverb"
+  },
+  {
+    "word": "さっき",
+    "reading": "さっき",
+    "en": "a moment ago",
+    "my": "ခုနလေးက",
+    "kind": "adverb"
+  },
+  {
+    "word": "あとで",
+    "reading": "あとで",
+    "en": "later",
+    "my": "နောက်မှ",
+    "kind": "adverb"
+  },
+  {
+    "word": "最近",
+    "reading": "さいきん",
+    "en": "recently",
+    "my": "အခုတလော",
+    "kind": "adverb"
+  },
+  {
+    "word": "ゆっくり",
+    "reading": "ゆっくり",
+    "en": "slowly",
+    "my": "ဖြည်းဖြည်း",
+    "kind": "adverb"
+  },
+  {
+    "word": "早く",
+    "reading": "はやく",
+    "en": "quickly / early",
+    "my": "မြန်မြန် / စောစော",
+    "kind": "adverb"
+  },
+  {
+    "word": "一緒に",
+    "reading": "いっしょに",
+    "en": "together",
+    "my": "အတူတူ",
+    "kind": "adverb"
+  },
+  {
+    "word": "ちゃんと",
+    "reading": "ちゃんと",
+    "en": "properly",
+    "my": "သေသေချာချာ",
+    "kind": "adverb"
+  },
+  {
+    "word": "こう",
+    "reading": "こう",
+    "en": "like this",
+    "my": "ဒီလို",
+    "kind": "adverb"
+  },
+  {
+    "word": "そう",
+    "reading": "そう",
+    "en": "like that",
+    "my": "အဲဒီလို",
+    "kind": "adverb"
+  },
+  {
+    "word": "ああ",
+    "reading": "ああ",
+    "en": "like that over there",
+    "my": "ဟိုလို / အဲဒီလိုမျိုး",
+    "kind": "adverb"
+  },
+  {
+    "word": "もちろん",
+    "reading": "もちろん",
+    "en": "of course",
+    "my": "သေချာတာပေါ့",
+    "kind": "adverb"
+  },
+  {
+    "word": "きっと",
+    "reading": "きっと",
+    "en": "surely",
+    "my": "သေချာပေါက် / မုချ",
+    "kind": "adverb"
+  },
+  {
+    "word": "もし",
+    "reading": "もし",
+    "en": "if",
+    "my": "အကယ်၍",
+    "kind": "adverb"
+  },
+  {
+    "word": "ぜひ",
+    "reading": "ぜひ",
+    "en": "by all means",
+    "my": "မဖြစ်မနေ / ကျေးဇူးပြု၍ ကြိုးစားပြီး",
+    "kind": "adverb"
+  },
+  {
+    "word": "だいたい",
+    "reading": "だいたい",
+    "en": "roughly / usually",
+    "my": "အကြမ်းဖျင်း / အများအားဖြင့်",
+    "kind": "adverb"
+  },
+  {
+    "word": "ずっと",
+    "reading": "ずっと",
+    "en": "all along / much more",
+    "my": "တစ်လျှောက်လုံး / အများကြီးပို၍",
+    "kind": "adverb"
+  }
+]
