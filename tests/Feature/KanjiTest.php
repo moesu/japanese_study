@@ -3,6 +3,8 @@
 namespace Tests\Feature;
 
 use App\Models\Kanji;
+use App\Models\LearnedKotoba;
+use App\Models\User;
 use Database\Seeders\KanjiSeeder;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -23,7 +25,27 @@ class KanjiTest extends TestCase
             ->assertSee('N4')
             ->assertSee('N3')
             ->assertSee('N2')
-            ->assertSee('N1');
+            ->assertSee('N1')
+            ->assertDontSee('id="main-menu"', false);
+
+        $this->get('/n4/kotoba')
+            ->assertOk()
+            ->assertSee('みます')
+            ->assertSee('見ます、診ます')
+            ->assertSee('ကြည့်သည်')
+            ->assertSee('အခန်း ၂၆')
+            ->assertSee('Kotoba')
+            ->assertSee('စစ်ထုတ်မည်')
+            ->assertDontSee('>N5 Kanji<', false)
+            ->assertDontSee('わたし');
+
+        $this->get(route('n4.kotoba', 26))
+            ->assertOk()
+            ->assertSee('みます')
+            ->assertDontSee('ミュンヘン');
+
+        $this->get(route('n4.kotoba', 25))->assertNotFound();
+        $this->get(route('n4.kotoba', 51))->assertNotFound();
 
         $this->get(route('kanji.index'))
             ->assertOk()
@@ -145,6 +167,17 @@ class KanjiTest extends TestCase
             ->assertSee('မကျက်ရသေးပါ')
             ->assertSee('あなた')
             ->assertDontSee('>わたし<', false);
+
+        $learner = User::query()->where('device', '11111111-1111-4111-8111-111111111111')->first();
+        $this->assertNotNull($learner);
+        $this->assertTrue(
+            LearnedKotoba::query()
+                ->where('user_id', $learner->id)
+                ->where('word', '私')
+                ->where('reading', 'わたし')
+                ->where('learned', true)
+                ->exists(),
+        );
 
         $this->get(route('goi.show', ['chapters' => [99]]))->assertNotFound();
 
@@ -268,6 +301,20 @@ class KanjiTest extends TestCase
             ->assertOk()
             ->assertSee('アパート')
             ->assertDontSee('>あいます<', false);
+
+        $this->withCredentials()
+            ->withUnencryptedCookie('n5_device', '11111111-1111-4111-8111-111111111111')
+            ->postJson(route('kotoba.learned'), [
+                'word' => '会う',
+                'reading' => 'あう',
+            ])->assertOk()->assertJson(['learned' => false]);
+
+        $this->assertDatabaseHas('learned_kotobas', [
+            'user_id' => User::query()->where('device', '11111111-1111-4111-8111-111111111111')->value('id'),
+            'word' => '会う',
+            'reading' => 'あう',
+            'learned' => 0,
+        ]);
 
         $pdf = $this->get(route('kotoba.pdf', ['type' => 'adverb', 'show' => 'ja']));
         $pdf->assertOk();

@@ -1,16 +1,17 @@
 @extends('layouts.app')
 
 @php
-    $lessonLabel = count($chapters) === 25
+    $lessonCount = count($lessons);
+    $lessonLabel = count($chapters) === $lessonCount
         ? 'အခန်းအားလုံး'
         : implode('၊', array_map(fn (int $lesson): string => \App\Support\N5Goi::lessonLabel($lesson), $chapters));
     $goiQuery = array_filter([
-        'chapters' => count($chapters) === 25 ? null : $chapters,
+        'chapters' => count($chapters) === $lessonCount ? null : $chapters,
         'kind' => $kind === 'all' ? null : $kind,
         'learned' => $learned === 'all' ? null : $learned,
     ]);
     $chapterSummary = match (true) {
-        count($chapters) === 25 => 'အခန်းအားလုံး',
+        count($chapters) === $lessonCount => 'အခန်းအားလုံး',
         count($chapters) > 4 => 'အခန်း '.count($chapters).' ခု',
         count($chapters) === 0 => 'အခန်း ရွေးပါ',
         default => $lessonLabel,
@@ -22,7 +23,7 @@
 @section('content')
     <div class="row">
         <div>
-            <p class="meta goi-intro" style="margin: 0;">Himawari N5 ဝေါဟာရ။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။</p>
+            <p class="meta goi-intro" style="margin: 0;">{{ $intro }}</p>
         </div>
     </div>
 
@@ -32,7 +33,7 @@
     </button>
     <div class="goi-tools">
     <div class="filter-sheet">
-    <form class="search goi-search" method="get" action="{{ route('goi.show') }}">
+    <form class="search goi-search" method="get" action="{{ route($routeName) }}">
         <button type="button" class="filter-close">ပိတ်မည်</button>
         @if ($show !== 'both')
             <input type="hidden" name="show" value="{{ $show }}">
@@ -55,12 +56,12 @@
                 </div>
                 <div class="multi-grid">
                     <label class="chip">
-                        <input type="checkbox" name="chapters[]" value="all" data-label="အခန်းအားလုံး" @checked(count($chapters) === 25)>
+                        <input type="checkbox" name="chapters[]" value="all" data-label="အခန်းအားလုံး" @checked(count($chapters) === $lessonCount)>
                         <span>အခန်းအားလုံး</span>
                     </label>
-                    @foreach (range(1, 25) as $lesson)
+                    @foreach ($lessons as $lesson)
                         <label class="chip">
-                            <input type="checkbox" name="chapters[]" value="{{ $lesson }}" data-label="{{ \App\Support\N5Goi::lessonLabel($lesson) }}" @checked(count($chapters) !== 25 && in_array($lesson, $chapters, true))>
+                            <input type="checkbox" name="chapters[]" value="{{ $lesson }}" data-label="{{ \App\Support\N5Goi::lessonLabel($lesson) }}" @checked(count($chapters) !== $lessonCount && in_array($lesson, $chapters, true))>
                             <span>{{ \App\Support\N5Goi::lessonLabel($lesson) }}</span>
                         </label>
                     @endforeach
@@ -71,7 +72,7 @@
             <summary>{{ $kinds[$kind] }} <span>{{ $counts[$kind] }}</span></summary>
             <div class="filters">
                 @foreach ($kinds as $key => $label)
-                    <a href="{{ route('goi.show', array_filter([...$goiQuery, 'kind' => $key === 'all' ? null : $key, 'show' => $show === 'both' ? null : $show])) }}" @class(['active' => $kind === $key])>
+                    <a href="{{ route($routeName, array_filter([...$goiQuery, 'kind' => $key === 'all' ? null : $key, 'show' => $show === 'both' ? null : $show])) }}" @class(['active' => $kind === $key])>
                         {{ $label }}
                         <span>{{ $counts[$key] }}</span>
                     </a>
@@ -83,10 +84,10 @@
 
     <div class="filters goi-filters">
         @foreach ($shows as $key => $label)
-            <a href="{{ route('goi.show', array_filter([...$goiQuery, 'show' => $key === 'both' ? null : $key])) }}" @class(['active' => $show === $key])>{{ $label }}</a>
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'show' => $key === 'both' ? null : $key])) }}" @class(['active' => $show === $key])>{{ $label }}</a>
         @endforeach
         @foreach ($learnedOptions as $key => $label)
-            <a href="{{ route('goi.show', array_filter([...$goiQuery, 'learned' => $key === 'all' ? null : $key])) }}" @class(['active' => $learned === $key]) data-learned-filter="{{ $key }}">
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'learned' => $key === 'all' ? null : $key])) }}" @class(['active' => $learned === $key]) data-learned-filter="{{ $key }}">
                 {{ $label }}
                 <span data-learned-count="{{ $key }}">{{ $learnedCounts[$key] }}</span>
             </a>
@@ -142,7 +143,7 @@
 
         const chapterSummary = () => {
             const picked = lessonBoxes.filter((box) => box.checked).map((box) => box.dataset.label);
-            if (allChapters.checked || picked.length === 25) {
+            if (allChapters.checked || picked.length === {{ $lessonCount }}) {
                 chapterLabel.textContent = 'အခန်းအားလုံး';
             } else if (picked.length === 0) {
                 chapterLabel.textContent = 'အခန်း ရွေးပါ';

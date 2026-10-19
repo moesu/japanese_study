@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\LearnedKotoba;
+use App\Models\User;
 use App\Support\BrowserDevice;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\RedirectResponse;
@@ -96,19 +97,11 @@ class KotobaController extends Controller
             'word' => ['nullable', 'string', 'max:80'],
             'reading' => ['required', 'string', 'max:80'],
         ]);
-        $data['word'] = $data['word'] ?? '';
         $device = BrowserDevice::id($request);
         $learned = false;
 
         if ($device !== null) {
-            $data['device'] = $device;
-            $existing = LearnedKotoba::query()->where($data)->first();
-            if ($existing) {
-                $existing->delete();
-            } else {
-                LearnedKotoba::query()->create($data);
-                $learned = true;
-            }
+            $learned = LearnedKotoba::toggle(User::forDevice($device), $data['word'] ?? '', $data['reading']);
         }
 
         if ($request->expectsJson()) {
@@ -198,10 +191,7 @@ class KotobaController extends Controller
             ? $searched
             : $searched->where('kind', $type)->values();
 
-        $learnedKeys = LearnedKotoba::query()
-            ->where('device', BrowserDevice::id($request) ?? '')
-            ->get(['word', 'reading'])
-            ->mapWithKeys(fn (LearnedKotoba $row) => [$row->word.'|'.$row->reading => true]);
+        $learnedKeys = LearnedKotoba::learnedKeysFor(User::findForDevice(BrowserDevice::id($request)));
 
         $filtered = $filtered->map(function (array $word) use ($learnedKeys) {
             $word['learned'] = isset($learnedKeys[$word['word'].'|'.$word['reading']]);

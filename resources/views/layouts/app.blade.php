@@ -450,21 +450,27 @@
     </style>
 </head>
 <body>
-    <header>
-        <a class="brand" href="{{ route('home') }}">
-            <strong>JLPT</strong>
-            <span>အဓိပ္ပာယ်နှင့် မြန်မာပြန်</span>
-        </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <nav id="main-menu">
-            <a href="{{ route('kanji.index') }}" @class(['active' => request()->routeIs('kanji.index', 'kanji.show')])>N5 Kanji</a>
-            <a href="{{ route('goi.show') }}" @class(['active' => request()->routeIs('goi.show')])>Kotoba</a>
-        </nav>
-    </header>
+    @unless (request()->routeIs('home'))
+        <header>
+            <a class="brand" href="{{ route('home') }}">
+                <strong>JLPT</strong>
+                <span>အဓိပ္ပာယ်နှင့် မြန်မာပြန်</span>
+            </a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-menu" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav id="main-menu">
+                @if (request()->routeIs('n4.kotoba'))
+                    <a href="{{ route('n4.kotoba') }}" class="active">Kotoba</a>
+                @else
+                    <a href="{{ route('kanji.index') }}" @class(['active' => request()->routeIs('kanji.index', 'kanji.show')])>N5 Kanji</a>
+                    <a href="{{ route('goi.show') }}" @class(['active' => request()->routeIs('goi.show')])>Kotoba</a>
+                @endif
+            </nav>
+        </header>
+    @endunless
     <main>
         @yield('content')
     </main>
@@ -483,7 +489,7 @@
             menuButton.setAttribute('aria-expanded', open ? 'true' : 'false');
         });
         document.addEventListener('click', (event) => {
-            if (mainMenu && !mainMenu.contains(event.target) && !menuButton.contains(event.target)) {
+            if (mainMenu && menuButton && !mainMenu.contains(event.target) && !menuButton.contains(event.target)) {
                 mainMenu.classList.remove('open');
                 menuButton.setAttribute('aria-expanded', 'false');
             }

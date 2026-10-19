@@ -19,8 +19,16 @@ class N5Goi
     }
 
     /**
-     * @return array{chapter: int, words: array<int, array{reading: string, word: string, my: string, group: string}>}|null
+     * @return array<int, int>
      */
+    public static function numbers(): array
+    {
+        return array_map(
+            fn (array $chapter): int => (int) $chapter['chapter'],
+            self::chapters(),
+        );
+    }
+
     public static function lessonLabel(int $chapter): string
     {
         $number = strtr((string) $chapter, [
@@ -39,6 +47,9 @@ class N5Goi
         return 'အခန်း '.$number;
     }
 
+    /**
+     * @return array{chapter: int, words: array<int, array{reading: string, word: string, my: string, group: string}>}|null
+     */
     public static function chapter(int $chapter): ?array
     {
         foreach (self::chapters() as $group) {

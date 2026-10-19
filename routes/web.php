@@ -6,6 +6,7 @@ use App\Http\Controllers\KotobaController;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home')->name('home');
+Route::get('/n4/kotoba/{chapter?}', [GoiController::class, 'n4'])->whereNumber('chapter')->name('n4.kotoba');
 Route::get('/n5/kanji', [KanjiController::class, 'index'])->name('kanji.index');
 Route::get('/n5/kotoba/{chapter?}', [GoiController::class, 'show'])->whereNumber('chapter')->name('goi.show');
 Route::get('/gio_n5/{chapter?}', function (?int $chapter = null) {

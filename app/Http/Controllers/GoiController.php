@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\LearnedKotoba;
+use App\Models\User;
 use App\Support\BrowserDevice;
+use App\Support\N4Goi;
 use App\Support\N5Goi;
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -43,7 +45,20 @@ class GoiController extends Controller
         'no' => 'မကျက်ရသေးပါ',
     ];
 
-    public function show(Request $request, int $chapter = 1): View
+    public function show(Request $request): View
+    {
+        return $this->render($request, N5Goi::class, 'goi.show', 'Himawari N5 ဝေါဟာရ။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။');
+    }
+
+    public function n4(Request $request): View
+    {
+        return $this->render($request, N4Goi::class, 'n4.kotoba', 'Minna no Nihongo N4 ဝေါဟာရ။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။');
+    }
+
+    /**
+     * @param  class-string<N4Goi|N5Goi>  $source
+     */
+    private function render(Request $request, string $source, string $routeName, string $intro): View
     {
         $show = (string) $request->query('show', 'both');
         if (! array_key_exists($show, self::SHOWS)) {
@@ -60,20 +75,18 @@ class GoiController extends Controller
             $learned = 'all';
         }
 
-        $chapters = $this->chapters($request, $kind);
-        $inChapters = N5Goi::wordsFor($chapters);
+        $lessons = $source::numbers();
+        $chapters = $this->chapters($request, $kind, $source, $lessons);
+        $inChapters = $source::wordsFor($chapters);
         $counts = array_fill_keys(array_keys(self::KINDS), 0);
         $counts['all'] = count($inChapters);
         foreach ($inChapters as $word) {
-            $counts[N5Goi::kindOf($word)]++;
+            $counts[$source::kindOf($word)]++;
         }
         $matched = $kind === 'all'
             ? $inChapters
-            : array_values(array_filter($inChapters, fn (array $word): bool => N5Goi::kindOf($word) === $kind));
-        $learnedKeys = LearnedKotoba::query()
-            ->where('device', BrowserDevice::id($request) ?? '')
-            ->get(['word', 'reading'])
-            ->mapWithKeys(fn (LearnedKotoba $row): array => [$row->word.'|'.$row->reading => true]);
+            : array_values(array_filter($inChapters, fn (array $word): bool => $source::kindOf($word) === $kind));
+        $learnedKeys = LearnedKotoba::learnedKeysFor(User::findForDevice(BrowserDevice::id($request)));
         $matched = array_map(function (array $word) use ($learnedKeys): array {
             $word['learned'] = isset($learnedKeys[$word['word'].'|'.$word['reading']]);
 
@@ -103,8 +116,11 @@ class GoiController extends Controller
         );
 
         return view('goi.show', [
-            'chapter' => $chapter,
+            'chapter' => $request->route('chapter'),
             'chapters' => $chapters,
+            'lessons' => $lessons,
+            'routeName' => $routeName,
+            'intro' => $intro,
             'words' => $words,
             'show' => $show,
             'shows' => self::SHOWS,
@@ -118,18 +134,20 @@ class GoiController extends Controller
     }
 
     /**
+     * @param  class-string<N4Goi|N5Goi>  $source
+     * @param  array<int, int>  $lessons
      * @return array<int, int>
      */
-    private function chapters(Request $request, string $kind): array
+    private function chapters(Request $request, string $kind, string $source, array $lessons): array
     {
         if ($request->query('chapters') === null) {
             $routeChapter = $request->route('chapter');
             if ($routeChapter === null || $kind !== 'all') {
-                return range(1, 25);
+                return $lessons;
             }
 
             $number = (int) $routeChapter;
-            abort_if(N5Goi::chapter($number) === null, 404);
+            abort_if($source::chapter($number) === null, 404);
 
             return [$number];
         }
@@ -140,13 +158,14 @@ class GoiController extends Controller
         }
 
         if (in_array('all', array_map(strval(...), $raw), true)) {
-            return range(1, 25);
+            return $lessons;
         }
 
+        $allowed = array_flip($lessons);
         $chapters = [];
         foreach ($raw as $value) {
             $number = (int) $value;
-            if ($number >= 1 && $number <= 25) {
+            if (isset($allowed[$number])) {
                 $chapters[$number] = $number;
             }
         }

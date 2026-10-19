@@ -12,7 +12,7 @@
 
     <div class="level-grid">
         <a class="level" href="{{ route('goi.show') }}">N5</a>
-        <span class="level soon">N4</span>
+        <a class="level" href="{{ route('n4.kotoba') }}">N4</a>
         <span class="level soon">N3</span>
         <span class="level soon">N2</span>
         <span class="level soon">N1</span>
