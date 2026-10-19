@@ -184,6 +184,27 @@ class KanjiTest extends TestCase
         $this->get(route('goi.show', 26))->assertNotFound();
     }
 
+    public function test_learned_mark_works_without_a_device_cookie(): void
+    {
+        $response = $this->postJson(route('kotoba.learned'), [
+            'word' => '私',
+            'reading' => 'わたし',
+        ]);
+
+        $response->assertOk()
+            ->assertJson(['learned' => true])
+            ->assertCookie('n5_device');
+
+        $device = $response->getCookie('n5_device', false);
+        $this->assertNotNull($device);
+
+        $this->withCredentials()
+            ->withUnencryptedCookie('n5_device', $device->getValue())
+            ->get(route('goi.show', ['chapter' => 1, 'learned' => 'yes']))
+            ->assertOk()
+            ->assertSee('わたし');
+    }
+
     public function test_search_finds_kanji_by_myanmar_meaning(): void
     {
         $this->seed(KanjiSeeder::class);

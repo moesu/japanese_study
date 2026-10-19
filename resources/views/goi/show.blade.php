@@ -216,7 +216,7 @@
                 const wasOn = button.classList.contains('on');
                 button.disabled = true;
                 try {
-                    const response = await fetch('{{ route('kotoba.learned') }}', {
+                    const response = await fetch('{{ route('kotoba.learned', [], false) }}', {
                         method: 'POST',
                         headers: {
                             'Accept': 'application/json',

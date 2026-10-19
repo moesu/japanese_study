@@ -71,7 +71,7 @@
                     @if ($show === 'both')
                         <div class="en">{{ $word['en'] }}</div>
                     @endif
-                    <form method="post" action="{{ route('kotoba.learned') }}">
+                    <form method="post" action="{{ route('kotoba.learned', [], false) }}">
                         @csrf
                         <input type="hidden" name="word" value="{{ $word['word'] }}">
                         <input type="hidden" name="reading" value="{{ $word['reading'] }}">

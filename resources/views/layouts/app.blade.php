@@ -4,24 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <script>
-        (function () {
-            const key = 'n5-device';
-            let id = localStorage.getItem(key);
-            if (!id) {
-                id = crypto.randomUUID();
-                localStorage.setItem(key, id);
-            }
-            const current = document.cookie.match(/(?:^|; )n5_device=([^;]*)/);
-            if (!current || decodeURIComponent(current[1]) !== id) {
-                document.cookie = 'n5_device=' + id + ';path=/;max-age=31536000;samesite=lax';
-                if (sessionStorage.getItem('n5-device-ready') !== id) {
-                    sessionStorage.setItem('n5-device-ready', id);
-                    location.reload();
-                }
-            }
-        })();
-    </script>
     <title>@yield('title', 'N5 漢字') — N5 Kanji</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
