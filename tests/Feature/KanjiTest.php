@@ -215,6 +215,23 @@ class KanjiTest extends TestCase
             ->assertDontSee('雨');
     }
 
+    public function test_kanji_detail_lives_under_n5_path_and_old_url_redirects(): void
+    {
+        $this->seed(KanjiSeeder::class);
+        $kanji = Kanji::query()->where('character', '日')->firstOrFail();
+
+        $this->get('/n5/kanji/'.$kanji->id)
+            ->assertOk()
+            ->assertSee('နေ့');
+
+        $this->get('/kanji/'.$kanji->id)
+            ->assertRedirect('/n5/kanji/'.$kanji->id);
+
+        $this->get(route('kanji.index'))
+            ->assertOk()
+            ->assertSee('href="/n5/kanji/'.$kanji->id.'"', false);
+    }
+
     public function test_person_kanji_lists_n5_person_vocabulary(): void
     {
         $this->seed(KanjiSeeder::class);

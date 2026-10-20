@@ -24,7 +24,7 @@
     <div class="panel">
         <p class="meta">နောက်တစ်ခု</p>
         <p class="hero-kanji">{{ $prompt->character }}</p>
-        <form method="post" action="{{ route('kanji.quiz.answer') }}" class="choices">
+        <form method="post" action="{{ route('kanji.quiz.answer', [], false) }}" class="choices">
             @csrf
             <input type="hidden" name="kanji_id" value="{{ $prompt->id }}">
             @foreach ($choices as $choice)
@@ -33,7 +33,7 @@
         </form>
     </div>
 
-    <form method="post" action="{{ route('kanji.quiz.reset') }}" style="margin-top: 1rem;">
+    <form method="post" action="{{ route('kanji.quiz.reset', [], false) }}" style="margin-top: 1rem;">
         @csrf
         <button class="ghost" type="submit">အမှတ် ပြန်စမည်</button>
     </form>

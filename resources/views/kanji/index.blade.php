@@ -10,7 +10,7 @@
         <span class="seal">{{ $kanji->count() }} / {{ $total }}</span>
     </div>
 
-    <form class="search" method="get" action="{{ route('kanji.index') }}">
+    <form class="search" method="get" action="{{ route('kanji.index', [], false) }}">
         <input type="search" name="q" value="{{ $q }}" placeholder="漢字၊ reading၊ day၊ နေ့" autofocus>
         <button type="submit">ရှာမည်</button>
     </form>
@@ -20,7 +20,7 @@
     @else
         <div class="grid">
             @foreach ($kanji as $item)
-                <a class="card" href="{{ route('kanji.show', $item) }}">
+                <a class="card" href="{{ route('kanji.show', $item, false) }}">
                     <div class="glyph">{{ $item->character }}</div>
                     <p class="my">{{ $item->meaning_my }}</p>
                     <p class="en">{{ $item->meaning_en }}</p>

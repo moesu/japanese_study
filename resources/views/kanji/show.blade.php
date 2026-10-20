@@ -3,7 +3,7 @@
 @section('title', $kanji->character)
 
 @section('content')
-    <p><a href="{{ route('kanji.index') }}">← စာရင်းသို့</a></p>
+    <p><a href="{{ route('kanji.index', [], false) }}">← စာရင်းသို့</a></p>
     <div class="panel">
         <p class="seal">{{ $kanji->strokes }} strokes · radical {{ $kanji->radical }}</p>
         <p class="hero-kanji">{{ $kanji->character }}</p>
@@ -65,12 +65,12 @@
 
     <div class="row" style="margin-top: 1rem;">
         @if ($previous)
-            <a class="button ghost" href="{{ route('kanji.show', $previous) }}">← {{ $previous->character }}</a>
+            <a class="button ghost" href="{{ route('kanji.show', $previous, false) }}">← {{ $previous->character }}</a>
         @else
             <span></span>
         @endif
         @if ($next)
-            <a class="button ghost" href="{{ route('kanji.show', $next) }}">{{ $next->character }} →</a>
+            <a class="button ghost" href="{{ route('kanji.show', $next, false) }}">{{ $next->character }} →</a>
         @endif
     </div>
 @endsection

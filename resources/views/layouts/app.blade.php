@@ -447,7 +447,7 @@
                 @if (request()->routeIs('n4.kotoba'))
                     <a href="{{ route('n4.kotoba') }}" class="active">Kotoba</a>
                 @else
-                    <a href="{{ route('kanji.index') }}" @class(['active' => request()->routeIs('kanji.index', 'kanji.show')])>N5 Kanji</a>
+                    <a href="{{ route('kanji.index', [], false) }}" @class(['active' => request()->routeIs('kanji.index', 'kanji.show')])>N5 Kanji</a>
                     <a href="{{ route('goi.show') }}" @class(['active' => request()->routeIs('goi.show')])>Kotoba</a>
                 @endif
             </nav>
