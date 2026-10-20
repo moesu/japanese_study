@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\PageVisit;
 use App\Models\User;
 use App\Support\AdminGate;
 use Illuminate\Http\RedirectResponse;
@@ -54,14 +55,44 @@ class AdminController extends Controller
             ->withCount([
                 'learnedKotobas as learned_count' => fn ($query) => $query->where('learned', true),
                 'learnedKotobas as marked_count',
+                'pageVisits as visit_count',
+            ])
+            ->addSelect([
+                'last_path' => PageVisit::query()
+                    ->select('path')
+                    ->whereColumn('user_id', 'users.id')
+                    ->latest('visited_at')
+                    ->limit(1),
+                'last_visited_at' => PageVisit::query()
+                    ->select('visited_at')
+                    ->whereColumn('user_id', 'users.id')
+                    ->latest('visited_at')
+                    ->limit(1),
             ])
             ->orderByDesc('last_active_at')
             ->orderByDesc('id')
-            ->paginate(50);
+            ->paginate(20)
+            ->withQueryString();
 
         return view('admin.index', [
             'totalDevices' => User::query()->whereNotNull('device')->count(),
             'devices' => $devices,
+        ]);
+    }
+
+    public function show(User $user): View
+    {
+        abort_unless($user->device !== null, 404);
+
+        $visits = PageVisit::query()
+            ->where('user_id', $user->id)
+            ->orderByDesc('visited_at')
+            ->paginate(30)
+            ->withQueryString();
+
+        return view('admin.show', [
+            'user' => $user,
+            'visits' => $visits,
         ]);
     }
 }

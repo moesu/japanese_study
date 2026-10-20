@@ -28,4 +28,7 @@ Route::post('/quiz/reset', [KanjiController::class, 'resetQuiz'])->name('kanji.q
 Route::get('/admin/login', [AdminController::class, 'loginForm'])->name('admin.login');
 Route::post('/admin/login', [AdminController::class, 'login'])->middleware('throttle:10,1')->name('admin.login.store');
 Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
-Route::get('/admin', [AdminController::class, 'index'])->middleware(EnsureAdmin::class)->name('admin.index');
+Route::middleware(EnsureAdmin::class)->group(function () {
+    Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+    Route::get('/admin/devices/{user}', [AdminController::class, 'show'])->name('admin.devices.show');
+});

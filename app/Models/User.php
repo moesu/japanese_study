@@ -59,6 +59,14 @@ class User extends Authenticatable
     }
 
     /**
+     * @return HasMany<PageVisit, $this>
+     */
+    public function pageVisits(): HasMany
+    {
+        return $this->hasMany(PageVisit::class);
+    }
+
+    /**
      * Get the attributes that should be cast.
      *
      * @return array<string, string>

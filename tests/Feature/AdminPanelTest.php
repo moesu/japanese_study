@@ -42,8 +42,37 @@ class AdminPanelTest extends TestCase
         $this->get(route('admin.index'))
             ->assertOk()
             ->assertSee('Total devices: 1')
+            ->assertSee('SR No')
+            ->assertSee('>1<', false)
             ->assertSee('11111111-1111')
-            ->assertSee($learner->last_active_at->timezone(config('app.timezone'))->format('Y-m-d H:i'));
+            ->assertSee($learner->last_active_at->timezone('Asia/Bangkok')->format('Y-m-d h:i A'));
+    }
+
+    public function test_admin_devices_are_paginated_with_serial_numbers(): void
+    {
+        Setting::setAdminPassword('secret-admin');
+
+        foreach (range(1, 21) as $index) {
+            User::factory()->create([
+                'device' => sprintf('11111111-1111-4111-8111-%012d', $index),
+                'last_active_at' => now()->subMinutes($index),
+            ]);
+        }
+
+        $this->post(route('admin.login.store'), ['password' => 'secret-admin'])
+            ->assertRedirect(route('admin.index'));
+
+        $this->get(route('admin.index'))
+            ->assertOk()
+            ->assertSee('Total devices: 21')
+            ->assertSee('>1<', false)
+            ->assertSee('>20<', false)
+            ->assertDontSee('>21<', false)
+            ->assertSee('page=2', false);
+
+        $this->get(route('admin.index', ['page' => 2]))
+            ->assertOk()
+            ->assertSee('>21<', false);
     }
 
     public function test_admin_password_command_stores_a_hash_in_the_database(): void

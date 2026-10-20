@@ -6,7 +6,7 @@
     <div class="row">
         <div>
             <h1 style="margin: 0;">Devices</h1>
-            <p class="meta">Total devices: {{ $totalDevices }}</p>
+            <p class="meta">Total devices: {{ $totalDevices }} · Timezone: Asia/Bangkok</p>
         </div>
         <form method="post" action="{{ route('admin.logout') }}">
             @csrf
@@ -18,27 +18,38 @@
         <table class="admin-table">
             <thead>
                 <tr>
-                    <th>#</th>
+                    <th>SR No</th>
                     <th>Device</th>
+                    <th>Last URL</th>
                     <th>Last active</th>
                     <th>ကျက်ပြီး</th>
-                    <th>Marked</th>
-                    <th>First seen</th>
+                    <th>Visits</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
                 @forelse ($devices as $device)
                     <tr>
-                        <td>{{ $device->id }}</td>
+                        <td>{{ $devices->firstItem() + $loop->index }}</td>
                         <td><code title="{{ $device->device }}">{{ \Illuminate\Support\Str::limit($device->device, 13, '…') }}</code></td>
-                        <td>{{ $device->last_active_at?->timezone(config('app.timezone'))->format('Y-m-d H:i') ?? '—' }}</td>
+                        <td>
+                            @if ($device->last_path)
+                                <code title="{{ $device->last_path }}">{{ \Illuminate\Support\Str::limit($device->last_path, 28, '…') }}</code>
+                                @if ($device->last_visited_at)
+                                    <div class="meta">{{ \Illuminate\Support\Carbon::parse($device->last_visited_at)->timezone('Asia/Bangkok')->format('Y-m-d h:i A') }}</div>
+                                @endif
+                            @else
+                                —
+                            @endif
+                        </td>
+                        <td>{{ $device->last_active_at?->timezone('Asia/Bangkok')->format('Y-m-d h:i A') ?? '—' }}</td>
                         <td>{{ $device->learned_count }}</td>
-                        <td>{{ $device->marked_count }}</td>
-                        <td>{{ $device->created_at?->timezone(config('app.timezone'))->format('Y-m-d H:i') }}</td>
+                        <td>{{ $device->visit_count }}</td>
+                        <td><a class="admin-link" href="{{ route('admin.devices.show', $device) }}">View</a></td>
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="6" class="meta">No devices yet.</td>
+                        <td colspan="7" class="meta">No devices yet.</td>
                     </tr>
                 @endforelse
             </tbody>
@@ -46,17 +57,25 @@
     </div>
 
     @if ($devices->hasPages())
-        <div class="row" style="margin-top: 1rem;">
+        <nav class="admin-pager" aria-label="Pagination">
             @if ($devices->onFirstPage())
-                <span></span>
+                <span class="button ghost" aria-disabled="true">← အရင်</span>
             @else
                 <a class="button ghost" href="{{ $devices->previousPageUrl() }}">← အရင်</a>
             @endif
-            <span class="meta">{{ $devices->currentPage() }} / {{ $devices->lastPage() }}</span>
+
+            <div class="admin-pages">
+                @foreach ($devices->getUrlRange(1, $devices->lastPage()) as $page => $url)
+                    <a href="{{ $url }}" @class(['button', 'ghost' => $page !== $devices->currentPage()])>{{ $page }}</a>
+                @endforeach
+            </div>
+
             @if ($devices->hasMorePages())
                 <a class="button ghost" href="{{ $devices->nextPageUrl() }}">နောက် →</a>
+            @else
+                <span class="button ghost" aria-disabled="true">နောက် →</span>
             @endif
-        </div>
+        </nav>
     @endif
 
     <style>
@@ -71,11 +90,42 @@
             padding: 0.7rem 0.55rem;
             border-bottom: 1px solid var(--line);
             white-space: nowrap;
+            vertical-align: top;
         }
         .admin-table th { color: var(--muted); font-weight: 600; }
         .admin-table code {
             font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
             font-size: 0.85rem;
+        }
+        .admin-link {
+            color: var(--muted);
+            font-size: 0.85rem;
+            text-decoration: underline;
+            text-underline-offset: 0.15em;
+        }
+        .admin-link:hover { color: var(--ink); }
+        .admin-pager {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-top: 1rem;
+        }
+        .admin-pages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            justify-content: center;
+        }
+        .admin-pages .button {
+            min-width: 2.4rem;
+            padding: 0.55rem 0.7rem;
+            text-align: center;
+        }
+        .admin-pager [aria-disabled="true"] {
+            opacity: 0.45;
+            pointer-events: none;
         }
     </style>
 @endsection
