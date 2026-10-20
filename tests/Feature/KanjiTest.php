@@ -49,6 +49,7 @@ class KanjiTest extends TestCase
 
         $this->get(route('kanji.index'))
             ->assertOk()
+            ->assertSeeInOrder(['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '百', '千', '万', '円', '金', '日', '月', '火', '水', '木', '土', '山', '川', '竹', '目', '耳', '口', '手', '足', '体', '大', '小', '高', '友', '入', '出', '門', '父', '母', '子', '男', '女', '犬', '鳥', '人', '上', '下', '左', '右', '内', '外', '中', '学', '校', '先', '生', '名', '字', '本'])
             ->assertSee('日')
             ->assertSee('နေ့')
             ->assertSee('駅')
@@ -215,6 +216,32 @@ class KanjiTest extends TestCase
             ->assertDontSee('雨');
     }
 
+    public function test_search_finds_kanji_by_japanese_reading_ordered_by_sort_order(): void
+    {
+        $this->seed(KanjiSeeder::class);
+
+        $this->get(route('kanji.index', ['q' => 'ひと']))
+            ->assertOk()
+            ->assertSee('人')
+            ->assertDontSee('雨');
+
+        $this->get(route('kanji.index', ['q' => 'すこし']))
+            ->assertOk()
+            ->assertSee('少');
+
+        $this->get(route('kanji.index', ['q' => 'じぜん']))
+            ->assertOk()
+            ->assertSee('前');
+
+        $this->get(route('kanji.index', ['q' => 'ばしゃ']))
+            ->assertOk()
+            ->assertSee('車');
+
+        $this->get(route('kanji.index', ['q' => 'School']))
+            ->assertOk()
+            ->assertSeeInOrder(['学', '校']);
+    }
+
     public function test_kanji_detail_lives_under_n5_path_and_old_url_redirects(): void
     {
         $this->seed(KanjiSeeder::class);
@@ -230,6 +257,432 @@ class KanjiTest extends TestCase
         $this->get(route('kanji.index'))
             ->assertOk()
             ->assertSee('href="/n5/kanji/'.$kanji->id.'"', false);
+    }
+
+    public function test_number_kanji_show_textbook_words_with_myanmar_meanings(): void
+    {
+        $this->seed(KanjiSeeder::class);
+
+        $this->assertSame(
+            [
+                '一', '二', '三', '四', '五', '六', '七', '八', '九', '十',
+                '百', '千', '万', '円', '金',
+                '日', '月', '火', '水', '木', '土', '山', '川', '田', '石',
+                '天', '空', '雨', '花', '竹',
+                '目', '耳', '口', '手', '足', '体',
+                '大', '小', '高', '友', '入', '出', '門',
+                '父', '母', '子', '男', '女', '犬', '鳥',
+                '人',
+                '上', '下', '左', '右', '内', '外', '中',
+                '学', '校', '先', '生', '名', '字', '本',
+                '米', '茶', '魚', '貝', '牛', '肉',
+            ],
+            Kanji::query()->orderBy('sort_order')->limit(71)->pluck('character')->all(),
+        );
+
+        $one = Kanji::query()->where('character', '一')->firstOrFail();
+        $this->get(route('kanji.show', $one))
+            ->assertOk()
+            ->assertSee('တစ်')
+            ->assertSeeInOrder(['ひとつ', '၁ ခု'])
+            ->assertSeeInOrder(['ひとり', '၁ ယောက်'])
+            ->assertSeeInOrder(['いちがつ', 'ဇန်နဝါရီလ'])
+            ->assertSeeInOrder(['いちにち', '၁ ရက်'])
+            ->assertSeeInOrder(['いちえん', '၁ ယန်း']);
+
+        $two = Kanji::query()->where('character', '二')->firstOrFail();
+        $this->get(route('kanji.show', $two))
+            ->assertOk()
+            ->assertSee('နှစ်')
+            ->assertSeeInOrder(['ふたつ', '၂ ခု'])
+            ->assertSeeInOrder(['ふたり', '၂ ယောက်'])
+            ->assertSeeInOrder(['にがつ', 'ဖေဖော်ဝါရီလ'])
+            ->assertSeeInOrder(['にひゃくえん', '၂၀၀ ယန်း']);
+
+        $yen = Kanji::query()->where('character', '円')->firstOrFail();
+        $this->get(route('kanji.show', $yen))
+            ->assertOk()
+            ->assertSeeInOrder(['えん', 'ယန်း'])
+            ->assertSeeInOrder(['ひゃくえん', '၁၀၀ ယန်း'])
+            ->assertSeeInOrder(['せんえん', '၁၀၀၀ ယန်း'])
+            ->assertSeeInOrder(['いちまんえん', '၁ သောင်းယန်း']);
+
+        $hundred = Kanji::query()->where('character', '百')->firstOrFail();
+        $this->get(route('kanji.show', $hundred))
+            ->assertOk()
+            ->assertSeeInOrder(['ひゃくえん', '၁၀၀ ယန်း']);
+
+        $thousand = Kanji::query()->where('character', '千')->firstOrFail();
+        $this->get(route('kanji.show', $thousand))
+            ->assertOk()
+            ->assertSeeInOrder(['せんえん', '၁၀၀၀ ယန်း']);
+
+        $man = Kanji::query()->where('character', '万')->firstOrFail();
+        $this->get(route('kanji.show', $man))
+            ->assertOk()
+            ->assertSeeInOrder(['いちまんえん', '၁ သောင်းယန်း']);
+
+        $moon = Kanji::query()->where('character', '月')->firstOrFail();
+        $this->get(route('kanji.show', $moon))
+            ->assertOk()
+            ->assertSee('လ')
+            ->assertSeeInOrder(['つき', 'လ'])
+            ->assertSeeInOrder(['げつようび', 'တနင်္လာနေ့'])
+            ->assertSeeInOrder(['こんげつ', 'ဒီလ'])
+            ->assertSeeInOrder(['くがつ', 'စက်တင်ဘာလ'])
+            ->assertSeeInOrder(['いっかげつ', '၁ လတာ'])
+            ->assertSeeInOrder(['じゅういちがつ', 'နိုဝင်ဘာလ']);
+
+        $fire = Kanji::query()->where('character', '火')->firstOrFail();
+        $this->get(route('kanji.show', $fire))
+            ->assertOk()
+            ->assertSee('မီး')
+            ->assertSeeInOrder(['ひ', 'မီး'])
+            ->assertSeeInOrder(['たばこのひ', 'စီးကရက်မီး'])
+            ->assertSeeInOrder(['かようび', 'အင်္ဂါနေ့']);
+
+        $water = Kanji::query()->where('character', '水')->firstOrFail();
+        $this->get(route('kanji.show', $water))
+            ->assertOk()
+            ->assertSee('ရေ')
+            ->assertSeeInOrder(['みず', 'ရေ'])
+            ->assertSeeInOrder(['すいようび', 'ဗုဒ္ဓဟူးနေ့'])
+            ->assertSeeInOrder(['すいえい', 'ရေကူးခြင်း'])
+            ->assertSeeInOrder(['こうすい', 'ရေမွှေး']);
+
+        $tree = Kanji::query()->where('character', '木')->firstOrFail();
+        $this->get(route('kanji.show', $tree))
+            ->assertOk()
+            ->assertSee('သစ်ပင်')
+            ->assertSeeInOrder(['き', 'သစ်ပင်'])
+            ->assertSeeInOrder(['さくらのき', 'ချယ်ရီပင်'])
+            ->assertSeeInOrder(['たいぼく', 'သစ်ပင်ကြီး'])
+            ->assertSeeInOrder(['もくようび', 'ကြာသပတေးနေ့']);
+
+        $gold = Kanji::query()->where('character', '金')->firstOrFail();
+        $this->get(route('kanji.show', $gold))
+            ->assertOk()
+            ->assertSeeInOrder(['おかね', 'ပိုက်ဆံ'])
+            ->assertSeeInOrder(['きんようび', 'သောကြာနေ့'])
+            ->assertSeeInOrder(['げんきん', 'ငွေသား'])
+            ->assertSeeInOrder(['りょうきん', 'အခကြေးငွေ']);
+
+        $earth = Kanji::query()->where('character', '土')->firstOrFail();
+        $this->get(route('kanji.show', $earth))
+            ->assertOk()
+            ->assertSeeInOrder(['つち', 'မြေကြီး'])
+            ->assertSeeInOrder(['どようび', 'စနေနေ့']);
+
+        $day = Kanji::query()->where('character', '日')->firstOrFail();
+        $this->get(route('kanji.show', $day))
+            ->assertOk()
+            ->assertSeeInOrder(['にちようび', 'တနင်္ဂနွေနေ့'])
+            ->assertSeeInOrder(['ちちのひ', 'အဖေနေ့'])
+            ->assertSeeInOrder(['たんじょうび', 'မွေးနေ့'])
+            ->assertSeeInOrder(['せいねんがっぴ', 'မွေးသက္ကရာဇ်'])
+            ->assertSeeInOrder(['むいか', '၆ ရက်နေ့'])
+            ->assertSeeInOrder(['きゅうじつ', 'အားလပ်ရက်']);
+
+        $year = Kanji::query()->where('character', '年')->firstOrFail();
+        $this->get(route('kanji.show', $year))
+            ->assertOk()
+            ->assertSeeInOrder(['とし', 'နှစ်'])
+            ->assertSeeInOrder(['まいねん', 'နှစ်စဉ်'])
+            ->assertSeeInOrder(['にねんまえ', '၂ နှစ်က'])
+            ->assertSeeInOrder(['きょねん', 'မနှစ်က']);
+
+        $eye = Kanji::query()->where('character', '目')->firstOrFail();
+        $this->get(route('kanji.show', $eye))
+            ->assertOk()
+            ->assertSeeInOrder(['めざましどけい', 'နှိုးစက်နာရီ'])
+            ->assertSeeInOrder(['めぐすり', 'မျက်စဉ်းဆေး'])
+            ->assertSeeInOrder(['もくてき', 'ရည်ရွယ်ချက်']);
+
+        $ear = Kanji::query()->where('character', '耳')->firstOrFail();
+        $this->get(route('kanji.show', $ear))
+            ->assertOk()
+            ->assertSeeInOrder(['みみ', 'နား'])
+            ->assertSeeInOrder(['じびか', 'နားနှာခေါင်းလည်ချောင်းဌာန']);
+
+        $hand = Kanji::query()->where('character', '手')->firstOrFail();
+        $this->get(route('kanji.show', $hand))
+            ->assertOk()
+            ->assertSeeInOrder(['てがみ', 'စာ'])
+            ->assertSeeInOrder(['きって', 'စာတံဆိပ်'])
+            ->assertSeeInOrder(['あくしゅ', 'လက်ဆွဲနှုတ်ဆက်ခြင်း'])
+            ->assertSeeInOrder(['うんてんしゅ', 'ယာဉ်မောင်း']);
+
+        $foot = Kanji::query()->where('character', '足')->firstOrFail();
+        $this->get(route('kanji.show', $foot))
+            ->assertOk()
+            ->assertSeeInOrder(['たす', 'ပေါင်းထည့်သည်'])
+            ->assertSeeInOrder(['いっそく', '၁ စုံ'])
+            ->assertSeeInOrder(['さんぞく', '၃ စုံ']);
+
+        $power = Kanji::query()->where('character', '力')->firstOrFail();
+        $this->get(route('kanji.show', $power))
+            ->assertOk()
+            ->assertSeeInOrder(['ちから', 'အား'])
+            ->assertSeeInOrder(['かりょく', 'မီးအား'])
+            ->assertSeeInOrder(['きょうりょく', 'ပူးပေါင်းဆောင်ရွက်ခြင်း'])
+            ->assertSeeInOrder(['しりょく', 'အမြင်အာရုံ'])
+            ->assertSeeInOrder(['がくりょく', 'ပညာရေးစွမ်းရည်']);
+
+        $person = Kanji::query()->where('character', '人')->firstOrFail();
+        $this->get(route('kanji.show', $person))
+            ->assertOk()
+            ->assertSee('あめりかじん')
+            ->assertSee('အမေရိကန်လူမျိုး')
+            ->assertSee('さんにん');
+
+        $mouth = Kanji::query()->where('character', '口')->firstOrFail();
+        $this->get(route('kanji.show', $mouth))
+            ->assertOk()
+            ->assertSeeInOrder(['くちべに', 'နှုတ်ခမ်းနီ'])
+            ->assertSeeInOrder(['かいさつぐち', 'လက်မှတ်ဂိတ်'])
+            ->assertSeeInOrder(['じんこう', 'လူဦးရေ']);
+
+        $field = Kanji::query()->where('character', '田')->firstOrFail();
+        $this->get(route('kanji.show', $field))
+            ->assertOk()
+            ->assertSeeInOrder(['たんぼ', 'လယ်ကွင်း'])
+            ->assertSeeInOrder(['すいでん', 'ရေသွင်းလယ်']);
+
+        $stone = Kanji::query()->where('character', '石')->firstOrFail();
+        $this->get(route('kanji.show', $stone))
+            ->assertOk()
+            ->assertSeeInOrder(['こいし', 'ကျောက်စရစ်'])
+            ->assertSeeInOrder(['ほうせき', 'ရတနာကျောက်']);
+
+        $mountain = Kanji::query()->where('character', '山')->firstOrFail();
+        $this->get(route('kanji.show', $mountain))
+            ->assertOk()
+            ->assertSeeInOrder(['ふじさん', 'ဖူဂျီတောင်'])
+            ->assertSeeInOrder(['かざん', 'မီးတောင်']);
+
+        $river = Kanji::query()->where('character', '川')->firstOrFail();
+        $this->get(route('kanji.show', $river))
+            ->assertOk()
+            ->assertSeeInOrder(['ナイルがわ', 'နိုင်လ်မြစ်'])
+            ->assertSeeInOrder(['アマゾンがわ', 'အမေဇုံမြစ်']);
+
+        $rain = Kanji::query()->where('character', '雨')->firstOrFail();
+        $this->get(route('kanji.show', $rain))
+            ->assertOk()
+            ->assertSeeInOrder(['あめ', 'မိုး'])
+            ->assertSeeInOrder(['おおあめ', 'မိုးသည်း'])
+            ->assertSeeInOrder(['うてん', 'မိုးရွာသောရာသီဥတု']);
+
+        $flower = Kanji::query()->where('character', '花')->firstOrFail();
+        $this->get(route('kanji.show', $flower))
+            ->assertOk()
+            ->assertSeeInOrder(['かびん', 'ပန်းအိုး'])
+            ->assertSeeInOrder(['はなみ', 'ပန်းကြည့်ခြင်း'])
+            ->assertSeeInOrder(['はなび', 'မီးပန်း'])
+            ->assertSeeInOrder(['はなたば', 'ပန်းစည်း']);
+
+        $bamboo = Kanji::query()->where('character', '竹')->firstOrFail();
+        $this->get(route('kanji.show', $bamboo))
+            ->assertOk()
+            ->assertSeeInOrder(['たけのこ', 'ဝါးမျှစ်'])
+            ->assertSeeInOrder(['ちくりん', 'ဝါးတော']);
+
+        $middle = Kanji::query()->where('character', '中')->firstOrFail();
+        $this->get(route('kanji.show', $middle))
+            ->assertOk()
+            ->assertSeeInOrder(['なか', 'အတွင်း'])
+            ->assertSeeInOrder(['すいちゅう', 'ရေအောက်'])
+            ->assertSeeInOrder(['しごとちゅう', 'အလုပ်လုပ်နေစဉ်'])
+            ->assertSeeInOrder(['じゅぎょうちゅう', 'စာသင်နေစဉ်'])
+            ->assertSeeInOrder(['かいぎちゅう', 'အစည်းအဝေးနေစဉ်'])
+            ->assertSeeInOrder(['いちにちじゅう', 'တစ်နေ့လုံး']);
+
+        $outside = Kanji::query()->where('character', '外')->firstOrFail();
+        $this->get(route('kanji.show', $outside))
+            ->assertOk()
+            ->assertSeeInOrder(['そと', 'အပြင်'])
+            ->assertSeeInOrder(['そとがわ', 'အပြင်ဘက်'])
+            ->assertSeeInOrder(['がいしゅつ', 'အပြင်ထွက်ခြင်း'])
+            ->assertSeeInOrder(['がいこく', 'နိုင်ငံခြား']);
+
+        $inside = Kanji::query()->where('character', '内')->firstOrFail();
+        $this->get(route('kanji.show', $inside))
+            ->assertOk()
+            ->assertSeeInOrder(['うちがわ', 'အတွင်းဘက်'])
+            ->assertSeeInOrder(['こうない', 'ကျောင်းဝင်းအတွင်း'])
+            ->assertSeeInOrder(['こくない', 'ပြည်တွင်း'])
+            ->assertSeeInOrder(['ないか', 'အတွင်းရောဂါဌာန']);
+
+        $left = Kanji::query()->where('character', '左')->firstOrFail();
+        $this->get(route('kanji.show', $left))
+            ->assertOk()
+            ->assertSeeInOrder(['ひだり', 'ဘယ်'])
+            ->assertSeeInOrder(['ひだりあし', 'ဘယ်ခြေ'])
+            ->assertSeeInOrder(['させつ', 'ဘယ်ကွေ့'])
+            ->assertSeeInOrder(['さゆう', 'ဘယ်ညာ']);
+
+        $right = Kanji::query()->where('character', '右')->firstOrFail();
+        $this->get(route('kanji.show', $right))
+            ->assertOk()
+            ->assertSeeInOrder(['みぎ', 'ညာ'])
+            ->assertSeeInOrder(['みぎて', 'ညာလက်'])
+            ->assertSeeInOrder(['みぎがわ', 'ညာဘက်'])
+            ->assertSeeInOrder(['うせつ', 'ညာကွေ့'])
+            ->assertSeeInOrder(['つくえのみぎ', 'စားပွဲညာဘက်']);
+
+        $up = Kanji::query()->where('character', '上')->firstOrFail();
+        $this->get(route('kanji.show', $up))
+            ->assertOk()
+            ->assertSeeInOrder(['うえ', 'အပေါ်'])
+            ->assertSeeInOrder(['あがる', 'တက်သည်'])
+            ->assertSeeInOrder(['としうえ', 'အသက်ကြီးသူ'])
+            ->assertSeeInOrder(['じょうげ', 'အပေါ်အောက်'])
+            ->assertSeeInOrder(['うわぎ', 'အပေါ်အင်္ကျီ'])
+            ->assertSeeInOrder(['すいじょう', 'ရေပေါ်']);
+
+        $down = Kanji::query()->where('character', '下')->firstOrFail();
+        $this->get(route('kanji.show', $down))
+            ->assertOk()
+            ->assertSeeInOrder(['した', 'အောက်'])
+            ->assertSeeInOrder(['したぎ', 'အတွင်းခံ'])
+            ->assertSeeInOrder(['さがる', 'ဆင်းသည် · ကျသည်'])
+            ->assertSeeInOrder(['くだり', 'ဆင်းလမ်း']);
+
+        $ahead = Kanji::query()->where('character', '先')->firstOrFail();
+        $this->get(route('kanji.show', $ahead))
+            ->assertOk()
+            ->assertSeeInOrder(['さき', 'ရှေ့ · အရင်'])
+            ->assertSeeInOrder(['せんせい', 'ဆရာ'])
+            ->assertSeeInOrder(['せんげつ', 'ပြီးခဲ့သောလ'])
+            ->assertSeeInOrder(['せんしゅう', 'ပြီးခဲ့သောအပတ်'])
+            ->assertSeeInOrder(['せんじつ', 'ပြီးခဲ့သောရက်က']);
+
+        $life = Kanji::query()->where('character', '生')->firstOrFail();
+        $this->get(route('kanji.show', $life))
+            ->assertOk()
+            ->assertSeeInOrder(['がくせい', 'ကျောင်းသား'])
+            ->assertSeeInOrder(['いきる', 'အသက်ရှင်သည်'])
+            ->assertSeeInOrder(['うまれる', 'မွေးသည်'])
+            ->assertSeeInOrder(['せいかつ', 'နေထိုင်မှုဘဝ'])
+            ->assertSeeInOrder(['じんせい', 'လူ့ဘဝ'])
+            ->assertSeeInOrder(['いっしょう', 'တစ်သက်လုံး'])
+            ->assertSeeInOrder(['たんじょうび', 'မွေးနေ့'])
+            ->assertSeeInOrder(['なまビール', 'လတ်ဆတ်ဘီယာ']);
+
+        $study = Kanji::query()->where('character', '学')->firstOrFail();
+        $this->get(route('kanji.show', $study))
+            ->assertOk()
+            ->assertSeeInOrder(['まなぶ', 'လေ့လာသင်ယူသည်'])
+            ->assertSeeInOrder(['がっこう', 'ကျောင်း'])
+            ->assertSeeInOrder(['だいがく', 'တက္ကသိုလ်'])
+            ->assertSeeInOrder(['にゅうがく', 'ကျောင်းဝင်သည်'])
+            ->assertSeeInOrder(['にゅうがくしき', 'ကျောင်းဝင်ပွဲ'])
+            ->assertSeeInOrder(['けんがく', 'လေ့လာရေးခရီး'])
+            ->assertSeeInOrder(['しんがく', 'ပညာဆက်သင်သည်']);
+
+        $school = Kanji::query()->where('character', '校')->firstOrFail();
+        $this->get(route('kanji.show', $school))
+            ->assertOk()
+            ->assertSeeInOrder(['がっこう', 'ကျောင်း'])
+            ->assertSeeInOrder(['こうちょう', 'ကျောင်းအုပ်'])
+            ->assertSeeInOrder(['きゅうこう', 'ကျောင်းပိတ်ခြင်း'])
+            ->assertSeeInOrder(['てんこう', 'ကျောင်းပြောင်းခြင်း']);
+
+        $book = Kanji::query()->where('character', '本')->firstOrFail();
+        $this->get(route('kanji.show', $book))
+            ->assertOk()
+            ->assertSeeInOrder(['ほん', 'စာအုပ်'])
+            ->assertSeeInOrder(['にほん', 'ဂျပန်'])
+            ->assertSeeInOrder(['にほんじん', 'ဂျပန်လူမျိုး'])
+            ->assertSeeInOrder(['いっぽん', '၁ ချောင်း'])
+            ->assertSeeInOrder(['さんぼん', '၃ ချောင်း'])
+            ->assertSeeInOrder(['ごほん', '၅ ချောင်း']);
+
+        $body = Kanji::query()->where('character', '体')->firstOrFail();
+        $this->get(route('kanji.show', $body))
+            ->assertOk()
+            ->assertSeeInOrder(['からだ', 'ခန္ဓာကိုယ်'])
+            ->assertSeeInOrder(['たいいく', 'ကာယပညာ'])
+            ->assertSeeInOrder(['たいいくかん', 'အားကစားရုံ'])
+            ->assertSeeInOrder(['たいりょく', 'ကိုယ်ခန္ဓာအား'])
+            ->assertSeeInOrder(['たいじゅう', 'ကိုယ်အလေးချိန်']);
+
+        $name = Kanji::query()->where('character', '名')->firstOrFail();
+        $this->get(route('kanji.show', $name))
+            ->assertOk()
+            ->assertSeeInOrder(['なまえ', 'နာမည်'])
+            ->assertSeeInOrder(['みょうじ', 'မျိုးရိုးအမည်'])
+            ->assertSeeInOrder(['ゆうめい', 'နာမည်ကြီး'])
+            ->assertSeeInOrder(['めいし', 'လိပ်စာကတ်'])
+            ->assertSeeInOrder(['ちめい', 'ဒေသအမည်']);
+
+        $letter = Kanji::query()->where('character', '字')->firstOrFail();
+        $this->get(route('kanji.show', $letter))
+            ->assertOk()
+            ->assertSeeInOrder(['じ', 'စာလုံး'])
+            ->assertSeeInOrder(['かんじ', 'ခန်ဂျီ'])
+            ->assertSeeInOrder(['もじ', 'စာလုံး'])
+            ->assertSeeInOrder(['しゅうじ', 'လက်ရေးလှ']);
+
+        $child = Kanji::query()->where('character', '子')->firstOrFail();
+        $this->get(route('kanji.show', $child))
+            ->assertOk()
+            ->assertSeeInOrder(['こども', 'ကလေး'])
+            ->assertSeeInOrder(['おこさん', 'ကလေး (ယဉ်ကျေး)'])
+            ->assertSeeInOrder(['ぼしてちょう', 'မိခင်နှင့်ကလေးကျန်းမာရေးမှတ်တမ်း']);
+
+        $man = Kanji::query()->where('character', '男')->firstOrFail();
+        $this->get(route('kanji.show', $man))
+            ->assertOk()
+            ->assertSeeInOrder(['おとこ', 'အမျိုးသား'])
+            ->assertSeeInOrder(['おとこのこ', 'ယောက်ျားလေး'])
+            ->assertSeeInOrder(['おとこのひと', 'အမျိုးသား'])
+            ->assertSeeInOrder(['だんしがくせい', 'ကျောင်းသား'])
+            ->assertSeeInOrder(['だんせい', 'အမျိုးသား']);
+
+        $woman = Kanji::query()->where('character', '女')->firstOrFail();
+        $this->get(route('kanji.show', $woman))
+            ->assertOk()
+            ->assertSeeInOrder(['おんな', 'မိန်းမ'])
+            ->assertSeeInOrder(['おんなのこ', 'မိန်းကလေး'])
+            ->assertSeeInOrder(['おんなのひと', 'အမျိုးသမီး'])
+            ->assertSeeInOrder(['じょし', 'အမျိုးသမီး'])
+            ->assertSeeInOrder(['じょせい', 'အမျိုးသမီး'])
+            ->assertSeeInOrder(['だんじょ', 'ကျားမ'])
+            ->assertSeeInOrder(['かのじょ', 'သူမ · ရည်းစား'])
+            ->assertSeeInOrder(['じょゆう', 'မင်းသမီး']);
+
+        $father = Kanji::query()->where('character', '父')->firstOrFail();
+        $this->get(route('kanji.show', $father))
+            ->assertOk()
+            ->assertSeeInOrder(['ちち', 'အဖေ'])
+            ->assertSeeInOrder(['ちちのひ', 'အဖေနေ့'])
+            ->assertSeeInOrder(['そふ', 'အဘိုး'])
+            ->assertSeeInOrder(['ふぼ', 'မိဘ']);
+
+        $mother = Kanji::query()->where('character', '母')->firstOrFail();
+        $this->get(route('kanji.show', $mother))
+            ->assertOk()
+            ->assertSeeInOrder(['はは', 'အမေ'])
+            ->assertSeeInOrder(['ははのひ', 'အမေနေ့'])
+            ->assertSeeInOrder(['そぼ', 'အဘွား'])
+            ->assertSeeInOrder(['ぼご', 'မိခင်ဘာသာစကား'])
+            ->assertSeeInOrder(['ぼこう', 'မိခင်ကျောင်း']);
+
+        $dog = Kanji::query()->where('character', '犬')->firstOrFail();
+        $this->get(route('kanji.show', $dog))
+            ->assertOk()
+            ->assertSeeInOrder(['いぬ', 'ခွေး'])
+            ->assertSeeInOrder(['こいぬ', 'ခွေးကလေး'])
+            ->assertSeeInOrder(['こがたけん', 'ခွေးမျိုးအသေး'])
+            ->assertSeeInOrder(['もうどうけん', 'မျက်မမြင်လမ်းပြခွေး']);
+
+        $bird = Kanji::query()->where('character', '鳥')->firstOrFail();
+        $this->get(route('kanji.show', $bird))
+            ->assertOk()
+            ->assertSeeInOrder(['とり', 'ငှက်'])
+            ->assertSeeInOrder(['ことり', 'ငှက်ကလေး'])
+            ->assertSeeInOrder(['はくちょう', 'ငန်း']);
     }
 
     public function test_person_kanji_lists_n5_person_vocabulary(): void

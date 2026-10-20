@@ -3,74 +3,96 @@
 @section('title', $kanji->character)
 
 @section('content')
-    <p><a href="{{ route('kanji.index', [], false) }}">← စာရင်းသို့</a></p>
-    <div class="panel">
-        <p class="seal">{{ $kanji->strokes }} strokes · radical {{ $kanji->radical }}</p>
-        <p class="hero-kanji">{{ $kanji->character }}</p>
-        <p class="my" style="font-size: 1.8rem; margin-bottom: 0;">{{ $kanji->meaning_my }}</p>
-        <p class="en" style="font-size: 1.15rem;">{{ $kanji->meaning_en }}</p>
+    <p class="back-link"><a href="{{ route('kanji.index', [], false) }}">← စာရင်းသို့</a></p>
 
-        <table>
-            <tr>
-                <th>On'yomi</th>
-                <td>{{ $kanji->readingLine('onyomi') }}</td>
-            </tr>
-            <tr>
-                <th>Kun'yomi</th>
-                <td>{{ $kanji->readingLine('kunyomi') }}</td>
-            </tr>
-        </table>
+    <article class="kanji-detail">
+        <header class="kanji-hero">
+            <p class="seal">{{ $kanji->strokes }} strokes · radical {{ $kanji->radical }}</p>
+            <p class="hero-kanji">{{ $kanji->character }}</p>
+            <p class="kanji-my">{{ $kanji->meaning_my }}</p>
+            <p class="kanji-en">{{ $kanji->meaning_en }}</p>
 
-        <h2>အဓိပ္ပာယ်များ</h2>
-        <table>
-            @foreach ($kanji->meanings as $meaning)
-                <tr>
-                    <td>{{ $meaning['my'] }}</td>
-                    <td class="en">{{ $meaning['en'] }}</td>
-                </tr>
-            @endforeach
-        </table>
+            <div class="reading-block">
+                <div class="reading-row">
+                    <span class="reading-label">On</span>
+                    <div class="reading-chips">
+                        @forelse ($kanji->onyomi ?? [] as $reading)
+                            <span class="chip">{{ $reading }}</span>
+                        @empty
+                            <span class="chip muted">—</span>
+                        @endforelse
+                    </div>
+                </div>
+                <div class="reading-row">
+                    <span class="reading-label">Kun</span>
+                    <div class="reading-chips">
+                        @forelse ($kanji->kunyomi ?? [] as $reading)
+                            <span class="chip">{{ $reading }}</span>
+                        @empty
+                            <span class="chip muted">—</span>
+                        @endforelse
+                    </div>
+                </div>
+            </div>
+
+            @if (count($kanji->meanings ?? []) > 1)
+                <ul class="sense-list">
+                    @foreach ($kanji->meanings as $meaning)
+                        <li>
+                            <strong>{{ $meaning['my'] }}</strong>
+                            <span class="en">{{ $meaning['en'] }}</span>
+                        </li>
+                    @endforeach
+                </ul>
+            @endif
+        </header>
 
         @if ($vocabGroups !== [])
-            <h2>N5 ဝေါဟာရ · လူ</h2>
-            <p class="meta">ခန်ဂျိတစ်လုံးချင်းစီအောက်တွင် ၎င်း၏ အဓိကအဓိပ္ပာယ်ကို ပြထားသည်။ စကားလုံးအဓိပ္ပာယ်က အောက်ဆုံးတွင် ရှိသည်။</p>
-            @foreach ($vocabGroups as $group)
-                <h3>{{ $group['label'] }}</h3>
-                <div class="examples">
-                    @foreach ($group['words'] as $example)
-                        @include('kanji.word', ['example' => $example])
-                    @endforeach
-                </div>
-            @endforeach
+            <section class="vocab-section">
+                <h2>N5 ဝေါဟာရ · လူ</h2>
+                <p class="meta">ခန်ဂျိတစ်လုံးချင်းစီအောက်တွင် အဓိကအဓိပ္ပာယ်ကို ပြထားသည်။</p>
+                @foreach ($vocabGroups as $group)
+                    <h3>{{ $group['label'] }}</h3>
+                    <div class="vocab-list">
+                        @foreach ($group['words'] as $example)
+                            @include('kanji.word', ['example' => $example, 'focus' => $kanji->character])
+                        @endforeach
+                    </div>
+                @endforeach
+            </section>
         @endif
 
         @if ($chapterWords !== [])
-            <h2>ဝေါဟာရ</h2>
-            <p class="meta">ခန်ဂျိတစ်လုံးချင်းစီအောက်တွင် ၎င်း၏ အဓိကအဓိပ္ပာယ်ကို ပြထားသည်။</p>
-            <div class="examples">
-                @foreach ($chapterWords as $example)
-                    @include('kanji.word', ['example' => $example])
-                @endforeach
-            </div>
+            <section class="vocab-section">
+                <h2>ဝေါဟာရ</h2>
+                <p class="meta">ယခုခန်ဂျိပါသော စကားလုံးများ — အသားပေးအရောင်ဖြင့် ပြထားသည်။</p>
+                <div class="vocab-list">
+                    @foreach ($chapterWords as $example)
+                        @include('kanji.word', ['example' => $example, 'focus' => $kanji->character])
+                    @endforeach
+                </div>
+            </section>
         @elseif ($vocabGroups === [])
-            <h2>ဥပမာစကားလုံး</h2>
-            <p class="meta">ခန်ဂျိတစ်လုံးချင်းစီအောက်တွင် ၎င်း၏ အဓိကအဓိပ္ပာယ်ကို ပြထားသည်။</p>
-            <div class="examples">
-                @foreach ($kanji->examples as $example)
-                    @include('kanji.word', ['example' => $example])
-                @endforeach
-            </div>
+            <section class="vocab-section">
+                <h2>ဥပမာစကားလုံး</h2>
+                <p class="meta">ယခုခန်ဂျိပါသော စကားလုံးများ — အသားပေးအရောင်ဖြင့် ပြထားသည်။</p>
+                <div class="vocab-list">
+                    @foreach ($kanji->examples as $example)
+                        @include('kanji.word', ['example' => $example, 'focus' => $kanji->character])
+                    @endforeach
+                </div>
+            </section>
         @endif
-    </div>
+    </article>
 
-    <div class="row" style="margin-top: 1rem;">
+    <nav class="kanji-pager" aria-label="Previous and next kanji">
         @if ($previous)
-            <a class="button ghost" href="{{ route('kanji.show', $previous, false) }}">← {{ $previous->character }}</a>
+            <a class="button ghost pager-btn" href="{{ route('kanji.show', $previous, false) }}">← {{ $previous->character }}</a>
         @else
             <span></span>
         @endif
         @if ($next)
-            <a class="button ghost" href="{{ route('kanji.show', $next, false) }}">{{ $next->character }} →</a>
+            <a class="button ghost pager-btn" href="{{ route('kanji.show', $next, false) }}">{{ $next->character }} →</a>
         @endif
-    </div>
+    </nav>
 @endsection

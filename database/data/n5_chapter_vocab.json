@@ -1,1440 +1,2320 @@
 [
-  {
-    "character": "一",
-    "words": [
-      {
-        "word": "一つ",
-        "reading": "ひとつ",
-        "en": "one thing",
-        "my": "၁ ခု"
-      },
-      {
-        "word": "一月",
-        "reading": "いちがつ",
-        "en": "January",
-        "my": "ဇန်နဝါရီလ"
-      },
-      {
-        "word": "一日",
-        "reading": "いちにち",
-        "en": "one day",
-        "my": "၁ ရက်"
-      },
-      {
-        "word": "一まい",
-        "reading": "いちまい",
-        "en": "one sheet",
-        "my": "၁ ရွက်"
-      },
-      {
-        "word": "一ぽん",
-        "reading": "いっぽん",
-        "en": "one long thing",
-        "my": "၁ ချောင်း"
-      }
-    ]
-  },
-  {
-    "character": "二",
-    "words": [
-      {
-        "word": "二つ",
-        "reading": "ふたつ",
-        "en": "two things",
-        "my": "၂ ခု"
-      },
-      {
-        "word": "二月",
-        "reading": "にがつ",
-        "en": "February",
-        "my": "ဖေဖော်ဝါရီလ"
-      },
-      {
-        "word": "二だい",
-        "reading": "にだい",
-        "en": "two vehicles",
-        "my": "၂ စီး"
-      },
-      {
-        "word": "二かい",
-        "reading": "にかい",
-        "en": "second floor",
-        "my": "၂ ထပ် (၂ ကြိမ်)"
-      }
-    ]
-  },
-  {
-    "character": "三",
-    "words": [
-      {
-        "word": "三つ",
-        "reading": "みっつ",
-        "en": "three things",
-        "my": "၃ ခု"
-      },
-      {
-        "word": "三まい",
-        "reading": "さんまい",
-        "en": "three sheets",
-        "my": "၃ ရွက်"
-      },
-      {
-        "word": "三本",
-        "reading": "さんぼん",
-        "en": "three long things",
-        "my": "၃ ချောင်း"
-      },
-      {
-        "word": "三さい",
-        "reading": "さんさい",
-        "en": "three years old",
-        "my": "၃ နှစ် (အသက်)"
-      }
-    ]
-  },
-  {
-    "character": "四",
-    "words": [
-      {
-        "word": "四つ",
-        "reading": "よっつ",
-        "en": "four things",
-        "my": "၄ ခု"
-      },
-      {
-        "word": "四じかん",
-        "reading": "よじかん",
-        "en": "four hours",
-        "my": "၄ နာရီကြာ"
-      },
-      {
-        "word": "四ほん",
-        "reading": "よんほん",
-        "en": "four long things",
-        "my": "၄ ချောင်း"
-      },
-      {
-        "word": "四がつ",
-        "reading": "しがつ",
-        "en": "April",
-        "my": "ဧပြီလ"
-      }
-    ]
-  },
-  {
-    "character": "五",
-    "words": [
-      {
-        "word": "五つ",
-        "reading": "いつつ",
-        "en": "five things",
-        "my": "၅ ခု"
-      },
-      {
-        "word": "五にん",
-        "reading": "ごにん",
-        "en": "five people",
-        "my": "၅ ယောက်"
-      },
-      {
-        "word": "五がつ",
-        "reading": "ごがつ",
-        "en": "May",
-        "my": "မေလ"
-      }
-    ]
-  },
-  {
-    "character": "六",
-    "words": [
-      {
-        "word": "六つ",
-        "reading": "むっつ",
-        "en": "six things",
-        "my": "၆ ခု"
-      },
-      {
-        "word": "六がつ",
-        "reading": "ろくがつ",
-        "en": "June",
-        "my": "ဇွန်လ"
-      },
-      {
-        "word": "六かい",
-        "reading": "ろっかい",
-        "en": "sixth floor",
-        "my": "၆ ထပ်"
-      }
-    ]
-  },
-  {
-    "character": "七",
-    "words": [
-      {
-        "word": "七つ",
-        "reading": "ななつ",
-        "en": "seven things",
-        "my": "၇ ခု"
-      },
-      {
-        "word": "七がつ",
-        "reading": "しちがつ",
-        "en": "July",
-        "my": "ဇူလိုင်လ"
-      },
-      {
-        "word": "七五三",
-        "reading": "しちごさん",
-        "en": "Shichi-Go-San",
-        "my": "ရှီချီဂိုဆန်ပွဲတော်"
-      }
-    ]
-  },
-  {
-    "character": "八",
-    "words": [
-      {
-        "word": "八つ",
-        "reading": "やっつ",
-        "en": "eight things",
-        "my": "၈ ခု"
-      },
-      {
-        "word": "八がつ",
-        "reading": "はちがつ",
-        "en": "August",
-        "my": "ဩဂုတ်လ"
-      },
-      {
-        "word": "八ぽん",
-        "reading": "はっぽん",
-        "en": "eight long things",
-        "my": "၈ ချောင်း"
-      }
-    ]
-  },
-  {
-    "character": "九",
-    "words": [
-      {
-        "word": "九つ",
-        "reading": "ここのつ",
-        "en": "nine things",
-        "my": "၉ ခု"
-      },
-      {
-        "word": "九日",
-        "reading": "ここのか",
-        "en": "the 9th",
-        "my": "၉ ရက်နေ့"
-      },
-      {
-        "word": "九じ",
-        "reading": "くじ",
-        "en": "nine o'clock",
-        "my": "၉ နာရီ"
-      }
-    ]
-  },
-  {
-    "character": "十",
-    "words": [
-      {
-        "word": "十日",
-        "reading": "とおか",
-        "en": "the 10th",
-        "my": "၁၀ ရက်နေ့"
-      },
-      {
-        "word": "十じ",
-        "reading": "じゅうじ",
-        "en": "ten o'clock",
-        "my": "၁၀ နာရီ"
-      },
-      {
-        "word": "三十ぷん",
-        "reading": "さんじっぷん",
-        "en": "thirty minutes",
-        "my": "မိနစ် ၃၀"
-      }
-    ]
-  },
-  {
-    "character": "百",
-    "words": [
-      {
-        "word": "百人",
-        "reading": "ひゃくにん",
-        "en": "100 people",
-        "my": "လူ ၁၀၀"
-      },
-      {
-        "word": "三百人",
-        "reading": "さんびゃくにん",
-        "en": "300 people",
-        "my": "လူ ၃၀၀"
-      }
-    ]
-  },
-  {
-    "character": "千",
-    "words": [
-      {
-        "word": "千円",
-        "reading": "せんえん",
-        "en": "1000 yen",
-        "my": "၁၀၀၀ ယန်း"
-      }
-    ]
-  },
-  {
-    "character": "万",
-    "words": [
-      {
-        "word": "一万円",
-        "reading": "いちまんえん",
-        "en": "10000 yen",
-        "my": "၁ သောင်းယန်း"
-      },
-      {
-        "word": "二万人",
-        "reading": "にまんにん",
-        "en": "20000 people",
-        "my": "လူ ၂ သောင်း"
-      }
-    ]
-  },
-  {
-    "character": "円",
-    "words": [
-      {
-        "word": "一万円",
-        "reading": "いちまんえん",
-        "en": "10000 yen",
-        "my": "၁ သောင်းယန်း"
-      },
-      {
-        "word": "百円",
-        "reading": "ひゃくえん",
-        "en": "100 yen",
-        "my": "၁၀၀ ယန်း"
-      }
-    ]
-  },
-  {
-    "character": "月",
-    "words": [
-      {
-        "word": "月",
-        "reading": "つき",
-        "en": "moon / month",
-        "my": "လ"
-      },
-      {
-        "word": "月曜日",
-        "reading": "げつようび",
-        "en": "Monday",
-        "my": "တနင်္လာနေ့"
-      },
-      {
-        "word": "今月",
-        "reading": "こんげつ",
-        "en": "this month",
-        "my": "ဒီလ"
-      }
-    ]
-  },
-  {
-    "character": "火",
-    "words": [
-      {
-        "word": "火曜日",
-        "reading": "かようび",
-        "en": "Tuesday",
-        "my": "အင်္ဂါနေ့"
-      }
-    ]
-  },
-  {
-    "character": "水",
-    "words": [
-      {
-        "word": "水",
-        "reading": "みず",
-        "en": "water",
-        "my": "ရေ"
-      },
-      {
-        "word": "水曜日",
-        "reading": "すいようび",
-        "en": "Wednesday",
-        "my": "ဗုဒ္ဓဟူးနေ့"
-      }
-    ]
-  },
-  {
-    "character": "木",
-    "words": [
-      {
-        "word": "木曜日",
-        "reading": "もくようび",
-        "en": "Thursday",
-        "my": "ကြာသပတေးနေ့"
-      }
-    ]
-  },
-  {
-    "character": "金",
-    "words": [
-      {
-        "word": "お金",
-        "reading": "おかね",
-        "en": "money",
-        "my": "ပိုက်ဆံ"
-      },
-      {
-        "word": "金曜日",
-        "reading": "きんようび",
-        "en": "Friday",
-        "my": "သောကြာနေ့"
-      }
-    ]
-  },
-  {
-    "character": "土",
-    "words": [
-      {
-        "word": "土曜日",
-        "reading": "どようび",
-        "en": "Saturday",
-        "my": "စနေနေ့"
-      }
-    ]
-  },
-  {
-    "character": "日",
-    "words": [
-      {
-        "word": "土曜日",
-        "reading": "どようび",
-        "en": "Saturday",
-        "my": "စနေနေ့"
-      },
-      {
-        "word": "日曜日",
-        "reading": "にちようび",
-        "en": "Sunday",
-        "my": "တနင်္ဂနွေနေ့"
-      }
-    ]
-  },
-  {
-    "character": "年",
-    "words": [
-      {
-        "word": "きょ年",
-        "reading": "きょねん",
-        "en": "last year",
-        "my": "လွန်ခဲ့သောနှစ်"
-      }
-    ]
-  },
-  {
-    "character": "人",
-    "words": [
-      {
-        "word": "人",
-        "reading": "ひと",
-        "en": "person",
-        "my": "လူ"
-      },
-      {
-        "word": "日本人",
-        "reading": "にほんじん",
-        "en": "Japanese person",
-        "my": "ဂျပန်လူမျိုး"
-      },
-      {
-        "word": "一人",
-        "reading": "ひとり",
-        "en": "one person",
-        "my": "၁ ယောက်တည်း"
-      }
-    ]
-  },
-  {
-    "character": "口",
-    "words": [
-      {
-        "word": "口",
-        "reading": "くち",
-        "en": "mouth",
-        "my": "ပါးစပ်"
-      },
-      {
-        "word": "人口",
-        "reading": "じんこう",
-        "en": "population",
-        "my": "လူဦးရေ"
-      },
-      {
-        "word": "かいさつ口",
-        "reading": "かいさつぐち",
-        "en": "ticket gate",
-        "my": "လက်မှတ်စစ်ဂိတ်"
-      }
-    ]
-  },
-  {
-    "character": "目",
-    "words": [
-      {
-        "word": "目",
-        "reading": "め",
-        "en": "eye",
-        "my": "မျက်လုံး"
-      },
-      {
-        "word": "目てき",
-        "reading": "もくてき",
-        "en": "purpose",
-        "my": "ရည်ရွယ်ချက်"
-      }
-    ]
-  },
-  {
-    "character": "耳",
-    "words": [
-      {
-        "word": "耳",
-        "reading": "みみ",
-        "en": "ear",
-        "my": "နားရွက်"
-      }
-    ]
-  },
-  {
-    "character": "手",
-    "words": [
-      {
-        "word": "手",
-        "reading": "て",
-        "en": "hand",
-        "my": "လက်"
-      },
-      {
-        "word": "手がみ",
-        "reading": "てがみ",
-        "en": "letter",
-        "my": "စာ"
-      }
-    ]
-  },
-  {
-    "character": "足",
-    "words": [
-      {
-        "word": "足",
-        "reading": "あし",
-        "en": "foot / leg",
-        "my": "ခြေထောက်"
-      }
-    ]
-  },
-  {
-    "character": "力",
-    "words": [
-      {
-        "word": "力",
-        "reading": "ちから",
-        "en": "strength",
-        "my": "ခွန်အား"
-      },
-      {
-        "word": "火力",
-        "reading": "かりょく",
-        "en": "heating power",
-        "my": "မီးအား"
-      },
-      {
-        "word": "きょう力",
-        "reading": "きょうりょく",
-        "en": "cooperation",
-        "my": "ပူးပေါင်းဆောင်ရွက်ခြင်း"
-      }
-    ]
-  },
-  {
-    "character": "山",
-    "words": [
-      {
-        "word": "山",
-        "reading": "やま",
-        "en": "mountain",
-        "my": "တောင်"
-      },
-      {
-        "word": "ふじ山",
-        "reading": "ふじさん",
-        "en": "Mt. Fuji",
-        "my": "ဖူဂျီတောင်"
-      }
-    ]
-  },
-  {
-    "character": "川",
-    "words": [
-      {
-        "word": "川",
-        "reading": "かわ",
-        "en": "river",
-        "my": "မြစ် (ချောင်း)"
-      }
-    ]
-  },
-  {
-    "character": "田",
-    "words": [
-      {
-        "word": "田んぼ",
-        "reading": "たんぼ",
-        "en": "rice field",
-        "my": "လယ်ကွင်း"
-      },
-      {
-        "word": "水田",
-        "reading": "すいでん",
-        "en": "paddy field",
-        "my": "ရေသွင်းလယ်"
-      }
-    ]
-  },
-  {
-    "character": "石",
-    "words": [
-      {
-        "word": "石",
-        "reading": "いし",
-        "en": "stone",
-        "my": "ကျောက်ခဲ"
-      }
-    ]
-  },
-  {
-    "character": "花",
-    "words": [
-      {
-        "word": "花",
-        "reading": "はな",
-        "en": "flower",
-        "my": "ပန်း"
-      },
-      {
-        "word": "花びん",
-        "reading": "かびん",
-        "en": "vase",
-        "my": "ပန်းအိုး"
-      },
-      {
-        "word": "花見",
-        "reading": "はなみ",
-        "en": "flower viewing",
-        "my": "ပန်းကြည့်ပွဲ"
-      },
-      {
-        "word": "花火",
-        "reading": "はなび",
-        "en": "fireworks",
-        "my": "မီးရှူးမီးပန်း"
-      }
-    ]
-  },
-  {
-    "character": "竹",
-    "words": [
-      {
-        "word": "竹",
-        "reading": "たけ",
-        "en": "bamboo",
-        "my": "ဝါး"
-      },
-      {
-        "word": "竹のこ",
-        "reading": "たけのこ",
-        "en": "bamboo shoot",
-        "my": "မျှစ်"
-      }
-    ]
-  },
-  {
-    "character": "雨",
-    "words": [
-      {
-        "word": "雨",
-        "reading": "あめ",
-        "en": "rain",
-        "my": "မိုး"
-      },
-      {
-        "word": "おお雨",
-        "reading": "おおあめ",
-        "en": "heavy rain",
-        "my": "မိုးသည်းထန်စွာရွာခြင်း"
-      }
-    ]
-  },
-  {
-    "character": "上",
-    "words": [
-      {
-        "word": "上",
-        "reading": "うえ",
-        "en": "above",
-        "my": "အပေါ်"
-      },
-      {
-        "word": "上がります",
-        "reading": "あがります",
-        "en": "to go up",
-        "my": "တက်သည်"
-      }
-    ]
-  },
-  {
-    "character": "下",
-    "words": [
-      {
-        "word": "下",
-        "reading": "した",
-        "en": "below",
-        "my": "အောက်"
-      },
-      {
-        "word": "下がり",
-        "reading": "さがり",
-        "en": "to go down",
-        "my": "ကျဆင်းသည်"
-      }
-    ]
-  },
-  {
-    "character": "左",
-    "words": [
-      {
-        "word": "左",
-        "reading": "ひだり",
-        "en": "left",
-        "my": "ဘယ်ဘက်"
-      },
-      {
-        "word": "左がわ",
-        "reading": "ひだりがわ",
-        "en": "left side",
-        "my": "ဘယ်ဘက်ခြမ်း"
-      }
-    ]
-  },
-  {
-    "character": "右",
-    "words": [
-      {
-        "word": "右",
-        "reading": "みぎ",
-        "en": "right",
-        "my": "ညာဘက်"
-      },
-      {
-        "word": "右がわ",
-        "reading": "みぎがわ",
-        "en": "right side",
-        "my": "ညာဘက်ခြမ်း"
-      }
-    ]
-  },
-  {
-    "character": "外",
-    "words": [
-      {
-        "word": "外",
-        "reading": "そと",
-        "en": "outside",
-        "my": "အပြင်"
-      },
-      {
-        "word": "外こく",
-        "reading": "がいこく",
-        "en": "foreign country",
-        "my": "နိုင်ငံခြား"
-      }
-    ]
-  },
-  {
-    "character": "内",
-    "words": [
-      {
-        "word": "内がわ",
-        "reading": "うちがわ",
-        "en": "inside",
-        "my": "အတွင်းဘက်"
-      },
-      {
-        "word": "こく内",
-        "reading": "こくない",
-        "en": "domestic",
-        "my": "ပြည်တွင်း"
-      }
-    ]
-  },
-  {
-    "character": "中",
-    "words": [
-      {
-        "word": "中",
-        "reading": "なか",
-        "en": "inside",
-        "my": "အထဲ"
-      },
-      {
-        "word": "水中",
-        "reading": "すいちゅう",
-        "en": "underwater",
-        "my": "ရေထဲ"
-      },
-      {
-        "word": "一日中",
-        "reading": "いちにちじゅう",
-        "en": "all day",
-        "my": "တစ်နေကုန်"
-      }
-    ]
-  },
-  {
-    "character": "学",
-    "words": [
-      {
-        "word": "学びます",
-        "reading": "まなびます",
-        "en": "to learn",
-        "my": "သင်ယူသည်"
-      },
-      {
-        "word": "学校",
-        "reading": "がっこう",
-        "en": "school",
-        "my": "ကျောင်း"
-      },
-      {
-        "word": "だい学",
-        "reading": "だいがく",
-        "en": "university",
-        "my": "တက္ကသိုလ်"
-      }
-    ]
-  },
-  {
-    "character": "校",
-    "words": [
-      {
-        "word": "学校",
-        "reading": "がっこう",
-        "en": "school",
-        "my": "ကျောင်း"
-      }
-    ]
-  },
-  {
-    "character": "先",
-    "words": [
-      {
-        "word": "先生",
-        "reading": "せんせい",
-        "en": "teacher",
-        "my": "ဆရာ"
-      },
-      {
-        "word": "先月",
-        "reading": "せんげつ",
-        "en": "last month",
-        "my": "လွန်ခဲ့သောလ"
-      }
-    ]
-  },
-  {
-    "character": "生",
-    "words": [
-      {
-        "word": "先生",
-        "reading": "せんせい",
-        "en": "teacher",
-        "my": "ဆရာ"
-      },
-      {
-        "word": "学生",
-        "reading": "がくせい",
-        "en": "student",
-        "my": "ကျောင်းသား"
-      },
-      {
-        "word": "生まれ",
-        "reading": "うまれ",
-        "en": "birth",
-        "my": "မွေးဖွားခဲ့သည်"
-      }
-    ]
-  },
-  {
-    "character": "名",
-    "words": [
-      {
-        "word": "名まえ",
-        "reading": "なまえ",
-        "en": "name",
-        "my": "အမည်"
-      },
-      {
-        "word": "ゆう名",
-        "reading": "ゆうめい",
-        "en": "famous",
-        "my": "ကျော်ကြားသော"
-      }
-    ]
-  },
-  {
-    "character": "字",
-    "words": [
-      {
-        "word": "字",
-        "reading": "じ",
-        "en": "character",
-        "my": "စာလုံး"
-      },
-      {
-        "word": "かん字",
-        "reading": "かんじ",
-        "en": "kanji",
-        "my": "ကန်ဂျီ"
-      }
-    ]
-  },
-  {
-    "character": "本",
-    "words": [
-      {
-        "word": "本",
-        "reading": "ほん",
-        "en": "book",
-        "my": "စာအုပ်"
-      },
-      {
-        "word": "日本",
-        "reading": "にほん",
-        "en": "Japan",
-        "my": "ဂျပန်"
-      }
-    ]
-  },
-  {
-    "character": "体",
-    "words": [
-      {
-        "word": "体",
-        "reading": "からだ",
-        "en": "body",
-        "my": "ခန္ဓာကိုယ်"
-      },
-      {
-        "word": "体いくかん",
-        "reading": "たいいくかん",
-        "en": "gymnasium",
-        "my": "အားကစားခန်းမ"
-      }
-    ]
-  },
-  {
-    "character": "大",
-    "words": [
-      {
-        "word": "大きい",
-        "reading": "おおきい",
-        "en": "big",
-        "my": "ကြီးသော"
-      },
-      {
-        "word": "大すき",
-        "reading": "だいすき",
-        "en": "love / favorite",
-        "my": "အလွန်ကြိုက်သော"
-      }
-    ]
-  },
-  {
-    "character": "小",
-    "words": [
-      {
-        "word": "小さい",
-        "reading": "ちいさい",
-        "en": "small",
-        "my": "သေးသော"
-      }
-    ]
-  },
-  {
-    "character": "高",
-    "words": [
-      {
-        "word": "高い",
-        "reading": "たかい",
-        "en": "high / expensive",
-        "my": "မြင့်သော (ဈေးကြီးသော)"
-      },
-      {
-        "word": "高校生",
-        "reading": "こうこうせい",
-        "en": "high school student",
-        "my": "အထက်တန်းကျောင်းသား"
-      }
-    ]
-  },
-  {
-    "character": "友",
-    "words": [
-      {
-        "word": "友だち",
-        "reading": "ともだち",
-        "en": "friend",
-        "my": "သူငယ်ချင်း"
-      }
-    ]
-  },
-  {
-    "character": "入",
-    "words": [
-      {
-        "word": "入ります",
-        "reading": "はいります",
-        "en": "to enter",
-        "my": "ဝင်သည်"
-      },
-      {
-        "word": "入り口",
-        "reading": "いりぐち",
-        "en": "entrance",
-        "my": "အဝင်ဝ"
-      }
-    ]
-  },
-  {
-    "character": "出",
-    "words": [
-      {
-        "word": "出ます",
-        "reading": "でます",
-        "en": "to leave",
-        "my": "ထွက်သည်"
-      },
-      {
-        "word": "出口",
-        "reading": "でぐち",
-        "en": "exit",
-        "my": "အထွက်ဝ"
-      }
-    ]
-  },
-  {
-    "character": "門",
-    "words": [
-      {
-        "word": "門",
-        "reading": "もん",
-        "en": "gate",
-        "my": "တံခါးမကြီး"
-      },
-      {
-        "word": "校門",
-        "reading": "こうもん",
-        "en": "school gate",
-        "my": "ကျောင်းတံခါးမကြီး"
-      },
-      {
-        "word": "せん門",
-        "reading": "せんもん",
-        "en": "specialty",
-        "my": "အထူးပြုဘာသာရပ်"
-      }
-    ]
-  },
-  {
-    "character": "父",
-    "words": [
-      {
-        "word": "父",
-        "reading": "ちち",
-        "en": "father",
-        "my": "အဖေ"
-      },
-      {
-        "word": "お父さん",
-        "reading": "おとうさん",
-        "en": "father",
-        "my": "(သူတစ်ပါး) အဖေ"
-      }
-    ]
-  },
-  {
-    "character": "母",
-    "words": [
-      {
-        "word": "母",
-        "reading": "はは",
-        "en": "mother",
-        "my": "အမေ"
-      },
-      {
-        "word": "お母さん",
-        "reading": "おかあさん",
-        "en": "mother",
-        "my": "(သူတစ်ပါး) အမေ"
-      }
-    ]
-  },
-  {
-    "character": "子",
-    "words": [
-      {
-        "word": "子ども",
-        "reading": "こども",
-        "en": "child",
-        "my": "ကလေး"
-      },
-      {
-        "word": "お子さん",
-        "reading": "おこさん",
-        "en": "child",
-        "my": "(သူတစ်ပါး) ကလေး"
-      }
-    ]
-  },
-  {
-    "character": "男",
-    "words": [
-      {
-        "word": "男の人",
-        "reading": "おとこのひと",
-        "en": "man",
-        "my": "အမျိုးသား"
-      },
-      {
-        "word": "男の子",
-        "reading": "おとこのこ",
-        "en": "boy",
-        "my": "ယောက်ျားလေး"
-      }
-    ]
-  },
-  {
-    "character": "女",
-    "words": [
-      {
-        "word": "女の人",
-        "reading": "おんなのひと",
-        "en": "woman",
-        "my": "အမျိုးသမီး"
-      },
-      {
-        "word": "女の子",
-        "reading": "おんなのこ",
-        "en": "girl",
-        "my": "မိန်းကလေး"
-      }
-    ]
-  },
-  {
-    "character": "犬",
-    "words": [
-      {
-        "word": "犬",
-        "reading": "いぬ",
-        "en": "dog",
-        "my": "ခွေး"
-      },
-      {
-        "word": "子犬",
-        "reading": "こいぬ",
-        "en": "puppy",
-        "my": "ခွေးကလေး"
-      }
-    ]
-  },
-  {
-    "character": "鳥",
-    "words": [
-      {
-        "word": "鳥",
-        "reading": "とり",
-        "en": "bird",
-        "my": "ငှက်"
-      },
-      {
-        "word": "小鳥",
-        "reading": "ことり",
-        "en": "small bird",
-        "my": "ငှက်ကလေး"
-      }
-    ]
-  },
-  {
-    "character": "立",
-    "words": [
-      {
-        "word": "立ちます",
-        "reading": "たちます",
-        "en": "to stand",
-        "my": "မတ်တပ်ရပ်သည်"
-      }
-    ]
-  },
-  {
-    "character": "休",
-    "words": [
-      {
-        "word": "休み",
-        "reading": "やすみ",
-        "en": "rest / holiday",
-        "my": "အနားယူခြင်း"
-      },
-      {
-        "word": "休みます",
-        "reading": "やすみます",
-        "en": "to rest",
-        "my": "နားသည်"
-      }
-    ]
-  },
-  {
-    "character": "見",
-    "words": [
-      {
-        "word": "見ます",
-        "reading": "みます",
-        "en": "to look",
-        "my": "ကြည့်သည်"
-      },
-      {
-        "word": "見せます",
-        "reading": "みせます",
-        "en": "to show",
-        "my": "ပြသည်"
-      }
-    ]
-  },
-  {
-    "character": "聞",
-    "words": [
-      {
-        "word": "聞きます",
-        "reading": "ききます",
-        "en": "to listen / ask",
-        "my": "ကြားသည် (မေးသည်)"
-      },
-      {
-        "word": "しん聞",
-        "reading": "しんぶん",
-        "en": "newspaper",
-        "my": "သတင်းစာ"
-      }
-    ]
-  },
-  {
-    "character": "行",
-    "words": [
-      {
-        "word": "行きます",
-        "reading": "いきます",
-        "en": "to go",
-        "my": "သွားသည်"
-      },
-      {
-        "word": "ぎん行",
-        "reading": "ぎんこう",
-        "en": "bank",
-        "my": "ဘဏ်"
-      }
-    ]
-  },
-  {
-    "character": "来",
-    "words": [
-      {
-        "word": "来ます",
-        "reading": "きます",
-        "en": "to come",
-        "my": "လာသည်"
-      }
-    ]
-  },
-  {
-    "character": "帰",
-    "words": [
-      {
-        "word": "帰ります",
-        "reading": "かえります",
-        "en": "to return",
-        "my": "ပြန်သည်"
-      }
-    ]
-  },
-  {
-    "character": "米",
-    "words": [
-      {
-        "word": "米",
-        "reading": "こめ",
-        "en": "rice",
-        "my": "ဆန်"
-      },
-      {
-        "word": "はく米",
-        "reading": "はくまい",
-        "en": "white rice",
-        "my": "ဆန်ဖြူ"
-      }
-    ]
-  },
-  {
-    "character": "茶",
-    "words": [
-      {
-        "word": "お茶",
-        "reading": "おちゃ",
-        "en": "tea",
-        "my": "ရေနွေးကြမ်း"
-      },
-      {
-        "word": "こう茶",
-        "reading": "こうちゃ",
-        "en": "black tea",
-        "my": "လက်ဖက်ရည်"
-      }
-    ]
-  },
-  {
-    "character": "牛",
-    "words": [
-      {
-        "word": "牛",
-        "reading": "うし",
-        "en": "cow",
-        "my": "နွား"
-      },
-      {
-        "word": "牛にゅう",
-        "reading": "ぎゅうにゅう",
-        "en": "milk",
-        "my": "နွားနို့"
-      },
-      {
-        "word": "牛肉",
-        "reading": "ぎゅうにく",
-        "en": "beef",
-        "my": "အမဲသား"
-      }
-    ]
-  },
-  {
-    "character": "肉",
-    "words": [
-      {
-        "word": "肉",
-        "reading": "にく",
-        "en": "meat",
-        "my": "အသား"
-      },
-      {
-        "word": "牛肉",
-        "reading": "ぎゅうにく",
-        "en": "beef",
-        "my": "အမဲသား"
-      },
-      {
-        "word": "ぶた肉",
-        "reading": "ぶたにく",
-        "en": "pork",
-        "my": "ဝက်သား"
-      }
-    ]
-  },
-  {
-    "character": "魚",
-    "words": [
-      {
-        "word": "魚",
-        "reading": "さかな",
-        "en": "fish",
-        "my": "ငါး"
-      },
-      {
-        "word": "やき魚",
-        "reading": "やきざかな",
-        "en": "grilled fish",
-        "my": "ငါးကင်"
-      }
-    ]
-  },
-  {
-    "character": "貝",
-    "words": [
-      {
-        "word": "貝",
-        "reading": "かい",
-        "en": "shellfish",
-        "my": "ခရု (ကမာ)"
-      },
-      {
-        "word": "貝がら",
-        "reading": "かいがら",
-        "en": "shell",
-        "my": "ခရုခွံ"
-      }
-    ]
-  },
-  {
-    "character": "好",
-    "words": [
-      {
-        "word": "好き",
-        "reading": "すき",
-        "en": "liked",
-        "my": "ကြိုက်သော"
-      },
-      {
-        "word": "大好物",
-        "reading": "だいこうぶつ",
-        "en": "favorite food",
-        "my": "အကြိုက်ဆုံး အစားအစာ"
-      }
-    ]
-  },
-  {
-    "character": "物",
-    "words": [
-      {
-        "word": "大好物",
-        "reading": "だいこうぶつ",
-        "en": "favorite food",
-        "my": "အကြိုက်ဆုံး အစားအစာ"
-      },
-      {
-        "word": "物",
-        "reading": "もの",
-        "en": "thing",
-        "my": "ပစ္စည်း"
-      },
-      {
-        "word": "たべ物",
-        "reading": "たべもの",
-        "en": "food",
-        "my": "အစားအစာ"
-      }
-    ]
-  }
+    {
+        "character": "一",
+        "words": [
+            {
+                "word": "一",
+                "reading": "いち",
+                "en": "one",
+                "my": "တစ်"
+            },
+            {
+                "word": "一つ",
+                "reading": "ひとつ",
+                "en": "one (thing)",
+                "my": "၁ ခု"
+            },
+            {
+                "word": "一人",
+                "reading": "ひとり",
+                "en": "one person",
+                "my": "၁ ယောက်"
+            },
+            {
+                "word": "一月",
+                "reading": "いちがつ",
+                "en": "January",
+                "my": "ဇန်နဝါရီလ"
+            },
+            {
+                "word": "一日",
+                "reading": "いちにち",
+                "en": "one day",
+                "my": "၁ ရက်"
+            },
+            {
+                "word": "一円",
+                "reading": "いちえん",
+                "en": "one yen",
+                "my": "၁ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "二",
+        "words": [
+            {
+                "word": "二",
+                "reading": "に",
+                "en": "two",
+                "my": "နှစ်"
+            },
+            {
+                "word": "二つ",
+                "reading": "ふたつ",
+                "en": "two (things)",
+                "my": "၂ ခု"
+            },
+            {
+                "word": "二人",
+                "reading": "ふたり",
+                "en": "two people",
+                "my": "၂ ယောက်"
+            },
+            {
+                "word": "二月",
+                "reading": "にがつ",
+                "en": "February",
+                "my": "ဖေဖော်ဝါရီလ"
+            },
+            {
+                "word": "二百円",
+                "reading": "にひゃくえん",
+                "en": "200 yen",
+                "my": "၂၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "三",
+        "words": [
+            {
+                "word": "三",
+                "reading": "さん",
+                "en": "three",
+                "my": "သုံး"
+            },
+            {
+                "word": "三つ",
+                "reading": "みっつ",
+                "en": "three (things)",
+                "my": "၃ ခု"
+            },
+            {
+                "word": "三日",
+                "reading": "みっか",
+                "en": "3rd day",
+                "my": "၃ ရက်နေ့"
+            },
+            {
+                "word": "三百円",
+                "reading": "さんびゃくえん",
+                "en": "300 yen",
+                "my": "၃၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "四",
+        "words": [
+            {
+                "word": "四",
+                "reading": "よん",
+                "en": "four",
+                "my": "လေး"
+            },
+            {
+                "word": "四つ",
+                "reading": "よっつ",
+                "en": "four (things)",
+                "my": "၄ ခု"
+            },
+            {
+                "word": "四月",
+                "reading": "しがつ",
+                "en": "April",
+                "my": "ဧပြီလ"
+            },
+            {
+                "word": "四百円",
+                "reading": "よんひゃくえん",
+                "en": "400 yen",
+                "my": "၄၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "五",
+        "words": [
+            {
+                "word": "五",
+                "reading": "ご",
+                "en": "five",
+                "my": "ငါး"
+            },
+            {
+                "word": "五つ",
+                "reading": "いつつ",
+                "en": "five (things)",
+                "my": "၅ ခု"
+            },
+            {
+                "word": "五日",
+                "reading": "いつか",
+                "en": "5th day",
+                "my": "၅ ရက်နေ့"
+            },
+            {
+                "word": "五百円",
+                "reading": "ごひゃくえん",
+                "en": "500 yen",
+                "my": "၅၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "六",
+        "words": [
+            {
+                "word": "六",
+                "reading": "ろく",
+                "en": "six",
+                "my": "ခြောက်"
+            },
+            {
+                "word": "六つ",
+                "reading": "むっつ",
+                "en": "six (things)",
+                "my": "၆ ခု"
+            },
+            {
+                "word": "六月",
+                "reading": "ろくがつ",
+                "en": "June",
+                "my": "ဇွန်လ"
+            },
+            {
+                "word": "六百円",
+                "reading": "ろっぴゃくえん",
+                "en": "600 yen",
+                "my": "၆၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "七",
+        "words": [
+            {
+                "word": "七",
+                "reading": "なな",
+                "en": "seven",
+                "my": "ခုနစ်"
+            },
+            {
+                "word": "七つ",
+                "reading": "ななつ",
+                "en": "seven (things)",
+                "my": "၇ ခု"
+            },
+            {
+                "word": "七月",
+                "reading": "しちがつ",
+                "en": "July",
+                "my": "ဇူလိုင်လ"
+            },
+            {
+                "word": "七百円",
+                "reading": "ななひゃくえん",
+                "en": "700 yen",
+                "my": "၇၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "八",
+        "words": [
+            {
+                "word": "八",
+                "reading": "はち",
+                "en": "eight",
+                "my": "ရှစ်"
+            },
+            {
+                "word": "八つ",
+                "reading": "やっつ",
+                "en": "eight (things)",
+                "my": "၈ ခု"
+            },
+            {
+                "word": "八月",
+                "reading": "はちがつ",
+                "en": "August",
+                "my": "ဩဂုတ်လ"
+            },
+            {
+                "word": "八百円",
+                "reading": "はっぴゃくえん",
+                "en": "800 yen",
+                "my": "၈၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "九",
+        "words": [
+            {
+                "word": "九",
+                "reading": "きゅう",
+                "en": "nine",
+                "my": "ကိုး"
+            },
+            {
+                "word": "九つ",
+                "reading": "ここのつ",
+                "en": "nine (things)",
+                "my": "၉ ခု"
+            },
+            {
+                "word": "九日",
+                "reading": "ここのか",
+                "en": "9th day",
+                "my": "၉ ရက်နေ့"
+            },
+            {
+                "word": "九百円",
+                "reading": "きゅうひゃくえん",
+                "en": "900 yen",
+                "my": "၉၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "十",
+        "words": [
+            {
+                "word": "十",
+                "reading": "じゅう",
+                "en": "ten",
+                "my": "ဆယ်"
+            },
+            {
+                "word": "十日",
+                "reading": "とおか",
+                "en": "10th day",
+                "my": "၁၀ ရက်နေ့"
+            },
+            {
+                "word": "十円",
+                "reading": "じゅうえん",
+                "en": "10 yen",
+                "my": "၁၀ ယန်း"
+            },
+            {
+                "word": "十万円",
+                "reading": "じゅうまんえん",
+                "en": "100,000 yen",
+                "my": "၁၀ သောင်းယန်း"
+            }
+        ]
+    },
+    {
+        "character": "百",
+        "words": [
+            {
+                "word": "百",
+                "reading": "ひゃく",
+                "en": "hundred",
+                "my": "တစ်ရာ"
+            },
+            {
+                "word": "百円",
+                "reading": "ひゃくえん",
+                "en": "100 yen",
+                "my": "၁၀၀ ယန်း"
+            },
+            {
+                "word": "百人",
+                "reading": "ひゃくにん",
+                "en": "100 people",
+                "my": "လူ ၁၀၀"
+            },
+            {
+                "word": "三百円",
+                "reading": "さんびゃくえん",
+                "en": "300 yen",
+                "my": "၃၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "千",
+        "words": [
+            {
+                "word": "千",
+                "reading": "せん",
+                "en": "thousand",
+                "my": "တစ်ထောင်"
+            },
+            {
+                "word": "千円",
+                "reading": "せんえん",
+                "en": "1000 yen",
+                "my": "၁၀၀၀ ယန်း"
+            },
+            {
+                "word": "三千円",
+                "reading": "さんぜんえん",
+                "en": "3000 yen",
+                "my": "၃၀၀၀ ယန်း"
+            }
+        ]
+    },
+    {
+        "character": "万",
+        "words": [
+            {
+                "word": "万",
+                "reading": "まん",
+                "en": "ten thousand",
+                "my": "တစ်သောင်း"
+            },
+            {
+                "word": "一万円",
+                "reading": "いちまんえん",
+                "en": "10,000 yen",
+                "my": "၁ သောင်းယန်း"
+            },
+            {
+                "word": "二万円",
+                "reading": "にまんえん",
+                "en": "20,000 yen",
+                "my": "၂ သောင်းယန်း"
+            }
+        ]
+    },
+    {
+        "character": "円",
+        "words": [
+            {
+                "word": "円",
+                "reading": "えん",
+                "en": "yen",
+                "my": "ယန်း"
+            },
+            {
+                "word": "百円",
+                "reading": "ひゃくえん",
+                "en": "100 yen",
+                "my": "၁၀၀ ယန်း"
+            },
+            {
+                "word": "千円",
+                "reading": "せんえん",
+                "en": "1000 yen",
+                "my": "၁၀၀၀ ယန်း"
+            },
+            {
+                "word": "一万円",
+                "reading": "いちまんえん",
+                "en": "10,000 yen",
+                "my": "၁ သောင်းယန်း"
+            }
+        ]
+    },
+    {
+        "character": "月",
+        "words": [
+            {
+                "word": "月",
+                "reading": "つき",
+                "en": "moon",
+                "my": "လ"
+            },
+            {
+                "word": "月曜日",
+                "reading": "げつようび",
+                "en": "Monday",
+                "my": "တနင်္လာနေ့"
+            },
+            {
+                "word": "今月",
+                "reading": "こんげつ",
+                "en": "this month",
+                "my": "ဒီလ"
+            },
+            {
+                "word": "九月",
+                "reading": "くがつ",
+                "en": "September",
+                "my": "စက်တင်ဘာလ"
+            },
+            {
+                "word": "一か月",
+                "reading": "いっかげつ",
+                "en": "one month",
+                "my": "၁ လတာ"
+            },
+            {
+                "word": "十一月",
+                "reading": "じゅういちがつ",
+                "en": "November",
+                "my": "နိုဝင်ဘာလ"
+            }
+        ]
+    },
+    {
+        "character": "火",
+        "words": [
+            {
+                "word": "火",
+                "reading": "ひ",
+                "en": "fire",
+                "my": "မီး"
+            },
+            {
+                "word": "たばこの火",
+                "reading": "たばこのひ",
+                "en": "cigarette light",
+                "my": "စီးကရက်မီး"
+            },
+            {
+                "word": "火曜日",
+                "reading": "かようび",
+                "en": "Tuesday",
+                "my": "အင်္ဂါနေ့"
+            }
+        ]
+    },
+    {
+        "character": "水",
+        "words": [
+            {
+                "word": "水",
+                "reading": "みず",
+                "en": "water",
+                "my": "ရေ"
+            },
+            {
+                "word": "水曜日",
+                "reading": "すいようび",
+                "en": "Wednesday",
+                "my": "ဗုဒ္ဓဟူးနေ့"
+            },
+            {
+                "word": "水泳",
+                "reading": "すいえい",
+                "en": "swimming",
+                "my": "ရေကူးခြင်း"
+            },
+            {
+                "word": "香水",
+                "reading": "こうすい",
+                "en": "perfume",
+                "my": "ရေမွှေး"
+            }
+        ]
+    },
+    {
+        "character": "木",
+        "words": [
+            {
+                "word": "木",
+                "reading": "き",
+                "en": "tree",
+                "my": "သစ်ပင်"
+            },
+            {
+                "word": "さくらの木",
+                "reading": "さくらのき",
+                "en": "cherry tree",
+                "my": "ချယ်ရီပင်"
+            },
+            {
+                "word": "大木",
+                "reading": "たいぼく",
+                "en": "large tree",
+                "my": "သစ်ပင်ကြီး"
+            },
+            {
+                "word": "木曜日",
+                "reading": "もくようび",
+                "en": "Thursday",
+                "my": "ကြာသပတေးနေ့"
+            }
+        ]
+    },
+    {
+        "character": "金",
+        "words": [
+            {
+                "word": "お金",
+                "reading": "おかね",
+                "en": "money",
+                "my": "ပိုက်ဆံ"
+            },
+            {
+                "word": "金",
+                "reading": "きん",
+                "en": "gold",
+                "my": "ရွှေ"
+            },
+            {
+                "word": "金曜日",
+                "reading": "きんようび",
+                "en": "Friday",
+                "my": "သောကြာနေ့"
+            },
+            {
+                "word": "現金",
+                "reading": "げんきん",
+                "en": "cash",
+                "my": "ငွေသား"
+            },
+            {
+                "word": "料金",
+                "reading": "りょうきん",
+                "en": "fee",
+                "my": "အခကြေးငွေ"
+            }
+        ]
+    },
+    {
+        "character": "土",
+        "words": [
+            {
+                "word": "土",
+                "reading": "つち",
+                "en": "soil",
+                "my": "မြေကြီး"
+            },
+            {
+                "word": "土曜日",
+                "reading": "どようび",
+                "en": "Saturday",
+                "my": "စနေနေ့"
+            }
+        ]
+    },
+    {
+        "character": "日",
+        "words": [
+            {
+                "word": "日曜日",
+                "reading": "にちようび",
+                "en": "Sunday",
+                "my": "တနင်္ဂနွေနေ့"
+            },
+            {
+                "word": "父の日",
+                "reading": "ちちのひ",
+                "en": "Father's Day",
+                "my": "အဖေနေ့"
+            },
+            {
+                "word": "誕生日",
+                "reading": "たんじょうび",
+                "en": "birthday",
+                "my": "မွေးနေ့"
+            },
+            {
+                "word": "生年月日",
+                "reading": "せいねんがっぴ",
+                "en": "date of birth",
+                "my": "မွေးသက္ကရာဇ်"
+            },
+            {
+                "word": "六日",
+                "reading": "むいか",
+                "en": "6th day",
+                "my": "၆ ရက်နေ့"
+            },
+            {
+                "word": "七日",
+                "reading": "なのか",
+                "en": "7th day",
+                "my": "၇ ရက်နေ့"
+            },
+            {
+                "word": "休日",
+                "reading": "きゅうじつ",
+                "en": "holiday",
+                "my": "အားလပ်ရက်"
+            }
+        ]
+    },
+    {
+        "character": "年",
+        "words": [
+            {
+                "word": "年",
+                "reading": "とし",
+                "en": "year \/ age",
+                "my": "နှစ် · အသက်"
+            },
+            {
+                "word": "毎年",
+                "reading": "まいねん",
+                "en": "every year",
+                "my": "နှစ်စဉ်"
+            },
+            {
+                "word": "二年前",
+                "reading": "にねんまえ",
+                "en": "two years ago",
+                "my": "၂ နှစ်က"
+            },
+            {
+                "word": "2013年",
+                "reading": "にせんじゅうさんねん",
+                "en": "year 2013",
+                "my": "၂၀၁၃ ခုနှစ်"
+            },
+            {
+                "word": "去年",
+                "reading": "きょねん",
+                "en": "last year",
+                "my": "မနှစ်က"
+            }
+        ]
+    },
+    {
+        "character": "人",
+        "words": [
+            {
+                "word": "人",
+                "reading": "ひと",
+                "en": "person",
+                "my": "လူ"
+            },
+            {
+                "word": "日本人",
+                "reading": "にほんじん",
+                "en": "Japanese person",
+                "my": "ဂျပန်လူမျိုး"
+            },
+            {
+                "word": "アメリカ人",
+                "reading": "あめりかじん",
+                "en": "American",
+                "my": "အမေရိကန်လူမျိုး"
+            },
+            {
+                "word": "三人",
+                "reading": "さんにん",
+                "en": "three people",
+                "my": "၃ ယောက်"
+            },
+            {
+                "word": "何人",
+                "reading": "なんにん",
+                "en": "how many people",
+                "my": "ဘယ်နှစ်ယောက်"
+            },
+            {
+                "word": "一人",
+                "reading": "ひとり",
+                "en": "one person",
+                "my": "၁ ယောက်"
+            },
+            {
+                "word": "二人",
+                "reading": "ふたり",
+                "en": "two people",
+                "my": "၂ ယောက်"
+            }
+        ]
+    },
+    {
+        "character": "口",
+        "words": [
+            {
+                "word": "口",
+                "reading": "くち",
+                "en": "mouth",
+                "my": "ပါးစပ်"
+            },
+            {
+                "word": "大きい口",
+                "reading": "おおきいくち",
+                "en": "big mouth",
+                "my": "ပါးစပ်ကြီး"
+            },
+            {
+                "word": "口紅",
+                "reading": "くちべに",
+                "en": "lipstick",
+                "my": "နှုတ်ခမ်းနီ"
+            },
+            {
+                "word": "改札口",
+                "reading": "かいさつぐち",
+                "en": "ticket gate",
+                "my": "လက်မှတ်ဂိတ်"
+            },
+            {
+                "word": "人口",
+                "reading": "じんこう",
+                "en": "population",
+                "my": "လူဦးရေ"
+            }
+        ]
+    },
+    {
+        "character": "目",
+        "words": [
+            {
+                "word": "目",
+                "reading": "め",
+                "en": "eye",
+                "my": "မျက်လုံး"
+            },
+            {
+                "word": "目覚まし時計",
+                "reading": "めざましどけい",
+                "en": "alarm clock",
+                "my": "နှိုးစက်နာရီ"
+            },
+            {
+                "word": "目薬",
+                "reading": "めぐすり",
+                "en": "eye drops",
+                "my": "မျက်စဉ်းဆေး"
+            },
+            {
+                "word": "一つ目",
+                "reading": "ひとつめ",
+                "en": "the first",
+                "my": "ပထမ · ၁ ခုမြောက်"
+            },
+            {
+                "word": "目的",
+                "reading": "もくてき",
+                "en": "purpose",
+                "my": "ရည်ရွယ်ချက်"
+            }
+        ]
+    },
+    {
+        "character": "耳",
+        "words": [
+            {
+                "word": "耳",
+                "reading": "みみ",
+                "en": "ear",
+                "my": "နား"
+            },
+            {
+                "word": "耳鼻科",
+                "reading": "じびか",
+                "en": "ENT clinic",
+                "my": "နားနှာခေါင်းလည်ချောင်းဌာန"
+            }
+        ]
+    },
+    {
+        "character": "手",
+        "words": [
+            {
+                "word": "手",
+                "reading": "て",
+                "en": "hand",
+                "my": "လက်"
+            },
+            {
+                "word": "手紙",
+                "reading": "てがみ",
+                "en": "letter",
+                "my": "စာ"
+            },
+            {
+                "word": "切手",
+                "reading": "きって",
+                "en": "postage stamp",
+                "my": "စာတံဆိပ်"
+            },
+            {
+                "word": "握手",
+                "reading": "あくしゅ",
+                "en": "handshake",
+                "my": "လက်ဆွဲနှုတ်ဆက်ခြင်း"
+            },
+            {
+                "word": "運転手",
+                "reading": "うんてんしゅ",
+                "en": "driver",
+                "my": "ယာဉ်မောင်း"
+            },
+            {
+                "word": "手足",
+                "reading": "てあし",
+                "en": "hands and feet",
+                "my": "လက်ခြေ"
+            }
+        ]
+    },
+    {
+        "character": "足",
+        "words": [
+            {
+                "word": "足",
+                "reading": "あし",
+                "en": "foot \/ leg",
+                "my": "ခြေထောက်"
+            },
+            {
+                "word": "手足",
+                "reading": "てあし",
+                "en": "hands and feet",
+                "my": "လက်ခြေ"
+            },
+            {
+                "word": "足す",
+                "reading": "たす",
+                "en": "to add",
+                "my": "ပေါင်းထည့်သည်"
+            },
+            {
+                "word": "一足",
+                "reading": "いっそく",
+                "en": "one pair",
+                "my": "၁ စုံ"
+            },
+            {
+                "word": "三足",
+                "reading": "さんぞく",
+                "en": "three pairs",
+                "my": "၃ စုံ"
+            }
+        ]
+    },
+    {
+        "character": "力",
+        "words": [
+            {
+                "word": "力",
+                "reading": "ちから",
+                "en": "power",
+                "my": "အား"
+            },
+            {
+                "word": "火力",
+                "reading": "かりょく",
+                "en": "heating power",
+                "my": "မီးအား · အပူအား"
+            },
+            {
+                "word": "協力",
+                "reading": "きょうりょく",
+                "en": "cooperation",
+                "my": "ပူးပေါင်းဆောင်ရွက်ခြင်း"
+            },
+            {
+                "word": "視力",
+                "reading": "しりょく",
+                "en": "eyesight",
+                "my": "အမြင်အာရုံ"
+            },
+            {
+                "word": "学力",
+                "reading": "がくりょく",
+                "en": "academic ability",
+                "my": "ပညာရေးစွမ်းရည်"
+            }
+        ]
+    },
+    {
+        "character": "山",
+        "words": [
+            {
+                "word": "山",
+                "reading": "やま",
+                "en": "mountain",
+                "my": "တောင်"
+            },
+            {
+                "word": "ふじ山",
+                "reading": "ふじさん",
+                "en": "Mt. Fuji",
+                "my": "ဖူဂျီတောင်"
+            },
+            {
+                "word": "山の手線",
+                "reading": "やまのてせん",
+                "en": "Yamanote Line",
+                "my": "ယာမနိုတဲရထားလမ်း"
+            },
+            {
+                "word": "火山",
+                "reading": "かざん",
+                "en": "volcano",
+                "my": "မီးတောင်"
+            },
+            {
+                "word": "山川",
+                "reading": "やまかわ",
+                "en": "Yamakawa (name)",
+                "my": "ယာမခဝ (နာမည်)"
+            }
+        ]
+    },
+    {
+        "character": "川",
+        "words": [
+            {
+                "word": "川",
+                "reading": "かわ",
+                "en": "river",
+                "my": "မြစ်"
+            },
+            {
+                "word": "ナイル川",
+                "reading": "ナイルがわ",
+                "en": "Nile River",
+                "my": "နိုင်လ်မြစ်"
+            },
+            {
+                "word": "アマゾン川",
+                "reading": "アマゾンがわ",
+                "en": "Amazon River",
+                "my": "အမေဇုံမြစ်"
+            },
+            {
+                "word": "山川",
+                "reading": "やまかわ",
+                "en": "Yamakawa (name)",
+                "my": "ယာမခဝ (နာမည်)"
+            },
+            {
+                "word": "川口",
+                "reading": "かわぐち",
+                "en": "Kawaguchi (name)",
+                "my": "ခဝဂုချိ (နာမည်)"
+            }
+        ]
+    },
+    {
+        "character": "田",
+        "words": [
+            {
+                "word": "田んぼ",
+                "reading": "たんぼ",
+                "en": "rice field",
+                "my": "လယ်ကွင်း"
+            },
+            {
+                "word": "水田",
+                "reading": "すいでん",
+                "en": "paddy field",
+                "my": "ရေသွင်းလယ်"
+            },
+            {
+                "word": "山田",
+                "reading": "やまだ",
+                "en": "Yamada (name)",
+                "my": "ယာမဒ (နာမည်)"
+            }
+        ]
+    },
+    {
+        "character": "石",
+        "words": [
+            {
+                "word": "石",
+                "reading": "いし",
+                "en": "stone",
+                "my": "ကျောက်"
+            },
+            {
+                "word": "小石",
+                "reading": "こいし",
+                "en": "pebble",
+                "my": "ကျောက်စရစ်"
+            },
+            {
+                "word": "宝石",
+                "reading": "ほうせき",
+                "en": "gem",
+                "my": "ရတနာကျောက်"
+            },
+            {
+                "word": "石田",
+                "reading": "いしだ",
+                "en": "Ishida (name)",
+                "my": "အိရှိဒ (နာမည်)"
+            }
+        ]
+    },
+    {
+        "character": "花",
+        "words": [
+            {
+                "word": "花",
+                "reading": "はな",
+                "en": "flower",
+                "my": "ပန်း"
+            },
+            {
+                "word": "花びん",
+                "reading": "かびん",
+                "en": "vase",
+                "my": "ပန်းအိုး"
+            },
+            {
+                "word": "花見",
+                "reading": "はなみ",
+                "en": "flower viewing",
+                "my": "ပန်းကြည့်ခြင်း"
+            },
+            {
+                "word": "花火",
+                "reading": "はなび",
+                "en": "fireworks",
+                "my": "မီးပန်း"
+            },
+            {
+                "word": "花たば",
+                "reading": "はなたば",
+                "en": "bouquet",
+                "my": "ပန်းစည်း"
+            }
+        ]
+    },
+    {
+        "character": "竹",
+        "words": [
+            {
+                "word": "竹",
+                "reading": "たけ",
+                "en": "bamboo",
+                "my": "ဝါး"
+            },
+            {
+                "word": "竹のこ",
+                "reading": "たけのこ",
+                "en": "bamboo shoot",
+                "my": "ဝါးမျှစ်"
+            },
+            {
+                "word": "竹林",
+                "reading": "ちくりん",
+                "en": "bamboo grove",
+                "my": "ဝါးတော"
+            }
+        ]
+    },
+    {
+        "character": "雨",
+        "words": [
+            {
+                "word": "雨",
+                "reading": "あめ",
+                "en": "rain",
+                "my": "မိုး"
+            },
+            {
+                "word": "大雨",
+                "reading": "おおあめ",
+                "en": "heavy rain",
+                "my": "မိုးသည်း"
+            },
+            {
+                "word": "雨天",
+                "reading": "うてん",
+                "en": "rainy weather",
+                "my": "မိုးရွာသောရာသီဥတု"
+            }
+        ]
+    },
+    {
+        "character": "上",
+        "words": [
+            {
+                "word": "上",
+                "reading": "うえ",
+                "en": "above",
+                "my": "အပေါ်"
+            },
+            {
+                "word": "上がる",
+                "reading": "あがる",
+                "en": "to go up",
+                "my": "တက်သည်"
+            },
+            {
+                "word": "年上",
+                "reading": "としうえ",
+                "en": "older",
+                "my": "အသက်ကြီးသူ"
+            },
+            {
+                "word": "上下",
+                "reading": "じょうげ",
+                "en": "up and down",
+                "my": "အပေါ်အောက်"
+            },
+            {
+                "word": "上り",
+                "reading": "のぼり",
+                "en": "going up",
+                "my": "တက်လမ်း"
+            },
+            {
+                "word": "上着",
+                "reading": "うわぎ",
+                "en": "jacket",
+                "my": "အပေါ်အင်္ကျီ"
+            },
+            {
+                "word": "水上",
+                "reading": "すいじょう",
+                "en": "on the water",
+                "my": "ရေပေါ်"
+            }
+        ]
+    },
+    {
+        "character": "下",
+        "words": [
+            {
+                "word": "下",
+                "reading": "した",
+                "en": "below",
+                "my": "အောက်"
+            },
+            {
+                "word": "下着",
+                "reading": "したぎ",
+                "en": "underwear",
+                "my": "အတွင်းခံ"
+            },
+            {
+                "word": "下がる",
+                "reading": "さがる",
+                "en": "to go down",
+                "my": "ဆင်းသည် · ကျသည်"
+            },
+            {
+                "word": "下り",
+                "reading": "くだり",
+                "en": "going down",
+                "my": "ဆင်းလမ်း"
+            }
+        ]
+    },
+    {
+        "character": "左",
+        "words": [
+            {
+                "word": "左",
+                "reading": "ひだり",
+                "en": "left",
+                "my": "ဘယ်"
+            },
+            {
+                "word": "左足",
+                "reading": "ひだりあし",
+                "en": "left foot",
+                "my": "ဘယ်ခြေ"
+            },
+            {
+                "word": "左折",
+                "reading": "させつ",
+                "en": "left turn",
+                "my": "ဘယ်ကွေ့"
+            },
+            {
+                "word": "左右",
+                "reading": "さゆう",
+                "en": "left and right",
+                "my": "ဘယ်ညာ"
+            }
+        ]
+    },
+    {
+        "character": "右",
+        "words": [
+            {
+                "word": "右",
+                "reading": "みぎ",
+                "en": "right",
+                "my": "ညာ"
+            },
+            {
+                "word": "右手",
+                "reading": "みぎて",
+                "en": "right hand",
+                "my": "ညာလက်"
+            },
+            {
+                "word": "右側",
+                "reading": "みぎがわ",
+                "en": "right side",
+                "my": "ညာဘက်"
+            },
+            {
+                "word": "右折",
+                "reading": "うせつ",
+                "en": "right turn",
+                "my": "ညာကွေ့"
+            },
+            {
+                "word": "机の右",
+                "reading": "つくえのみぎ",
+                "en": "right of the desk",
+                "my": "စားပွဲညာဘက်"
+            }
+        ]
+    },
+    {
+        "character": "外",
+        "words": [
+            {
+                "word": "外",
+                "reading": "そと",
+                "en": "outside",
+                "my": "အပြင်"
+            },
+            {
+                "word": "外側",
+                "reading": "そとがわ",
+                "en": "outer side",
+                "my": "အပြင်ဘက်"
+            },
+            {
+                "word": "外出",
+                "reading": "がいしゅつ",
+                "en": "going out",
+                "my": "အပြင်ထွက်ခြင်း"
+            },
+            {
+                "word": "外国",
+                "reading": "がいこく",
+                "en": "foreign country",
+                "my": "နိုင်ငံခြား"
+            }
+        ]
+    },
+    {
+        "character": "内",
+        "words": [
+            {
+                "word": "内側",
+                "reading": "うちがわ",
+                "en": "inner side",
+                "my": "အတွင်းဘက်"
+            },
+            {
+                "word": "校内",
+                "reading": "こうない",
+                "en": "on campus",
+                "my": "ကျောင်းဝင်းအတွင်း"
+            },
+            {
+                "word": "国内",
+                "reading": "こくない",
+                "en": "domestic",
+                "my": "ပြည်တွင်း"
+            },
+            {
+                "word": "内科",
+                "reading": "ないか",
+                "en": "internal medicine",
+                "my": "အတွင်းရောဂါဌာန"
+            }
+        ]
+    },
+    {
+        "character": "中",
+        "words": [
+            {
+                "word": "中",
+                "reading": "なか",
+                "en": "inside",
+                "my": "အတွင်း"
+            },
+            {
+                "word": "部屋の中",
+                "reading": "へやのなか",
+                "en": "inside the room",
+                "my": "အခန်းထဲ"
+            },
+            {
+                "word": "車の中",
+                "reading": "くるまのなか",
+                "en": "inside the car",
+                "my": "ကားထဲ"
+            },
+            {
+                "word": "水中",
+                "reading": "すいちゅう",
+                "en": "underwater",
+                "my": "ရေအောက်"
+            },
+            {
+                "word": "仕事中",
+                "reading": "しごとちゅう",
+                "en": "at work",
+                "my": "အလုပ်လုပ်နေစဉ်"
+            },
+            {
+                "word": "授業中",
+                "reading": "じゅぎょうちゅう",
+                "en": "during class",
+                "my": "စာသင်နေစဉ်"
+            },
+            {
+                "word": "会議中",
+                "reading": "かいぎちゅう",
+                "en": "in a meeting",
+                "my": "အစည်းအဝေးနေစဉ်"
+            },
+            {
+                "word": "一日中",
+                "reading": "いちにちじゅう",
+                "en": "all day",
+                "my": "တစ်နေ့လုံး"
+            }
+        ]
+    },
+    {
+        "character": "学",
+        "words": [
+            {
+                "word": "学ぶ",
+                "reading": "まなぶ",
+                "en": "to learn",
+                "my": "လေ့လာသင်ယူသည်"
+            },
+            {
+                "word": "学校",
+                "reading": "がっこう",
+                "en": "school",
+                "my": "ကျောင်း"
+            },
+            {
+                "word": "大学",
+                "reading": "だいがく",
+                "en": "university",
+                "my": "တက္ကသိုလ်"
+            },
+            {
+                "word": "入学",
+                "reading": "にゅうがく",
+                "en": "enter school",
+                "my": "ကျောင်းဝင်သည်"
+            },
+            {
+                "word": "入学式",
+                "reading": "にゅうがくしき",
+                "en": "entrance ceremony",
+                "my": "ကျောင်းဝင်ပွဲ"
+            },
+            {
+                "word": "見学",
+                "reading": "けんがく",
+                "en": "study visit",
+                "my": "လေ့လာရေးခရီး"
+            },
+            {
+                "word": "進学",
+                "reading": "しんがく",
+                "en": "advance in school",
+                "my": "ပညာဆက်သင်သည်"
+            }
+        ]
+    },
+    {
+        "character": "校",
+        "words": [
+            {
+                "word": "学校",
+                "reading": "がっこう",
+                "en": "school",
+                "my": "ကျောင်း"
+            },
+            {
+                "word": "校長",
+                "reading": "こうちょう",
+                "en": "principal",
+                "my": "ကျောင်းအုပ်"
+            },
+            {
+                "word": "休校",
+                "reading": "きゅうこう",
+                "en": "school closed",
+                "my": "ကျောင်းပိတ်ခြင်း"
+            },
+            {
+                "word": "転校",
+                "reading": "てんこう",
+                "en": "transfer schools",
+                "my": "ကျောင်းပြောင်းခြင်း"
+            }
+        ]
+    },
+    {
+        "character": "先",
+        "words": [
+            {
+                "word": "先",
+                "reading": "さき",
+                "en": "ahead",
+                "my": "ရှေ့ · အရင်"
+            },
+            {
+                "word": "先生",
+                "reading": "せんせい",
+                "en": "teacher",
+                "my": "ဆရာ"
+            },
+            {
+                "word": "先月",
+                "reading": "せんげつ",
+                "en": "last month",
+                "my": "ပြီးခဲ့သောလ"
+            },
+            {
+                "word": "先週",
+                "reading": "せんしゅう",
+                "en": "last week",
+                "my": "ပြီးခဲ့သောအပတ်"
+            },
+            {
+                "word": "先日",
+                "reading": "せんじつ",
+                "en": "the other day",
+                "my": "ပြီးခဲ့သောရက်က"
+            }
+        ]
+    },
+    {
+        "character": "生",
+        "words": [
+            {
+                "word": "学生",
+                "reading": "がくせい",
+                "en": "student",
+                "my": "ကျောင်းသား"
+            },
+            {
+                "word": "生きる",
+                "reading": "いきる",
+                "en": "to live",
+                "my": "အသက်ရှင်သည်"
+            },
+            {
+                "word": "生まれる",
+                "reading": "うまれる",
+                "en": "to be born",
+                "my": "မွေးသည်"
+            },
+            {
+                "word": "生活",
+                "reading": "せいかつ",
+                "en": "daily life",
+                "my": "နေထိုင်မှုဘဝ"
+            },
+            {
+                "word": "人生",
+                "reading": "じんせい",
+                "en": "human life",
+                "my": "လူ့ဘဝ"
+            },
+            {
+                "word": "一生",
+                "reading": "いっしょう",
+                "en": "whole life",
+                "my": "တစ်သက်လုံး"
+            },
+            {
+                "word": "誕生日",
+                "reading": "たんじょうび",
+                "en": "birthday",
+                "my": "မွေးနေ့"
+            },
+            {
+                "word": "生ビール",
+                "reading": "なまビール",
+                "en": "draft beer",
+                "my": "လတ်ဆတ်ဘီယာ"
+            }
+        ]
+    },
+    {
+        "character": "名",
+        "words": [
+            {
+                "word": "名前",
+                "reading": "なまえ",
+                "en": "name",
+                "my": "နာမည်"
+            },
+            {
+                "word": "名字",
+                "reading": "みょうじ",
+                "en": "surname",
+                "my": "မျိုးရိုးအမည်"
+            },
+            {
+                "word": "有名",
+                "reading": "ゆうめい",
+                "en": "famous",
+                "my": "နာမည်ကြီး"
+            },
+            {
+                "word": "名刺",
+                "reading": "めいし",
+                "en": "business card",
+                "my": "လိပ်စာကတ်"
+            },
+            {
+                "word": "地名",
+                "reading": "ちめい",
+                "en": "place name",
+                "my": "ဒေသအမည်"
+            }
+        ]
+    },
+    {
+        "character": "字",
+        "words": [
+            {
+                "word": "字",
+                "reading": "じ",
+                "en": "character",
+                "my": "စာလုံး"
+            },
+            {
+                "word": "漢字",
+                "reading": "かんじ",
+                "en": "kanji",
+                "my": "ခန်ဂျီ"
+            },
+            {
+                "word": "文字",
+                "reading": "もじ",
+                "en": "letter \/ text",
+                "my": "စာလုံး"
+            },
+            {
+                "word": "習字",
+                "reading": "しゅうじ",
+                "en": "calligraphy",
+                "my": "လက်ရေးလှ"
+            }
+        ]
+    },
+    {
+        "character": "本",
+        "words": [
+            {
+                "word": "本",
+                "reading": "ほん",
+                "en": "book",
+                "my": "စာအုပ်"
+            },
+            {
+                "word": "日本",
+                "reading": "にほん",
+                "en": "Japan",
+                "my": "ဂျပန်"
+            },
+            {
+                "word": "日本人",
+                "reading": "にほんじん",
+                "en": "Japanese person",
+                "my": "ဂျပန်လူမျိုး"
+            },
+            {
+                "word": "一本",
+                "reading": "いっぽん",
+                "en": "one (long object)",
+                "my": "၁ ချောင်း"
+            },
+            {
+                "word": "二本",
+                "reading": "にほん",
+                "en": "two (long objects)",
+                "my": "၂ ချောင်း"
+            },
+            {
+                "word": "三本",
+                "reading": "さんぼん",
+                "en": "three (long objects)",
+                "my": "၃ ချောင်း"
+            },
+            {
+                "word": "五本",
+                "reading": "ごほん",
+                "en": "five (long objects)",
+                "my": "၅ ချောင်း"
+            }
+        ]
+    },
+    {
+        "character": "体",
+        "words": [
+            {
+                "word": "体",
+                "reading": "からだ",
+                "en": "body",
+                "my": "ခန္ဓာကိုယ်"
+            },
+            {
+                "word": "体育",
+                "reading": "たいいく",
+                "en": "physical education",
+                "my": "ကာယပညာ"
+            },
+            {
+                "word": "体育館",
+                "reading": "たいいくかん",
+                "en": "gymnasium",
+                "my": "အားကစားရုံ"
+            },
+            {
+                "word": "体力",
+                "reading": "たいりょく",
+                "en": "physical strength",
+                "my": "ကိုယ်ခန္ဓာအား"
+            },
+            {
+                "word": "体重",
+                "reading": "たいじゅう",
+                "en": "body weight",
+                "my": "ကိုယ်အလေးချိန်"
+            }
+        ]
+    },
+    {
+        "character": "大",
+        "words": [
+            {
+                "word": "大きい",
+                "reading": "おおきい",
+                "en": "big",
+                "my": "ကြီးသော"
+            },
+            {
+                "word": "大すき",
+                "reading": "だいすき",
+                "en": "love \/ favorite",
+                "my": "အလွန်ကြိုက်သော"
+            }
+        ]
+    },
+    {
+        "character": "小",
+        "words": [
+            {
+                "word": "小さい",
+                "reading": "ちいさい",
+                "en": "small",
+                "my": "သေးသော"
+            }
+        ]
+    },
+    {
+        "character": "高",
+        "words": [
+            {
+                "word": "高い",
+                "reading": "たかい",
+                "en": "high \/ expensive",
+                "my": "မြင့်သော (ဈေးကြီးသော)"
+            },
+            {
+                "word": "高校生",
+                "reading": "こうこうせい",
+                "en": "high school student",
+                "my": "အထက်တန်းကျောင်းသား"
+            }
+        ]
+    },
+    {
+        "character": "友",
+        "words": [
+            {
+                "word": "友だち",
+                "reading": "ともだち",
+                "en": "friend",
+                "my": "သူငယ်ချင်း"
+            }
+        ]
+    },
+    {
+        "character": "入",
+        "words": [
+            {
+                "word": "入ります",
+                "reading": "はいります",
+                "en": "to enter",
+                "my": "ဝင်သည်"
+            },
+            {
+                "word": "入り口",
+                "reading": "いりぐち",
+                "en": "entrance",
+                "my": "အဝင်ဝ"
+            }
+        ]
+    },
+    {
+        "character": "出",
+        "words": [
+            {
+                "word": "出ます",
+                "reading": "でます",
+                "en": "to leave",
+                "my": "ထွက်သည်"
+            },
+            {
+                "word": "出口",
+                "reading": "でぐち",
+                "en": "exit",
+                "my": "အထွက်ဝ"
+            }
+        ]
+    },
+    {
+        "character": "門",
+        "words": [
+            {
+                "word": "門",
+                "reading": "もん",
+                "en": "gate",
+                "my": "တံခါးမကြီး"
+            },
+            {
+                "word": "校門",
+                "reading": "こうもん",
+                "en": "school gate",
+                "my": "ကျောင်းတံခါးမကြီး"
+            },
+            {
+                "word": "せん門",
+                "reading": "せんもん",
+                "en": "specialty",
+                "my": "အထူးပြုဘာသာရပ်"
+            }
+        ]
+    },
+    {
+        "character": "父",
+        "words": [
+            {
+                "word": "父",
+                "reading": "ちち",
+                "en": "father",
+                "my": "အဖေ"
+            },
+            {
+                "word": "父の日",
+                "reading": "ちちのひ",
+                "en": "Father's Day",
+                "my": "အဖေနေ့"
+            },
+            {
+                "word": "祖父",
+                "reading": "そふ",
+                "en": "grandfather",
+                "my": "အဘိုး"
+            },
+            {
+                "word": "父母",
+                "reading": "ふぼ",
+                "en": "parents",
+                "my": "မိဘ"
+            }
+        ]
+    },
+    {
+        "character": "母",
+        "words": [
+            {
+                "word": "母",
+                "reading": "はは",
+                "en": "mother",
+                "my": "အမေ"
+            },
+            {
+                "word": "母の日",
+                "reading": "ははのひ",
+                "en": "Mother's Day",
+                "my": "အမေနေ့"
+            },
+            {
+                "word": "祖母",
+                "reading": "そぼ",
+                "en": "grandmother",
+                "my": "အဘွား"
+            },
+            {
+                "word": "母語",
+                "reading": "ぼご",
+                "en": "mother tongue",
+                "my": "မိခင်ဘာသာစကား"
+            },
+            {
+                "word": "母校",
+                "reading": "ぼこう",
+                "en": "alma mater",
+                "my": "မိခင်ကျောင်း"
+            }
+        ]
+    },
+    {
+        "character": "子",
+        "words": [
+            {
+                "word": "子ども",
+                "reading": "こども",
+                "en": "child",
+                "my": "ကလေး"
+            },
+            {
+                "word": "お子さん",
+                "reading": "おこさん",
+                "en": "your child (polite)",
+                "my": "ကလေး (ယဉ်ကျေး)"
+            },
+            {
+                "word": "母子手帳",
+                "reading": "ぼしてちょう",
+                "en": "maternal handbook",
+                "my": "မိခင်နှင့်ကလေးကျန်းမာရေးမှတ်တမ်း"
+            }
+        ]
+    },
+    {
+        "character": "男",
+        "words": [
+            {
+                "word": "男",
+                "reading": "おとこ",
+                "en": "man",
+                "my": "အမျိုးသား"
+            },
+            {
+                "word": "男の子",
+                "reading": "おとこのこ",
+                "en": "boy",
+                "my": "ယောက်ျားလေး"
+            },
+            {
+                "word": "男の人",
+                "reading": "おとこのひと",
+                "en": "man",
+                "my": "အမျိုးသား"
+            },
+            {
+                "word": "男子学生",
+                "reading": "だんしがくせい",
+                "en": "male student",
+                "my": "ကျောင်းသား"
+            },
+            {
+                "word": "男性",
+                "reading": "だんせい",
+                "en": "male",
+                "my": "အမျိုးသား"
+            }
+        ]
+    },
+    {
+        "character": "女",
+        "words": [
+            {
+                "word": "女",
+                "reading": "おんな",
+                "en": "woman",
+                "my": "မိန်းမ"
+            },
+            {
+                "word": "女の子",
+                "reading": "おんなのこ",
+                "en": "girl",
+                "my": "မိန်းကလေး"
+            },
+            {
+                "word": "女の人",
+                "reading": "おんなのひと",
+                "en": "woman",
+                "my": "အမျိုးသမီး"
+            },
+            {
+                "word": "女子",
+                "reading": "じょし",
+                "en": "female",
+                "my": "အမျိုးသမီး"
+            },
+            {
+                "word": "女性",
+                "reading": "じょせい",
+                "en": "woman",
+                "my": "အမျိုးသမီး"
+            },
+            {
+                "word": "男女",
+                "reading": "だんじょ",
+                "en": "men and women",
+                "my": "ကျားမ"
+            },
+            {
+                "word": "彼女",
+                "reading": "かのじょ",
+                "en": "she \/ girlfriend",
+                "my": "သူမ · ရည်းစား"
+            },
+            {
+                "word": "女優",
+                "reading": "じょゆう",
+                "en": "actress",
+                "my": "မင်းသမီး"
+            }
+        ]
+    },
+    {
+        "character": "犬",
+        "words": [
+            {
+                "word": "犬",
+                "reading": "いぬ",
+                "en": "dog",
+                "my": "ခွေး"
+            },
+            {
+                "word": "子犬",
+                "reading": "こいぬ",
+                "en": "puppy",
+                "my": "ခွေးကလေး"
+            },
+            {
+                "word": "小型犬",
+                "reading": "こがたけん",
+                "en": "small dog",
+                "my": "ခွေးမျိုးအသေး"
+            },
+            {
+                "word": "盲導犬",
+                "reading": "もうどうけん",
+                "en": "guide dog",
+                "my": "မျက်မမြင်လမ်းပြခွေး"
+            }
+        ]
+    },
+    {
+        "character": "鳥",
+        "words": [
+            {
+                "word": "鳥",
+                "reading": "とり",
+                "en": "bird",
+                "my": "ငှက်"
+            },
+            {
+                "word": "小鳥",
+                "reading": "ことり",
+                "en": "small bird",
+                "my": "ငှက်ကလေး"
+            },
+            {
+                "word": "白鳥",
+                "reading": "はくちょう",
+                "en": "swan",
+                "my": "ငန်း"
+            }
+        ]
+    },
+    {
+        "character": "立",
+        "words": [
+            {
+                "word": "立ちます",
+                "reading": "たちます",
+                "en": "to stand",
+                "my": "မတ်တပ်ရပ်သည်"
+            }
+        ]
+    },
+    {
+        "character": "休",
+        "words": [
+            {
+                "word": "休み",
+                "reading": "やすみ",
+                "en": "rest \/ holiday",
+                "my": "အနားယူခြင်း"
+            },
+            {
+                "word": "休みます",
+                "reading": "やすみます",
+                "en": "to rest",
+                "my": "နားသည်"
+            }
+        ]
+    },
+    {
+        "character": "見",
+        "words": [
+            {
+                "word": "見ます",
+                "reading": "みます",
+                "en": "to look",
+                "my": "ကြည့်သည်"
+            },
+            {
+                "word": "見せます",
+                "reading": "みせます",
+                "en": "to show",
+                "my": "ပြသည်"
+            }
+        ]
+    },
+    {
+        "character": "聞",
+        "words": [
+            {
+                "word": "聞きます",
+                "reading": "ききます",
+                "en": "to listen \/ ask",
+                "my": "ကြားသည် (မေးသည်)"
+            },
+            {
+                "word": "しん聞",
+                "reading": "しんぶん",
+                "en": "newspaper",
+                "my": "သတင်းစာ"
+            }
+        ]
+    },
+    {
+        "character": "行",
+        "words": [
+            {
+                "word": "行きます",
+                "reading": "いきます",
+                "en": "to go",
+                "my": "သွားသည်"
+            },
+            {
+                "word": "ぎん行",
+                "reading": "ぎんこう",
+                "en": "bank",
+                "my": "ဘဏ်"
+            }
+        ]
+    },
+    {
+        "character": "来",
+        "words": [
+            {
+                "word": "来ます",
+                "reading": "きます",
+                "en": "to come",
+                "my": "လာသည်"
+            }
+        ]
+    },
+    {
+        "character": "帰",
+        "words": [
+            {
+                "word": "帰ります",
+                "reading": "かえります",
+                "en": "to return",
+                "my": "ပြန်သည်"
+            }
+        ]
+    },
+    {
+        "character": "米",
+        "words": [
+            {
+                "word": "米",
+                "reading": "こめ",
+                "en": "rice",
+                "my": "ဆန်"
+            },
+            {
+                "word": "はく米",
+                "reading": "はくまい",
+                "en": "white rice",
+                "my": "ဆန်ဖြူ"
+            }
+        ]
+    },
+    {
+        "character": "茶",
+        "words": [
+            {
+                "word": "お茶",
+                "reading": "おちゃ",
+                "en": "tea",
+                "my": "ရေနွေးကြမ်း"
+            },
+            {
+                "word": "こう茶",
+                "reading": "こうちゃ",
+                "en": "black tea",
+                "my": "လက်ဖက်ရည်"
+            }
+        ]
+    },
+    {
+        "character": "牛",
+        "words": [
+            {
+                "word": "牛",
+                "reading": "うし",
+                "en": "cow",
+                "my": "နွား"
+            },
+            {
+                "word": "牛にゅう",
+                "reading": "ぎゅうにゅう",
+                "en": "milk",
+                "my": "နွားနို့"
+            },
+            {
+                "word": "牛肉",
+                "reading": "ぎゅうにく",
+                "en": "beef",
+                "my": "အမဲသား"
+            }
+        ]
+    },
+    {
+        "character": "肉",
+        "words": [
+            {
+                "word": "肉",
+                "reading": "にく",
+                "en": "meat",
+                "my": "အသား"
+            },
+            {
+                "word": "牛肉",
+                "reading": "ぎゅうにく",
+                "en": "beef",
+                "my": "အမဲသား"
+            },
+            {
+                "word": "ぶた肉",
+                "reading": "ぶたにく",
+                "en": "pork",
+                "my": "ဝက်သား"
+            }
+        ]
+    },
+    {
+        "character": "魚",
+        "words": [
+            {
+                "word": "魚",
+                "reading": "さかな",
+                "en": "fish",
+                "my": "ငါး"
+            },
+            {
+                "word": "やき魚",
+                "reading": "やきざかな",
+                "en": "grilled fish",
+                "my": "ငါးကင်"
+            }
+        ]
+    },
+    {
+        "character": "貝",
+        "words": [
+            {
+                "word": "貝",
+                "reading": "かい",
+                "en": "shellfish",
+                "my": "ခရု (ကမာ)"
+            },
+            {
+                "word": "貝がら",
+                "reading": "かいがら",
+                "en": "shell",
+                "my": "ခရုခွံ"
+            }
+        ]
+    },
+    {
+        "character": "好",
+        "words": [
+            {
+                "word": "好き",
+                "reading": "すき",
+                "en": "liked",
+                "my": "ကြိုက်သော"
+            },
+            {
+                "word": "大好物",
+                "reading": "だいこうぶつ",
+                "en": "favorite food",
+                "my": "အကြိုက်ဆုံး အစားအစာ"
+            }
+        ]
+    },
+    {
+        "character": "物",
+        "words": [
+            {
+                "word": "大好物",
+                "reading": "だいこうぶつ",
+                "en": "favorite food",
+                "my": "အကြိုက်ဆုံး အစားအစာ"
+            },
+            {
+                "word": "物",
+                "reading": "もの",
+                "en": "thing",
+                "my": "ပစ္စည်း"
+            },
+            {
+                "word": "たべ物",
+                "reading": "たべもの",
+                "en": "food",
+                "my": "အစားအစာ"
+            }
+        ]
+    },
+    {
+        "character": "前",
+        "words": [
+            {
+                "word": "前",
+                "reading": "まえ",
+                "en": "front \/ before",
+                "my": "ရှေ့"
+            },
+            {
+                "word": "午前",
+                "reading": "ごぜん",
+                "en": "morning",
+                "my": "မနက်"
+            },
+            {
+                "word": "事前",
+                "reading": "じぜん",
+                "en": "beforehand",
+                "my": "ကြိုတင်"
+            }
+        ]
+    },
+    {
+        "character": "車",
+        "words": [
+            {
+                "word": "車",
+                "reading": "くるま",
+                "en": "car",
+                "my": "ကား"
+            },
+            {
+                "word": "電車",
+                "reading": "でんしゃ",
+                "en": "train",
+                "my": "ရထား"
+            },
+            {
+                "word": "馬車",
+                "reading": "ばしゃ",
+                "en": "horse carriage",
+                "my": "မြင်းလှည်း"
+            }
+        ]
+    }
 ]

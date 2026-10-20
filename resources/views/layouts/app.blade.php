@@ -226,12 +226,125 @@
         h3 { margin: 1.25rem 0 0.25rem; font-size: 1.05rem; }
         .examples { display: grid; gap: 0.8rem; }
         .example { border-top: 1px solid var(--line); padding-top: 0.8rem; }
-        .breakdown { display: flex; flex-wrap: wrap; gap: 0.35rem 0.85rem; align-items: flex-start; }
+        .breakdown { display: flex; flex-wrap: wrap; gap: 0.35rem 0.55rem; align-items: flex-start; }
         .unit { display: flex; flex-direction: column; align-items: center; max-width: 7.5rem; text-align: center; }
         .unit .glyph { font-size: 2rem; }
         .unit .my { font-size: 0.92rem; line-height: 1.35; }
         .unit .en { font-size: 0.75rem; }
         .unit.kana .glyph { color: var(--muted); font-size: 1.35rem; padding-top: 0.35rem; }
+        .back-link { margin: 0 0 0.75rem; }
+        .back-link a { text-decoration: none; color: var(--muted); font-size: 0.95rem; }
+        .kanji-detail { display: grid; gap: 1rem; }
+        .kanji-hero {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 1.1rem 1rem 1.25rem;
+            text-align: center;
+        }
+        .kanji-hero .hero-kanji { margin: 0.35rem 0 0.15rem; }
+        .kanji-my { font-weight: 700; font-size: clamp(1.35rem, 5vw, 1.8rem); margin: 0.2rem 0 0; }
+        .kanji-en { color: var(--muted); font-size: 1.05rem; margin: 0.1rem 0 0.85rem; }
+        .reading-block { display: grid; gap: 0.55rem; text-align: left; }
+        .reading-row {
+            display: grid;
+            grid-template-columns: 2.6rem 1fr;
+            gap: 0.55rem;
+            align-items: start;
+        }
+        .reading-label {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 1.85rem;
+            border-radius: 999px;
+            background: var(--paper);
+            border: 1px solid var(--line);
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--muted);
+        }
+        .reading-chips { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+        .chip {
+            display: inline-block;
+            background: #fff;
+            border: 1px solid var(--line);
+            border-radius: 999px;
+            padding: 0.28rem 0.7rem;
+            font-family: "Noto Serif JP", serif;
+            font-size: 0.98rem;
+            line-height: 1.3;
+        }
+        .chip.muted { color: var(--muted); }
+        .sense-list {
+            list-style: none;
+            margin: 0.9rem 0 0;
+            padding: 0.7rem 0 0;
+            border-top: 1px solid var(--line);
+            display: grid;
+            gap: 0.35rem;
+            text-align: left;
+        }
+        .sense-list li { display: flex; flex-wrap: wrap; gap: 0.35rem 0.65rem; align-items: baseline; }
+        .vocab-section {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 18px;
+            padding: 1rem 0.85rem 1.1rem;
+        }
+        .vocab-section h2 { margin: 0 0 0.2rem; font-size: 1.15rem; }
+        .vocab-section h3 { margin: 1rem 0 0.45rem; font-size: 1rem; }
+        .vocab-section > .meta { margin: 0 0 0.75rem; }
+        .vocab-list { display: grid; gap: 0.65rem; }
+        .vocab-item {
+            background: linear-gradient(180deg, #fffefb 0%, #faf6f0 100%);
+            border: 1px solid var(--line);
+            border-left: 4px solid var(--seal);
+            border-radius: 14px;
+            padding: 0.75rem 0.8rem;
+        }
+        .vocab-item .reading {
+            margin: 0.45rem 0 0.15rem;
+            font-family: "Noto Serif JP", serif;
+            font-size: 1.05rem;
+            color: var(--muted);
+        }
+        .vocab-item .gloss { margin: 0; display: grid; gap: 0.1rem; }
+        .vocab-item .gloss .my { margin: 0; font-size: 1.05rem; }
+        .vocab-item .gloss .en { font-size: 0.88rem; }
+        .unit.focus {
+            background: var(--seal-soft);
+            border: 1px solid #efc4bd;
+            border-radius: 12px;
+            padding: 0.25rem 0.35rem 0.4rem;
+        }
+        .unit.focus .glyph { color: var(--seal); }
+        .unit.focus .my { color: var(--seal); }
+        .kanji-pager {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.75rem;
+            margin-top: 1rem;
+            position: sticky;
+            bottom: calc(0.75rem + env(safe-area-inset-bottom));
+            z-index: 5;
+        }
+        .pager-btn {
+            flex: 1 1 auto;
+            max-width: 48%;
+            text-align: center;
+            min-height: 2.85rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--card);
+            box-shadow: 0 8px 20px rgba(31, 26, 23, 0.08);
+        }
+        @media (min-width: 720px) {
+            .vocab-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+            .kanji-hero { padding: 1.35rem 1.4rem 1.5rem; }
+            .vocab-section { padding: 1.15rem 1.15rem 1.3rem; }
+        }
         .filters { display: flex; flex-wrap: wrap; gap: 0.45rem; margin: 0 0 1rem; }
         .filters a {
             text-decoration: none;
