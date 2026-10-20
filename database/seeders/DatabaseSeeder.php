@@ -22,6 +22,9 @@ class DatabaseSeeder extends Seeder
             'email' => 'test@example.com',
         ]);
 
-        $this->call(KanjiSeeder::class);
+        $this->call([
+            KanjiSeeder::class,
+            AdminSettingSeeder::class,
+        ]);
     }
 }

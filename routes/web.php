@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\AdminController;
 use App\Http\Controllers\GoiController;
 use App\Http\Controllers\KanjiController;
 use App\Http\Controllers\KotobaController;
+use App\Http\Middleware\EnsureAdmin;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home')->name('home');
@@ -22,3 +24,8 @@ Route::post('/kotoba/learned', [KotobaController::class, 'toggleLearned'])->name
 Route::get('/quiz', [KanjiController::class, 'quiz'])->name('kanji.quiz');
 Route::post('/quiz', [KanjiController::class, 'answer'])->name('kanji.quiz.answer');
 Route::post('/quiz/reset', [KanjiController::class, 'resetQuiz'])->name('kanji.quiz.reset');
+
+Route::get('/admin/login', [AdminController::class, 'loginForm'])->name('admin.login');
+Route::post('/admin/login', [AdminController::class, 'login'])->middleware('throttle:10,1')->name('admin.login.store');
+Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
+Route::get('/admin', [AdminController::class, 'index'])->middleware(EnsureAdmin::class)->name('admin.index');

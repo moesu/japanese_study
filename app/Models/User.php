@@ -12,7 +12,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Str;
 
-#[Fillable(['name', 'email', 'password', 'device'])]
+#[Fillable(['name', 'email', 'password', 'device', 'last_active_at'])]
 #[Hidden(['password', 'remember_token'])]
 class User extends Authenticatable
 {
@@ -36,8 +36,18 @@ class User extends Authenticatable
                 'name' => 'Learner',
                 'email' => $device.'@learners.local',
                 'password' => Str::password(40),
+                'last_active_at' => now(),
             ],
         );
+    }
+
+    public function touchActivity(): void
+    {
+        if ($this->last_active_at !== null && $this->last_active_at->gt(now()->subMinute())) {
+            return;
+        }
+
+        $this->forceFill(['last_active_at' => now()])->save();
     }
 
     /**
@@ -57,6 +67,7 @@ class User extends Authenticatable
     {
         return [
             'email_verified_at' => 'datetime',
+            'last_active_at' => 'datetime',
             'password' => 'hashed',
         ];
     }
