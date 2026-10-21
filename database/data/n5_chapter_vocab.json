@@ -1683,13 +1683,37 @@
                 "word": "大きい",
                 "reading": "おおきい",
                 "en": "big",
-                "my": "ကြီးသော"
+                "my": "ကြီးသည်"
             },
             {
-                "word": "大すき",
+                "word": "大学",
+                "reading": "だいがく",
+                "en": "university",
+                "my": "တက္ကသိုလ်"
+            },
+            {
+                "word": "大好き",
                 "reading": "だいすき",
-                "en": "love \/ favorite",
-                "my": "အလွန်ကြိုက်သော"
+                "en": "love",
+                "my": "အရမ်းကြိုက်သည်"
+            },
+            {
+                "word": "大嫌い",
+                "reading": "だいきらい",
+                "en": "hate",
+                "my": "အရမ်းမုန်းသည်"
+            },
+            {
+                "word": "大切",
+                "reading": "たいせつ",
+                "en": "important",
+                "my": "အရေးကြီးသော"
+            },
+            {
+                "word": "大人",
+                "reading": "おとな",
+                "en": "adult",
+                "my": "လူကြီး"
             }
         ]
     },
@@ -1700,7 +1724,25 @@
                 "word": "小さい",
                 "reading": "ちいさい",
                 "en": "small",
-                "my": "သေးသော"
+                "my": "သေးသည်"
+            },
+            {
+                "word": "小学生",
+                "reading": "しょうがくせい",
+                "en": "elementary student",
+                "my": "မူလတန်းကျောင်းသား"
+            },
+            {
+                "word": "小学校",
+                "reading": "しょうがっこう",
+                "en": "elementary school",
+                "my": "မူလတန်းကျောင်း"
+            },
+            {
+                "word": "小銭",
+                "reading": "こぜに",
+                "en": "coins",
+                "my": "အကြွေငွေ"
             }
         ]
     },
@@ -1710,8 +1752,14 @@
             {
                 "word": "高い",
                 "reading": "たかい",
-                "en": "high \/ expensive",
-                "my": "မြင့်သော (ဈေးကြီးသော)"
+                "en": "tall \/ expensive",
+                "my": "မြင့်သည် · ဈေးကြီးသည်"
+            },
+            {
+                "word": "高校",
+                "reading": "こうこう",
+                "en": "high school",
+                "my": "အထက်တန်းကျောင်း"
             },
             {
                 "word": "高校生",
@@ -1729,6 +1777,12 @@
                 "reading": "ともだち",
                 "en": "friend",
                 "my": "သူငယ်ချင်း"
+            },
+            {
+                "word": "親友",
+                "reading": "しんゆう",
+                "en": "close friend",
+                "my": "ရင်းနှီးသောသူငယ်ချင်း"
             }
         ]
     },
@@ -1736,16 +1790,34 @@
         "character": "入",
         "words": [
             {
-                "word": "入ります",
-                "reading": "はいります",
+                "word": "入る",
+                "reading": "はいる",
                 "en": "to enter",
                 "my": "ဝင်သည်"
+            },
+            {
+                "word": "入れる",
+                "reading": "いれる",
+                "en": "to put in",
+                "my": "ထည့်သည်"
             },
             {
                 "word": "入り口",
                 "reading": "いりぐち",
                 "en": "entrance",
-                "my": "အဝင်ဝ"
+                "my": "ဝင်ပေါက်"
+            },
+            {
+                "word": "入学",
+                "reading": "にゅうがく",
+                "en": "enter a school",
+                "my": "ကျောင်းဝင်သည်"
+            },
+            {
+                "word": "入学式",
+                "reading": "にゅうがくしき",
+                "en": "entrance ceremony",
+                "my": "ကျောင်းဝင်ပွဲ"
             }
         ]
     },
@@ -1753,16 +1825,40 @@
         "character": "出",
         "words": [
             {
-                "word": "出ます",
-                "reading": "でます",
-                "en": "to leave",
+                "word": "出る",
+                "reading": "でる",
+                "en": "to go out",
                 "my": "ထွက်သည်"
+            },
+            {
+                "word": "出す",
+                "reading": "だす",
+                "en": "to take out",
+                "my": "ထုတ်သည်"
             },
             {
                 "word": "出口",
                 "reading": "でぐち",
                 "en": "exit",
-                "my": "အထွက်ဝ"
+                "my": "ထွက်ပေါက်"
+            },
+            {
+                "word": "出かける",
+                "reading": "でかける",
+                "en": "to go out",
+                "my": "အပြင်ထွက်သည်"
+            },
+            {
+                "word": "出席",
+                "reading": "しゅっせき",
+                "en": "attendance",
+                "my": "တက်ရောက်ခြင်း"
+            },
+            {
+                "word": "外出",
+                "reading": "がいしゅつ",
+                "en": "going out",
+                "my": "အပြင်ထွက်ခြင်း"
             }
         ]
     },
@@ -1773,19 +1869,31 @@
                 "word": "門",
                 "reading": "もん",
                 "en": "gate",
-                "my": "တံခါးမကြီး"
+                "my": "တံခါး"
             },
             {
                 "word": "校門",
                 "reading": "こうもん",
                 "en": "school gate",
-                "my": "ကျောင်းတံခါးမကြီး"
+                "my": "ကျောင်းတံခါး"
             },
             {
-                "word": "せん門",
+                "word": "正門",
+                "reading": "せいもん",
+                "en": "main gate",
+                "my": "ရှေ့မုခ်"
+            },
+            {
+                "word": "専門",
                 "reading": "せんもん",
                 "en": "specialty",
-                "my": "အထူးပြုဘာသာရပ်"
+                "my": "အထူးပြု"
+            },
+            {
+                "word": "入門",
+                "reading": "にゅうもん",
+                "en": "introduction",
+                "my": "အခြေခံသင်ခန်းစာ"
             }
         ]
     },
@@ -2020,10 +2128,16 @@
         "character": "立",
         "words": [
             {
-                "word": "立ちます",
-                "reading": "たちます",
+                "word": "立つ",
+                "reading": "たつ",
                 "en": "to stand",
-                "my": "မတ်တပ်ရပ်သည်"
+                "my": "ရပ်သည်"
+            },
+            {
+                "word": "国立大学",
+                "reading": "こくりつだいがく",
+                "en": "national university",
+                "my": "နိုင်ငံတော်တက္ကသိုလ်"
             }
         ]
     },
@@ -2031,16 +2145,40 @@
         "character": "休",
         "words": [
             {
-                "word": "休み",
-                "reading": "やすみ",
-                "en": "rest \/ holiday",
-                "my": "အနားယူခြင်း"
-            },
-            {
-                "word": "休みます",
-                "reading": "やすみます",
+                "word": "休む",
+                "reading": "やすむ",
                 "en": "to rest",
                 "my": "နားသည်"
+            },
+            {
+                "word": "休み",
+                "reading": "やすみ",
+                "en": "day off",
+                "my": "အားလပ်ရက်"
+            },
+            {
+                "word": "夏休み",
+                "reading": "なつやすみ",
+                "en": "summer vacation",
+                "my": "နွေရာသီအားလပ်ရက်"
+            },
+            {
+                "word": "休日",
+                "reading": "きゅうじつ",
+                "en": "holiday",
+                "my": "ပိတ်ရက်"
+            },
+            {
+                "word": "週休二日",
+                "reading": "しゅうきゅうふつか",
+                "en": "two days off a week",
+                "my": "တစ်ပတ် ၂ ရက်နား"
+            },
+            {
+                "word": "土日",
+                "reading": "どにち",
+                "en": "weekend",
+                "my": "စနေနှင့်တနင်္ဂနွေ"
             }
         ]
     },
@@ -2048,16 +2186,40 @@
         "character": "見",
         "words": [
             {
-                "word": "見ます",
-                "reading": "みます",
-                "en": "to look",
+                "word": "見る",
+                "reading": "みる",
+                "en": "to see",
                 "my": "ကြည့်သည်"
             },
             {
-                "word": "見せます",
-                "reading": "みせます",
+                "word": "見せる",
+                "reading": "みせる",
                 "en": "to show",
                 "my": "ပြသည်"
+            },
+            {
+                "word": "花見",
+                "reading": "はなみ",
+                "en": "cherry-blossom viewing",
+                "my": "ပန်းကြည့်ခြင်း"
+            },
+            {
+                "word": "月見",
+                "reading": "つきみ",
+                "en": "moon viewing",
+                "my": "လကြည့်ခြင်း"
+            },
+            {
+                "word": "見学",
+                "reading": "けんがく",
+                "en": "study visit",
+                "my": "လေ့လာရေးခရီး"
+            },
+            {
+                "word": "意見",
+                "reading": "いけん",
+                "en": "opinion",
+                "my": "ထင်မြင်ချက်"
             }
         ]
     },
@@ -2065,16 +2227,22 @@
         "character": "聞",
         "words": [
             {
-                "word": "聞きます",
-                "reading": "ききます",
-                "en": "to listen \/ ask",
-                "my": "ကြားသည် (မေးသည်)"
+                "word": "聞く",
+                "reading": "きく",
+                "en": "to hear \/ ask",
+                "my": "ကြားသည် · မေးသည်"
             },
             {
-                "word": "しん聞",
+                "word": "新聞",
                 "reading": "しんぶん",
                 "en": "newspaper",
                 "my": "သတင်းစာ"
+            },
+            {
+                "word": "日本語",
+                "reading": "にほんご",
+                "en": "Japanese language",
+                "my": "ဂျပန်စာ"
             }
         ]
     },
@@ -2082,16 +2250,46 @@
         "character": "行",
         "words": [
             {
-                "word": "行きます",
-                "reading": "いきます",
+                "word": "行く",
+                "reading": "いく",
                 "en": "to go",
                 "my": "သွားသည်"
             },
             {
-                "word": "ぎん行",
+                "word": "大阪",
+                "reading": "おおさか",
+                "en": "Osaka",
+                "my": "အိုဆာကာ"
+            },
+            {
+                "word": "行列",
+                "reading": "ぎょうれつ",
+                "en": "queue",
+                "my": "တန်းစီ"
+            },
+            {
+                "word": "行う",
+                "reading": "おこなう",
+                "en": "to hold \/ carry out",
+                "my": "ပြုလုပ်သည်"
+            },
+            {
+                "word": "明日",
+                "reading": "あした",
+                "en": "tomorrow",
+                "my": "မနက်ဖြန်"
+            },
+            {
+                "word": "銀行",
                 "reading": "ぎんこう",
                 "en": "bank",
                 "my": "ဘဏ်"
+            },
+            {
+                "word": "旅行",
+                "reading": "りょこう",
+                "en": "trip",
+                "my": "ခရီး"
             }
         ]
     },
@@ -2099,10 +2297,34 @@
         "character": "来",
         "words": [
             {
-                "word": "来ます",
-                "reading": "きます",
+                "word": "来る",
+                "reading": "くる",
                 "en": "to come",
                 "my": "လာသည်"
+            },
+            {
+                "word": "来ます",
+                "reading": "きます",
+                "en": "come (polite)",
+                "my": "လာပါသည်"
+            },
+            {
+                "word": "来ない",
+                "reading": "こない",
+                "en": "does not come",
+                "my": "မလာ"
+            },
+            {
+                "word": "来年",
+                "reading": "らいねん",
+                "en": "next year",
+                "my": "နောက်နှစ်"
+            },
+            {
+                "word": "来日",
+                "reading": "らいにち",
+                "en": "arrival in Japan",
+                "my": "ဂျပန်ရောက်လာခြင်း"
             }
         ]
     },
@@ -2110,10 +2332,28 @@
         "character": "帰",
         "words": [
             {
-                "word": "帰ります",
-                "reading": "かえります",
+                "word": "帰る",
+                "reading": "かえる",
                 "en": "to return",
                 "my": "ပြန်သည်"
+            },
+            {
+                "word": "帰り",
+                "reading": "かえり",
+                "en": "the way back",
+                "my": "အပြန်"
+            },
+            {
+                "word": "帰国",
+                "reading": "きこく",
+                "en": "return to one's country",
+                "my": "နိုင်ငံပြန်ခြင်း"
+            },
+            {
+                "word": "帰宅",
+                "reading": "きたく",
+                "en": "return home",
+                "my": "အိမ်ပြန်ခြင်း"
             }
         ]
     },

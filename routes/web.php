@@ -33,5 +33,4 @@ Route::post('/admin/login', [AdminController::class, 'login'])->middleware('thro
 Route::post('/admin/logout', [AdminController::class, 'logout'])->name('admin.logout');
 Route::middleware(EnsureAdmin::class)->group(function () {
     Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
-    Route::get('/admin/devices/{user}', [AdminController::class, 'show'])->name('admin.devices.show');
 });

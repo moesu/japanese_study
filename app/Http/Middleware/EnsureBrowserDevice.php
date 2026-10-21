@@ -2,7 +2,6 @@
 
 namespace App\Http\Middleware;
 
-use App\Models\PageVisit;
 use App\Models\User;
 use App\Support\BrowserDevice;
 use Closure;
@@ -28,7 +27,6 @@ class EnsureBrowserDevice
         if ($device !== null && ! $request->is('admin', 'admin/*')) {
             $user = User::forDevice($device);
             $user->touchActivity();
-            PageVisit::record($user, $request);
         }
 
         $response = $next($request);

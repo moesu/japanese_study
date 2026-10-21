@@ -3,7 +3,7 @@
 @endphp
 <article class="vocab-item">
     <div class="breakdown">
-        @foreach (\App\Models\Kanji::charactersIn($example['word']) as $piece)
+        @foreach (\App\Models\Kanji::charactersIn($example['word'], $example['reading']) as $piece)
             <span @class([
                 'unit',
                 'kana' => ! $piece['kanji'],

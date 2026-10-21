@@ -20,11 +20,8 @@
                 <tr>
                     <th>SR No</th>
                     <th>Device</th>
-                    <th>Last URL</th>
                     <th>Last active</th>
                     <th>ကျက်ပြီး</th>
-                    <th>Visits</th>
-                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -32,24 +29,12 @@
                     <tr>
                         <td>{{ $devices->firstItem() + $loop->index }}</td>
                         <td><code title="{{ $device->device }}">{{ \Illuminate\Support\Str::limit($device->device, 13, '…') }}</code></td>
-                        <td>
-                            @if ($device->last_path)
-                                <code title="{{ $device->last_path }}">{{ \Illuminate\Support\Str::limit($device->last_path, 28, '…') }}</code>
-                                @if ($device->last_visited_at)
-                                    <div class="meta">{{ \Illuminate\Support\Carbon::parse($device->last_visited_at)->timezone('Asia/Bangkok')->format('Y-m-d h:i A') }}</div>
-                                @endif
-                            @else
-                                —
-                            @endif
-                        </td>
                         <td>{{ $device->last_active_at?->timezone('Asia/Bangkok')->format('Y-m-d h:i A') ?? '—' }}</td>
                         <td>{{ $device->learned_count }}</td>
-                        <td>{{ $device->visit_count }}</td>
-                        <td><a class="admin-link" href="{{ route('admin.devices.show', $device) }}">View</a></td>
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="7" class="meta">No devices yet.</td>
+                        <td colspan="4" class="meta">No devices yet.</td>
                     </tr>
                 @endforelse
             </tbody>
@@ -97,13 +82,6 @@
             font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
             font-size: 0.85rem;
         }
-        .admin-link {
-            color: var(--muted);
-            font-size: 0.85rem;
-            text-decoration: underline;
-            text-underline-offset: 0.15em;
-        }
-        .admin-link:hover { color: var(--ink); }
         .admin-pager {
             display: flex;
             flex-wrap: wrap;
