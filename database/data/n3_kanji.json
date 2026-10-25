@@ -1,0 +1,5943 @@
+[
+  {
+    "chapter": 1,
+    "words": [
+      {
+        "reading": "とぶ",
+        "word": "飛ぶ",
+        "en": "to fly",
+        "my": "ပျံသည်",
+        "group": ""
+      },
+      {
+        "reading": "ひこうじょう",
+        "word": "飛行場",
+        "en": "airfield",
+        "my": "လေယာဉ်ကွင်း",
+        "group": ""
+      },
+      {
+        "reading": "ひこうき",
+        "word": "飛行機",
+        "en": "airplane",
+        "my": "လေယာဉ်",
+        "group": ""
+      },
+      {
+        "reading": "きかい",
+        "word": "機械",
+        "en": "machine",
+        "my": "စက်၊ စက်ကိရိယာ",
+        "group": ""
+      },
+      {
+        "reading": "せんたくき",
+        "word": "洗濯機",
+        "en": "washing machine",
+        "my": "အဝတ်လျှော်စက်",
+        "group": ""
+      },
+      {
+        "reading": "コピーき",
+        "word": "コピー機",
+        "en": "copy machine",
+        "my": "မိတ္တူကူးစက်",
+        "group": ""
+      },
+      {
+        "reading": "きかい",
+        "word": "機会",
+        "en": "chance, opportunity",
+        "my": "အခွင့်အရေး",
+        "group": ""
+      },
+      {
+        "reading": "あく",
+        "word": "空く",
+        "en": "to be empty, to be free",
+        "my": "လွတ်သည်၊ ဟာနေသည်",
+        "group": ""
+      },
+      {
+        "reading": "あける",
+        "word": "空ける",
+        "en": "to free up",
+        "my": "နေရာလွတ်အောင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "くうこう",
+        "word": "空港",
+        "en": "airport",
+        "my": "လေဆိပ်",
+        "group": ""
+      },
+      {
+        "reading": "くうき",
+        "word": "空気",
+        "en": "air, atmosphere",
+        "my": "လေ၊ လေထု",
+        "group": ""
+      },
+      {
+        "reading": "みなと",
+        "word": "港",
+        "en": "port, harbor",
+        "my": "ဆိပ်ကမ်း",
+        "group": ""
+      },
+      {
+        "reading": "みなとまち",
+        "word": "港町",
+        "en": "harbor town",
+        "my": "ဆိပ်ကမ်းမြို့",
+        "group": ""
+      },
+      {
+        "reading": "よこはまこう",
+        "word": "横浜港",
+        "en": "Yokohama Harbor",
+        "my": "ယိုကိုဟားမားဆိပ်ကမ်း",
+        "group": ""
+      },
+      {
+        "reading": "あずける",
+        "word": "預ける",
+        "en": "to entrust, deposit",
+        "my": "အပ်နှံသည်",
+        "group": ""
+      },
+      {
+        "reading": "あずかる",
+        "word": "預かる",
+        "en": "to keep",
+        "my": "ထိန်းသိမ်းပေးသည်၊ လက်ခံထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "よきんする",
+        "word": "預金する",
+        "en": "to deposit",
+        "my": "ငွေအပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "こむ",
+        "word": "込む",
+        "en": "to be crowded",
+        "my": "လူကျပ်သည်၊ ပြည့်ကျပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "もちこむ",
+        "word": "持ち込む",
+        "en": "to bring inside",
+        "my": "အထဲသို့ယူလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "もうしこむ",
+        "word": "申し込む",
+        "en": "to apply",
+        "my": "လျှောက်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "もうしこみしょ",
+        "word": "申込書",
+        "en": "application form",
+        "my": "လျှောက်လွှာ",
+        "group": ""
+      },
+      {
+        "reading": "にもつ",
+        "word": "荷物",
+        "en": "luggage, baggage",
+        "my": "ခရီးဆောင်အိတ်၊ အထုပ်အပိုး",
+        "group": ""
+      },
+      {
+        "reading": "けんさする",
+        "word": "検査する",
+        "en": "to inspect",
+        "my": "စစ်ဆေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "けんさくする",
+        "word": "検索する",
+        "en": "to search",
+        "my": "ရှာဖွေသည်",
+        "group": ""
+      },
+      {
+        "reading": "ちょうさする",
+        "word": "調査する",
+        "en": "to inspect, investigate",
+        "my": "စုံစမ်းစစ်ဆေးသည်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 2,
+    "words": [
+      {
+        "reading": "まんせき",
+        "word": "満席",
+        "en": "all seats filled",
+        "my": "ထိုင်ခုံအားလုံးပြည့်နေခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "まんいん",
+        "word": "満員",
+        "en": "filled to capacity",
+        "my": "လူပြည့်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "まんしつ",
+        "word": "満室",
+        "en": "full occupancy, no vacancy",
+        "my": "အခန်းပြည့်၊ အခန်းလွတ်မရှိ",
+        "group": ""
+      },
+      {
+        "reading": "まんぞくな",
+        "word": "満足な",
+        "en": "satisfying",
+        "my": "ကျေနပ်ဖွယ်ကောင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "まんぞくする",
+        "word": "満足する",
+        "en": "to be satisfied",
+        "my": "ကျေနပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ふまん",
+        "word": "不満",
+        "en": "unsatisfied",
+        "my": "မကျေနပ်မှု",
+        "group": ""
+      },
+      {
+        "reading": "わたしのせき",
+        "word": "私の席",
+        "en": "my seat",
+        "my": "ကျွန်ုပ်၏ထိုင်ခုံ",
+        "group": ""
+      },
+      {
+        "reading": "しゅっせきする",
+        "word": "出席する",
+        "en": "to attend, to be present",
+        "my": "တက်ရောက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "けっせきする",
+        "word": "欠席する",
+        "en": "to be absent",
+        "my": "ပျက်ကွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いちばん",
+        "word": "一番",
+        "en": "No. 1, the best",
+        "my": "နံပါတ်တစ်၊ အကောင်းဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "～ばんめ",
+        "word": "～番目",
+        "en": "No. ~, ~th ~ ~",
+        "my": "မြောက်၊ နံပါတ်",
+        "group": ""
+      },
+      {
+        "reading": "きゅうばん",
+        "word": "９番",
+        "en": "No. 9",
+        "my": "နံပါတ်၉",
+        "group": ""
+      },
+      {
+        "reading": "こうばん",
+        "word": "交番",
+        "en": "police box",
+        "my": "ရဲကင်း",
+        "group": ""
+      },
+      {
+        "reading": "ばんごう",
+        "word": "番号",
+        "en": "number",
+        "my": "နံပါတ်",
+        "group": ""
+      },
+      {
+        "reading": "さんごうしゃ",
+        "word": "３号車",
+        "en": "Car 3",
+        "my": "ရထားတွဲနံပါတ်၃",
+        "group": ""
+      },
+      {
+        "reading": "しんごう",
+        "word": "信号",
+        "en": "signal light, traffic light",
+        "my": "မီးပွိုင့်၊ အချက်ပြမီး",
+        "group": ""
+      },
+      {
+        "reading": "きごう",
+        "word": "記号",
+        "en": "symbol",
+        "my": "သင်္ကေတ",
+        "group": ""
+      },
+      {
+        "reading": "つうろ",
+        "word": "通路",
+        "en": "aisle, pathway",
+        "my": "လူသွားလမ်း၊ လျှောက်လမ်း",
+        "group": ""
+      },
+      {
+        "reading": "どうろ",
+        "word": "道路",
+        "en": "road, street",
+        "my": "လမ်းမ၊ လမ်း",
+        "group": ""
+      },
+      {
+        "reading": "せんろ",
+        "word": "線路",
+        "en": "railway, train track",
+        "my": "ရထားလမ်း",
+        "group": ""
+      },
+      {
+        "reading": "みぎがわ",
+        "word": "右側",
+        "en": "right side",
+        "my": "ညာဘက်",
+        "group": ""
+      },
+      {
+        "reading": "そとがわ",
+        "word": "外側",
+        "en": "outside, outer side",
+        "my": "အပြင်ဘက်",
+        "group": ""
+      },
+      {
+        "reading": "つうろがわ",
+        "word": "通路側",
+        "en": "aisle-side seat",
+        "my": "လျှောက်လမ်းဘက်",
+        "group": ""
+      },
+      {
+        "reading": "すわる",
+        "word": "座る",
+        "en": "to sit",
+        "my": "ထိုင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ざせき",
+        "word": "座席",
+        "en": "seat",
+        "my": "ထိုင်ခုံ",
+        "group": ""
+      },
+      {
+        "reading": "こうざ",
+        "word": "口座",
+        "en": "bank account",
+        "my": "ဘဏ်အကောင့်",
+        "group": ""
+      },
+      {
+        "reading": "まど",
+        "word": "窓",
+        "en": "window",
+        "my": "ပြတင်းပေါက်",
+        "group": ""
+      },
+      {
+        "reading": "まどがわ",
+        "word": "窓側",
+        "en": "window seat/side",
+        "my": "ပြတင်းပေါက်ဘက်",
+        "group": ""
+      },
+      {
+        "reading": "まどぐち",
+        "word": "窓口",
+        "en": "counter, point of contact",
+        "my": "ကောင်တာ၊ ဆက်သွယ်ရာနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "まどガラス",
+        "word": "窓ガラス",
+        "en": "window pane",
+        "my": "ပြတင်းပေါက်မှန်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 3,
+    "words": [
+      {
+        "reading": "おす",
+        "word": "押す",
+        "en": "to push",
+        "my": "တွန်းသည်၊ ဖိသည်",
+        "group": ""
+      },
+      {
+        "reading": "おしいれ",
+        "word": "押し入れ",
+        "en": "closet",
+        "my": "ဗီရို၊ ပစ္စည်းသိမ်းခန်း",
+        "group": ""
+      },
+      {
+        "reading": "おさえる",
+        "word": "押さえる",
+        "en": "to force down",
+        "my": "ဖိထားသည်၊ ချုပ်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "めん",
+        "word": "面",
+        "en": "aspect",
+        "my": "မျက်နှာပြင်၊ ရှုထောင့်",
+        "group": ""
+      },
+      {
+        "reading": "がめん",
+        "word": "画面",
+        "en": "screen",
+        "my": "မျက်နှာပြင်၊ စခရင်",
+        "group": ""
+      },
+      {
+        "reading": "ばめん",
+        "word": "場面",
+        "en": "scene, setting",
+        "my": "မြင်ကွင်း၊ အခြေအနေ",
+        "group": ""
+      },
+      {
+        "reading": "もどる",
+        "word": "戻る",
+        "en": "to return, go back",
+        "my": "ပြန်သွားသည်၊ ပြန်လာသည်",
+        "group": ""
+      },
+      {
+        "reading": "もどす",
+        "word": "戻す",
+        "en": "to return, put back",
+        "my": "ပြန်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "ばんぐみ",
+        "word": "番組",
+        "en": "program",
+        "my": "အစီအစဉ်",
+        "group": ""
+      },
+      {
+        "reading": "～くみ",
+        "word": "～組",
+        "en": "group, set",
+        "my": "အဖွဲ့၊ အစု",
+        "group": ""
+      },
+      {
+        "reading": "くむ",
+        "word": "組む",
+        "en": "to form a pair/group",
+        "my": "အဖွဲ့ဖွဲ့သည်၊ တွဲဖက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "くみたてる",
+        "word": "組み立てる",
+        "en": "to put together, construct",
+        "my": "တပ်ဆင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "たしかめる",
+        "word": "確かめる",
+        "en": "to verify, check",
+        "my": "စစ်ဆေးအတည်ပြုသည်",
+        "group": ""
+      },
+      {
+        "reading": "たしか",
+        "word": "確か",
+        "en": "definitely",
+        "my": "သေချာစွာ",
+        "group": ""
+      },
+      {
+        "reading": "たしかな",
+        "word": "確かな",
+        "en": "definite, reliable",
+        "my": "သေချာသော၊ ယုံကြည်ရသော",
+        "group": ""
+      },
+      {
+        "reading": "たしかに",
+        "word": "確かに",
+        "en": "definitely, certainly",
+        "my": "သေချာပေါက်၊ အမှန်ပင်",
+        "group": ""
+      },
+      {
+        "reading": "せいかくな",
+        "word": "正確な",
+        "en": "accurate",
+        "my": "တိကျမှန်ကန်သော",
+        "group": ""
+      },
+      {
+        "reading": "かくにんする",
+        "word": "確認する",
+        "en": "to verify, confirm",
+        "my": "အတည်ပြုသည်၊ စစ်ဆေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "なおす",
+        "word": "直す",
+        "en": "to fix, correct",
+        "my": "ပြင်သည်၊ ပြုပြင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "なおる",
+        "word": "直る",
+        "en": "to recover",
+        "my": "ပြန်ကောင်းလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "ちょくご",
+        "word": "直後",
+        "en": "directly after",
+        "my": "ပြီးပြီးချင်း၊ ချက်ချင်းနောက်",
+        "group": ""
+      },
+      {
+        "reading": "ちょくせん",
+        "word": "直線",
+        "en": "direct/straight line",
+        "my": "မျဉ်းဖြောင့်",
+        "group": ""
+      },
+      {
+        "reading": "ちょくせつ",
+        "word": "直接",
+        "en": "direct",
+        "my": "တိုက်ရိုက်",
+        "group": ""
+      },
+      {
+        "reading": "あそぶ",
+        "word": "遊ぶ",
+        "en": "to play",
+        "my": "ကစားသည်၊ အပန်းဖြေသည်",
+        "group": ""
+      },
+      {
+        "reading": "ゆうえんち",
+        "word": "遊園地",
+        "en": "amusement park",
+        "my": "အပန်းဖြေဥယျာဉ်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 4,
+    "words": [
+      {
+        "reading": "あらわれる",
+        "word": "現れる",
+        "en": "to appear",
+        "my": "ပေါ်လာသည်",
+        "group": ""
+      },
+      {
+        "reading": "げんだい",
+        "word": "現代",
+        "en": "the present era",
+        "my": "မျက်မှောက်ခေတ်",
+        "group": ""
+      },
+      {
+        "reading": "げんきん",
+        "word": "現金",
+        "en": "cash",
+        "my": "ငွေသား",
+        "group": ""
+      },
+      {
+        "reading": "ひょうげんする",
+        "word": "表現する",
+        "en": "to express, show",
+        "my": "ဖော်ပြသည်",
+        "group": ""
+      },
+      {
+        "reading": "げんざい",
+        "word": "現在",
+        "en": "current, present",
+        "my": "လက်ရှိ၊ ယခု",
+        "group": ""
+      },
+      {
+        "reading": "ふざい",
+        "word": "不在",
+        "en": "absence",
+        "my": "မရှိခြင်း၊ ပျက်ကွက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ざっし",
+        "word": "雑誌",
+        "en": "magazine",
+        "my": "မဂ္ဂဇင်း",
+        "group": ""
+      },
+      {
+        "reading": "ざつおん",
+        "word": "雑音",
+        "en": "cacophony, noise",
+        "my": "ဆူညံသံ၊ အနှောင့်အယှက်အသံ",
+        "group": ""
+      },
+      {
+        "reading": "ふくざつな",
+        "word": "複雑な",
+        "en": "complicated",
+        "my": "ရှုပ်ထွေးသော",
+        "group": ""
+      },
+      {
+        "reading": "ねむい",
+        "word": "眠い",
+        "en": "sleepy, tired",
+        "my": "အိပ်ငိုက်သော",
+        "group": ""
+      },
+      {
+        "reading": "ねる",
+        "word": "寝る",
+        "en": "to sleep",
+        "my": "အိပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ひるね",
+        "word": "昼寝",
+        "en": "afternoon nap",
+        "my": "နေ့လယ်တစ်ရေးအိပ်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ねぼうする",
+        "word": "寝坊する",
+        "en": "to oversleep",
+        "my": "အိပ်ရာထနောက်ကျသည်",
+        "group": ""
+      },
+      {
+        "reading": "どくしょ",
+        "word": "読書",
+        "en": "reading",
+        "my": "စာဖတ်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "おんよみ",
+        "word": "音読み",
+        "en": "Chinese On&apos;yomi reading",
+        "my": "တရုတ်မူရင်းအသံဖတ်နည်း",
+        "group": ""
+      },
+      {
+        "reading": "くんよみ",
+        "word": "訓読み",
+        "en": "Japanese Kun&apos;yomi reading",
+        "my": "ဂျပန်မူရင်းအသံဖတ်နည်း",
+        "group": ""
+      },
+      {
+        "reading": "～さつ",
+        "word": "～冊",
+        "en": "counter for books/copies/issues",
+        "my": "စာအုပ်၊ မဂ္ဂဇင်းစသည်ရေတွက်ရာတွင်သုံးသေ",
+        "group": ""
+      },
+      {
+        "reading": "めがさめる",
+        "word": "目が覚める",
+        "en": "to awaken, snap out of it",
+        "my": "အိပ်ရာနိုးသည်",
+        "group": ""
+      },
+      {
+        "reading": "めをさます",
+        "word": "目を覚ます",
+        "en": "to wake someone up",
+        "my": "နိုးစေသည်",
+        "group": ""
+      },
+      {
+        "reading": "おぼえる",
+        "word": "覚える",
+        "en": "to remember",
+        "my": "မှတ်မိသည်၊ မှတ်သားသည်",
+        "group": ""
+      },
+      {
+        "reading": "めざましどけい",
+        "word": "目覚まし時計",
+        "en": "alarm clock",
+        "my": "နှိုးစက်နာရီ",
+        "group": ""
+      },
+      {
+        "reading": "かわる",
+        "word": "代わる",
+        "en": "to replace, substitute",
+        "my": "အစားထိုးသည်",
+        "group": ""
+      },
+      {
+        "reading": "かわりに",
+        "word": "代わりに",
+        "en": "in place of, instead",
+        "my": "အစား၊ အစားထိုး၍",
+        "group": ""
+      },
+      {
+        "reading": "じだい",
+        "word": "時代",
+        "en": "era, period",
+        "my": "ခေတ်၊ ကာလ",
+        "group": ""
+      },
+      {
+        "reading": "だいきん",
+        "word": "代金",
+        "en": "cost, bill",
+        "my": "ကျသင့်ငွေ၊ တန်ဖိုးငွေ",
+        "group": ""
+      },
+      {
+        "reading": "でんきだい",
+        "word": "電気代",
+        "en": "electric bill",
+        "my": "လျှပ်စစ်မီတာခ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 5,
+    "words": [
+      {
+        "reading": "かかり",
+        "word": "係",
+        "en": "duty",
+        "my": "တာဝန်၊ တာဝန်ပိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "かかりいん",
+        "word": "係員",
+        "en": "person in charge, staff",
+        "my": "တာဝန်ခံဝန်ထမ်း",
+        "group": ""
+      },
+      {
+        "reading": "かんけいする",
+        "word": "関係する",
+        "en": "to connect, to relate",
+        "my": "ဆက်နွယ်သည်၊ ပတ်သက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "もくてき",
+        "word": "目的",
+        "en": "objective, target",
+        "my": "ရည်ရွယ်ချက်၊ ပန်းတိုင်",
+        "group": ""
+      },
+      {
+        "reading": "せかいてきな",
+        "word": "世界的な",
+        "en": "worldwide, international",
+        "my": "ကမ္ဘာလုံးဆိုင်ရာ၊ နိုင်ငံတကာဆိုင်ရာ",
+        "group": ""
+      },
+      {
+        "reading": "～てきな～～",
+        "word": "～的な",
+        "en": "related to ~",
+        "my": "ဆိုင်ရာ၊ နှင့်ပတ်သက်သော",
+        "group": ""
+      },
+      {
+        "reading": "かんこう",
+        "word": "観光",
+        "en": "sightseeing, tourism",
+        "my": "ခရီးသွားလည်ပတ်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "かんきゃく",
+        "word": "観客",
+        "en": "tourist",
+        "my": "ခရီးသွားဧည့်သည်",
+        "group": ""
+      },
+      {
+        "reading": "けんしゅうする",
+        "word": "研修する",
+        "en": "to train",
+        "my": "လေ့ကျင့်သင်ကြားသည်",
+        "group": ""
+      },
+      {
+        "reading": "しゅうりする",
+        "word": "修理する",
+        "en": "to repair",
+        "my": "ပြုပြင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "りゅうがくする",
+        "word": "留学する",
+        "en": "to study abroad",
+        "my": "နိုင်ငံခြားတွင်ပညာသင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "るす",
+        "word": "留守",
+        "en": "away from home",
+        "my": "အိမ်မှာမရှိခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "るすばん",
+        "word": "留守番",
+        "en": "house sitting",
+        "my": "အိမ်စောင့်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "とまる",
+        "word": "泊まる",
+        "en": "to stay overnight",
+        "my": "ညအိပ်တည်းခိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "とめる",
+        "word": "泊める",
+        "en": "to put up for the night",
+        "my": "ညအိပ်တည်းခိုစေသည်",
+        "group": ""
+      },
+      {
+        "reading": "いっぱくふつか",
+        "word": "泊日",
+        "en": "1 2 2 days, 1 night",
+        "my": "၂ရက်၁ည",
+        "group": ""
+      },
+      {
+        "reading": "にはくみっか",
+        "word": "泊日",
+        "en": "2 3 3 days, 2 nights",
+        "my": "၃ရက်၂ည",
+        "group": ""
+      },
+      {
+        "reading": "しゅくはくする",
+        "word": "宿泊する",
+        "en": "to stay in lodgings",
+        "my": "တည်းခိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "かたほう",
+        "word": "片方",
+        "en": "one side, one part",
+        "my": "တစ်ဖက်၊ တစ်ခု",
+        "group": ""
+      },
+      {
+        "reading": "かたて",
+        "word": "片手",
+        "en": "one hand",
+        "my": "လက်တစ်ဖက်",
+        "group": ""
+      },
+      {
+        "reading": "かたづける",
+        "word": "片付ける",
+        "en": "to tidy up, wrap up",
+        "my": "ရှင်းလင်းသိမ်းဆည်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "りょうほう",
+        "word": "両方",
+        "en": "both",
+        "my": "နှစ်ဖက်စလုံး",
+        "group": ""
+      },
+      {
+        "reading": "りょうがわ",
+        "word": "両側",
+        "en": "both sides",
+        "my": "နှစ်ဖက်စလုံး",
+        "group": ""
+      },
+      {
+        "reading": "りょうて",
+        "word": "両手",
+        "en": "both hands",
+        "my": "လက်နှစ်ဖက်",
+        "group": ""
+      },
+      {
+        "reading": "りょうしん",
+        "word": "両親",
+        "en": "parents",
+        "my": "မိဘနှစ်ပါး",
+        "group": ""
+      },
+      {
+        "reading": "きがえる",
+        "word": "着替える",
+        "en": "to change clothes",
+        "my": "အဝတ်အစားလဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "りょうがえする",
+        "word": "両替する",
+        "en": "to exchange money",
+        "my": "ငွေလဲသည်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 6,
+    "words": [
+      {
+        "reading": "み",
+        "word": "実",
+        "en": "fruit",
+        "my": "အသီး",
+        "group": ""
+      },
+      {
+        "reading": "じっけん",
+        "word": "実験",
+        "en": "experiment",
+        "my": "စမ်းသပ်မှု",
+        "group": ""
+      },
+      {
+        "reading": "じっさいに",
+        "word": "実際に",
+        "en": "actually",
+        "my": "အမှန်တကယ်၊ လက်တွေ့တွင်",
+        "group": ""
+      },
+      {
+        "reading": "じじつ",
+        "word": "事実",
+        "en": "fact, truth",
+        "my": "အမှန်တရား၊ အဖြစ်မှန်",
+        "group": ""
+      },
+      {
+        "reading": "じつりょく",
+        "word": "実力",
+        "en": "true ability, ability",
+        "my": "အရည်အချင်း၊ စွမ်းရည်",
+        "group": ""
+      },
+      {
+        "reading": "じつは",
+        "word": "実は",
+        "en": "actually, the truth is...",
+        "my": "တကယ်တော့",
+        "group": ""
+      },
+      {
+        "reading": "しっぱい",
+        "word": "失敗",
+        "en": "failure; to fail",
+        "my": "ကျရှုံးမှု၊ မအောင်မြင်မှု",
+        "group": ""
+      },
+      {
+        "reading": "しつれいな",
+        "word": "失礼な",
+        "en": "rude, impolite",
+        "my": "ရိုင်းပျသော၊ မယဉ်ကျေးသော",
+        "group": ""
+      },
+      {
+        "reading": "しつれいする",
+        "word": "失礼する",
+        "en": "excuse oneself",
+        "my": "ခွင့်ပြုပါ၊ နှုတ်ဆက်ထွက်ခွာသ",
+        "group": ""
+      },
+      {
+        "reading": "のはら",
+        "word": "野原",
+        "en": "field, plain",
+        "my": "လွင်ပြင်",
+        "group": ""
+      },
+      {
+        "reading": "はらっぱ",
+        "word": "原っぱ",
+        "en": "open field",
+        "my": "ကွင်းပြင်",
+        "group": ""
+      },
+      {
+        "reading": "げんりょう",
+        "word": "原料",
+        "en": "raw material, ingredients",
+        "my": "ကုန်ကြမ်း၊ ပါဝင်ပစ္စည်း",
+        "group": ""
+      },
+      {
+        "reading": "げんしりょく",
+        "word": "原子力",
+        "en": "nuclear energy",
+        "my": "နျူကလီးယားစွမ်းအင်",
+        "group": ""
+      },
+      {
+        "reading": "げんいん",
+        "word": "原因",
+        "en": "cause",
+        "my": "အကြောင်းရင်း",
+        "group": ""
+      },
+      {
+        "reading": "むすぶ",
+        "word": "結ぶ",
+        "en": "to tie",
+        "my": "ချည်သည်၊ ချိတ်ဆက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "けつろん",
+        "word": "結論",
+        "en": "conclusion",
+        "my": "နိဂုံးချုပ်၊ ကောက်ချက်",
+        "group": ""
+      },
+      {
+        "reading": "けっこん",
+        "word": "結婚",
+        "en": "marriage; to marry",
+        "my": "လက်ထပ်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "けっきょく",
+        "word": "結局",
+        "en": "after all, in the end",
+        "my": "နောက်ဆုံးတော့",
+        "group": ""
+      },
+      {
+        "reading": "けっか",
+        "word": "結果",
+        "en": "result, effect",
+        "my": "ရလဒ်၊ အကျိုးဆက်",
+        "group": ""
+      },
+      {
+        "reading": "くだもの",
+        "word": "果物",
+        "en": "**** fruit",
+        "my": "သစ်သီး",
+        "group": ""
+      },
+      {
+        "reading": "まいばん",
+        "word": "毎晩",
+        "en": "every night",
+        "my": "ညတိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "こんばん",
+        "word": "今晩",
+        "en": "tonight",
+        "my": "ဒီည",
+        "group": ""
+      },
+      {
+        "reading": "ばんごはん",
+        "word": "晩ご飯",
+        "en": "dinner",
+        "my": "ညစာ",
+        "group": ""
+      },
+      {
+        "reading": "さくばん",
+        "word": "昨晩",
+        "en": "last night",
+        "my": "မနေ့ည",
+        "group": ""
+      },
+      {
+        "reading": "ない",
+        "word": "無い",
+        "en": "there is no, without",
+        "my": "မရှိသော",
+        "group": ""
+      },
+      {
+        "reading": "むり",
+        "word": "無理",
+        "en": "impossible, unreasonable",
+        "my": "မဖြစ်နိုင်သော၊ အတင်းအကျပ်",
+        "group": ""
+      },
+      {
+        "reading": "むりょう",
+        "word": "無料",
+        "en": "free, no charge",
+        "my": "အခမဲ့",
+        "group": ""
+      },
+      {
+        "reading": "むきゅう",
+        "word": "無休",
+        "en": "no holidays, open every day",
+        "my": "ပိတ်ရက်မရှိ",
+        "group": ""
+      },
+      {
+        "reading": "ぶじ",
+        "word": "無事",
+        "en": "safe, without trouble",
+        "my": "ဘေးကင်းသော၊ ပြဿနာမရှိသော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 7,
+    "words": [
+      {
+        "reading": "くばる",
+        "word": "配る",
+        "en": "to distribute",
+        "my": "ဝေသည်၊ ဖြန့်ဝေသည်",
+        "group": ""
+      },
+      {
+        "reading": "はいたつ",
+        "word": "配達",
+        "en": "delivery, to deliver",
+        "my": "ပို့ဆောင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "はいそうりょう",
+        "word": "配送料",
+        "en": "delivery/shipping fee",
+        "my": "ပို့ဆောင်ခ",
+        "group": ""
+      },
+      {
+        "reading": "しんぱい",
+        "word": "心配",
+        "en": "worry",
+        "my": "စိုးရိမ်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "しんぱいな",
+        "word": "心配な",
+        "en": "worried, worrisome",
+        "my": "စိုးရိမ်သော",
+        "group": ""
+      },
+      {
+        "reading": "そくたつ",
+        "word": "速達",
+        "en": "express delivery",
+        "my": "အမြန်ပို့ဆောင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "じょうたつ",
+        "word": "上達",
+        "en": "improvement, progress",
+        "my": "တိုးတက်မှု",
+        "group": ""
+      },
+      {
+        "reading": "はったつ",
+        "word": "発達",
+        "en": "development, growth",
+        "my": "ဖွံ့ဖြိုးတိုးတက်မှု",
+        "group": ""
+      },
+      {
+        "reading": "ともだち",
+        "word": "友達",
+        "en": "friend",
+        "my": "သူငယ်ချင်း",
+        "group": ""
+      },
+      {
+        "reading": "たくはい",
+        "word": "宅配",
+        "en": "home delivery",
+        "my": "အိမ်အရောက်ပို့ဆောင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "じたく",
+        "word": "自宅",
+        "en": "one&apos;s home",
+        "my": "မိမိအိမ်",
+        "group": ""
+      },
+      {
+        "reading": "おたく",
+        "word": "お宅",
+        "en": "home, your home",
+        "my": "အိမ်၊ သင့်အိမ်",
+        "group": ""
+      },
+      {
+        "reading": "じゅうたく",
+        "word": "住宅",
+        "en": "residence, housing",
+        "my": "နေအိမ်၊ အိမ်ရာ",
+        "group": ""
+      },
+      {
+        "reading": "らくな",
+        "word": "楽な",
+        "en": "easy, comfortable",
+        "my": "သက်သောင့်သက်သာဖြစ်သော",
+        "group": ""
+      },
+      {
+        "reading": "たのしい",
+        "word": "楽しい",
+        "en": "fun, enjoyable",
+        "my": "ပျော်ရွှင်စရာကောင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "おんがく",
+        "word": "音楽",
+        "en": "music",
+        "my": "ဂီတ၊ သီချင်း",
+        "group": ""
+      },
+      {
+        "reading": "がっき",
+        "word": "楽器",
+        "en": "musical instrument",
+        "my": "တူရိယာ",
+        "group": ""
+      },
+      {
+        "reading": "きぼう",
+        "word": "希望",
+        "en": "hope, wish",
+        "my": "မျှော်လင့်ချက်",
+        "group": ""
+      },
+      {
+        "reading": "のぞむ",
+        "word": "望む",
+        "en": "to hope, to desire",
+        "my": "မျှော်လင့်သည်၊ ဆန္ဒရှိသည်",
+        "group": ""
+      },
+      {
+        "reading": "しつぼう",
+        "word": "失望",
+        "en": "disappointment, despair",
+        "my": "စိတ်ပျက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "じかんたい",
+        "word": "時間帯",
+        "en": "time period, time zone",
+        "my": "အချိန်ကာလ၊ အချိန်ပိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "こうぎょうちたい",
+        "word": "工業地帯",
+        "en": "industrial zone",
+        "my": "စက်မှုဇုန်",
+        "group": ""
+      },
+      {
+        "reading": "とどく",
+        "word": "届く",
+        "en": "to arrive, to reach",
+        "my": "ရောက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "とどける",
+        "word": "届ける",
+        "en": "to deliver",
+        "my": "ပို့ဆောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きんがく",
+        "word": "金額",
+        "en": "amount of money",
+        "my": "ငွေပမာဏ",
+        "group": ""
+      },
+      {
+        "reading": "はんがく",
+        "word": "半額",
+        "en": "half price",
+        "my": "တစ်ဝက်ဈေး",
+        "group": ""
+      },
+      {
+        "reading": "ぜんがく",
+        "word": "全額",
+        "en": "full amount",
+        "my": "ငွေအပြည့်အစုံ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 8,
+    "words": [
+      {
+        "reading": "すてる",
+        "word": "捨てる",
+        "en": "to throw away",
+        "my": "စွန့်ပစ်သည်၊ လွှင့်ပစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ようき",
+        "word": "容器",
+        "en": "container",
+        "my": "ထည့်စရာပုံး၊ ဘူး",
+        "group": ""
+      },
+      {
+        "reading": "しょっき",
+        "word": "食器",
+        "en": "tableware",
+        "my": "စားပွဲသုံးပစ္စည်း၊ ပန်းကန်ခွက်ယောက်",
+        "group": ""
+      },
+      {
+        "reading": "がっき",
+        "word": "楽器",
+        "en": "musical instrument",
+        "my": "တူရိယာ",
+        "group": ""
+      },
+      {
+        "reading": "ぜんぶ",
+        "word": "全部",
+        "en": "all, everything",
+        "my": "အားလုံး၊ အကုန်လုံး",
+        "group": ""
+      },
+      {
+        "reading": "いちぶ",
+        "word": "一部",
+        "en": "one part, portion",
+        "my": "တစ်စိတ်တစ်ပိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "ぶぶん",
+        "word": "部分",
+        "en": "part",
+        "my": "အပိုင်း၊ အစိတ်အပိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "がくぶ",
+        "word": "学部",
+        "en": "university department",
+        "my": "တက္ကသိုလ်ဌာန",
+        "group": ""
+      },
+      {
+        "reading": "ぶちょう",
+        "word": "部長",
+        "en": "department head",
+        "my": "ဌာနမှူး",
+        "group": ""
+      },
+      {
+        "reading": "へや",
+        "word": "部屋",
+        "en": "*** room",
+        "my": "အခန်း",
+        "group": ""
+      },
+      {
+        "reading": "もえる",
+        "word": "燃える",
+        "en": "to burn",
+        "my": "လောင်သည်၊ မီးလောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "もやす",
+        "word": "燃やす",
+        "en": "to burn something",
+        "my": "မီးရှို့သည်",
+        "group": ""
+      },
+      {
+        "reading": "ちがう",
+        "word": "〜と違う",
+        "en": "to be different, incorrect",
+        "my": "ကွာခြားသည်၊ မမှန်ပါ",
+        "group": ""
+      },
+      {
+        "reading": "まちがう",
+        "word": "間違う",
+        "en": "to be mistaken",
+        "my": "မှားသည်",
+        "group": ""
+      },
+      {
+        "reading": "まちがえる",
+        "word": "間違える",
+        "en": "to make a mistake",
+        "my": "အမှားလုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "まちがい",
+        "word": "間違い",
+        "en": "mistake, error",
+        "my": "အမှား",
+        "group": ""
+      },
+      {
+        "reading": "ふくろ",
+        "word": "袋",
+        "en": "bag, sack",
+        "my": "အိတ်",
+        "group": ""
+      },
+      {
+        "reading": "かみぶくろ",
+        "word": "紙袋",
+        "en": "paper bag",
+        "my": "စက္ကူအိတ်",
+        "group": ""
+      },
+      {
+        "reading": "ビニールぶくろ",
+        "word": "ビニール袋",
+        "en": "plastic bag",
+        "my": "ပလတ်စတစ်အိတ်",
+        "group": ""
+      },
+      {
+        "reading": "はこ",
+        "word": "箱",
+        "en": "box",
+        "my": "သေတ္တာ၊ ဘူး",
+        "group": ""
+      },
+      {
+        "reading": "だんボールばこ",
+        "word": "段ボール箱",
+        "en": "cardboard box",
+        "my": "ကတ်ထူပုံး",
+        "group": ""
+      },
+      {
+        "reading": "ごみばこ",
+        "word": "ごみ箱",
+        "en": "trash bin",
+        "my": "အမှိုက်ပုံး",
+        "group": ""
+      },
+      {
+        "reading": "りょう",
+        "word": "量",
+        "en": "amount, volume",
+        "my": "ပမာဏ",
+        "group": ""
+      },
+      {
+        "reading": "すうりょう",
+        "word": "数量",
+        "en": "quantity",
+        "my": "အရေအတွက်၊ ပမာဏ",
+        "group": ""
+      },
+      {
+        "reading": "おんりょう",
+        "word": "音量",
+        "en": "sound volume",
+        "my": "အသံအတိုးအကျယ်",
+        "group": ""
+      },
+      {
+        "reading": "さいりよう",
+        "word": "再利用",
+        "en": "reuse, recycle",
+        "my": "ပြန်လည်အသုံးပြုခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "さいかい",
+        "word": "再会",
+        "en": "reunion, meet again",
+        "my": "ပြန်လည်တွေ့ဆုံခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "さらいねん",
+        "word": "再来年",
+        "en": "year after next",
+        "my": "နောက်တစ်နှစ်ကျော်",
+        "group": ""
+      },
+      {
+        "reading": "さらいしゅう",
+        "word": "再来週",
+        "en": "week after next",
+        "my": "နောက်တစ်ပတ်ကျော်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 9,
+    "words": [
+      {
+        "reading": "つめたい",
+        "word": "冷たい",
+        "en": "cold (to the touch)",
+        "my": "အေးသော",
+        "group": ""
+      },
+      {
+        "reading": "ひえる",
+        "word": "冷える",
+        "en": "to get cold",
+        "my": "အေးလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "ひやす",
+        "word": "冷やす",
+        "en": "to cool, to chill",
+        "my": "အေးအောင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "さめる",
+        "word": "冷める",
+        "en": "to cool off, to get cold",
+        "my": "အေးသွားသည်",
+        "group": ""
+      },
+      {
+        "reading": "さます",
+        "word": "冷ます",
+        "en": "to let cool",
+        "my": "အအေးခံသည်",
+        "group": ""
+      },
+      {
+        "reading": "れいぼう",
+        "word": "冷房",
+        "en": "cooler, A/C",
+        "my": "လေအေးပေးစက်",
+        "group": ""
+      },
+      {
+        "reading": "れいぞうこ",
+        "word": "冷蔵庫",
+        "en": "refrigerator",
+        "my": "ရေခဲသေတ္တာ",
+        "group": ""
+      },
+      {
+        "reading": "きんこ",
+        "word": "金庫",
+        "en": "safe",
+        "my": "မီးခံသေတ္တာ",
+        "group": ""
+      },
+      {
+        "reading": "しゃこ",
+        "word": "車庫",
+        "en": "garage",
+        "my": "ကားဂိုဒေါင်",
+        "group": ""
+      },
+      {
+        "reading": "そうこ",
+        "word": "倉庫",
+        "en": "warehouse",
+        "my": "ကုန်လှောင်ရုံ",
+        "group": ""
+      },
+      {
+        "reading": "おおがた",
+        "word": "大型",
+        "en": "large scale/size",
+        "my": "အရွယ်အစားကြီးသော",
+        "group": ""
+      },
+      {
+        "reading": "しんがた",
+        "word": "新型",
+        "en": "new model",
+        "my": "မော်ဒယ်အသစ်",
+        "group": ""
+      },
+      {
+        "reading": "だんぼう",
+        "word": "暖房",
+        "en": "heater, heating",
+        "my": "အပူပေးစက်",
+        "group": ""
+      },
+      {
+        "reading": "ぶんぼうぐ",
+        "word": "文房具",
+        "en": "stationery",
+        "my": "စာရေးကိရိယာ",
+        "group": ""
+      },
+      {
+        "reading": "あたたまる",
+        "word": "暖まる",
+        "en": "to warm up",
+        "my": "နွေးလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "あたためる",
+        "word": "暖める",
+        "en": "to warm up, to heat up",
+        "my": "နွေးအောင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "あたたかい",
+        "word": "暖かい",
+        "en": "warm",
+        "my": "နွေးသော",
+        "group": ""
+      },
+      {
+        "reading": "こおる",
+        "word": "凍る",
+        "en": "to freeze",
+        "my": "အေးခဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "れいとうこ",
+        "word": "冷凍庫",
+        "en": "freezer",
+        "my": "ရေခဲခန်း၊ အအေးခန်း",
+        "group": ""
+      },
+      {
+        "reading": "れいとうしょくひん",
+        "word": "冷凍食品",
+        "en": "frozen foods",
+        "my": "အေးခဲအစားအစာ",
+        "group": ""
+      },
+      {
+        "reading": "あたたまる",
+        "word": "温まる",
+        "en": "to warm up",
+        "my": "နွေးလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "あたためる",
+        "word": "温める",
+        "en": "to warm up, to heat up",
+        "my": "နွေးအောင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "あたたかい",
+        "word": "温かい",
+        "en": "warm, hot",
+        "my": "နွေးသော",
+        "group": ""
+      },
+      {
+        "reading": "おんど",
+        "word": "温度",
+        "en": "temperature",
+        "my": "အပူချိန်",
+        "group": ""
+      },
+      {
+        "reading": "たいおん",
+        "word": "体温",
+        "en": "body temperature",
+        "my": "ကိုယ်အပူချိန်",
+        "group": ""
+      },
+      {
+        "reading": "きおん",
+        "word": "気温",
+        "en": "air temperature",
+        "my": "လေထုအပူချိန်",
+        "group": ""
+      },
+      {
+        "reading": "おんせん",
+        "word": "温泉",
+        "en": "hot spring",
+        "my": "ရေပူစမ်း",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 10,
+    "words": [
+      {
+        "reading": "じゅぎょう",
+        "word": "授業",
+        "en": "class, course",
+        "my": "အတန်း၊ သင်ခန်းစာ",
+        "group": ""
+      },
+      {
+        "reading": "きょうじゅ",
+        "word": "教授",
+        "en": "teacher, professor",
+        "my": "ပါမောက္ခ၊ ဆရာ",
+        "group": ""
+      },
+      {
+        "reading": "じょうきゅう",
+        "word": "上級",
+        "en": "advanced level",
+        "my": "အဆင့်မြင့်",
+        "group": ""
+      },
+      {
+        "reading": "しょきゅう",
+        "word": "初級",
+        "en": "beginner level",
+        "my": "အခြေခံအဆင့်",
+        "group": ""
+      },
+      {
+        "reading": "さんきゅう",
+        "word": "級",
+        "en": "level 3, grade 3",
+        "my": "အဆင့်၃",
+        "group": ""
+      },
+      {
+        "reading": "こうきゅう（な）",
+        "word": "高級（な）",
+        "en": "high class, high level",
+        "my": "အဆင့်မြင့်သော",
+        "group": ""
+      },
+      {
+        "reading": "たんご",
+        "word": "単語",
+        "en": "vocabulary word",
+        "my": "ဝေါဟာရ၊ စကားလုံး",
+        "group": ""
+      },
+      {
+        "reading": "たんい",
+        "word": "単位",
+        "en": "unit, credit",
+        "my": "ယူနစ်၊ ခရက်ဒစ်",
+        "group": ""
+      },
+      {
+        "reading": "ぶんぽう",
+        "word": "文法",
+        "en": "grammar",
+        "my": "သဒ္ဒါ",
+        "group": ""
+      },
+      {
+        "reading": "ほうほう",
+        "word": "方法",
+        "en": "method, way",
+        "my": "နည်းလမ်း",
+        "group": ""
+      },
+      {
+        "reading": "ほうがくぶ",
+        "word": "法学部",
+        "en": "law department",
+        "my": "ဥပဒေဌာန",
+        "group": ""
+      },
+      {
+        "reading": "むずかしい",
+        "word": "難しい",
+        "en": "difficult",
+        "my": "ခက်ခဲသော",
+        "group": ""
+      },
+      {
+        "reading": "こんなん（な）",
+        "word": "困難（な）",
+        "en": "difficult, troublesome",
+        "my": "ခက်ခဲသော၊ အခက်အခဲရှိသော",
+        "group": ""
+      },
+      {
+        "reading": "かんたん（な）",
+        "word": "簡単（な）",
+        "en": "easy, simple",
+        "my": "လွယ်ကူသော၊ ရိုးရှင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "せんもん",
+        "word": "専門",
+        "en": "specialization, major",
+        "my": "အထူးပြုဘာသာ၊ အထူးကျွမ်းကျင်မှု",
+        "group": ""
+      },
+      {
+        "reading": "せんもんか",
+        "word": "専門家",
+        "en": "specialist, expert",
+        "my": "ကျွမ်းကျင်ပညာရှင်",
+        "group": ""
+      },
+      {
+        "reading": "しゅくだい",
+        "word": "宿題",
+        "en": "homework",
+        "my": "အိမ်စာ",
+        "group": ""
+      },
+      {
+        "reading": "しゅくはく（する）",
+        "word": "宿泊（する）",
+        "en": "to stay in lodging",
+        "my": "တည်းခိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "うける",
+        "word": "受ける",
+        "en": "to receive, to accept",
+        "my": "လက်ခံသည်",
+        "group": ""
+      },
+      {
+        "reading": "しけんにうかる",
+        "word": "試験に受かる",
+        "en": "to pass an exam",
+        "my": "စာမေးပွဲအောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うけとる",
+        "word": "受け取る",
+        "en": "to accept, receive",
+        "my": "လက်ခံရယူသည်",
+        "group": ""
+      },
+      {
+        "reading": "うけつけ",
+        "word": "受付",
+        "en": "reception, reception desk",
+        "my": "ဧည့်ကြို၊ လက်ခံကောင်တာ",
+        "group": ""
+      },
+      {
+        "reading": "じゅけん（する）",
+        "word": "受験（する）",
+        "en": "to take an exam",
+        "my": "စာမေးပွဲဖြေသည်",
+        "group": ""
+      },
+      {
+        "reading": "じゅしん（する）",
+        "word": "受信（する）",
+        "en": "to receive a message",
+        "my": "မက်ဆေ့ချ်/အချက်အလက်",
+        "group": ""
+      },
+      {
+        "reading": "じゅしょう（する）",
+        "word": "受賞（する）",
+        "en": "to receive an award",
+        "my": "ဆုရရှိသည်",
+        "group": ""
+      },
+      {
+        "reading": "いっぱん",
+        "word": "一般",
+        "en": "in general",
+        "my": "ယေဘုယျ၊ အထွေထွေ",
+        "group": ""
+      },
+      {
+        "reading": "いっぱんてき（な）",
+        "word": "一般的（な）",
+        "en": "usual, general, ordinary",
+        "my": "ယေဘုယျဖြစ်သော၊ သာမန်ဖြစ်သော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 11,
+    "words": [
+      {
+        "reading": "れきし",
+        "word": "歴史",
+        "en": "history",
+        "my": "သမိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "がくれき",
+        "word": "学歴",
+        "en": "educational background",
+        "my": "ပညာရေးနောက်ခံ",
+        "group": ""
+      },
+      {
+        "reading": "たね",
+        "word": "種",
+        "en": "seed",
+        "my": "မျိုးစေ့",
+        "group": ""
+      },
+      {
+        "reading": "しゅるい",
+        "word": "種類",
+        "en": "type, variety",
+        "my": "အမျိုးအစား",
+        "group": ""
+      },
+      {
+        "reading": "しょるい",
+        "word": "書類",
+        "en": "documents",
+        "my": "စာရွက်စာတမ်းများ",
+        "group": ""
+      },
+      {
+        "reading": "いるい",
+        "word": "衣類",
+        "en": "clothing",
+        "my": "အဝတ်အစားများ",
+        "group": ""
+      },
+      {
+        "reading": "かわる",
+        "word": "変わる",
+        "en": "to change",
+        "my": "ပြောင်းလဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "かえる",
+        "word": "変える",
+        "en": "to change",
+        "my": "ပြောင်းလဲစေသည်",
+        "group": ""
+      },
+      {
+        "reading": "へんか（する）",
+        "word": "変化（する）",
+        "en": "to change",
+        "my": "ပြောင်းလဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "へん（な）",
+        "word": "変（な）",
+        "en": "strange",
+        "my": "ထူးဆန်းသော",
+        "group": ""
+      },
+      {
+        "reading": "たいへん（な）",
+        "word": "大変（な）",
+        "en": "very, serious",
+        "my": "အလွန်၊ ခက်ခဲသော",
+        "group": ""
+      },
+      {
+        "reading": "かがく",
+        "word": "化学",
+        "en": "chemistry",
+        "my": "ဓာတုဗေဒ",
+        "group": ""
+      },
+      {
+        "reading": "ぶんか",
+        "word": "文化",
+        "en": "culture",
+        "my": "ယဉ်ကျေးမှု",
+        "group": ""
+      },
+      {
+        "reading": "けしょう（する）",
+        "word": "化粧（する）",
+        "en": "to make up, cosmetics",
+        "my": "မိတ်ကပ်လိမ်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "きかいか（する）",
+        "word": "機械化（する）",
+        "en": "mechanization",
+        "my": "စက်မှုစနစ်သို့ပြောင်းလဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "～か（する）～",
+        "word": "～化（する）",
+        "en": "change/transform into ~",
+        "my": "အဖြစ်ပြောင်းလဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "りかい（する）",
+        "word": "理解（する）",
+        "en": "to understand, comprehend",
+        "my": "နားလည်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かいけつ（する）",
+        "word": "解決（する）",
+        "en": "to solve",
+        "my": "ဖြေရှင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "くらべる",
+        "word": "比べる",
+        "en": "to compare",
+        "my": "နှိုင်းယှဉ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ひかく（する）",
+        "word": "比較（する）",
+        "en": "to compare",
+        "my": "နှိုင်းယှဉ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かだい",
+        "word": "課題",
+        "en": "topic, lesson, issue",
+        "my": "ခေါင်းစဉ်၊ သင်ခန်းစာ၊ ပြဿနာ",
+        "group": ""
+      },
+      {
+        "reading": "だいいっか",
+        "word": "第課",
+        "en": "1 lesson 1",
+        "my": "သင်ခန်းစာ၁",
+        "group": ""
+      },
+      {
+        "reading": "かちょう",
+        "word": "課長",
+        "en": "section head",
+        "my": "ဌာနခွဲမှူး",
+        "group": ""
+      },
+      {
+        "reading": "かたち",
+        "word": "形",
+        "en": "shape, form",
+        "my": "ပုံသဏ္ဌာန်",
+        "group": ""
+      },
+      {
+        "reading": "にんぎょう",
+        "word": "人形",
+        "en": "doll",
+        "my": "အရုပ်",
+        "group": ""
+      },
+      {
+        "reading": "さんかくけい",
+        "word": "三角形",
+        "en": "triangle",
+        "my": "တြိဂံပုံ",
+        "group": ""
+      },
+      {
+        "reading": "しかくけい",
+        "word": "四角形",
+        "en": "square, quadrilateral",
+        "my": "လေးထောင့်ပုံ",
+        "group": ""
+      },
+      {
+        "reading": "かいとう（する）",
+        "word": "解答（する）",
+        "en": "to answer",
+        "my": "အဖြေဖြေသည်",
+        "group": ""
+      },
+      {
+        "reading": "せいとう",
+        "word": "正答",
+        "en": "correct answer",
+        "my": "အဖြေမှန်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 12,
+    "words": [
+      {
+        "reading": "じゅんび（する）",
+        "word": "準備（する）",
+        "en": "to prepare",
+        "my": "ပြင်ဆင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "そなえる",
+        "word": "備える",
+        "en": "to prepare, to provide for",
+        "my": "ကြိုတင်ပြင်ဆင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "せつび",
+        "word": "設備",
+        "en": "equipment, installation",
+        "my": "စက်ပစ္စည်း၊ တပ်ဆင်ပစ္စည်း",
+        "group": ""
+      },
+      {
+        "reading": "きかん",
+        "word": "期間",
+        "en": "period of time",
+        "my": "အချိန်ကာလ",
+        "group": ""
+      },
+      {
+        "reading": "たんき",
+        "word": "短期",
+        "en": "short period of time",
+        "my": "ကာလတို",
+        "group": ""
+      },
+      {
+        "reading": "がっき",
+        "word": "学期",
+        "en": "academic term",
+        "my": "စာသင်နှစ်ဝက်၊ စာသင်ကာလ",
+        "group": ""
+      },
+      {
+        "reading": "じき",
+        "word": "時期",
+        "en": "season, period",
+        "my": "အချိန်ကာလ၊ အချိန်အခါ",
+        "group": ""
+      },
+      {
+        "reading": "きたい（する）",
+        "word": "期待（する）",
+        "en": "to anticipate, to look forward to",
+        "my": "မျှော်လင့်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かぎる",
+        "word": "限る",
+        "en": "to be limited/restricte",
+        "my": "ကန့်သတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "げんてい（する）",
+        "word": "限定（する）",
+        "en": "d to limit",
+        "my": "ကန့်သတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "せいげん（する）",
+        "word": "制限（する）",
+        "en": "to set a limit, restrict",
+        "my": "ကန့်သတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かぞえる",
+        "word": "数える",
+        "en": "to count",
+        "my": "ရေတွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かず",
+        "word": "数",
+        "en": "number, amount",
+        "my": "အရေအတွက်",
+        "group": ""
+      },
+      {
+        "reading": "すうじ",
+        "word": "数字",
+        "en": "number, numeral",
+        "my": "ဂဏန်း",
+        "group": ""
+      },
+      {
+        "reading": "すうがく",
+        "word": "数学",
+        "en": "mathematics",
+        "my": "သင်္ချာ",
+        "group": ""
+      },
+      {
+        "reading": "すうりょう",
+        "word": "数量",
+        "en": "quantity",
+        "my": "ပမာဏ၊ အရေအတွက်",
+        "group": ""
+      },
+      {
+        "reading": "てんすう",
+        "word": "点数",
+        "en": "points, score",
+        "my": "အမှတ်",
+        "group": ""
+      },
+      {
+        "reading": "すうかげつ",
+        "word": "数か月",
+        "en": "several months",
+        "my": "လအနည်းငယ်",
+        "group": ""
+      },
+      {
+        "reading": "にんずう",
+        "word": "人数",
+        "en": "number of people",
+        "my": "လူဦးရေ၊ လူအရေအတွက်",
+        "group": ""
+      },
+      {
+        "reading": "はんばい（する）",
+        "word": "販売（する）",
+        "en": "to sell",
+        "my": "ရောင်းချသည်",
+        "group": ""
+      },
+      {
+        "reading": "じどうはんばいき",
+        "word": "自動販売機",
+        "en": "vending machine",
+        "my": "အလိုအလျောက်အရောင်းစက်",
+        "group": ""
+      },
+      {
+        "reading": "ねだん",
+        "word": "値段",
+        "en": "price",
+        "my": "ဈေးနှုန်း",
+        "group": ""
+      },
+      {
+        "reading": "ねあげ（する）",
+        "word": "値上げ（する）",
+        "en": "to raise the price",
+        "my": "ဈေးတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ねさげ（する）",
+        "word": "値下げ（する）",
+        "en": "to lower the price",
+        "my": "ဈေးချသည်",
+        "group": ""
+      },
+      {
+        "reading": "かち",
+        "word": "価値",
+        "en": "value, worth",
+        "my": "တန်ဖိုး",
+        "group": ""
+      },
+      {
+        "reading": "ないよう",
+        "word": "内容",
+        "en": "contents",
+        "my": "အကြောင်းအရာ",
+        "group": ""
+      },
+      {
+        "reading": "ようき",
+        "word": "容器",
+        "en": "container",
+        "my": "ထည့်စရာဘူး၊ ထည့်စရာပုံး",
+        "group": ""
+      },
+      {
+        "reading": "びよう",
+        "word": "美容",
+        "en": "beauty, beauty care",
+        "my": "အလှအပ၊ အလှပြုပြင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "びよういん",
+        "word": "美容院",
+        "en": "beauty salon",
+        "my": "အလှပြင်ဆိုင်",
+        "group": ""
+      },
+      {
+        "reading": "ようい（な）",
+        "word": "容易（な）",
+        "en": "easy, simple",
+        "my": "လွယ်ကူသော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 13,
+    "words": [
+      {
+        "reading": "やきゅう",
+        "word": "野球",
+        "en": "baseball",
+        "my": "ဘေ့စ်ဘော",
+        "group": ""
+      },
+      {
+        "reading": "ちきゅう",
+        "word": "地球",
+        "en": "Earth",
+        "my": "ကမ္ဘာမြေ",
+        "group": ""
+      },
+      {
+        "reading": "でんきゅう",
+        "word": "電球",
+        "en": "lightbulb",
+        "my": "မီးလုံး",
+        "group": ""
+      },
+      {
+        "reading": "れんしゅう（する）",
+        "word": "練習（する）",
+        "en": "to practice",
+        "my": "လေ့ကျင့်သည်",
+        "group": ""
+      },
+      {
+        "reading": "くんれん（する）",
+        "word": "訓練（する）",
+        "en": "to train, to drill",
+        "my": "လေ့ကျင့်သင်ကြားသည်",
+        "group": ""
+      },
+      {
+        "reading": "つかれる",
+        "word": "疲れる",
+        "en": "to get tired",
+        "my": "ပင်ပန်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "つかれ",
+        "word": "疲れ",
+        "en": "tiredness, fatigue",
+        "my": "ပင်ပန်းနွမ်းနယ်မှု",
+        "group": ""
+      },
+      {
+        "reading": "ひろう",
+        "word": "疲労",
+        "en": "fatigue, exhaustion",
+        "my": "ပင်ပန်းနွမ်းနယ်မှု",
+        "group": ""
+      },
+      {
+        "reading": "はこぶ",
+        "word": "運ぶ",
+        "en": "to carry, to transport",
+        "my": "သယ်ဆောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うんどう（する）",
+        "word": "運動（する）",
+        "en": "to exercise",
+        "my": "လေ့ကျင့်ခန်းလုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うんてん（する）",
+        "word": "運転（する）",
+        "en": "to drive",
+        "my": "မောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "あせ",
+        "word": "汗",
+        "en": "sweat",
+        "my": "ချွေး",
+        "group": ""
+      },
+      {
+        "reading": "はじめて",
+        "word": "初めて",
+        "en": "first time",
+        "my": "ပထမဆုံးအကြိမ်",
+        "group": ""
+      },
+      {
+        "reading": "はじめ",
+        "word": "初め",
+        "en": "beginning, start",
+        "my": "အစ၊ အစပိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "さいしょ",
+        "word": "最初",
+        "en": "at first, at the start",
+        "my": "အစဆုံး၊ ပထမဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "しょきゅう",
+        "word": "初級",
+        "en": "beginner level",
+        "my": "အခြေခံအဆင့်",
+        "group": ""
+      },
+      {
+        "reading": "ぎじゅつ",
+        "word": "技術",
+        "en": "technology, technique",
+        "my": "နည်းပညာ၊ နည်းစနစ်",
+        "group": ""
+      },
+      {
+        "reading": "ぎじゅつしゃ",
+        "word": "技術者",
+        "en": "technician",
+        "my": "နည်းပညာရှင်",
+        "group": ""
+      },
+      {
+        "reading": "しゅじゅつ（する）",
+        "word": "手術（する）",
+        "en": "to operate, surgery",
+        "my": "ခွဲစိတ်ကုသသည်",
+        "group": ""
+      },
+      {
+        "reading": "びじゅつ",
+        "word": "美術",
+        "en": "fine arts, aesthetics",
+        "my": "အနုပညာ",
+        "group": ""
+      },
+      {
+        "reading": "びじゅつかん",
+        "word": "美術館",
+        "en": "art museum",
+        "my": "အနုပညာပြတိုက်",
+        "group": ""
+      },
+      {
+        "reading": "げいじゅつ",
+        "word": "芸術",
+        "en": "arts",
+        "my": "အနုပညာ",
+        "group": ""
+      },
+      {
+        "reading": "はじまる",
+        "word": "始まる",
+        "en": "to begin, to start",
+        "my": "စတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "はじめる",
+        "word": "始める",
+        "en": "to begin, to start",
+        "my": "စတင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かいし（する）",
+        "word": "開始（する）",
+        "en": "to start, commence",
+        "my": "စတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きゃく",
+        "word": "客",
+        "en": "guest, customer",
+        "my": "ဧည့်သည်၊ ဖောက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "おきゃくさま",
+        "word": "お客様",
+        "en": "polite term for guest/customer (",
+        "my": "ဧည့်သည်၊ ဖောက်သည်ယဉ်ကျေးသောအသုံး)",
+        "group": ""
+      },
+      {
+        "reading": "じょうきゃく",
+        "word": "乗客",
+        "en": "passenger",
+        "my": "ခရီးသည်",
+        "group": ""
+      },
+      {
+        "reading": "かんきゃく",
+        "word": "観客",
+        "en": "spectator, audience",
+        "my": "ပရိသတ်၊ ကြည့်ရှုသူ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 14,
+    "words": [
+      {
+        "reading": "しあい",
+        "word": "試合",
+        "en": "match",
+        "my": "ပြိုင်ပွဲ",
+        "group": ""
+      },
+      {
+        "reading": "～にあう～",
+        "word": "～に合う",
+        "en": "to match with",
+        "my": "နှင့်ကိုက်ညီသည်",
+        "group": ""
+      },
+      {
+        "reading": "はなしあう",
+        "word": "話し合う",
+        "en": "to converse, discuss",
+        "my": "ဆွေးနွေးတိုင်ပင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ばあい",
+        "word": "場合",
+        "en": "occasion, case",
+        "my": "အခြေအနေ၊ ကိစ္စ",
+        "group": ""
+      },
+      {
+        "reading": "ごうかく（する）",
+        "word": "合格（する）",
+        "en": "to pass, to qualify",
+        "my": "အောင်မြင်သည်၊ အရည်အချင်းပြည့်မီသည်",
+        "group": ""
+      },
+      {
+        "reading": "ふごうかく",
+        "word": "不合格",
+        "en": "failure, disqualification",
+        "my": "မအောင်မြင်ခြင်း၊ ကျရှုံးခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "かいかいしき",
+        "word": "開会式",
+        "en": "opening ceremony",
+        "my": "ဖွင့်ပွဲအခမ်းအနား",
+        "group": ""
+      },
+      {
+        "reading": "にゅうがくしき",
+        "word": "入学式",
+        "en": "school entrance ceremony",
+        "my": "ကျောင်းဝင်ပွဲအခမ်းအနား",
+        "group": ""
+      },
+      {
+        "reading": "けっこんしき",
+        "word": "結婚式",
+        "en": "wedding ceremony",
+        "my": "မင်္ဂလာဆောင်အခမ်းအနား",
+        "group": ""
+      },
+      {
+        "reading": "けいしき",
+        "word": "形式",
+        "en": "type, style, format",
+        "my": "ပုံစံ၊ နည်းစနစ်",
+        "group": ""
+      },
+      {
+        "reading": "～にかつ～",
+        "word": "～に勝つ",
+        "en": "to win against ~",
+        "my": "ကိုအနိုင်ရသည်",
+        "group": ""
+      },
+      {
+        "reading": "かって（な）",
+        "word": "勝手（な）",
+        "en": "selfish, arbitrary",
+        "my": "တစ်ကိုယ်ကောင်းဆန်သော၊",
+        "group": ""
+      },
+      {
+        "reading": "ゆうしょう（する）",
+        "word": "優勝（する）",
+        "en": "to win, win the championship",
+        "my": "ဗိုလ်စွဲသည်၊ ချန်ပီယံဖြစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "あいて",
+        "word": "相手",
+        "en": "opponent, partner, other party",
+        "my": "ပြိုင်ဘက်၊ လက်တွဲဖော်",
+        "group": ""
+      },
+      {
+        "reading": "そうだん（する）",
+        "word": "相談（する）",
+        "en": "to consult",
+        "my": "တိုင်ပင်ဆွေးနွေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "しゅしょう",
+        "word": "首相",
+        "en": "Prime Minister",
+        "my": "ဝန်ကြီးချုပ်",
+        "group": ""
+      },
+      {
+        "reading": "にい",
+        "word": "位",
+        "en": "2 second place",
+        "my": "ဒုတိယနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "いち",
+        "word": "位置",
+        "en": "position, location",
+        "my": "နေရာ၊ တည်နေရာ",
+        "group": ""
+      },
+      {
+        "reading": "いちたいいちさん",
+        "word": "対",
+        "en": "1 3 1 versus 3",
+        "my": "၁နှင့်၃",
+        "group": ""
+      },
+      {
+        "reading": "はんたい",
+        "word": "反対",
+        "en": "opposing, opposite",
+        "my": "ဆန့်ကျင်ခြင်း၊ ဆန့်ကျင်ဘက်",
+        "group": ""
+      },
+      {
+        "reading": "ぜったい（に）",
+        "word": "絶対（に）",
+        "en": "definitely, absolutely",
+        "my": "လုံးဝ၊ မုချ",
+        "group": ""
+      },
+      {
+        "reading": "えらぶ",
+        "word": "選ぶ",
+        "en": "to select, choose",
+        "my": "ရွေးချယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "せんしゅ",
+        "word": "選手",
+        "en": "athlete, player",
+        "my": "အားကစားသမား၊ ကစားသမား",
+        "group": ""
+      },
+      {
+        "reading": "せんきょ",
+        "word": "選挙",
+        "en": "election",
+        "my": "ရွေးကောက်ပွဲ",
+        "group": ""
+      },
+      {
+        "reading": "～にまける～",
+        "word": "～に負ける",
+        "en": "to lose to ~",
+        "my": "ကိုရှုံးသည်",
+        "group": ""
+      },
+      {
+        "reading": "しょうぶ",
+        "word": "勝負",
+        "en": "match, contest",
+        "my": "ယှဉ်ပြိုင်ပွဲ၊ အနိုင်အရှုံးပြိုင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "～とたたかう～",
+        "word": "～と戦う",
+        "en": "to fight/battle with ~",
+        "my": "နှင့်တိုက်ခိုက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "たたかい",
+        "word": "戦い",
+        "en": "fight, battle",
+        "my": "တိုက်ပွဲ",
+        "group": ""
+      },
+      {
+        "reading": "アメリカせん",
+        "word": "アメリカ戦",
+        "en": "match against America",
+        "my": "အမေရိကနှင့်ပွဲ",
+        "group": ""
+      },
+      {
+        "reading": "せんそう",
+        "word": "戦争",
+        "en": "war",
+        "my": "စစ်ပွဲ",
+        "group": ""
+      },
+      {
+        "reading": "せんご",
+        "word": "戦後",
+        "en": "after the war",
+        "my": "စစ်ပြီးနောက်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 15,
+    "words": [
+      {
+        "reading": "ともだち",
+        "word": "友達",
+        "en": "friend",
+        "my": "သူငယ်ချင်း",
+        "group": ""
+      },
+      {
+        "reading": "ゆうじん",
+        "word": "友人",
+        "en": "friend (formal)",
+        "my": "မိတ်ဆွေ၊ သူငယ်ချင်း",
+        "group": ""
+      },
+      {
+        "reading": "しんゆう",
+        "word": "親友",
+        "en": "best friend, true friend",
+        "my": "အခင်ဆုံးသူငယ်ချင်း",
+        "group": ""
+      },
+      {
+        "reading": "きゅうきゅうしゃ",
+        "word": "救急車",
+        "en": "ambulance",
+        "my": "လူနာတင်ယာဉ်",
+        "group": ""
+      },
+      {
+        "reading": "きゅうしゅつ（する）",
+        "word": "救出（する）",
+        "en": "to rescue",
+        "my": "ကယ်ဆယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "よぶ",
+        "word": "呼ぶ",
+        "en": "to call",
+        "my": "ခေါ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "こきゅう（する）",
+        "word": "呼吸（する）",
+        "en": "to breathe",
+        "my": "အသက်ရှူသည်",
+        "group": ""
+      },
+      {
+        "reading": "ほぞん（する）",
+        "word": "保存（する）",
+        "en": "to save, to preserve",
+        "my": "သိမ်းဆည်းသည်၊ ထိန်းသိမ်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "ほしょう（する）",
+        "word": "保証（する）",
+        "en": "to guarantee",
+        "my": "အာမခံသည်",
+        "group": ""
+      },
+      {
+        "reading": "ほけん",
+        "word": "保険",
+        "en": "insurance",
+        "my": "အာမခံ",
+        "group": ""
+      },
+      {
+        "reading": "ほけんしょう",
+        "word": "保険証",
+        "en": "insurance card",
+        "my": "အာမခံကတ်",
+        "group": ""
+      },
+      {
+        "reading": "しょうめいしょ",
+        "word": "証明書",
+        "en": "certificate",
+        "my": "သက်သေခံလက်မှတ်",
+        "group": ""
+      },
+      {
+        "reading": "きえる",
+        "word": "消える",
+        "en": "to disappear, to vanish",
+        "my": "ပျောက်ကွယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "けす",
+        "word": "消す",
+        "en": "to erase, to delete",
+        "my": "ဖျက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "とりけす",
+        "word": "取り消す",
+        "en": "to take back, to cancel",
+        "my": "ပယ်ဖျက်သည်၊ ပြန်ရုပ်သိမ်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "しょうひ（する）",
+        "word": "消費（する）",
+        "en": "to consume",
+        "my": "သုံးစွဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "しょうひしゃ",
+        "word": "消費者",
+        "en": "consumer",
+        "my": "စားသုံးသူ",
+        "group": ""
+      },
+      {
+        "reading": "ふせぐ",
+        "word": "防ぐ",
+        "en": "to defend, prevent",
+        "my": "ကာကွယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "よぼう（する）",
+        "word": "予防（する）",
+        "en": "to prevent",
+        "my": "ကြိုတင်ကာကွယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "しょうぼうしゃ",
+        "word": "消防車",
+        "en": "fire engine",
+        "my": "မီးသတ်ကား",
+        "group": ""
+      },
+      {
+        "reading": "ちゅうしゃ（する）",
+        "word": "駐車（する）",
+        "en": "to park",
+        "my": "ကားရပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ちゅうしゃじょう",
+        "word": "駐車場",
+        "en": "parking lot",
+        "my": "ကားရပ်နားရာနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "きんし（する）",
+        "word": "禁止（する）",
+        "en": "to forbid, to ban",
+        "my": "တားမြစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かける",
+        "word": "欠ける",
+        "en": "to lack, to be missing",
+        "my": "ချို့တဲ့သည်၊ မပြည့်စုံသည်",
+        "group": ""
+      },
+      {
+        "reading": "けっせき（する）",
+        "word": "欠席（する）",
+        "en": "to be absent",
+        "my": "ပျက်ကွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "けっきん",
+        "word": "欠勤",
+        "en": "absence from work",
+        "my": "အလုပ်ပျက်ကွက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "けってん",
+        "word": "欠点",
+        "en": "flaw, defect",
+        "my": "အားနည်းချက်၊ ချို့ယွင်းချက်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 16,
+    "words": [
+      {
+        "reading": "ほね",
+        "word": "骨",
+        "en": "bone",
+        "my": "အရိုး",
+        "group": ""
+      },
+      {
+        "reading": "こっせつ（する）",
+        "word": "骨折（する）",
+        "en": "to break a bone",
+        "my": "အရိုးကျိုးသည်",
+        "group": ""
+      },
+      {
+        "reading": "おれる",
+        "word": "折れる",
+        "en": "to bend, to break",
+        "my": "ကျိုးသည်၊ ကွေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "おる",
+        "word": "折る",
+        "en": "to bend, to fold",
+        "my": "ခေါက်သည်၊ ချိုးသည်",
+        "group": ""
+      },
+      {
+        "reading": "おりがみ",
+        "word": "折り紙",
+        "en": "origami",
+        "my": "စက္ကူခေါက်အနုပညာ",
+        "group": ""
+      },
+      {
+        "reading": "なおる",
+        "word": "治る",
+        "en": "to heal, to get better",
+        "my": "ပျောက်ကင်းသည်၊ သက်သာလာသည်",
+        "group": ""
+      },
+      {
+        "reading": "なおす",
+        "word": "治す",
+        "en": "to heal, to cure",
+        "my": "ကုသသည်",
+        "group": ""
+      },
+      {
+        "reading": "せいじ",
+        "word": "政治",
+        "en": "government, politics",
+        "my": "နိုင်ငံရေး",
+        "group": ""
+      },
+      {
+        "reading": "つく",
+        "word": "付く",
+        "en": "to be attached",
+        "my": "ကပ်သည်၊ တွဲပါသည်",
+        "group": ""
+      },
+      {
+        "reading": "つける",
+        "word": "付ける",
+        "en": "to attach, to add",
+        "my": "ကပ်သည်၊ တပ်သည်၊ ထည့်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うけつけ",
+        "word": "受付",
+        "en": "reception desk",
+        "my": "ဧည့်ကြိုကောင်တာ",
+        "group": ""
+      },
+      {
+        "reading": "もうす",
+        "word": "申す",
+        "en": "to say (humble) (",
+        "my": "ပြောသည်မိမိကိုယ်ကိုနှိမ့်ချသေ",
+        "group": ""
+      },
+      {
+        "reading": "もうしこむ",
+        "word": "申し込む",
+        "en": "to apply",
+        "my": "လျှောက်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "もうしこみしょ",
+        "word": "申込書",
+        "en": "application form",
+        "my": "လျှောက်လွှာ",
+        "group": ""
+      },
+      {
+        "reading": "げか",
+        "word": "外科",
+        "en": "department of surgery",
+        "my": "ခွဲစိတ်ကုသဌာန",
+        "group": ""
+      },
+      {
+        "reading": "ないか",
+        "word": "内科",
+        "en": "internal medicine",
+        "my": "အတွင်းရောဂါကုဌာန",
+        "group": ""
+      },
+      {
+        "reading": "かもく",
+        "word": "科目",
+        "en": "subject, curriculum",
+        "my": "ဘာသာရပ်",
+        "group": ""
+      },
+      {
+        "reading": "かがく",
+        "word": "科学",
+        "en": "science",
+        "my": "သိပ္ပံ",
+        "group": ""
+      },
+      {
+        "reading": "かがくしゃ",
+        "word": "科学者",
+        "en": "scientist",
+        "my": "သိပ္ပံပညာရှင်",
+        "group": ""
+      },
+      {
+        "reading": "きょうかしょ",
+        "word": "教科書",
+        "en": "textbook",
+        "my": "သင်ရိုးစာအုပ်",
+        "group": ""
+      },
+      {
+        "reading": "はな",
+        "word": "鼻",
+        "en": "nose",
+        "my": "နှာခေါင်း",
+        "group": ""
+      },
+      {
+        "reading": "じびか",
+        "word": "耳鼻科",
+        "en": "otolaryngology / ENT",
+        "my": "နား၊ နှာခေါင်း၊ လည်ချောင်းဌာန",
+        "group": ""
+      },
+      {
+        "reading": "は",
+        "word": "歯",
+        "en": "tooth",
+        "my": "သွား",
+        "group": ""
+      },
+      {
+        "reading": "はいしゃ",
+        "word": "歯医者",
+        "en": "dentist",
+        "my": "သွားဆရာဝန်",
+        "group": ""
+      },
+      {
+        "reading": "むしば",
+        "word": "虫歯",
+        "en": "cavity, decayed tooth",
+        "my": "သွားပိုးစားခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "しか",
+        "word": "歯科",
+        "en": "dentistry",
+        "my": "သွားဘက်ဆိုင်ရာဌာန",
+        "group": ""
+      },
+      {
+        "reading": "たいいん（する）",
+        "word": "退院（する）",
+        "en": "to be discharged from hospital",
+        "my": "ဆေးရုံမှဆင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "そうたい（する）",
+        "word": "早退（する）",
+        "en": "to leave early",
+        "my": "စောစောပြန်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いんたい（する）",
+        "word": "引退（する）",
+        "en": "to retire",
+        "my": "အနားယူသည်၊ အလုပ်မှအနားယူသ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 17,
+    "words": [
+      {
+        "reading": "やさしい",
+        "word": "優しい",
+        "en": "kind, nice",
+        "my": "ကြင်နာသော၊ သဘောကောင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "ゆうしょう（する）",
+        "word": "優勝（する）",
+        "en": "to win",
+        "my": "ဗိုလ်စွဲသည်၊ အနိုင်ရသည်",
+        "group": ""
+      },
+      {
+        "reading": "ゆうせんせき",
+        "word": "優先席",
+        "en": "priority seat",
+        "my": "ဦးစားပေးထိုင်ခုံ",
+        "group": ""
+      },
+      {
+        "reading": "じょゆう",
+        "word": "女優",
+        "en": "actress",
+        "my": "အမျိုးသမီးသရုပ်ဆောင်",
+        "group": ""
+      },
+      {
+        "reading": "しかい",
+        "word": "司会",
+        "en": "presiding, emceeing",
+        "my": "အခမ်းအနားမှူး",
+        "group": ""
+      },
+      {
+        "reading": "じょうし",
+        "word": "上司",
+        "en": "boss, superior",
+        "my": "အထက်လူကြီး",
+        "group": ""
+      },
+      {
+        "reading": "みな",
+        "word": "皆",
+        "en": "everyone, everybody",
+        "my": "အားလုံး",
+        "group": ""
+      },
+      {
+        "reading": "みなさん",
+        "word": "皆さん",
+        "en": "everyone (polite)",
+        "my": "အားလုံး၊ လူတိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "しょうかい（する）",
+        "word": "紹介（する）",
+        "en": "to introduce",
+        "my": "မိတ်ဆက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "じこしょうかい",
+        "word": "自己紹介",
+        "en": "self-introduction",
+        "my": "မိမိကိုယ်ကိုမိတ်ဆက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "きょうりょく（する）",
+        "word": "協力（する）",
+        "en": "to cooperate",
+        "my": "ပူးပေါင်းဆောင်ရွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いわう",
+        "word": "祝う",
+        "en": "to celebrate",
+        "my": "ဂုဏ်ပြုသည်၊ ဆင်နွှဲသည်",
+        "group": ""
+      },
+      {
+        "reading": "しゅくじつ",
+        "word": "祝日",
+        "en": "national holiday",
+        "my": "အများပြည်သူရုံးပိတ်ရက်",
+        "group": ""
+      },
+      {
+        "reading": "きじ",
+        "word": "記事",
+        "en": "article",
+        "my": "ဆောင်းပါး",
+        "group": ""
+      },
+      {
+        "reading": "きしゃ",
+        "word": "記者",
+        "en": "reporter",
+        "my": "သတင်းထောက်",
+        "group": ""
+      },
+      {
+        "reading": "きにゅう（する）",
+        "word": "記入（する）",
+        "en": "to write in, to fill out",
+        "my": "ဖြည့်သွင်းရေးသားသည်",
+        "group": ""
+      },
+      {
+        "reading": "きごう",
+        "word": "記号",
+        "en": "symbol",
+        "my": "သင်္ကေတ",
+        "group": ""
+      },
+      {
+        "reading": "にっき",
+        "word": "日記",
+        "en": "diary",
+        "my": "နေ့စဉ်မှတ်တမ်း",
+        "group": ""
+      },
+      {
+        "reading": "あんき（する）",
+        "word": "暗記（する）",
+        "en": "to memorize",
+        "my": "အလွတ်ကျက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きろく（する）",
+        "word": "記録（する）",
+        "en": "to record, to write down",
+        "my": "မှတ်တမ်းတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ろくおん（する）",
+        "word": "録音（する）",
+        "en": "to record audio",
+        "my": "အသံဖမ်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "ろくが（する）",
+        "word": "録画（する）",
+        "en": "to record video",
+        "my": "ဗီဒီယိုမှတ်တမ်းတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "しんきろく",
+        "word": "新記録",
+        "en": "a new record",
+        "my": "စံချိန်သစ်",
+        "group": ""
+      },
+      {
+        "reading": "だんたい",
+        "word": "団体",
+        "en": "group, team, organization",
+        "my": "အဖွဲ့၊ အဖွဲ့အစည်း",
+        "group": ""
+      },
+      {
+        "reading": "だんち",
+        "word": "団地",
+        "en": "housing complex",
+        "my": "အိမ်ရာဝင်း",
+        "group": ""
+      },
+      {
+        "reading": "しゅうだん",
+        "word": "集団",
+        "en": "group",
+        "my": "အုပ်စု",
+        "group": ""
+      },
+      {
+        "reading": "しょうひん",
+        "word": "賞品",
+        "en": "prize, reward",
+        "my": "ဆုလက်ဆောင်",
+        "group": ""
+      },
+      {
+        "reading": "しょうきん",
+        "word": "賞金",
+        "en": "prize money",
+        "my": "ဆုကြေးငွေ",
+        "group": ""
+      },
+      {
+        "reading": "ノーベルしょう",
+        "word": "ノーベル賞",
+        "en": "Nobel Prize",
+        "my": "နိုဘယ်ဆု",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 18,
+    "words": [
+      {
+        "reading": "しあわせ（な）",
+        "word": "幸せ（な）",
+        "en": "happy, joyful",
+        "my": "ပျော်ရွှင်သော၊ ချမ်းမြေ့သော",
+        "group": ""
+      },
+      {
+        "reading": "ふこう（な）",
+        "word": "不幸（な）",
+        "en": "unfortunate",
+        "my": "ကံမကောင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "こううん（な）",
+        "word": "幸運（な）",
+        "en": "lucky, fortunate",
+        "my": "ကံကောင်းသော",
+        "group": ""
+      },
+      {
+        "reading": "よろこぶ",
+        "word": "喜ぶ",
+        "en": "to rejoice, to be happy",
+        "my": "ဝမ်းသာသည်၊ ပျော်ရွှင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "よろこび",
+        "word": "喜び",
+        "en": "happiness, joy",
+        "my": "ဝမ်းသာမှု၊ ပျော်ရွှင်မှု",
+        "group": ""
+      },
+      {
+        "reading": "わらう",
+        "word": "笑う",
+        "en": "to laugh, to smile",
+        "my": "ရယ်သည်၊ ပြုံးသည်",
+        "group": ""
+      },
+      {
+        "reading": "わらい",
+        "word": "笑い",
+        "en": "laugh, smile",
+        "my": "ရယ်မောခြင်း၊ အပြုံး",
+        "group": ""
+      },
+      {
+        "reading": "えがお",
+        "word": "笑顔",
+        "en": "**** smiling face",
+        "my": "အပြုံးမျက်နှာ",
+        "group": ""
+      },
+      {
+        "reading": "なみだ",
+        "word": "涙",
+        "en": "tears",
+        "my": "မျက်ရည်",
+        "group": ""
+      },
+      {
+        "reading": "ながれる",
+        "word": "流れる",
+        "en": "to flow",
+        "my": "စီးဆင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "ながす",
+        "word": "流す",
+        "en": "to let flow",
+        "my": "စီးဆင်းစေသည်",
+        "group": ""
+      },
+      {
+        "reading": "ながれ",
+        "word": "流れ",
+        "en": "flow, course",
+        "my": "စီးဆင်းမှု၊ လမ်းကြောင်း",
+        "group": ""
+      },
+      {
+        "reading": "りゅうこう（する）",
+        "word": "流行（する）",
+        "en": "to be in style, to be popular",
+        "my": "ခေတ်စားသည်၊ လူကြိုက်များသည်",
+        "group": ""
+      },
+      {
+        "reading": "いちりゅう",
+        "word": "一流",
+        "en": "first class, top class",
+        "my": "ထိပ်တန်း၊ ပထမတန်းစား",
+        "group": ""
+      },
+      {
+        "reading": "なく",
+        "word": "泣く",
+        "en": "to cry",
+        "my": "ငိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "かなしい",
+        "word": "悲しい",
+        "en": "sad",
+        "my": "ဝမ်းနည်းသော",
+        "group": ""
+      },
+      {
+        "reading": "かなしむ",
+        "word": "悲しむ",
+        "en": "to be sad",
+        "my": "ဝမ်းနည်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "かなしみ",
+        "word": "悲しみ",
+        "en": "sadness",
+        "my": "ဝမ်းနည်းမှု",
+        "group": ""
+      },
+      {
+        "reading": "おこる",
+        "word": "怒る",
+        "en": "to be angry",
+        "my": "စိတ်ဆိုးသည်၊ ဒေါသထွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いかり",
+        "word": "怒り",
+        "en": "anger, rage",
+        "my": "ဒေါသ၊ အမျက်",
+        "group": ""
+      },
+      {
+        "reading": "くるしむ",
+        "word": "苦しむ",
+        "en": "to suffer",
+        "my": "ဒုက္ခခံစားသည်၊ ဆင်းရဲခံသည်",
+        "group": ""
+      },
+      {
+        "reading": "くるしい",
+        "word": "苦しい",
+        "en": "painful, difficult, tough",
+        "my": "နာကျင်သော၊ ခက်ခဲသော",
+        "group": ""
+      },
+      {
+        "reading": "にがい",
+        "word": "苦い",
+        "en": "bitter",
+        "my": "ခါးသော",
+        "group": ""
+      },
+      {
+        "reading": "くろう（する）",
+        "word": "苦労（する）",
+        "en": "to struggle",
+        "my": "ပင်ပန်းဆင်းရဲခံသည်၊ ဒုက္ခခံသည်",
+        "group": ""
+      },
+      {
+        "reading": "くつう",
+        "word": "苦痛",
+        "en": "agony, pain",
+        "my": "နာကျင်မှု၊ ဝေဒနာ",
+        "group": ""
+      },
+      {
+        "reading": "くじょう",
+        "word": "苦情",
+        "en": "complaint",
+        "my": "တိုင်ကြားချက်",
+        "group": ""
+      },
+      {
+        "reading": "にがて（な）",
+        "word": "苦手（な）",
+        "en": "not good at, weak at",
+        "my": "မကျွမ်းကျင်သော၊ အားနည်းသော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 19,
+    "words": [
+      {
+        "reading": "わすれる",
+        "word": "忘れる",
+        "en": "to forget",
+        "my": "မေ့သည်",
+        "group": ""
+      },
+      {
+        "reading": "わすれもの",
+        "word": "忘れ物",
+        "en": "lost/forgotten item",
+        "my": "မေ့ကျန်ပစ္စည်း",
+        "group": ""
+      },
+      {
+        "reading": "ぼうねんかい",
+        "word": "忘年会",
+        "en": "year-end party",
+        "my": "နှစ်ကုန်ပါတီ",
+        "group": ""
+      },
+      {
+        "reading": "いそがしい",
+        "word": "忙しい",
+        "en": "busy",
+        "my": "အလုပ်များသော၊ မအားလပ်သော",
+        "group": ""
+      },
+      {
+        "reading": "のこる",
+        "word": "残る",
+        "en": "to remain",
+        "my": "ကျန်သည်",
+        "group": ""
+      },
+      {
+        "reading": "のこす",
+        "word": "残す",
+        "en": "to leave",
+        "my": "ချန်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "のこり",
+        "word": "残り",
+        "en": "remains, remainder",
+        "my": "အကြွင်း၊ ကျန်ရှိသည့်အရာ",
+        "group": ""
+      },
+      {
+        "reading": "ざんぎょう（する）",
+        "word": "残業（する）",
+        "en": "to work overtime",
+        "my": "အချိန်ပိုအလုပ်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ざんねん（な）",
+        "word": "残念（な）",
+        "en": "regretful, disappointing",
+        "my": "စိတ်မကောင်းစရာ၊ နှမြောစရာ",
+        "group": ""
+      },
+      {
+        "reading": "きねん",
+        "word": "記念",
+        "en": "commemoration",
+        "my": "အထိမ်းအမှတ်",
+        "group": ""
+      },
+      {
+        "reading": "おれい",
+        "word": "お礼",
+        "en": "thanks, gratitude",
+        "my": "ကျေးဇူးတင်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "れい",
+        "word": "礼",
+        "en": "manners",
+        "my": "ယဉ်ကျေးမှု၊ အမူအရာ",
+        "group": ""
+      },
+      {
+        "reading": "しつれい（な）",
+        "word": "失礼（な）",
+        "en": "rude",
+        "my": "ရိုင်းသော၊ မယဉ်ကျေးသော",
+        "group": ""
+      },
+      {
+        "reading": "しつれい（する）",
+        "word": "失礼（する）",
+        "en": "to excuse oneself",
+        "my": "ခွင့်တောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "なれる",
+        "word": "慣れる",
+        "en": "to get used to, become accustomed to",
+        "my": "အသားကျသည်၊ အကျင့်ရသည်",
+        "group": ""
+      },
+      {
+        "reading": "しゅうかん",
+        "word": "習慣",
+        "en": "custom, habit",
+        "my": "အလေ့အထ၊ အကျင့်",
+        "group": ""
+      },
+      {
+        "reading": "なくなる",
+        "word": "亡くなる",
+        "en": "to pass away",
+        "my": "ကွယ်လွန်သည်",
+        "group": ""
+      },
+      {
+        "reading": "しぼう（する）",
+        "word": "死亡（する）",
+        "en": "to die, death",
+        "my": "သေဆုံးသည်",
+        "group": ""
+      },
+      {
+        "reading": "つたわる",
+        "word": "伝わる",
+        "en": "to be conveyed, get across",
+        "my": "ပျံ့နှံ့ရောက်ရှိသည်၊ လက်ဆင့်ကမ်းရောက်သ",
+        "group": ""
+      },
+      {
+        "reading": "つたえる",
+        "word": "伝える",
+        "en": "to convey, to tell",
+        "my": "ပြောကြားသည်၊ လက်ဆင့်ကမ်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "でんごん",
+        "word": "伝言",
+        "en": "message",
+        "my": "မှာကြားချက်၊ သတင်းစကား",
+        "group": ""
+      },
+      {
+        "reading": "てつだう",
+        "word": "手伝う",
+        "en": "to help, to assist",
+        "my": "ကူညီသည်",
+        "group": ""
+      },
+      {
+        "reading": "かんじる",
+        "word": "感じる",
+        "en": "to feel",
+        "my": "ခံစားသည်",
+        "group": ""
+      },
+      {
+        "reading": "かんじ",
+        "word": "感じ",
+        "en": "feeling",
+        "my": "ခံစားချက်",
+        "group": ""
+      },
+      {
+        "reading": "かんそう",
+        "word": "感想",
+        "en": "reaction, impression",
+        "my": "ထင်မြင်ခံစားချက်",
+        "group": ""
+      },
+      {
+        "reading": "かんじょう",
+        "word": "感情",
+        "en": "emotion",
+        "my": "စိတ်ခံစားမှု",
+        "group": ""
+      },
+      {
+        "reading": "かんどう（する）",
+        "word": "感動（する）",
+        "en": "to be moved",
+        "my": "စိတ်ထိခိုက်ခံစားရသည်",
+        "group": ""
+      },
+      {
+        "reading": "かんしん（する）",
+        "word": "感心（する）",
+        "en": "to be impressed",
+        "my": "အထင်ကြီးသည်",
+        "group": ""
+      },
+      {
+        "reading": "かんかく",
+        "word": "感覚",
+        "en": "sense, feeling",
+        "my": "အာရုံခံစားမှု",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 20,
+    "words": [
+      {
+        "reading": "こい",
+        "word": "濃い",
+        "en": "thick, strong (taste)",
+        "my": "အရသာပြင်းသော၊ ထူသော",
+        "group": ""
+      },
+      {
+        "reading": "こさ",
+        "word": "濃さ",
+        "en": "thickness, strength",
+        "my": "အထူ၊ အရသာပြင်းမှု",
+        "group": ""
+      },
+      {
+        "reading": "あつい",
+        "word": "厚い",
+        "en": "thick",
+        "my": "ထူသော",
+        "group": ""
+      },
+      {
+        "reading": "あつさ",
+        "word": "厚さ",
+        "en": "thickness",
+        "my": "အထူ",
+        "group": ""
+      },
+      {
+        "reading": "あつがみ",
+        "word": "厚紙",
+        "en": "cardboard, thick paper",
+        "my": "စက္ကူထူ",
+        "group": ""
+      },
+      {
+        "reading": "うすい",
+        "word": "薄い",
+        "en": "thin",
+        "my": "ပါးသော",
+        "group": ""
+      },
+      {
+        "reading": "ほそい",
+        "word": "細い",
+        "en": "narrow, thin",
+        "my": "သေးသော၊ ပါးသော",
+        "group": ""
+      },
+      {
+        "reading": "ほそながい",
+        "word": "細長い",
+        "en": "thin and long",
+        "my": "ရှည်လျားသေးသွယ်သော",
+        "group": ""
+      },
+      {
+        "reading": "こまかい",
+        "word": "細かい",
+        "en": "fine, detailed",
+        "my": "အသေးစိတ်သော",
+        "group": ""
+      },
+      {
+        "reading": "てきとう（な）",
+        "word": "適当（な）",
+        "en": "suitable, appropriate",
+        "my": "သင့်တော်သော",
+        "group": ""
+      },
+      {
+        "reading": "てきせつ（な）",
+        "word": "適切（な）",
+        "en": "suitable, appropriate",
+        "my": "သင့်လျော်သော၊ သင့်တော်သော",
+        "group": ""
+      },
+      {
+        "reading": "とおい",
+        "word": "遠い",
+        "en": "far",
+        "my": "ဝေးသော",
+        "group": ""
+      },
+      {
+        "reading": "えんそく",
+        "word": "遠足",
+        "en": "excursion",
+        "my": "လေ့လာရေးခရီး၊ အပျော်ခရီး",
+        "group": ""
+      },
+      {
+        "reading": "わかい",
+        "word": "若い",
+        "en": "young",
+        "my": "ငယ်ရွယ်သော",
+        "group": ""
+      },
+      {
+        "reading": "わかもの",
+        "word": "若者",
+        "en": "young person",
+        "my": "လူငယ်",
+        "group": ""
+      },
+      {
+        "reading": "しずか（な）",
+        "word": "静か（な）",
+        "en": "quiet, tranquil",
+        "my": "တိတ်ဆိတ်သော၊ ငြိမ်သက်သော",
+        "group": ""
+      },
+      {
+        "reading": "もっとも",
+        "word": "最も",
+        "en": "most, utmost",
+        "my": "အများဆုံး၊ အလွန်ဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "さいきん",
+        "word": "最近",
+        "en": "recently",
+        "my": "မကြာသေးမီက၊ လတ်တလော",
+        "group": ""
+      },
+      {
+        "reading": "さいしょ",
+        "word": "最初",
+        "en": "at first, at the start",
+        "my": "အစဆုံး၊ ပထမဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "さいご",
+        "word": "最後",
+        "en": "last, end",
+        "my": "နောက်ဆုံး၊ အဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "さいてい",
+        "word": "最低",
+        "en": "lowest, worst",
+        "my": "အနိမ့်ဆုံး၊ အဆိုးဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "さいこう",
+        "word": "最高",
+        "en": "highest, best",
+        "my": "အမြင့်ဆုံး၊ အကောင်းဆုံး",
+        "group": ""
+      },
+      {
+        "reading": "まっくら（な）",
+        "word": "真っ暗（な）",
+        "en": "pitch black",
+        "my": "မှောင်မိုက်သော",
+        "group": ""
+      },
+      {
+        "reading": "まうえ",
+        "word": "真上",
+        "en": "right above",
+        "my": "တည့်တည့်အပေါ်",
+        "group": ""
+      },
+      {
+        "reading": "まよなか",
+        "word": "真夜中",
+        "en": "middle of the night",
+        "my": "သန်းခေါင်ယံ",
+        "group": ""
+      },
+      {
+        "reading": "しゃしん",
+        "word": "写真",
+        "en": "photograph",
+        "my": "ဓာတ်ပုံ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 21,
+    "words": [
+      {
+        "reading": "のぼる",
+        "word": "登る",
+        "en": "to climb",
+        "my": "တက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "やまのぼり",
+        "word": "山登り",
+        "en": "mountain climbing",
+        "my": "တောင်တက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "とざん",
+        "word": "登山",
+        "en": "mountain climbing",
+        "my": "တောင်တက်ခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "とうろく（する）",
+        "word": "登録（する）",
+        "en": "to register",
+        "my": "မှတ်ပုံတင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "およぐ",
+        "word": "泳ぐ",
+        "en": "to swim",
+        "my": "ရေကူးသည်",
+        "group": ""
+      },
+      {
+        "reading": "すいえい",
+        "word": "水泳",
+        "en": "swimming",
+        "my": "ရေကူးခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "なげる",
+        "word": "投げる",
+        "en": "to throw",
+        "my": "ပစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うつ",
+        "word": "打つ",
+        "en": "to hit, to strike",
+        "my": "ရိုက်သည်၊ ထုသည်",
+        "group": ""
+      },
+      {
+        "reading": "きる",
+        "word": "着る",
+        "en": "to wear",
+        "my": "ဝတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "～につく～",
+        "word": "～に着く",
+        "en": "to arrive at ~",
+        "my": "သို့ရောက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きもの",
+        "word": "着物",
+        "en": "kimono, clothing",
+        "my": "ကီမိုနို၊ အဝတ်အစား",
+        "group": ""
+      },
+      {
+        "reading": "うわぎ",
+        "word": "上着",
+        "en": "outerwear, jacket",
+        "my": "အပေါ်ဝတ်အင်္ကျီ",
+        "group": ""
+      },
+      {
+        "reading": "したぎ",
+        "word": "下着",
+        "en": "underwear",
+        "my": "အတွင်းခံအဝတ်အစား",
+        "group": ""
+      },
+      {
+        "reading": "みずぎ",
+        "word": "水着",
+        "en": "swimwear",
+        "my": "ရေကူးဝတ်စုံ",
+        "group": ""
+      },
+      {
+        "reading": "とうちゃく（する）",
+        "word": "到着（する）",
+        "en": "to arrive",
+        "my": "ရောက်ရှိသည်",
+        "group": ""
+      },
+      {
+        "reading": "とうきょうちゃく",
+        "word": "東京着",
+        "en": "arriving at Tokyo",
+        "my": "တိုကျိုသို့ရောက်ရှိခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "じゅうにじちゃく",
+        "word": "時着",
+        "en": "12 arriving at 12 o&apos;clock",
+        "my": "၁၂နာရီတွင်ရောက်ရှိခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "おりる",
+        "word": "降りる",
+        "en": "to descend, to disembark",
+        "my": "ဆင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "ふる",
+        "word": "降る",
+        "en": "to fall (rain/snow)",
+        "my": "ရွာသည်၊ ကျသည်",
+        "group": ""
+      },
+      {
+        "reading": "むかえる",
+        "word": "迎える",
+        "en": "to welcome, receive",
+        "my": "ကြိုဆိုသည်၊ ကြိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "むかえにいく",
+        "word": "迎えに行く",
+        "en": "to go and meet/pick up",
+        "my": "သွားကြိုသည်",
+        "group": ""
+      },
+      {
+        "reading": "むかえ",
+        "word": "迎え",
+        "en": "greeting, welcome, pickup",
+        "my": "ကြိုဆိုခြင်း၊ လာကြိုခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ころぶ",
+        "word": "転ぶ",
+        "en": "to tumble, fall down",
+        "my": "လဲကျသည်",
+        "group": ""
+      },
+      {
+        "reading": "てんこう（する）",
+        "word": "転校（する）",
+        "en": "to transfer schools",
+        "my": "ကျောင်းပြောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "てんきん（する）",
+        "word": "転勤（する）",
+        "en": "to transfer work",
+        "my": "အလုပ်နေရာပြောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "うんてん（する）",
+        "word": "運転（する）",
+        "en": "to drive",
+        "my": "မောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "じてんしゃ",
+        "word": "自転車",
+        "en": "bicycle",
+        "my": "စက်ဘီး",
+        "group": ""
+      },
+      {
+        "reading": "かいてん（する）",
+        "word": "回転（する）",
+        "en": "to rotate",
+        "my": "လည်သည်၊ လှည့်သည်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 22,
+    "words": [
+      {
+        "reading": "そだつ",
+        "word": "育つ",
+        "en": "to grow up",
+        "my": "ကြီးပြင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "そだてる",
+        "word": "育てる",
+        "en": "to raise, to bring up",
+        "my": "ပြုစုပျိုးထောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きょういく",
+        "word": "教育",
+        "en": "education",
+        "my": "ပညာရေး",
+        "group": ""
+      },
+      {
+        "reading": "たいいく",
+        "word": "体育",
+        "en": "physical education",
+        "my": "ကာယပညာ",
+        "group": ""
+      },
+      {
+        "reading": "つづく",
+        "word": "続く",
+        "en": "to continue",
+        "my": "ဆက်လက်ဖြစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "つづける",
+        "word": "続ける",
+        "en": "to continue",
+        "my": "ဆက်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ならぶ",
+        "word": "並ぶ",
+        "en": "to line up",
+        "my": "တန်းစီသည်",
+        "group": ""
+      },
+      {
+        "reading": "ならべる",
+        "word": "並べる",
+        "en": "to line up, arrange",
+        "my": "တန်းစီထားသည်၊ စီစဉ်ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "たすかる",
+        "word": "助かる",
+        "en": "to be helped, be saved",
+        "my": "အကူအညီရသည်၊ ကယ်တင်ခံရသည်",
+        "group": ""
+      },
+      {
+        "reading": "たすける",
+        "word": "助ける",
+        "en": "to help, to save",
+        "my": "ကူညီသည်၊ ကယ်တင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "じょげん（する）",
+        "word": "助言（する）",
+        "en": "to give advice",
+        "my": "အကြံပေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "きゅうじょ（する）",
+        "word": "救助（する）",
+        "en": "to rescue",
+        "my": "ကယ်ဆယ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "やける",
+        "word": "焼ける",
+        "en": "to be baked, grilled",
+        "my": "ကျက်သည်၊ ကင်ပြီးဖြစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "やく",
+        "word": "焼く",
+        "en": "to bake, to grill",
+        "my": "ဖုတ်သည်၊ ကင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "やきにく",
+        "word": "焼き肉／焼肉",
+        "en": "yakiniku, grilled meat",
+        "my": "အသားကင်",
+        "group": ""
+      },
+      {
+        "reading": "きまる",
+        "word": "決まる",
+        "en": "to be decided",
+        "my": "ဆုံးဖြတ်ပြီးဖြစ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きめる",
+        "word": "決める",
+        "en": "to decide, determine",
+        "my": "ဆုံးဖြတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "かいけつ（する）",
+        "word": "解決（する）",
+        "en": "to solve",
+        "my": "ဖြေရှင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "けっして～ない～",
+        "word": "決して～ない",
+        "en": "never, by no means",
+        "my": "ဘယ်တော့မှမ…",
+        "group": ""
+      },
+      {
+        "reading": "けってい（する）",
+        "word": "決定（する）",
+        "en": "to decide, determine",
+        "my": "ဆုံးဖြတ်သည်၊ သတ်မှတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "まざる",
+        "word": "混ざる",
+        "en": "to be mixed",
+        "my": "ရောနှောနေသည်",
+        "group": ""
+      },
+      {
+        "reading": "まぜる",
+        "word": "混ぜる",
+        "en": "to mix",
+        "my": "ရောသည်၊ ရောနှောသည်",
+        "group": ""
+      },
+      {
+        "reading": "こんざつ（する）",
+        "word": "混雑（する）",
+        "en": "to be crowded, congested",
+        "my": "လူကျပ်သည်၊ ရှုပ်ထွေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "おちる",
+        "word": "落ちる",
+        "en": "to fall",
+        "my": "ကျသည်၊ ပြုတ်ကျသည်",
+        "group": ""
+      },
+      {
+        "reading": "おとす",
+        "word": "落とす",
+        "en": "to drop",
+        "my": "ချသည်၊ လွှတ်ချသည်",
+        "group": ""
+      },
+      {
+        "reading": "おとしもの",
+        "word": "落とし物",
+        "en": "dropped/lost item",
+        "my": "ပျောက်ဆုံးပစ္စည်း၊ ကျန်ခဲ့သောပစ္စည်း",
+        "group": ""
+      },
+      {
+        "reading": "よごれる",
+        "word": "汚れる",
+        "en": "to become dirty",
+        "my": "ညစ်ပတ်လာသည်",
+        "group": ""
+      },
+      {
+        "reading": "よごす",
+        "word": "汚す",
+        "en": "to make dirty",
+        "my": "ညစ်ပတ်စေသည်",
+        "group": ""
+      },
+      {
+        "reading": "よごれ",
+        "word": "汚れ",
+        "en": "dirt, filth",
+        "my": "အညစ်အကြေး",
+        "group": ""
+      },
+      {
+        "reading": "きたない",
+        "word": "汚い",
+        "en": "dirty",
+        "my": "ညစ်ပတ်သော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 23,
+    "words": [
+      {
+        "reading": "しぜん",
+        "word": "自然",
+        "en": "nature",
+        "my": "သဘာဝ",
+        "group": ""
+      },
+      {
+        "reading": "とうぜん",
+        "word": "当然",
+        "en": "naturally, as a matter of course",
+        "my": "သဘာဝအတိုင်း၊ ဖြစ်သင့်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ぜんぜん～ない～～",
+        "word": "全然～ない",
+        "en": "not at all",
+        "my": "လုံးဝမ…",
+        "group": ""
+      },
+      {
+        "reading": "ぐうぜん",
+        "word": "偶然",
+        "en": "coincidence, by chance",
+        "my": "တိုက်ဆိုင်မှု၊ မတော်တဆ",
+        "group": ""
+      },
+      {
+        "reading": "てんきよほう",
+        "word": "天気予報",
+        "en": "weather forecast",
+        "my": "မိုးလေဝသခန့်မှန်းချက်",
+        "group": ""
+      },
+      {
+        "reading": "じょうほう",
+        "word": "情報",
+        "en": "information",
+        "my": "သတင်းအချက်အလက်",
+        "group": ""
+      },
+      {
+        "reading": "ほうこく（する）",
+        "word": "報告（する）",
+        "en": "to report",
+        "my": "အစီရင်ခံသည်၊ တင်ပြသည်",
+        "group": ""
+      },
+      {
+        "reading": "けいほう",
+        "word": "警報",
+        "en": "warning, alert",
+        "my": "သတိပေးချက်",
+        "group": ""
+      },
+      {
+        "reading": "はれる",
+        "word": "晴れる",
+        "en": "to clear up, become sunny",
+        "my": "ရာသီဥတုကြည်လင်လာသည်",
+        "group": ""
+      },
+      {
+        "reading": "はれ",
+        "word": "晴れ",
+        "en": "sunny, clear weather",
+        "my": "နေသာခြင်း၊ ရာသီဥတုကြည်လင်ခြင်",
+        "group": ""
+      },
+      {
+        "reading": "せいてん",
+        "word": "晴天",
+        "en": "sunny skies, clear skies",
+        "my": "ကြည်လင်သောကောင်းကင်",
+        "group": ""
+      },
+      {
+        "reading": "かぜ",
+        "word": "風",
+        "en": "wind",
+        "my": "လေ",
+        "group": ""
+      },
+      {
+        "reading": "かぜ",
+        "word": "風邪",
+        "en": "a cold",
+        "my": "အအေးမိခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ふうそく",
+        "word": "風速",
+        "en": "wind speed",
+        "my": "လေတိုက်နှုန်း",
+        "group": ""
+      },
+      {
+        "reading": "たいふう",
+        "word": "台風",
+        "en": "typhoon",
+        "my": "တိုင်ဖွန်းမုန်တိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "きょうふう",
+        "word": "強風",
+        "en": "strong wind",
+        "my": "လေပြင်း",
+        "group": ""
+      },
+      {
+        "reading": "わふう",
+        "word": "和風",
+        "en": "Japanese style",
+        "my": "ဂျပန်စတိုင်",
+        "group": ""
+      },
+      {
+        "reading": "ふく",
+        "word": "吹く",
+        "en": "to blow",
+        "my": "တိုက်သည်၊ မှုတ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ちる",
+        "word": "散る",
+        "en": "to scatter, fall apart",
+        "my": "ပြန့်ကျဲသည်၊ ကြွေသည်",
+        "group": ""
+      },
+      {
+        "reading": "ちらかす",
+        "word": "散らかす",
+        "en": "to scatter, make a mess",
+        "my": "ရှုပ်ပွအောင်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "さんぽ（する）",
+        "word": "散歩（する）",
+        "en": "to take a walk",
+        "my": "လမ်းလျှောက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ゆき",
+        "word": "雪",
+        "en": "snow",
+        "my": "နှင်း",
+        "group": ""
+      },
+      {
+        "reading": "おおゆき",
+        "word": "大雪",
+        "en": "heavy snow",
+        "my": "နှင်းအလွန်အမင်းကျခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "くも",
+        "word": "雲",
+        "en": "cloud",
+        "my": "တိမ်",
+        "group": ""
+      },
+      {
+        "reading": "なみ",
+        "word": "波",
+        "en": "wave",
+        "my": "လှိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "でんぱ",
+        "word": "電波",
+        "en": "radio wave, signal",
+        "my": "ရေဒီယိုလှိုင်း၊ အချက်ပြလှိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "かいがい",
+        "word": "海外",
+        "en": "overseas",
+        "my": "နိုင်ငံခြား၊ ပင်လယ်ရပ်ခြား",
+        "group": ""
+      },
+      {
+        "reading": "どうじに",
+        "word": "同時に",
+        "en": "at the same time",
+        "my": "တစ်ချိန်တည်းမှာ",
+        "group": ""
+      },
+      {
+        "reading": "どうりょう",
+        "word": "同量",
+        "en": "same amount",
+        "my": "တူညီသောပမာဏ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 24,
+    "words": [
+      {
+        "reading": "うえる",
+        "word": "植える",
+        "en": "to plant, to grow",
+        "my": "စိုက်သည်၊ စိုက်ပျိုးသည်",
+        "group": ""
+      },
+      {
+        "reading": "しょくぶつ",
+        "word": "植物",
+        "en": "plant",
+        "my": "အပင်",
+        "group": ""
+      },
+      {
+        "reading": "みどり",
+        "word": "緑",
+        "en": "green, greenery",
+        "my": "အစိမ်းရောင်၊ စိမ်းလန်းမှု",
+        "group": ""
+      },
+      {
+        "reading": "みどりいろ",
+        "word": "緑色",
+        "en": "green color",
+        "my": "အစိမ်းရောင်",
+        "group": ""
+      },
+      {
+        "reading": "は",
+        "word": "葉",
+        "en": "leaf",
+        "my": "အရွက်",
+        "group": ""
+      },
+      {
+        "reading": "はっぱ",
+        "word": "葉っぱ",
+        "en": "leaf",
+        "my": "အရွက်",
+        "group": ""
+      },
+      {
+        "reading": "つち",
+        "word": "土",
+        "en": "earth, soil",
+        "my": "မြေ၊ မြေဆီလွှာ",
+        "group": ""
+      },
+      {
+        "reading": "とち",
+        "word": "土地",
+        "en": "land, local area",
+        "my": "မြေ၊ မြေနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "どようび",
+        "word": "土曜日",
+        "en": "Saturday",
+        "my": "စနေနေ့",
+        "group": ""
+      },
+      {
+        "reading": "くさ",
+        "word": "草",
+        "en": "grass",
+        "my": "မြက်",
+        "group": ""
+      },
+      {
+        "reading": "そうげん",
+        "word": "草原",
+        "en": "grassy plain",
+        "my": "မြက်ခင်းပြင်",
+        "group": ""
+      },
+      {
+        "reading": "えだ",
+        "word": "枝",
+        "en": "branch",
+        "my": "သစ်ကိုင်း",
+        "group": ""
+      },
+      {
+        "reading": "えだわかれ",
+        "word": "枝分かれ",
+        "en": "branching, ramification",
+        "my": "အကိုင်းခွဲခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ね",
+        "word": "根",
+        "en": "root",
+        "my": "အမြစ်",
+        "group": ""
+      },
+      {
+        "reading": "やね",
+        "word": "屋根",
+        "en": "roof",
+        "my": "အမိုး",
+        "group": ""
+      },
+      {
+        "reading": "ねっこ",
+        "word": "根っこ",
+        "en": "root",
+        "my": "အမြစ်",
+        "group": ""
+      },
+      {
+        "reading": "のうぎょう",
+        "word": "農業",
+        "en": "agriculture, farming",
+        "my": "စိုက်ပျိုးရေး",
+        "group": ""
+      },
+      {
+        "reading": "のうさぎょう",
+        "word": "農作業",
+        "en": "farmwork",
+        "my": "လယ်ယာလုပ်ငန်း",
+        "group": ""
+      },
+      {
+        "reading": "のうか",
+        "word": "農家",
+        "en": "farmer, farm family",
+        "my": "လယ်သမား၊ လယ်ယာအိမ်ထောင်စု",
+        "group": ""
+      },
+      {
+        "reading": "こうよう",
+        "word": "紅葉",
+        "en": "autumn leaves",
+        "my": "ဆောင်းဦးရွက်နီများ",
+        "group": ""
+      },
+      {
+        "reading": "こうちゃ",
+        "word": "紅茶",
+        "en": "black tea",
+        "my": "လက်ဖက်ရည်နက်",
+        "group": ""
+      },
+      {
+        "reading": "きいろ",
+        "word": "黄色",
+        "en": "yellow color",
+        "my": "အဝါရောင်",
+        "group": ""
+      },
+      {
+        "reading": "きいろい",
+        "word": "黄色い",
+        "en": "yellow",
+        "my": "အဝါရောင်ဖြစ်သော",
+        "group": ""
+      },
+      {
+        "reading": "うら",
+        "word": "裏",
+        "en": "back, reverse side",
+        "my": "နောက်ဘက်၊ အတွင်းဘက်",
+        "group": ""
+      },
+      {
+        "reading": "うらがえす",
+        "word": "裏返す",
+        "en": "to flip over, turn over",
+        "my": "လှန်သည်၊ ပြောင်းပြန်လှန်သည်",
+        "group": ""
+      },
+      {
+        "reading": "うらめん",
+        "word": "裏面",
+        "en": "reverse side",
+        "my": "နောက်မျက်နှာ၊ ကျောဘက်",
+        "group": ""
+      },
+      {
+        "reading": "うらがわ",
+        "word": "裏側",
+        "en": "the back, inside",
+        "my": "နောက်ဘက်၊ အတွင်းဘက်",
+        "group": ""
+      },
+      {
+        "reading": "うらがえしになる",
+        "word": "裏返しになる",
+        "en": "to become inside out / upside down",
+        "my": "ပြောင်းပြန်ဖြစ်သွားသည်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 25,
+    "words": [
+      {
+        "reading": "むし",
+        "word": "虫",
+        "en": "bug, insect",
+        "my": "ပိုးကောင်၊ အင်းဆက်",
+        "group": ""
+      },
+      {
+        "reading": "なく",
+        "word": "鳴く",
+        "en": "to cry (animal), to crow",
+        "my": "တိရစ္ဆာန်အသံမြည်သည်",
+        "group": ""
+      },
+      {
+        "reading": "なる",
+        "word": "鳴る",
+        "en": "to sound, to ring",
+        "my": "အသံမြည်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いけ",
+        "word": "池",
+        "en": "pond, lake",
+        "my": "ရေကန်",
+        "group": ""
+      },
+      {
+        "reading": "でんち",
+        "word": "電池",
+        "en": "battery",
+        "my": "ဘက်ထရီ၊ ဓာတ်ခဲ",
+        "group": ""
+      },
+      {
+        "reading": "け",
+        "word": "毛",
+        "en": "hair, fur",
+        "my": "အမွေး၊ ဆံပင်",
+        "group": ""
+      },
+      {
+        "reading": "かみのけ",
+        "word": "髪の毛",
+        "en": "hair (on the head)",
+        "my": "ဆံပင်",
+        "group": ""
+      },
+      {
+        "reading": "もうふ",
+        "word": "毛布",
+        "en": "blanket",
+        "my": "စောင်",
+        "group": ""
+      },
+      {
+        "reading": "ち",
+        "word": "血",
+        "en": "blood",
+        "my": "သွေး",
+        "group": ""
+      },
+      {
+        "reading": "しゅっけつ（する）",
+        "word": "出血（する）",
+        "en": "to bleed",
+        "my": "သွေးထွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "すう",
+        "word": "吸う",
+        "en": "to sip, suck",
+        "my": "စုပ်သည်၊ ရှူသည်",
+        "group": ""
+      },
+      {
+        "reading": "こきゅう（する）",
+        "word": "呼吸（する）",
+        "en": "to breathe",
+        "my": "အသက်ရှူသည်",
+        "group": ""
+      },
+      {
+        "reading": "いのち",
+        "word": "命",
+        "en": "life",
+        "my": "အသက်၊ အသက်တာ",
+        "group": ""
+      },
+      {
+        "reading": "せいめい",
+        "word": "生命",
+        "en": "life",
+        "my": "အသက်၊ သက်ရှိဘဝ",
+        "group": ""
+      },
+      {
+        "reading": "とち",
+        "word": "土地",
+        "en": "land, local area",
+        "my": "မြေ၊ မြေနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "かんこうち",
+        "word": "観光地",
+        "en": "tourist spot",
+        "my": "ခရီးသွားနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "さんち",
+        "word": "産地",
+        "en": "place of origin",
+        "my": "ထုတ်လုပ်ရာဒေသ၊ မူလထွက်ရာဒေသ",
+        "group": ""
+      },
+      {
+        "reading": "ちり",
+        "word": "地理",
+        "en": "geography",
+        "my": "ပထဝီဝင်",
+        "group": ""
+      },
+      {
+        "reading": "あきち",
+        "word": "空き地",
+        "en": "empty lot",
+        "my": "မြေလွတ်",
+        "group": ""
+      },
+      {
+        "reading": "ちほう",
+        "word": "地方",
+        "en": "region, locality",
+        "my": "ဒေသ",
+        "group": ""
+      },
+      {
+        "reading": "じめん",
+        "word": "地面",
+        "en": "ground, surface",
+        "my": "မြေပြင်",
+        "group": ""
+      },
+      {
+        "reading": "じみ（な）",
+        "word": "地味（な）",
+        "en": "plain, simple",
+        "my": "ရိုးရိုးရှင်းရှင်း၊ မထင်ရှားသော",
+        "group": ""
+      },
+      {
+        "reading": "じしん",
+        "word": "地震",
+        "en": "earthquake",
+        "my": "မြေငလျင်",
+        "group": ""
+      },
+      {
+        "reading": "ほか",
+        "word": "他",
+        "en": "other, etc.",
+        "my": "အခြား၊ တခြား",
+        "group": ""
+      },
+      {
+        "reading": "ほかに",
+        "word": "他に",
+        "en": "in addition, also",
+        "my": "အခြား၊ ထို့အပြင်",
+        "group": ""
+      },
+      {
+        "reading": "そのほか",
+        "word": "その他",
+        "en": "etc., others",
+        "my": "အခြားအရာများ",
+        "group": ""
+      },
+      {
+        "reading": "たにん",
+        "word": "他人",
+        "en": "another person, others",
+        "my": "သူတစ်ပါး၊ အခြားလူ",
+        "group": ""
+      },
+      {
+        "reading": "さら",
+        "word": "皿",
+        "en": "plate",
+        "my": "ပန်းကန်",
+        "group": ""
+      },
+      {
+        "reading": "はいざら",
+        "word": "灰皿",
+        "en": "ashtray",
+        "my": "ပြာခွက်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 26,
+    "words": [
+      {
+        "reading": "ふうけい",
+        "word": "風景",
+        "en": "scenery, landscape",
+        "my": "ရှုခင်း",
+        "group": ""
+      },
+      {
+        "reading": "けしき",
+        "word": "景色",
+        "en": "scenery, landscape",
+        "my": "ရှုခင်း၊ မြင်ကွင်း",
+        "group": ""
+      },
+      {
+        "reading": "みずうみ",
+        "word": "湖",
+        "en": "lake",
+        "my": "ရေကန်ကြီး",
+        "group": ""
+      },
+      {
+        "reading": "バイカルこ",
+        "word": "バイカル湖",
+        "en": "Lake Baikal",
+        "my": "ဘိုင်ကယ်ရေကန်",
+        "group": ""
+      },
+      {
+        "reading": "ふね",
+        "word": "船",
+        "en": "boat, ship",
+        "my": "လှေ၊ သင်္ဘော",
+        "group": ""
+      },
+      {
+        "reading": "おおがたせん",
+        "word": "大型船",
+        "en": "large ship",
+        "my": "သင်္ဘောကြီး",
+        "group": ""
+      },
+      {
+        "reading": "こがたせん",
+        "word": "小型船",
+        "en": "small ship",
+        "my": "သင်္ဘောငယ်",
+        "group": ""
+      },
+      {
+        "reading": "いし",
+        "word": "石",
+        "en": "rock, stone",
+        "my": "ကျောက်",
+        "group": ""
+      },
+      {
+        "reading": "せっけん",
+        "word": "石けん",
+        "en": "soap",
+        "my": "ဆပ်ပြာ",
+        "group": ""
+      },
+      {
+        "reading": "せきゆ",
+        "word": "石油",
+        "en": "oil, petroleum",
+        "my": "ရေနံ",
+        "group": ""
+      },
+      {
+        "reading": "いわ",
+        "word": "岩",
+        "en": "rock, boulder",
+        "my": "ကျောက်တုံးကြီး",
+        "group": ""
+      },
+      {
+        "reading": "がんせき",
+        "word": "岩石",
+        "en": "rock, stone",
+        "my": "ကျောက်တုံး၊ ကျောက်ခဲ",
+        "group": ""
+      },
+      {
+        "reading": "うま",
+        "word": "馬",
+        "en": "horse",
+        "my": "မြင်း",
+        "group": ""
+      },
+      {
+        "reading": "じょうば（する）",
+        "word": "乗馬（する）",
+        "en": "to mount/ride a horse",
+        "my": "မြင်းစီးသည်",
+        "group": ""
+      },
+      {
+        "reading": "すな",
+        "word": "砂",
+        "en": "sand",
+        "my": "သဲ",
+        "group": ""
+      },
+      {
+        "reading": "さとう",
+        "word": "砂糖",
+        "en": "sugar",
+        "my": "သကြား",
+        "group": ""
+      },
+      {
+        "reading": "さばく",
+        "word": "砂漠",
+        "en": "desert",
+        "my": "သဲကန္တာရ",
+        "group": ""
+      },
+      {
+        "reading": "しま",
+        "word": "島",
+        "en": "island",
+        "my": "ကျွန်း",
+        "group": ""
+      },
+      {
+        "reading": "しまぐに",
+        "word": "島国",
+        "en": "island country/nation",
+        "my": "ကျွန်းနိုင်ငံ",
+        "group": ""
+      },
+      {
+        "reading": "ジャワとう",
+        "word": "ジャワ島",
+        "en": "Java Island",
+        "my": "ဂျာဗားကျွန်း",
+        "group": ""
+      },
+      {
+        "reading": "あぶら",
+        "word": "油",
+        "en": "oil",
+        "my": "ဆီ",
+        "group": ""
+      },
+      {
+        "reading": "しょうゆ",
+        "word": "しょう油",
+        "en": "soy sauce",
+        "my": "ပဲငံပြာရည်",
+        "group": ""
+      },
+      {
+        "reading": "まもる",
+        "word": "守る",
+        "en": "to protect, obey",
+        "my": "ကာကွယ်သည်၊ စည်းကမ်းလိုက်နာသည်",
+        "group": ""
+      },
+      {
+        "reading": "おまもり",
+        "word": "お守り",
+        "en": "protective charm",
+        "my": "အဆောင်၊ ကံကောင်းစေသောအဆေ",
+        "group": ""
+      },
+      {
+        "reading": "るす",
+        "word": "留守",
+        "en": "away from home",
+        "my": "အိမ်မှာမရှိခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "おく",
+        "word": "置く",
+        "en": "to put, to place",
+        "my": "ထားသည်",
+        "group": ""
+      },
+      {
+        "reading": "おきば",
+        "word": "置き場",
+        "en": "an item&apos;s place",
+        "my": "ပစ္စည်းထားရာနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "いち",
+        "word": "位置",
+        "en": "location, position",
+        "my": "တည်နေရာ",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 27,
+    "words": [
+      {
+        "reading": "むかし",
+        "word": "昔",
+        "en": "long ago, in the past",
+        "my": "ရှေးအခါ၊ အရင်တုန်းက",
+        "group": ""
+      },
+      {
+        "reading": "みらい",
+        "word": "未来",
+        "en": "future",
+        "my": "အနာဂတ်",
+        "group": ""
+      },
+      {
+        "reading": "みせいねん",
+        "word": "未成年",
+        "en": "minor, underage",
+        "my": "အရွယ်မရောက်သေးသူ",
+        "group": ""
+      },
+      {
+        "reading": "みしよう",
+        "word": "未使用",
+        "en": "unused",
+        "my": "အသုံးမပြုရသေးသော",
+        "group": ""
+      },
+      {
+        "reading": "みてい",
+        "word": "未定",
+        "en": "not set, to be determined",
+        "my": "မသတ်မှတ်ရသေးသော",
+        "group": ""
+      },
+      {
+        "reading": "こめ",
+        "word": "米",
+        "en": "rice",
+        "my": "ဆန်",
+        "group": ""
+      },
+      {
+        "reading": "べいこく",
+        "word": "米国",
+        "en": "United States of America",
+        "my": "အမေရိကန်ပြည်ထောင်စု",
+        "group": ""
+      },
+      {
+        "reading": "なんべい",
+        "word": "南米",
+        "en": "South America",
+        "my": "တောင်အမေရိက",
+        "group": ""
+      },
+      {
+        "reading": "さけ",
+        "word": "酒",
+        "en": "alcohol, sake",
+        "my": "အရက်၊ ဆာကေး",
+        "group": ""
+      },
+      {
+        "reading": "さかや",
+        "word": "酒屋",
+        "en": "liquor store",
+        "my": "အရက်ဆိုင်",
+        "group": ""
+      },
+      {
+        "reading": "にほんしゅ",
+        "word": "日本酒",
+        "en": "Japanese sake",
+        "my": "ဂျပန်ဆာကေး",
+        "group": ""
+      },
+      {
+        "reading": "いんしゅうんてん",
+        "word": "飲酒運転",
+        "en": "drunk driving",
+        "my": "အရက်သောက်ပြီးကားမောင်းခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ぎゅうにゅう",
+        "word": "牛乳",
+        "en": "(cow) milk",
+        "my": "နွားနို့",
+        "group": ""
+      },
+      {
+        "reading": "にゅうせいひん",
+        "word": "乳製品",
+        "en": "dairy products",
+        "my": "နို့ထွက်ပစ္စည်းများ",
+        "group": ""
+      },
+      {
+        "reading": "しゅうまつ",
+        "word": "週末",
+        "en": "weekend",
+        "my": "စနေ၊ တနင်္ဂနွေပိတ်ရက်",
+        "group": ""
+      },
+      {
+        "reading": "げつまつ",
+        "word": "月末",
+        "en": "end of the month",
+        "my": "လကုန်",
+        "group": ""
+      },
+      {
+        "reading": "ねんまつ",
+        "word": "年末",
+        "en": "end of the year",
+        "my": "နှစ်ကုန်",
+        "group": ""
+      },
+      {
+        "reading": "れつ",
+        "word": "列",
+        "en": "row, column",
+        "my": "အတန်း၊ ကော်လံ",
+        "group": ""
+      },
+      {
+        "reading": "ぎょうれつ",
+        "word": "行列",
+        "en": "line, queue",
+        "my": "တန်းစီခြင်း၊ လူတန်း",
+        "group": ""
+      },
+      {
+        "reading": "にれつめ",
+        "word": "２列目",
+        "en": "second row",
+        "my": "ဒုတိယအတန်း",
+        "group": ""
+      },
+      {
+        "reading": "たとえば",
+        "word": "例えば",
+        "en": "for example",
+        "my": "ဥပမာအားဖြင့်",
+        "group": ""
+      },
+      {
+        "reading": "れい",
+        "word": "例",
+        "en": "example",
+        "my": "ဥပမာ",
+        "group": ""
+      },
+      {
+        "reading": "いきる",
+        "word": "生きる",
+        "en": "to live",
+        "my": "အသက်ရှင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "いかす",
+        "word": "生かす",
+        "en": "to utilize, make use of",
+        "my": "အသုံးချသည်",
+        "group": ""
+      },
+      {
+        "reading": "はえる",
+        "word": "生える",
+        "en": "to grow, sprout",
+        "my": "ပေါက်သည်၊ အပင်ပေါက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "なまやさい",
+        "word": "生野菜",
+        "en": "fresh/raw vegetables",
+        "my": "ဟင်းသီးဟင်းရွက်အစိမ်း",
+        "group": ""
+      },
+      {
+        "reading": "いっしょう",
+        "word": "一生",
+        "en": "a lifetime",
+        "my": "တစ်သက်တာ",
+        "group": ""
+      },
+      {
+        "reading": "たんじょうび",
+        "word": "誕生日",
+        "en": "birthday",
+        "my": "မွေးနေ့",
+        "group": ""
+      },
+      {
+        "reading": "せいねんがっぴ",
+        "word": "生年月日",
+        "en": "date of birth",
+        "my": "မွေးသက္ကရာဇ်",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 28,
+    "words": [
+      {
+        "reading": "げい",
+        "word": "芸",
+        "en": "the arts, trick",
+        "my": "အနုပညာ၊ လှည့်ကွက်",
+        "group": ""
+      },
+      {
+        "reading": "げいじゅつ",
+        "word": "芸術",
+        "en": "the arts",
+        "my": "အနုပညာ",
+        "group": ""
+      },
+      {
+        "reading": "げいのうじん",
+        "word": "芸能人",
+        "en": "entertainer",
+        "my": "ဖျော်ဖြေရေးအနုပညာရှင်",
+        "group": ""
+      },
+      {
+        "reading": "え",
+        "word": "絵",
+        "en": "picture",
+        "my": "ပုံ၊ ရုပ်ပုံ",
+        "group": ""
+      },
+      {
+        "reading": "えほん",
+        "word": "絵本",
+        "en": "picture book",
+        "my": "ရုပ်ပုံစာအုပ်",
+        "group": ""
+      },
+      {
+        "reading": "かいが",
+        "word": "絵画",
+        "en": "painting",
+        "my": "ပန်းချီ၊ ပန်းချီကား",
+        "group": ""
+      },
+      {
+        "reading": "さいのう",
+        "word": "才能",
+        "en": "talent",
+        "my": "ပါရမီ၊ အရည်အချင်း",
+        "group": ""
+      },
+      {
+        "reading": "てんさい",
+        "word": "天才",
+        "en": "genius",
+        "my": "ဉာဏ်ကြီးရှင်",
+        "group": ""
+      },
+      {
+        "reading": "～さい～～",
+        "word": "～才",
+        "en": "years old",
+        "my": "နှစ်အရွယ်",
+        "group": ""
+      },
+      {
+        "reading": "のうりょく",
+        "word": "能力",
+        "en": "ability",
+        "my": "စွမ်းရည်",
+        "group": ""
+      },
+      {
+        "reading": "かのう（な）",
+        "word": "可能（な）",
+        "en": "possible",
+        "my": "ဖြစ်နိုင်သော",
+        "group": ""
+      },
+      {
+        "reading": "ふかのう（な）",
+        "word": "不可能（な）",
+        "en": "impossible",
+        "my": "မဖြစ်နိုင်သော",
+        "group": ""
+      },
+      {
+        "reading": "うつくしい",
+        "word": "美しい",
+        "en": "beautiful",
+        "my": "လှပသော",
+        "group": ""
+      },
+      {
+        "reading": "びじゅつ",
+        "word": "美術",
+        "en": "fine arts",
+        "my": "အနုပညာ",
+        "group": ""
+      },
+      {
+        "reading": "びじゅつかん",
+        "word": "美術館",
+        "en": "museum, art museum",
+        "my": "အနုပညာပြတိုက်",
+        "group": ""
+      },
+      {
+        "reading": "びじん",
+        "word": "美人",
+        "en": "beautiful lady",
+        "my": "လှပသောအမျိုးသမီး",
+        "group": ""
+      },
+      {
+        "reading": "びよういん",
+        "word": "美容院",
+        "en": "beauty parlor",
+        "my": "အလှပြင်ဆိုင်",
+        "group": ""
+      },
+      {
+        "reading": "おこなう",
+        "word": "行う",
+        "en": "to perform, to carry out",
+        "my": "လုပ်ဆောင်သည်၊ ဆောင်ရွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "ぎょうじ",
+        "word": "行事",
+        "en": "event, ceremony",
+        "my": "ပွဲ၊ အခမ်းအနား",
+        "group": ""
+      },
+      {
+        "reading": "ぎょうれつ",
+        "word": "行列",
+        "en": "line, queue",
+        "my": "တန်းစီခြင်း၊ လူတန်း",
+        "group": ""
+      },
+      {
+        "reading": "いちぎょうめ",
+        "word": "行目",
+        "en": "1 first line",
+        "my": "ပထမစာကြောင်း",
+        "group": ""
+      },
+      {
+        "reading": "こうどう（する）",
+        "word": "行動（する）",
+        "en": "to act, action",
+        "my": "ပြုမူသည်၊ လုပ်ဆောင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "じっこう（する）",
+        "word": "実行（する）",
+        "en": "to execute, to carry out",
+        "my": "အကောင်အထည်ဖော်သည်",
+        "group": ""
+      },
+      {
+        "reading": "りゅうこう（する）",
+        "word": "流行（する）",
+        "en": "to be in style, to be popular",
+        "my": "ခေတ်စားသည်၊ ရေပန်းစားသည်",
+        "group": ""
+      },
+      {
+        "reading": "かならず",
+        "word": "必ず",
+        "en": "definitely, without fail",
+        "my": "မုချ၊ သေချာပေါက်",
+        "group": ""
+      },
+      {
+        "reading": "ひつよう（な）",
+        "word": "必要（な）",
+        "en": "necessary",
+        "my": "လိုအပ်သော",
+        "group": ""
+      },
+      {
+        "reading": "（～が）いる",
+        "word": "（～が）要る",
+        "en": "to be necessary, to need",
+        "my": "လိုအပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "じゅうよう（な）",
+        "word": "重要（な）",
+        "en": "important",
+        "my": "အရေးကြီးသော",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "chapter": 29,
+    "words": [
+      {
+        "reading": "せつ",
+        "word": "接",
+        "en": "contact, interact",
+        "my": "ဆက်သွယ်ခြင်း၊ အပြန်အလှန်ဆက်ဆံခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "めんせつ",
+        "word": "面接",
+        "en": "interview",
+        "my": "အင်တာဗျူး၊ လူတွေ့မေးမြန်းခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "ちょくせつ",
+        "word": "直接",
+        "en": "directly",
+        "my": "တိုက်ရိုက်",
+        "group": ""
+      },
+      {
+        "reading": "こくさい",
+        "word": "国際",
+        "en": "international",
+        "my": "နိုင်ငံတကာ",
+        "group": ""
+      },
+      {
+        "reading": "こくさいてき（な）",
+        "word": "国際的（な）",
+        "en": "international, global,",
+        "my": "နိုင်ငံတကာဆိုင်ရာ၊ ကမ္ဘာတစ်ဝန်းဆိုင်ရာ",
+        "group": ""
+      },
+      {
+        "reading": "じっさいに",
+        "word": "実際に",
+        "en": "actually",
+        "my": "တကယ်တမ်း၊ အမှန်တကယ်",
+        "group": ""
+      },
+      {
+        "reading": "（～と）こうさい（する）",
+        "word": "（～と）交際（する）",
+        "en": "to interact, to be involved with",
+        "my": "ပေါင်းသင်းဆက်ဆံသည်",
+        "group": ""
+      },
+      {
+        "reading": "さい",
+        "word": "際",
+        "en": "occasion",
+        "my": "အခါ၊ အချိန်အခါ",
+        "group": ""
+      },
+      {
+        "reading": "つとめる",
+        "word": "勤める",
+        "en": "to work, to endeavor",
+        "my": "အလုပ်လုပ်သည်၊ ကြိုးစားသည်",
+        "group": ""
+      },
+      {
+        "reading": "つうきん（する）",
+        "word": "通勤（する）",
+        "en": "to commute",
+        "my": "အလုပ်သို့အသွားအပြန်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きんむ（する）",
+        "word": "勤務（する）",
+        "en": "to work, to be diligent",
+        "my": "တာဝန်ထမ်းဆောင်သည်၊ အလုပ်လုပ်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きんむち",
+        "word": "勤務地",
+        "en": "place of work",
+        "my": "အလုပ်လုပ်ရာနေရာ",
+        "group": ""
+      },
+      {
+        "reading": "てんきん（する）",
+        "word": "転勤（する）",
+        "en": "to transfer work",
+        "my": "အလုပ်နေရာပြောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "しゅっきん（する）",
+        "word": "出勤（する）",
+        "en": "to go to work",
+        "my": "အလုပ်သွားသည်",
+        "group": ""
+      },
+      {
+        "reading": "けっきん（する）",
+        "word": "欠勤（する）",
+        "en": "to be absent from work",
+        "my": "အလုပ်ပျက်သည်၊ အလုပ်ပျက်ကွက်သည်",
+        "group": ""
+      },
+      {
+        "reading": "きん",
+        "word": "勤",
+        "en": "diligence",
+        "my": "လုံ့လဝီရိယ၊ ကြိုးစားအားထုတ်မှု",
+        "group": ""
+      },
+      {
+        "reading": "しょくぎょう",
+        "word": "職業",
+        "en": "work, occupation",
+        "my": "အလုပ်အကိုင်၊ အသက်မွေးဝမ်းကျောင်း",
+        "group": ""
+      },
+      {
+        "reading": "しょくば",
+        "word": "職場",
+        "en": "workplace",
+        "my": "လုပ်ငန်းခွင်၊ အလုပ်ခွင်",
+        "group": ""
+      },
+      {
+        "reading": "しょくいん",
+        "word": "職員",
+        "en": "employee, worker",
+        "my": "ဝန်ထမ်း",
+        "group": ""
+      },
+      {
+        "reading": "しゅうしょく（する）",
+        "word": "就職（する）",
+        "en": "to find a job",
+        "my": "အလုပ်ရသည်၊ အလုပ်ဝင်သည်",
+        "group": ""
+      },
+      {
+        "reading": "しょく",
+        "word": "職",
+        "en": "occupation, job",
+        "my": "အလုပ်အကိုင်၊ ရာထူး",
+        "group": ""
+      },
+      {
+        "reading": "てんしょく（する）",
+        "word": "転職（する）",
+        "en": "to change one&apos;s job",
+        "my": "အလုပ်ပြောင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "（～が）あたる",
+        "word": "（～が）当たる",
+        "en": "to hit the mark, to win",
+        "my": "မှန်ကန်သည်၊ ဆုရသည်",
+        "group": ""
+      },
+      {
+        "reading": "（～を）あてる",
+        "word": "（～を）当てる",
+        "en": "to hit the mark, to guess",
+        "my": "ခန့်မှန်းမှန်သည်၊ ပစ်မှတ်ကိုထိသည်",
+        "group": ""
+      },
+      {
+        "reading": "ほんとう",
+        "word": "本当",
+        "en": "really, truly",
+        "my": "တကယ်၊ အမှန်တကယ်",
+        "group": ""
+      },
+      {
+        "reading": "とうぜん",
+        "word": "当然",
+        "en": "naturally, a given",
+        "my": "သဘာဝကျကျ၊ ဖြစ်သင့်ဖြစ်ထိုက်သော",
+        "group": ""
+      },
+      {
+        "reading": "てきとう（な）",
+        "word": "適当（な）",
+        "en": "suitable, applicable,",
+        "my": "သင့်လျော်သော၊ ကိုက်ညီသော",
+        "group": ""
+      },
+      {
+        "reading": "とうしゃ",
+        "word": "当社",
+        "en": "our company (polite)",
+        "my": "ကျွန်ုပ်တို့၏ကုမ္ပဏီ",
+        "group": ""
+      },
+      {
+        "reading": "とう",
+        "word": "当",
+        "en": "hit the mark, win",
+        "my": "မှန်ကန်ခြင်း၊ အနိုင်ရခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "そうだん（する）",
+        "word": "相談（する）",
+        "en": "to consult, to discuss",
+        "my": "တိုင်ပင်သည်၊ ဆွေးနွေးသည်",
+        "group": ""
+      },
+      {
+        "reading": "じょうだん",
+        "word": "冗談",
+        "en": "joke",
+        "my": "ဟာသ၊ နောက်ပြောင်စကား",
+        "group": ""
+      },
+      {
+        "reading": "だん",
+        "word": "談",
+        "en": "consult, discuss",
+        "my": "တိုင်ပင်ဆွေးနွေးခြင်း",
+        "group": ""
+      },
+      {
+        "reading": "せいかく",
+        "word": "性格",
+        "en": "personality, disposition",
+        "my": "ကိုယ်ရည်ကိုယ်သွေး၊ စိတ်နေစိတ်ထား",
+        "group": ""
+      },
+      {
+        "reading": "かかく",
+        "word": "価格",
+        "en": "price",
+        "my": "ဈေးနှုန်း",
+        "group": ""
+      },
+      {
+        "reading": "しかく",
+        "word": "資格",
+        "en": "qualification",
+        "my": "အရည်အချင်း၊ အရည်အချင်းလက်မှတ်",
+        "group": ""
+      },
+      {
+        "reading": "（～に）ごうかく（する）",
+        "word": "（～に）合格（する）",
+        "en": "to pass, to qualify",
+        "my": "စာမေးပွဲအောင်သည်၊ အရည်အချင်းပြည့်",
+        "group": ""
+      },
+      {
+        "reading": "かく",
+        "word": "格",
+        "en": "status, rank",
+        "my": "အဆင့်အတန်း၊ အဆင့်",
+        "group": ""
+      },
+      {
+        "reading": "すくない",
+        "word": "少ない",
+        "en": "few, little",
+        "my": "နည်းသော၊ အနည်းငယ်သာရှိသော",
+        "group": ""
+      },
+      {
+        "reading": "すこし",
+        "word": "少し",
+        "en": "a little",
+        "my": "အနည်းငယ်",
+        "group": ""
+      },
+      {
+        "reading": "（～が）げんしょう（する）",
+        "word": "（～が）減少（する）",
+        "en": "to decrease, to reduce",
+        "my": "လျော့နည်းသည်၊ ကျဆင်းသည်",
+        "group": ""
+      },
+      {
+        "reading": "しょう",
+        "word": "少",
+        "en": "few, a little",
+        "my": "အနည်းငယ်၊ နည်းပါးခြင်း",
+        "group": ""
+      }
+    ]
+  }
+]
