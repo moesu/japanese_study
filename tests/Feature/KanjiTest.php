@@ -26,6 +26,7 @@ class KanjiTest extends TestCase
             ->assertSee('N3')
             ->assertSee('N2')
             ->assertSee('N1')
+            ->assertSee('/n3/kotoba', false)
             ->assertDontSee('id="main-menu"', false);
 
         $this->get('/n4/kotoba')
@@ -46,6 +47,93 @@ class KanjiTest extends TestCase
 
         $this->get(route('n4.kotoba', 25))->assertNotFound();
         $this->get(route('n4.kotoba', 51))->assertNotFound();
+
+        $this->get(route('n3.kotoba'))
+            ->assertOk()
+            ->assertSeeInOrder(['さくじつ', '昨日', 'မနေ့က', '一さくじつ', '一昨日', 'တနေ့က', 'さくねん', '昨年', 'မနှစ်က', 'しあさって', 'ဖိန်းနွှဲခါ', 'せんせんしゅう', '先々週', 'လွန်ခဲ့တဲ့အပတ် (၂ ပတ်မြောက်)', 'せんじつ', '先日', 'လွန်ခဲ့တဲ့နေ့'])
+            ->assertSee('အခန်း ၁')
+            ->assertSee('စစ်ထုတ်မည်')
+            ->assertSee('Kotoba')
+            ->assertDontSee('>N5 Kanji<', false)
+            ->assertDontSee('Hide Kanji');
+
+        $this->get(route('n3.kotoba', ['show' => 'my']))
+            ->assertOk()
+            ->assertSee('မနေ့က')
+            ->assertDontSee('>さくじつ<', false);
+
+        $this->get(route('n3.kotoba', ['kind' => 'verb']))
+            ->assertOk()
+            ->assertDontSee('さくじつ');
+
+        $this->get(route('n3.kotoba', 1))
+            ->assertOk()
+            ->assertSee('さくじつ')
+            ->assertDontSee('いき');
+
+        $this->get(route('n3.kotoba', ['chapters' => [101]]))
+            ->assertOk()
+            ->assertSee('အပိုင်း ၂')
+            ->assertSeeInOrder(['いき', '息', 'ထွက်သက်ဝင်သက်/အသက်ရှူခြင်း', 'いきをすう', '息を吸う', 'たましい', '魂', 'ဝိညာဉ်', 'いのち', '命', 'せいめい', '生命', 'ほね', '骨', 'かんဆာ', 'がん', 'ကင်ဆာရောဂါ', 'けつあつ', '血圧', 'しんぞう', '心臓', 'နှလုံး'])
+            ->assertDontSee('さくじつ');
+
+        $this->get(route('n3.kotoba', ['chapters' => [110]]))
+            ->assertOk()
+            ->assertSee('အပိုင်း ၂ အခန်း ၁၀')
+            ->assertSee('たたく')
+            ->assertSee('叩く')
+            ->assertSee('ပုတ်သည်/ရိုက်သည်');
+
+        $this->get(route('n3.kotoba', 99))->assertNotFound();
+
+        $this->get(route('n3.kanji'))
+            ->assertOk()
+            ->assertSeeInOrder(['飛ぶ', 'とぶ', 'ပျံသည်', 'to fly'])
+            ->assertSee('Show Kanji')
+            ->assertSee('Hide Kanji')
+            ->assertSee('Show hiragana')
+            ->assertSee('Hide hiragana')
+            ->assertSee('အခန်း ၁')
+            ->assertDontSee('飛・機・空・港・預・込・荷・検・査')
+            ->assertSee('Kanji')
+            ->assertSee('Kotoba')
+            ->assertSee('စစ်ထုတ်မည်')
+            ->assertDontSee('>N5 Kanji<', false);
+
+        $this->get(route('n3.kanji', ['show' => 'my']))
+            ->assertOk()
+            ->assertSee('ပျံသည်')
+            ->assertDontSee('>とぶ<', false)
+            ->assertDontSee('>飛ぶ<', false);
+
+        $this->get(route('n3.kanji', ['chapters' => [1], 'kind' => 'verb']))
+            ->assertOk()
+            ->assertSee('飛ぶ')
+            ->assertDontSee('飛行機');
+
+        $this->get(route('n3.kanji', 1))
+            ->assertOk()
+            ->assertSee('飛ぶ')
+            ->assertDontSee('満席');
+
+        $this->get(route('n3.kanji', 99))->assertNotFound();
+
+        $this->get(route('n3.kanji', ['chapters' => [1], 'glyph' => 'hide']))
+            ->assertOk()
+            ->assertSee('<div class="word hiragana">とぶ</div>', false)
+            ->assertDontSee('<div class="word hiragana">飛ぶ</div>', false)
+            ->assertDontSee('>飛ぶ<', false);
+
+        $this->get(route('n3.kanji', ['chapters' => [1], 'kana' => 'hide']))
+            ->assertOk()
+            ->assertSee('<div class="word">飛</div>', false)
+            ->assertDontSee('<div class="word hiragana">飛ぶ</div>', false)
+            ->assertDontSee('>とぶ<', false);
+
+        $this->get(route('n3.kanji', ['chapters' => [1], 'glyph' => 'hide', 'kana' => 'hide']))
+            ->assertOk()
+            ->assertSee('ပျံသည်')
+            ->assertDontSee('<div class="word', false);
 
         $this->get(route('kanji.index'))
             ->assertOk()
@@ -970,5 +1058,75 @@ class KanjiTest extends TestCase
         ])->assertOk()->assertSee('မှန်ပါသည်');
 
         $this->assertSame(1, session('quiz_score')['correct']);
+    }
+
+    public function test_kanji_vocab_page_lists_words_and_filters_by_kanji(): void
+    {
+        $this->seed(KanjiSeeder::class);
+
+        $this->get(route('kanji.words'))
+            ->assertOk()
+            ->assertSee('N5 漢字言葉')
+            ->assertSee('vocab-grid')
+            ->assertSee('<div class="word hiragana">一つ</div>', false)
+            ->assertSee('၁ ခု')
+            ->assertSee('漢字言葉');
+
+        $this->get(route('kanji.words', ['kanji' => '門']))
+            ->assertOk()
+            ->assertSee('校門')
+            ->assertSee('正門')
+            ->assertDontSee('一つ');
+
+        $this->get(route('kanji.words', ['q' => 'ဘဏ်']))
+            ->assertOk()
+            ->assertSee('銀行')
+            ->assertSee('ဘဏ်')
+            ->assertDontSee('校門');
+
+        $this->get(route('kanji.words', ['kanji' => '人']))
+            ->assertOk()
+            ->assertSee('<div class="word hiragana">かぞく</div>', false)
+            ->assertSee('မိသားစု')
+            ->assertDontSee('>家<', false)
+            ->assertDontSee('>族<', false);
+
+        $this->get(route('kanji.words', ['show' => 'my', 'q' => '一つ']))
+            ->assertOk()
+            ->assertSee('၁ ခု')
+            ->assertDontSee('<div class="word hiragana">一つ</div>', false);
+    }
+
+    public function test_kanji_vocab_page_can_hide_kanji_or_hiragana(): void
+    {
+        $this->seed(KanjiSeeder::class);
+
+        $this->get(route('kanji.words', ['q' => '一つ']))
+            ->assertOk()
+            ->assertSee('Show Kanji')
+            ->assertSee('Hide Kanji')
+            ->assertSee('Show hiragana')
+            ->assertSee('Hide hiragana')
+            ->assertSee('<div class="word hiragana">一つ</div>', false)
+            ->assertSee('<span>ひとつ</span>', false);
+
+        $this->get(route('kanji.words', ['q' => '一つ', 'glyph' => 'hide']))
+            ->assertOk()
+            ->assertSee('<div class="word hiragana">ひとつ</div>', false)
+            ->assertSee('name="glyph" value="hide"', false)
+            ->assertDontSee('<div class="word hiragana">一つ</div>', false)
+            ->assertDontSee('<span>ひとつ</span>', false);
+
+        $this->get(route('kanji.words', ['q' => '一つ', 'kana' => 'hide']))
+            ->assertOk()
+            ->assertSee('<div class="word">一</div>', false)
+            ->assertDontSee('<div class="word hiragana">一つ</div>', false)
+            ->assertDontSee('<span>ひとつ</span>', false);
+
+        $this->get(route('kanji.words', ['q' => '一つ', 'glyph' => 'hide', 'kana' => 'hide']))
+            ->assertOk()
+            ->assertSee('၁ ခု')
+            ->assertDontSee('<div class="word', false)
+            ->assertDontSee('<span>ひとつ</span>', false);
     }
 }

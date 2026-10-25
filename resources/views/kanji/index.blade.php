@@ -13,6 +13,7 @@
     <form class="search" method="get" action="{{ route('kanji.index', [], false) }}">
         <input type="search" name="q" value="{{ $q }}" placeholder="漢字၊ reading၊ day၊ နေ့" autofocus>
         <button type="submit">ရှာမည်</button>
+        <a class="button ghost" href="{{ route('kanji.words', [], false) }}">漢字言葉</a>
     </form>
 
     @if ($kanji->isEmpty())

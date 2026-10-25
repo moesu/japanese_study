@@ -3,9 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Models\Kanji;
+use App\Models\LearnedKotoba;
+use App\Models\User;
+use App\Support\BrowserDevice;
 use App\Support\N5ChapterVocab;
+use App\Support\N5KanjiVocab;
 use App\Support\N5PersonVocab;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
+use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Collection;
 use Illuminate\View\View;
 
 class KanjiController extends Controller
@@ -59,6 +66,59 @@ class KanjiController extends Controller
         ]);
     }
 
+    public function words(Request $request): View
+    {
+        ['q' => $q, 'char' => $char, 'show' => $show, 'learned' => $learned, 'all' => $all, 'searched' => $searched, 'filtered' => $filtered, 'options' => $options, 'learnedCounts' => $learnedCounts] = $this->vocabSelection($request);
+
+        $perPage = 72;
+        $page = LengthAwarePaginator::resolveCurrentPage();
+        $words = new LengthAwarePaginator(
+            $filtered->forPage($page, $perPage)->values(),
+            $filtered->count(),
+            $perPage,
+            $page,
+            [
+                'path' => Paginator::resolveCurrentPath(),
+                'query' => $request->query(),
+            ],
+        );
+
+        $glyph = (string) $request->query('glyph', 'show');
+        if (! in_array($glyph, ['show', 'hide'], true)) {
+            $glyph = 'show';
+        }
+
+        $kana = (string) $request->query('kana', 'show');
+        if (! in_array($kana, ['show', 'hide'], true)) {
+            $kana = 'show';
+        }
+
+        return view('kanji.words', [
+            'words' => $words,
+            'q' => $q,
+            'char' => $char,
+            'options' => $options,
+            'show' => $show,
+            'glyph' => $glyph,
+            'kana' => $kana,
+            'shows' => [
+                'both' => 'နှစ်မျိုး',
+                'ja' => '日本語',
+                'my' => 'မြန်မာ',
+            ],
+            'learned' => $learned,
+            'learnedOptions' => [
+                'all' => 'အားလုံး',
+                'yes' => 'ကျက်ပြီးပါပြီ',
+                'no' => 'မကျက်ရသေးပါ',
+            ],
+            'learnedCounts' => $learnedCounts,
+            'kanjiIds' => Kanji::query()->pluck('id', 'character'),
+            'total' => $all->count(),
+            'matched' => $searched->count(),
+        ]);
+    }
+
     public function quiz(): View
     {
         return view('kanji.quiz', $this->question());
@@ -96,6 +156,74 @@ class KanjiController extends Controller
         session()->forget('quiz_score');
 
         return view('kanji.quiz', $this->question());
+    }
+
+    /**
+     * @return array{q: string, char: string, show: string, learned: string, all: Collection<int, array<string, mixed>>, searched: Collection<int, array<string, mixed>>, filtered: Collection<int, array<string, mixed>>, options: array<string, int>, learnedCounts: array<string, int>}
+     */
+    private function vocabSelection(Request $request): array
+    {
+        $shows = ['both' => true, 'ja' => true, 'my' => true];
+        $learnedOptions = ['all' => true, 'yes' => true, 'no' => true];
+
+        $q = trim((string) $request->query('q', ''));
+        $show = (string) $request->query('show', 'both');
+        if (! isset($shows[$show])) {
+            $show = 'both';
+        }
+
+        $learned = (string) $request->query('learned', 'all');
+        if (! isset($learnedOptions[$learned])) {
+            $learned = 'all';
+        }
+
+        $all = collect(N5KanjiVocab::words());
+        $searched = $all->when($q !== '', function (Collection $words) use ($q) {
+            $needle = mb_strtolower($q);
+
+            return $words->filter(function (array $word) use ($needle) {
+                $haystack = mb_strtolower($word['word'].$word['reading'].$word['en'].$word['my'].implode('', $word['kanji']));
+
+                return str_contains($haystack, $needle);
+            })->values();
+        });
+
+        $options = ['all' => $searched->count()];
+        foreach ($searched as $word) {
+            foreach ($word['kanji'] as $character) {
+                $options[$character] = ($options[$character] ?? 0) + 1;
+            }
+        }
+
+        $char = (string) $request->query('kanji', 'all');
+        if (! array_key_exists($char, $options)) {
+            $char = 'all';
+        }
+
+        $filtered = $char === 'all'
+            ? $searched
+            : $searched->filter(fn (array $word) => in_array($char, $word['kanji'], true))->values();
+
+        $learnedKeys = LearnedKotoba::learnedKeysFor(User::findForDevice(BrowserDevice::id($request)));
+        $filtered = $filtered->map(function (array $word) use ($learnedKeys) {
+            $word['learned'] = isset($learnedKeys[$word['word'].'|'.$word['reading']]);
+
+            return $word;
+        })->values();
+
+        $learnedCounts = [
+            'all' => $filtered->count(),
+            'yes' => $filtered->where('learned', true)->count(),
+            'no' => $filtered->where('learned', false)->count(),
+        ];
+
+        if ($learned === 'yes') {
+            $filtered = $filtered->where('learned', true)->values();
+        } elseif ($learned === 'no') {
+            $filtered = $filtered->where('learned', false)->values();
+        }
+
+        return compact('q', 'char', 'show', 'learned', 'all', 'searched', 'filtered', 'options', 'learnedCounts');
     }
 
     /**

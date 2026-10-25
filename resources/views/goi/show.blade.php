@@ -2,13 +2,17 @@
 
 @php
     $lessonCount = count($lessons);
+    $lessonName = fn (int $lesson): string => $lessonLabels[$lesson] ?? \App\Support\N5Goi::lessonLabel($lesson);
+    $lessonSections = $sections !== [] ? $sections : ['' => $lessons];
     $lessonLabel = count($chapters) === $lessonCount
         ? 'အခန်းအားလုံး'
-        : implode('၊', array_map(fn (int $lesson): string => \App\Support\N5Goi::lessonLabel($lesson), $chapters));
+        : implode('၊', array_map($lessonName, $chapters));
     $goiQuery = array_filter([
         'chapters' => count($chapters) === $lessonCount ? null : $chapters,
         'kind' => $kind === 'all' ? null : $kind,
         'learned' => $learned === 'all' ? null : $learned,
+        'glyph' => $glyph === 'show' ? null : 'hide',
+        'kana' => $kana === 'show' ? null : 'hide',
     ]);
     $chapterSummary = match (true) {
         count($chapters) === $lessonCount => 'အခန်းအားလုံး',
@@ -44,6 +48,12 @@
         @if ($learned !== 'all')
             <input type="hidden" name="learned" value="{{ $learned }}">
         @endif
+        @if ($glyph === 'hide')
+            <input type="hidden" name="glyph" value="hide">
+        @endif
+        @if ($kana === 'hide')
+            <input type="hidden" name="kana" value="hide">
+        @endif
         <div class="multi">
             <button type="button" class="multi-toggle" aria-expanded="false" aria-controls="chapter-panel">
                 <span class="multi-label">{{ $chapterSummary }}</span>
@@ -59,11 +69,16 @@
                         <input type="checkbox" name="chapters[]" value="all" data-label="အခန်းအားလုံး" @checked(count($chapters) === $lessonCount)>
                         <span>အခန်းအားလုံး</span>
                     </label>
-                    @foreach ($lessons as $lesson)
-                        <label class="chip">
-                            <input type="checkbox" name="chapters[]" value="{{ $lesson }}" data-label="{{ \App\Support\N5Goi::lessonLabel($lesson) }}" @checked(count($chapters) !== $lessonCount && in_array($lesson, $chapters, true))>
-                            <span>{{ \App\Support\N5Goi::lessonLabel($lesson) }}</span>
-                        </label>
+                    @foreach ($lessonSections as $section => $sectionLessons)
+                        @if ($section !== '')
+                            <p class="multi-section">{{ $section }}</p>
+                        @endif
+                        @foreach ($sectionLessons as $lesson)
+                            <label class="chip">
+                                <input type="checkbox" name="chapters[]" value="{{ $lesson }}" data-label="{{ $lessonName($lesson) }}" @checked(count($chapters) !== $lessonCount && in_array($lesson, $chapters, true))>
+                                <span>{{ $lessonName($lesson) }}</span>
+                            </label>
+                        @endforeach
                     @endforeach
                 </div>
             </div>
@@ -86,6 +101,12 @@
         @foreach ($shows as $key => $label)
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'show' => $key === 'both' ? null : $key])) }}" @class(['active' => $show === $key])>{{ $label }}</a>
         @endforeach
+        @if ($lead === 'word')
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'glyph' => null])) }}" @class(['active' => $glyph === 'show'])>Show Kanji</a>
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'glyph' => 'hide'])) }}" @class(['active' => $glyph === 'hide'])>Hide Kanji</a>
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'kana' => null])) }}" @class(['active' => $kana === 'show'])>Show hiragana</a>
+            <a href="{{ route($routeName, array_filter([...$goiQuery, 'kana' => 'hide'])) }}" @class(['active' => $kana === 'hide'])>Hide hiragana</a>
+        @endif
         @foreach ($learnedOptions as $key => $label)
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'learned' => $key === 'all' ? null : $key])) }}" @class(['active' => $learned === $key]) data-learned-filter="{{ $key }}">
                 {{ $label }}
@@ -101,18 +122,40 @@
             <article class="vocab-card">
                 <button type="button" @class(['mark', 'on' => $word['learned']]) data-word="{{ $word['word'] }}" data-reading="{{ $word['reading'] }}" title="{{ $word['learned'] ? 'ကျက်ပြီးပါပြီ' : 'မကျက်ရသေးပါ' }}" aria-label="{{ $word['learned'] ? 'ကျက်ပြီးပါပြီ' : 'မကျက်ရသေးပါ' }}">✓</button>
                 @if (count($chapters) > 1)
-                    <div class="meta">{{ \App\Support\N5Goi::lessonLabel($word['chapter']) }}</div>
+                    <div class="meta">{{ $lessonName($word['chapter']) }}</div>
                 @endif
                 @if ($show !== 'my')
-                    <div @class(['word', 'hiragana' => preg_match('/[\x{3040}-\x{309F}]/u', $word['reading']) === 1])>{{ $word['reading'] }}</div>
-                    @if ($word['word'] !== '')
-                        <div class="meta">{{ $word['word'] }}@if ($word['group'] !== '') · {{ $word['group'] }}@endif</div>
-                    @elseif ($word['group'] !== '')
-                        <div class="meta">{{ $word['group'] }}</div>
+                    @if ($lead === 'word')
+                        @php
+                            $kanjiOnly = preg_replace('/（[^）]*）|\([^)]*\)/u', '', $word['word']) ?? $word['word'];
+                            $kanjiOnly = preg_replace('/[\x{3040}-\x{30FF}]/u', '', $kanjiOnly) ?? $kanjiOnly;
+                            $shown = match (true) {
+                                $glyph === 'hide' && $kana === 'show' => $word['reading'],
+                                $glyph === 'show' && $kana === 'hide' => $kanjiOnly,
+                                $glyph === 'hide' && $kana === 'hide' => '',
+                                default => $word['word'],
+                            };
+                        @endphp
+                        @if ($shown !== '')
+                            <div @class(['word', 'hiragana' => preg_match('/[\x{3040}-\x{309F}]/u', $shown) === 1])>{{ $shown }}</div>
+                        @endif
+                        @if ($glyph === 'show' && $kana === 'show' && $word['reading'] !== '' && $word['reading'] !== $shown)
+                            <div class="meta">{{ $word['reading'] }}</div>
+                        @endif
+                    @else
+                        <div @class(['word', 'hiragana' => preg_match('/[\x{3040}-\x{309F}]/u', $word['reading']) === 1])>{{ $word['reading'] }}</div>
+                        @if ($word['word'] !== '')
+                            <div class="meta">{{ $word['word'] }}@if ($word['group'] !== '') · {{ $word['group'] }}@endif</div>
+                        @elseif ($word['group'] !== '')
+                            <div class="meta">{{ $word['group'] }}</div>
+                        @endif
                     @endif
                 @endif
                 @if ($show !== 'ja' && $word['my'] !== '')
                     <div class="my">{{ $word['my'] }}</div>
+                @endif
+                @if ($show !== 'ja' && ($word['en'] ?? '') !== '')
+                    <div class="meta">{{ $word['en'] }}</div>
                 @endif
             </article>
         @endforeach

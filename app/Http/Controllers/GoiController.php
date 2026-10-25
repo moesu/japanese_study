@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\LearnedKotoba;
 use App\Models\User;
 use App\Support\BrowserDevice;
+use App\Support\N3Goi;
+use App\Support\N3Kanji;
 use App\Support\N4Goi;
 use App\Support\N5Goi;
 use Illuminate\Http\Request;
@@ -55,10 +57,20 @@ class GoiController extends Controller
         return $this->render($request, N4Goi::class, 'n4.kotoba', 'Minna no Nihongo N4 ဝေါဟာရ။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။');
     }
 
+    public function n3(Request $request): View
+    {
+        return $this->render($request, N3Goi::class, 'n3.kotoba', 'N3 Kotoba Standard 2400။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။');
+    }
+
+    public function n3Kanji(Request $request): View
+    {
+        return $this->render($request, N3Kanji::class, 'n3.kanji', 'N3 Kanji။ အခန်းများကို နှိပ်ပြီး ကြည့်မည် ကိုနှိပ်ပါ။', 'word');
+    }
+
     /**
-     * @param  class-string<N4Goi|N5Goi>  $source
+     * @param  class-string<N3Goi|N3Kanji|N4Goi|N5Goi>  $source
      */
-    private function render(Request $request, string $source, string $routeName, string $intro): View
+    private function render(Request $request, string $source, string $routeName, string $intro, string $lead = 'reading'): View
     {
         $show = (string) $request->query('show', 'both');
         if (! array_key_exists($show, self::SHOWS)) {
@@ -73,6 +85,20 @@ class GoiController extends Controller
         $learned = (string) $request->query('learned', 'all');
         if (! array_key_exists($learned, self::LEARNED)) {
             $learned = 'all';
+        }
+
+        $glyph = 'show';
+        $kana = 'show';
+        if ($lead === 'word') {
+            $glyph = (string) $request->query('glyph', 'show');
+            if (! in_array($glyph, ['show', 'hide'], true)) {
+                $glyph = 'show';
+            }
+
+            $kana = (string) $request->query('kana', 'show');
+            if (! in_array($kana, ['show', 'hide'], true)) {
+                $kana = 'show';
+            }
         }
 
         $lessons = $source::numbers();
@@ -130,11 +156,16 @@ class GoiController extends Controller
             'learned' => $learned,
             'learnedOptions' => self::LEARNED,
             'learnedCounts' => $learnedCounts,
+            'lessonLabels' => method_exists($source, 'labels') ? $source::labels() : [],
+            'sections' => method_exists($source, 'sections') ? $source::sections() : [],
+            'lead' => $lead,
+            'glyph' => $glyph,
+            'kana' => $kana,
         ]);
     }
 
     /**
-     * @param  class-string<N4Goi|N5Goi>  $source
+     * @param  class-string<N3Goi|N3Kanji|N4Goi|N5Goi>  $source
      * @param  array<int, int>  $lessons
      * @return array<int, int>
      */

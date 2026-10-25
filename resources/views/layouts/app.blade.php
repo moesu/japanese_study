@@ -149,6 +149,7 @@
             font-size: 0.85rem;
         }
         .multi-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 0.35rem; }
+        .multi-section { grid-column: 1 / -1; margin: 0.45rem 0 0; color: var(--muted); font-size: 0.82rem; }
         .chip { position: relative; }
         .chip input { position: absolute; opacity: 0; }
         .chip span {
@@ -400,6 +401,8 @@
             border-radius: 14px;
             box-shadow: 0 14px 32px rgba(31, 26, 23, 0.1);
         }
+        .type-drop.wide .filters { max-height: 18rem; overflow: auto; }
+        .type-drop.wide .filters a { font-family: "Noto Serif JP", serif; }
         .vocab-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.65rem; }
         .vocab-card { position: relative; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0.7rem 0.8rem; }
         .vocab-card .mark {
@@ -559,8 +562,12 @@
             <nav id="main-menu">
                 @if (request()->routeIs('n4.kotoba'))
                     <a href="{{ route('n4.kotoba') }}" class="active">Kotoba</a>
+                @elseif (request()->routeIs('n3.kotoba', 'n3.kanji'))
+                    <a href="{{ route('n3.kanji') }}" @class(['active' => request()->routeIs('n3.kanji')])>Kanji</a>
+                    <a href="{{ route('n3.kotoba') }}" @class(['active' => request()->routeIs('n3.kotoba')])>Kotoba</a>
                 @else
                     <a href="{{ route('kanji.index', [], false) }}" @class(['active' => request()->routeIs('kanji.index', 'kanji.show')])>N5 Kanji</a>
+                    <a href="{{ route('kanji.words', [], false) }}" @class(['active' => request()->routeIs('kanji.words')])>漢字言葉</a>
                     <a href="{{ route('goi.show') }}" @class(['active' => request()->routeIs('goi.show')])>Kotoba</a>
                 @endif
             </nav>
