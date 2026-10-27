@@ -101,8 +101,13 @@ class GoiController extends Controller
             }
         }
 
+        $order = $lead === 'word' && $request->query('order') === 'random' ? 'random' : 'lesson';
+        $seed = max(1, $request->integer('seed', 1));
+
         $lessons = $source::numbers();
-        $chapters = $this->chapters($request, $kind, $source, $lessons);
+        $chapters = $order === 'random'
+            ? $lessons
+            : $this->chapters($request, $kind, $source, $lessons);
         $inChapters = $source::wordsFor($chapters);
         $counts = array_fill_keys(array_keys(self::KINDS), 0);
         $counts['all'] = count($inChapters);
@@ -127,6 +132,11 @@ class GoiController extends Controller
             $matched = array_values(array_filter($matched, fn (array $word): bool => $word['learned']));
         } elseif ($learned === 'no') {
             $matched = array_values(array_filter($matched, fn (array $word): bool => ! $word['learned']));
+        }
+        if ($order === 'random') {
+            mt_srand($seed);
+            shuffle($matched);
+            mt_srand();
         }
         $perPage = 50;
         $page = LengthAwarePaginator::resolveCurrentPage();
@@ -161,6 +171,8 @@ class GoiController extends Controller
             'lead' => $lead,
             'glyph' => $glyph,
             'kana' => $kana,
+            'order' => $order,
+            'seed' => $seed,
         ]);
     }
 

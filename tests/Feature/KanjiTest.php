@@ -55,7 +55,8 @@ class KanjiTest extends TestCase
             ->assertSee('စစ်ထုတ်မည်')
             ->assertSee('Kotoba')
             ->assertDontSee('>N5 Kanji<', false)
-            ->assertDontSee('Hide Kanji');
+            ->assertDontSee('Hide Kanji')
+            ->assertDontSee('Random');
 
         $this->get(route('n3.kotoba', ['show' => 'my']))
             ->assertOk()
@@ -89,6 +90,7 @@ class KanjiTest extends TestCase
         $this->get(route('n3.kanji'))
             ->assertOk()
             ->assertSeeInOrder(['飛ぶ', 'とぶ', 'ပျံသည်', 'to fly'])
+            ->assertSee('Random')
             ->assertSee('Show Kanji')
             ->assertSee('Hide Kanji')
             ->assertSee('Show hiragana')
@@ -134,6 +136,17 @@ class KanjiTest extends TestCase
             ->assertOk()
             ->assertSee('ပျံသည်')
             ->assertDontSee('<div class="word', false);
+
+        $firstShuffle = $this->get(route('n3.kanji', ['order' => 'random', 'seed' => 1]));
+        $firstShuffle->assertOk()->assertSee('Random')->assertSee('1 / 17')->assertDontSee('<div class="meta">အခန်း', false);
+        $repeatedShuffle = $this->get(route('n3.kanji', ['order' => 'random', 'seed' => 1]));
+        $otherShuffle = $this->get(route('n3.kanji', ['order' => 'random', 'seed' => 2]));
+        preg_match('/<div class="word[^"]*">([^<]+)<\/div>/', $firstShuffle->getContent(), $firstWord);
+        preg_match('/<div class="word[^"]*">([^<]+)<\/div>/', $repeatedShuffle->getContent(), $repeatedWord);
+        preg_match('/<div class="word[^"]*">([^<]+)<\/div>/', $otherShuffle->getContent(), $otherWord);
+        $this->assertSame($firstWord[1], $repeatedWord[1]);
+        $this->assertNotSame($firstWord[1], $otherWord[1]);
+        $this->assertNotSame('飛ぶ', $firstWord[1]);
 
         $this->get(route('kanji.index'))
             ->assertOk()

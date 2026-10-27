@@ -8,13 +8,16 @@
         ? 'အခန်းအားလုံး'
         : implode('၊', array_map($lessonName, $chapters));
     $goiQuery = array_filter([
-        'chapters' => count($chapters) === $lessonCount ? null : $chapters,
+        'chapters' => $order === 'random' || count($chapters) === $lessonCount ? null : $chapters,
         'kind' => $kind === 'all' ? null : $kind,
         'learned' => $learned === 'all' ? null : $learned,
         'glyph' => $glyph === 'show' ? null : 'hide',
         'kana' => $kana === 'show' ? null : 'hide',
+        'order' => $order === 'random' ? 'random' : null,
+        'seed' => $order === 'random' ? $seed : null,
     ]);
     $chapterSummary = match (true) {
+        $order === 'random' => 'Random',
         count($chapters) === $lessonCount => 'အခန်းအားလုံး',
         count($chapters) > 4 => 'အခန်း '.count($chapters).' ခု',
         count($chapters) === 0 => 'အခန်း ရွေးပါ',
@@ -102,6 +105,7 @@
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'show' => $key === 'both' ? null : $key])) }}" @class(['active' => $show === $key])>{{ $label }}</a>
         @endforeach
         @if ($lead === 'word')
+            <a href="{{ route($routeName, array_filter(['order' => 'random', 'seed' => random_int(1, 999999999), 'kind' => $kind === 'all' ? null : $kind, 'learned' => $learned === 'all' ? null : $learned, 'show' => $show === 'both' ? null : $show, 'glyph' => $glyph === 'show' ? null : 'hide', 'kana' => $kana === 'show' ? null : 'hide'])) }}" @class(['active' => $order === 'random'])>Random</a>
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'glyph' => null])) }}" @class(['active' => $glyph === 'show'])>Show Kanji</a>
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'glyph' => 'hide'])) }}" @class(['active' => $glyph === 'hide'])>Hide Kanji</a>
             <a href="{{ route($routeName, array_filter([...$goiQuery, 'kana' => null])) }}" @class(['active' => $kana === 'show'])>Show hiragana</a>
@@ -121,7 +125,7 @@
         @foreach ($words as $word)
             <article class="vocab-card">
                 <button type="button" @class(['mark', 'on' => $word['learned']]) data-word="{{ $word['word'] }}" data-reading="{{ $word['reading'] }}" title="{{ $word['learned'] ? 'ကျက်ပြီးပါပြီ' : 'မကျက်ရသေးပါ' }}" aria-label="{{ $word['learned'] ? 'ကျက်ပြီးပါပြီ' : 'မကျက်ရသေးပါ' }}">✓</button>
-                @if (count($chapters) > 1)
+                @if ($order !== 'random' && count($chapters) > 1)
                     <div class="meta">{{ $lessonName($word['chapter']) }}</div>
                 @endif
                 @if ($show !== 'my')
